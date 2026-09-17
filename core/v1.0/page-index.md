@@ -1,0 +1,255 @@
+# Page Index
+
+> 由 Backoffice Design Hub Manager 產生。中文為主，canonicalId 供 AI / MCP / 工程引用。
+
+## 圖片路徑管理 / Image Path Management
+- canonicalId: `image-path-image-viewer-mobile-light-image-view-modal-open`
+- canonicalFamilyId: `image-path-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-mobile-light-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:246876` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246876
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
+- 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
+- Page Type: Create
+- Responsive Variants: mobile
+- Variant Key: mobile|light|image-view-modal-open
+- States: image-view-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=light, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: variant
+- Evidence: 縮圖明確顯示背景頁面被遮罩，前景開啟「檢視圖片」大圖視窗；同批包含 mobile 與 light Theme，且有縮放提示文字
+- Legacy mapping: 6175:233548
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260313-當前版本 / 6175:222032
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 圖片路徑管理 / Image Path Management
+- canonicalId: `image-path-image-viewer-desktop-light-image-view-modal-open`
+- canonicalFamilyId: `image-path-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-desktop-light-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:246937` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246937
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
+- 遷移備註: 圖片檢視器 light desktop 代表畫面
+- Page Type: Create
+- Responsive Variants: desktop
+- Variant Key: desktop|light|image-view-modal-open
+- States: image-view-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=light, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: keep
+- Evidence: 縮圖明確顯示背景頁面被遮罩，前景開啟「檢視圖片」大圖視窗；同批包含 desktop 與 light Theme，且有縮放提示文字
+- Legacy mapping: 6175:233548
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260313-當前版本 / 6175:233548
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 圖片路徑管理 / Image Path Management
+- canonicalId: `image-path-image-viewer-tablet-light-image-view-modal-open`
+- canonicalFamilyId: `image-path-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-tablet-light-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247003` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247003
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
+- 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
+- Page Type: Create
+- Responsive Variants: tablet
+- Variant Key: tablet|light|image-view-modal-open
+- States: image-view-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=light, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: variant
+- Evidence: 縮圖明確顯示背景頁面被遮罩，前景開啟「檢視圖片」大圖視窗；同批包含 tablet 與 light Theme，且有縮放提示文字
+- Legacy mapping: 6175:233548
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260313-當前版本 / 6175:234325
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 圖片路徑管理 / Image Path Management
+- canonicalId: `image-path-image-viewer-mobile-dark-image-view-modal-open`
+- canonicalFamilyId: `image-path-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-mobile-dark-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247066` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247066
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
+- 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
+- Page Type: Create
+- Responsive Variants: mobile
+- Variant Key: mobile|dark|image-view-modal-open
+- States: image-view-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=dark, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: variant
+- Evidence: 縮圖明確顯示背景頁面被遮罩，前景開啟「檢視圖片」大圖視窗；同批包含 mobile 與 dark Theme，且有縮放提示文字
+- Legacy mapping: 6175:233548
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260313-當前版本 / 6178:178323
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 圖片路徑管理 / Image Path Management
+- canonicalId: `image-path-image-viewer-desktop-dark-image-view-modal-open`
+- canonicalFamilyId: `image-path-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-desktop-dark-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247127` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247127
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
+- 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
+- Page Type: Create
+- Responsive Variants: desktop
+- Variant Key: desktop|dark|image-view-modal-open
+- States: image-view-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=dark, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: variant
+- Evidence: 縮圖明確顯示背景頁面被遮罩，前景開啟「檢視圖片」大圖視窗；同批包含 desktop 與 dark Theme，且有縮放提示文字
+- Legacy mapping: 6175:233548
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260313-當前版本 / 6178:178383
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 圖片路徑管理 / Image Path Management
+- canonicalId: `image-path-image-viewer-tablet-dark-image-view-modal-open`
+- canonicalFamilyId: `image-path-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-tablet-dark-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247193` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247193
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
+- 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
+- Page Type: Create
+- Responsive Variants: tablet
+- Variant Key: tablet|dark|image-view-modal-open
+- States: image-view-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=dark, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: variant
+- Evidence: 縮圖明確顯示背景頁面被遮罩，前景開啟「檢視圖片」大圖視窗；同批包含 tablet 與 dark Theme，且有縮放提示文字
+- Legacy mapping: 6175:233548
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260313-當前版本 / 6178:178448
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 新增事件主類別 / Create Event Main Category
+- canonicalId: `event-main-category-image-viewer-desktop-image-viewer-modal-open`
+- canonicalFamilyId: `event-main-category-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [event-main-category-image-viewer-desktop-image-viewer-modal-open] 新增事件主類別 / Create Event Main Category / `198:280336` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280336
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 在桌機版事件主類別管理列表上開啟圖片檢視層，讓管理人員查看圖片細節並透過滑桿、快捷比例或滾輪調整縮放。
+- 遷移備註: 本圖片檢視功能家族的 Desktop 代表畫面
+- Page Type: List
+- Responsive Variants: desktop
+- Variant Key: desktop|variables|image-viewer-modal-open
+- States: image-viewer-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=variables, strategy=variables, support=variables
+- Review: reviewed / confidence=0.98
+- Original Review Action: —
+- Evidence: parentPath 明確為「其他狀態呈現-事件主類別管理 / 圖片列表--檢視圖片--畫面參考 / PC」；preview 顯示完整事件主類別管理列表上方開啟「檢視圖片」覆蓋層，並包含縮放滑桿、10%/50%/100%/150%快捷比例與返回操作；textSummary 明確包含「檢視圖片」與「滾輪縮放檢視，手機版用雙指縮放」；viewportHint=desktop；inventory themeHint=variables，僅有 variable 綁定證據，沒有可驗證的 Light/Dark mode 標籤
+- Legacy mapping: 6166:160025
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6166:160025
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 新增事件主類別 / Create Event Main Category
+- canonicalId: `event-main-category-image-viewer-tablet-image-viewer-modal-open`
+- canonicalFamilyId: `event-main-category-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [event-main-category-image-viewer-tablet-image-viewer-modal-open] 新增事件主類別 / Create Event Main Category / `198:280374` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280374
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 在平板版事件主類別管理中開啟圖片檢視層，讓管理人員查看圖片並使用縮放控制調整檢視比例。
+- 遷移備註: 同一圖片檢視功能的 Tablet RWD variant
+- Page Type: List
+- Responsive Variants: tablet
+- Variant Key: tablet|variables|image-viewer-modal-open
+- States: image-viewer-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=variables, strategy=variables, support=variables
+- Review: reviewed / confidence=0.98
+- Original Review Action: —
+- Evidence: parentPath 明確為同一「圖片列表--檢視圖片--畫面參考 / Tablet」家族；preview 顯示 Tablet 版「檢視圖片」覆蓋層，保留圖片內容、縮放滑桿、快捷比例、放大/縮小控制與返回按鈕；textSummary 與 Desktop 同樣包含「檢視圖片」及縮放操作說明；viewportHint=tablet；composition 與 Desktop 保持同一功能結構但依 Tablet 版面重新排列，符合 RWD variant
+- Legacy mapping: 6166:160025
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6166:161577
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 新增事件主類別 / Create Event Main Category
+- canonicalId: `event-main-category-image-viewer-mobile-image-viewer-modal-open`
+- canonicalFamilyId: `event-main-category-image-viewer`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `screen`
+- sourceLayer: `feature`
+- status: `approved`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 05_代表畫面 / Reference Screens / [event-main-category-image-viewer-mobile-image-viewer-modal-open] 新增事件主類別 / Create Event Main Category / `198:280400` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280400
+- Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`—`
+- Component Properties: —
+- 功能說明: 在手機版事件主類別管理中開啟圖片檢視層，讓管理人員以適合窄螢幕的方式查看圖片，並可用雙指或縮放控制調整比例。
+- 遷移備註: 同一圖片檢視功能的 Mobile RWD variant
+- Page Type: List
+- Responsive Variants: mobile
+- Variant Key: mobile|variables|image-viewer-modal-open
+- States: image-viewer-modal-open
+- Components: 見 Figma composition
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=variables, strategy=variables, support=variables
+- Review: reviewed / confidence=0.99
+- Original Review Action: —
+- Evidence: parentPath 明確為同一「圖片列表--檢視圖片--畫面參考 / Mobile」家族；preview 顯示手機版事件主類別管理上方開啟圖片檢視覆蓋層；圖片在窄螢幕內以旋轉/大尺寸方式呈現，底部保留縮放滑桿與關閉控制；textSummary 明確寫有「滾輪縮放檢視，手機版用雙指縮放」；viewportHint=mobile；topInstances 仍包含事件主類別管理列表、狀態與三組篩選器，證明是同一列表頁上的圖片檢視狀態，而非獨立圖片頁
+- Legacy mapping: 6166:160025
+- Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6166:162644
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
