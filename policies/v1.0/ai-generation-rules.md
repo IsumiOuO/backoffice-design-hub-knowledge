@@ -151,3 +151,44 @@
 - 禁止為了完成畫面而隱藏重用失敗。
 - 禁止在沒有說明原因的情況下建立新元件。
 - 禁止將 `reference-only` 或 `blocked` 資產當成正式可用元件。
+
+## 通用層(Constructor X - Core)治理
+
+適用範圍：「Constructor X - Core」library 提供的版面樣板元件（header、
+navigate--list-item、Breadcrumb、pagination、Footer 等）。這個 library
+目前完全沒有 canonicalId／aiUsage／status 這套 metadata，不受本文件其他
+章節「共用層（shared-pattern）」規則約束，需另立識別與容錯規則。
+
+### 識別方式
+
+- 沒有 canonicalId 時，一律依 Figma 原生 `key`（Component／Component Set Key）
+  建立真正的 Instance，比照 Foundation 層的作法；不得只憑名稱相似辨認元件。
+- 每次生成前，先在 hub-manifest.json／pattern-index 檢查有沒有同語意的
+  Core／shared-pattern 元件；只有確認完全沒有時，才落到 Constructor X - Core
+  這一層。
+
+### 具名 Variant 缺口的處理原則
+
+- 若目標畫面在對應的版面樣板（header 類型、nav-item 項目等）沒有專屬具名
+  Variant，允許先用最接近的泛用樣板覆寫文字內容頂替生成，不視為違規、不阻塞
+  生成流程。這個容忍度高於 shared-pattern／feature 層元件。
+- 覆寫文字頂替時，必須在生成報告中明確標記「共用層代用」：註明使用的泛用
+  Variant 名稱、被頂替的具名需求、以及對應畫面。
+
+### 具名 Variant 的正式申請流程
+
+- 同一個具名需求（例如「事件主類別管理」需要自己的 header 類型）在
+  review-queue.md 累積達 2 次以上頂替紀錄時，視為正式申請候選，記錄：
+  - 需要新增的具名 Variant 名稱與所屬元件
+  - 目前用什麼泛用 Variant 頂替、頂替過幾次、涉及哪些畫面
+  - 為什麼現有泛用樣板不足以承載（例如語意混淆、之後需要不同互動邏輯）
+- 是否真的新增 Variant、由誰在 Constructor X - Core 裡建立，一律人工審核，
+  AI 不得自行在這個 library 新增或修改 Variant。
+- 申請通過後，才回頭在本文件或 naming-standard.md 補上這個 Variant 的
+  functionSummary，讓未來查找時有紀錄可循。
+
+### 與 shared-pattern 層的邊界
+
+- 若某個 Constructor X - Core 元件開始被賦予產品語意（不再是純版面容器），
+  應評估是否該遷入 Core Hub、走「共用層（shared-pattern）canonicalId 治理」
+  的新增流程，而不是繼續留在無治理的 Constructor X - Core 裡累加特例。
