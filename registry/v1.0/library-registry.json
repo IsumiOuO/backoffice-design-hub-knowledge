@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "registryVersion": "1.0",
+  "lookupOrder": [
+    "backoffice-core",
+    "constructor-x-foundation"
+  ],
+  "libraries": [
+    {
+      "id": "backoffice-core",
+      "logicalRole": "product-core",
+      "displayName": "Backoffice Core",
+      "figmaFileName": "Figma MCP 核心元件索引 / Core Components Hub",
+      "figmaFileKey": "UX9EY190SGnpNiowHlwiUB",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB",
+      "githubIndex": "core/v1.0/hub-manifest.json",
+      "identifier": "canonicalId + componentKey/componentSetKey",
+      "usagePriority": 1,
+      "purpose": "後台產品專屬語意元件與跨功能共用 Component Family",
+      "allowDirectMutation": false
+    },
+    {
+      "id": "constructor-x-foundation",
+      "logicalRole": "foundation",
+      "displayName": "Constructor X Foundation",
+      "figmaFileName": "Constructor X - Core",
+      "figmaFileKey": "5gVv886YmZNXFH8nuenUbp",
+      "figmaUrl": "https://www.figma.com/design/5gVv886YmZNXFH8nuenUbp/Constructor-X---Core",
+      "landingNodeId": "2779:140759",
+      "githubIndex": "foundation/v1.0/foundation-library-components-v1.0.json",
+      "githubDocumentation": "foundation/v1.0/foundation-shared-library-index-v1.0.md",
+      "identifier": "Figma component key",
+      "usagePriority": 2,
+      "purpose": "Button、Badge、Icon、Form 等最低單位母元件",
+      "allowDirectMutation": false,
+      "nameClarification": "Figma 檔名雖含 Core，但在本智庫中的邏輯角色是 Foundation，不得與 Backoffice Core 混淆。"
+    }
+  ],
+  "newComponentPolicy": {
+    "allowedOnlyAfterLookupFailure": true,
+    "candidatePage": "90_新元件候選",
+    "reasonRequired": true,
+    "autoPublish": false
+  }
+}
