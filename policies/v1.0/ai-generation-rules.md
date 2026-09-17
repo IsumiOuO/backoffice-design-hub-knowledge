@@ -54,6 +54,48 @@
 
 新元件一律先放在 AI Sandbox 的 `90_新元件候選`，不得直接發布到正式 Library。
 
+## 共用層（shared-pattern）canonicalId 治理
+
+適用範圍：`sourceLayer=shared-pattern` 的既有元件（03_共用模式 / Shared Patterns）。
+不適用於 internal-core、vendor-core、feature、candidate、local。
+
+### 新增
+
+- 只有同一元件被 2 個以上不同 feature／family 重複使用時，才可收斂進 shared-pattern；
+  單一 family 專屬的元件留在 feature 或 local 層，不得預先佔用 shared-pattern 的 canonicalId。
+- 新增前必須先以 canonicalFamilyId 或功能語意搜尋 hub-manifest.json，
+  確認不是既有 shared-pattern 元件的 Viewport／Theme／State 變體，避免語意重複建立。
+- 一併記錄：語意用途、目前被哪些 family 使用、為何不適合留在 feature 層。
+
+### 修改
+
+- 修改 Variant Options、Component Properties 或視覺規格前，必須先用
+  component-source-map.md 列出所有使用該 canonicalId 的 family，逐一確認不破壞既有畫面語意。
+- 不得為單一 family 的特殊需求直接改動既有 Variant 定義；
+  特殊需求應建立新的 Variant 值，或另立 feature 層元件，不得覆寫既有語意。
+- 任何修改一律人工確認，不得由 AI 自動套用；確認後才更新 hub-manifest.json 與 Description。
+
+### 棄用／降級
+
+- component-source-map.md 顯示某 canonicalId 僅剩 1 個或 0 個 family 使用時，列為降級候選：
+  降回 feature／local 層，或標記 `status=legacy`。
+- 一律先移入 `99_淘汰 / Deprecated` 並標記 `aiUsage=blocked`，不得直接刪除 Figma 節點；
+  舊 canonicalId 保留在 aliases 供追溯。
+- 降級需在「遷移備註」說明原因，與功能說明分開填寫（見命名標準）。
+
+### 命名衝突判定
+
+- 兩個 shared-pattern 候選語意重疊時，以 canonicalFamilyId 是否相同為準：
+  同一 family 只能有一組 canonicalId 家族；不同 family 即使名稱相似，也需用不同字首區分語意
+  （例如 `event-` vs `account-`）。
+- 無法用前綴區分的衝突，交由人工在 review-queue.md 標記待確認，AI 不得自行合併或保留。
+
+### 升級為 internal-core 的條件
+
+- 被 3 個以上不同產品模組（非同一模組的不同頁面）使用，且經過至少一次 migration 週期
+  未變更 Variant 定義。
+- 升級需人工審核，審核後才搬移至 `01_內部正式元件 / Internal Components`。
+
 ## 生成位置與修改限制
 
 - AI 只可寫入專用的 AI Sandbox 測試檔。
