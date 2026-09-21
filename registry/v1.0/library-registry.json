@@ -29,6 +29,9 @@
       "landingNodeId": "2779:140759",
       "githubIndex": "foundation/v1.0/foundation-library-components-v1.0.json",
       "githubDocumentation": "foundation/v1.0/foundation-shared-library-index-v1.0.md",
+      "githubSupplementalIndexes": [
+  "registry/v1.0/shell-component-registry.json"
+],
       "identifier": "Figma component key",
       "usagePriority": 2,
       "purpose": "Button、Badge、Icon、Form 等最低單位母元件",
