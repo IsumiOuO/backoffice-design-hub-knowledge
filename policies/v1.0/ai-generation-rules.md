@@ -122,7 +122,7 @@ Shell Registry 是 Constructor X Foundation Library 的補充索引，不代表�
 5. 生成前先提出「預計重用元件對照表」，至少列出來源層、識別碼、預計使用的 Variant，以及是否屬於共用層代用。
 6. 在 AI Sandbox 建立畫面，不得直接修改已發布 Library 的主元件。
 7. 完成後檢查所有應重用項目是否為真正的 Library Instance，並確認沒有被 Detach、沒有自行重畫已有元件。
-8. 若缺少具名 Variant 或對應元件，記錄到 `review-queue.md`；只有全部索引查找失敗後，才能列為新元件候選。
+8. 若 Core 元件存在 metadata 或結構問題，記錄到 `core/v1.0/review-queue.md`；若 Shell 元件缺少具名 Variant、公開 Property 或 Property 綁定異常，記錄到 `registry/v1.0/shell-review-queue.md`。只有 Core、Shell Registry 與 Foundation 全部查找失敗後，才能列為新元件候選。
 9. 輸出重用報告、共用層代用報告與新元件候選報告。
 
 ## 生成完成後的回報格式
@@ -190,7 +190,7 @@ AI／MCP 必須以 Shell Registry 為調用依據。這些元件仍不屬於 Cor
 ### 具名 Variant 的正式申請流程
 
 - 同一個具名需求（例如「事件主類別管理」需要自己的 header 類型）在
-  review-queue.md 累積達 2 次以上頂替紀錄時，視為正式申請候選，記錄：
+  `registry/v1.0/shell-review-queue.md` 累積達 2 次以上頂替紀錄時，視為正式申請候選，記錄：
   - 需要新增的具名 Variant 名稱與所屬元件
   - 目前用什麼泛用 Variant 頂替、頂替過幾次、涉及哪些畫面
   - 為什麼現有泛用樣板不足以承載（例如語意混淆、之後需要不同互動邏輯）
