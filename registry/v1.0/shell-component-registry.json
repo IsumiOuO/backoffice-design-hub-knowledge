@@ -327,7 +327,7 @@
     "verifiedAgainst": [
       "Constructor X - Core published components",
       "foundation/v1.0/foundation-library-components-v1.0.json",
-      "Backoffice Reference Screen 198:280336"
+      "Backoffice Reference Screen 198:280336",
       "Backoffice AI Sandbox regression 25:1797 / Header 26:2116"
     ],
     "verificationStatus": "verified"
