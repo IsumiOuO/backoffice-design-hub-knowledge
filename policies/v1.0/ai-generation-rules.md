@@ -115,13 +115,15 @@ Shell Registry 是 Constructor X Foundation Library 的補充索引，不代表�
 
 ## 每次生成前的必要流程
 
-1. 讀取 Core `hub-manifest.json`。
-2. 依需求、功能說明、`canonicalId`、Component Properties 與 Variant Options 建立 Core 候選清單。
-3. Core 沒有合適項目時，讀取 Foundation 索引並建立候選清單。
-4. 先提出「預計重用元件對照表」，再開始生成。
-5. 在 AI Sandbox 建立畫面。
-6. 完成後檢查所有應重用項目是否為真正 Instance。
-7. 輸出重用報告與新元件報告。
+1. 先讀取 `registry/v1.0/library-registry.json`，確認可用 Library、邏輯角色與所有主索引／補充索引。
+2. 讀取 Core `hub-manifest.json`，依需求、功能說明、`canonicalId`、Component Properties 與 Variant Options 建立 Core 候選清單。
+3. 若需求包含完整畫面框架，讀取 `shell-component-registry.json`，依 `assetId`、用途、`componentKey`／`componentSetKey` 與實際 Variant Options 建立 Shell 候選清單。
+4. Core 與 Shell 無法滿足最低單位元件需求時，讀取 Foundation 索引，建立 Button、Badge、Icon、Form 等候選清單。
+5. 生成前先提出「預計重用元件對照表」，至少列出來源層、識別碼、預計使用的 Variant，以及是否屬於共用層代用。
+6. 在 AI Sandbox 建立畫面，不得直接修改已發布 Library 的主元件。
+7. 完成後檢查所有應重用項目是否為真正的 Library Instance，並確認沒有被 Detach、沒有自行重畫已有元件。
+8. 若缺少具名 Variant 或對應元件，記錄到 `review-queue.md`；只有全部索引查找失敗後，才能列為新元件候選。
+9. 輸出重用報告、共用層代用報告與新元件候選報告。
 
 ## 生成完成後的回報格式
 
