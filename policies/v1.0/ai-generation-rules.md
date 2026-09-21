@@ -165,10 +165,11 @@ Shell Registry 是 Constructor X Foundation Library 的補充索引，不代表�
 
 ## 通用層(Constructor X - Core)治理
 
-適用範圍：「Constructor X - Core」library 提供的版面樣板元件（header、
-navigate--list-item、Breadcrumb、pagination、Footer 等）。這個 library
-目前完全沒有 canonicalId／aiUsage／status 這套 metadata，不受本文件其他
-章節「共用層（shared-pattern）」規則約束，需另立識別與容錯規則。
+適用範圍：「Constructor X - Core」Library 提供的共用畫面框架元件，例如 Header、側欄導覽、側欄具名項目、Breadcrumb、Pagination 與 Footer。
+
+這些 Figma 原生元件目前尚未具備 Backoffice Core 使用的 `canonicalId` 與 `status` metadata；但已透過 `registry/v1.0/shell-component-registry.json` 建立外部治理資料，提供穩定的 `assetId`、`aiUsage`、角色、Component Key、Component Set Key、Variant Options 與可覆寫 Properties。
+
+AI／MCP 必須以 Shell Registry 為調用依據。這些元件仍不屬於 Core Hub 的 shared-pattern，因此不直接套用 shared-pattern 的 canonicalId 升降級流程。
 
 ### 識別方式
 
