@@ -21,11 +21,14 @@ AI／MCP 必須先讀取 Registry 總入口，再依需求讀取 Core、Foundati
 
 ## 元件選用優先順序
 
-1. 優先查詢 Core Hub，使用符合後台產品語意的 Core 元件。
-2. Core 沒有合適元件時，再查 Foundation／母元件庫，使用 Button、Badge、Icon、Form 等基礎元件。
-3. Core 與 Foundation 都沒有符合需求的元件時，才可以建立新元件。
+1. 優先查詢 Core Hub，使用符合後台產品語意的 Core、shared-pattern 或 feature 元件。
+2. 當需求包含完整畫面的框架結構時，先確認 Core 沒有相同語意元件，再依 `shell-component-registry.json` 使用頂部導覽、側欄、側欄具名項目、Breadcrumb、Header、Pagination 或 Footer。
+3. 畫面中的 Button、Badge、Icon、Form 等最低單位元件，使用 Foundation 元件。
+4. Core、Shell Registry 與 Foundation 都沒有符合需求的元件時，才可以建立新元件候選。
 
-不得因為 Foundation 元件名稱比較接近，就跳過已存在且語意更精確的 Core 元件。
+Shell Registry 是 Constructor X Foundation Library 的補充索引，不代表新增第三個 Library。AI／MCP 必須使用其中記錄的 `componentKey` 或 `componentSetKey` 建立真正的 Library Instance。
+
+不得因為 Foundation 或 Shell 元件名稱比較接近，就跳過已存在且產品語意更精確的 Core 元件；也不得在 Shell Registry 已有對應元件時自行繪製替代版本。
 
 ## 正確重用的判定
 
