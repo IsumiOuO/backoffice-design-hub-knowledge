@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "registryVersion": "1.0",
+  "registryType": "shell-components",
+  "sourceLibraryId": "constructor-x-foundation",
+  "sourceLibraryRole": "foundation",
+  "figmaFileName": "Constructor X - Core",
+  "figmaFileKey": "5gVv886YmZNXFH8nuenUbp",
+  "description": "Constructor X - Core 中供後台完整畫面組裝使用的共用 Shell 元件。這些元件尚未納入 Backoffice Core canonicalId 治理，暫時以穩定 registry assetId 與 Figma componentKey/componentSetKey 識別。",
+  "identifierPolicy": {
+    "primary": "componentKey/componentSetKey",
+    "secondary": "assetId",
+    "canonicalIdAvailable": false,
+    "allowNameOnlyLookup": false,
+    "allowDetach": false,
+    "allowDirectMutation": false
+  },
+  "fallbackPolicy": {
+    "allowed": true,
+    "reportLabel": "共用層代用",
+    "requirements": [
+      "必須先確認 Backoffice Core 沒有相同產品語意元件",
+      "必須使用真正的 Library Instance",
+      "必須記錄實際使用的 Variant",
+      "必須記錄被代用的具名需求",
+      "不得自行新增或修改正式 Library Variant"
+    ]
+  },
+  "components": [
+    {
+      "assetId": "shell-top-navigation",
+      "figmaName": "navigate",
+      "displayNameZh": "後台頂部導覽列",
+      "displayNameEn": "Backoffice Top Navigation",
+      "role": "page-shell",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "6eab64d18c2f60462e27eee977d2fadde780c713",
+      "aiUsage": "allowed",
+      "variantProperties": {
+        "Property 1": {
+          "defaultValue": "Default",
+          "options": [
+            "Default"
+          ]
+        }
+      },
+      "textProperties": {
+        "title#8227:0": "後台產品名稱"
+      },
+      "booleanProperties": {
+        "Show Ghost Button#8227:1": "顯示第一個右側操作",
+        "Show Ghost Button 2#8227:2": "顯示第二個右側操作"
+      },
+      "useWhen": "完整後台桌機畫面的頂部全域導覽列"
+    },
+    {
+      "assetId": "shell-user-information",
+      "figmaName": "user-information--system-backend",
+      "displayNameZh": "系統後台使用者資訊",
+      "displayNameEn": "System Backoffice User Information",
+      "role": "sidebar-shell",
+      "figmaType": "COMPONENT",
+      "componentKey": "7362f091d676a2559da83449d93402113be85837",
+      "aiUsage": "allowed",
+      "textProperties": {
+        "name#8189:0": "使用者名稱",
+        "mail#8189:1": "帳號或信箱",
+        "帳號類別#8189:2": "帳號類別"
+      },
+      "instanceSwapProperties": {
+        "icon#8189:3": "使用者圖像"
+      },
+      "useWhen": "系統後台側欄頂部的登入者資訊"
+    },
+    {
+      "assetId": "shell-sidebar-navigation",
+      "figmaName": "navigate--開關--system-backend",
+      "displayNameZh": "系統後台側欄導覽",
+      "displayNameEn": "System Backoffice Sidebar Navigation",
+      "role": "sidebar-shell",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "cf9cb28932a52a9220a359c1981455f7644708bc",
+      "aiUsage": "allowed",
+      "variantProperties": {
+        "Property 1": {
+          "defaultValue": "Default",
+          "options": [
+            "Default",
+            "Select"
+          ]
+        }
+      },
+      "textProperties": {
+        "Title#8169:2": "側欄區塊標題"
+      },
+      "useWhen": "完整系統後台畫面的主要側欄導覽；Select 代表展開或選取狀態"
+    },
+    {
+      "assetId": "shell-sidebar-navigation-item",
+      "figmaName": "navigate--list-item--system-backend",
+      "displayNameZh": "系統後台側欄具名項目",
+      "displayNameEn": "System Backoffice Named Navigation Item",
+      "role": "sidebar-navigation-item",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "80e98814e055a0d9249ae1a7a736e9d93d19b94f",
+      "aiUsage": "allowed",
+      "variantProperties": {
+        "Property 1": {
+          "options": [
+            "首頁",
+            "首頁 - Select",
+            "系統帳號",
+            "系統帳號 - Select",
+            "商戶帳號",
+            "商戶帳號 - Select",
+            "事件設置",
+            "事件設置 - Select",
+            "其他設定",
+            "其他設定 - Select",
+            "資料庫管理",
+            "資料庫管理 - Select",
+            "報表紀錄",
+            "報表紀錄 - Select",
+            "客服服務",
+            "客服服務 - Select",
+            "商戶服務",
+            "商戶服務 - Select",
+            "圖片管理",
+            "圖片管理 - Select",
+            "報表查詢",
+            "報表查詢 - Select",
+            "帳號管理",
+            "帳號管理 - Select"
+          ]
+        }
+      },
+      "useWhen": "需要單獨調用具名側欄項目或設定目前選取項目時",
+      "notes": [
+        "只能使用實際存在的具名選項",
+        "缺少的功能項目不得只靠改文字冒充新的導覽語意",
+        "缺少項目時記錄到 review-queue.md"
+      ]
+    },
+    {
+      "assetId": "shell-sidebar-navigation-item-base",
+      "figmaName": "navigate--list-item--main-component",
+      "displayNameZh": "側欄導覽項目基礎元件",
+      "displayNameEn": "Sidebar Navigation Item Base",
+      "role": "sidebar-navigation-base",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "179431fd09daee3a50016b0b8b932a794bc74ffa",
+      "aiUsage": "fallback-only",
+      "variantProperties": {
+        "層級": {
+          "options": [
+            "父級",
+            "子級"
+          ]
+        },
+        "Property 1": {
+          "options": [
+            "Default",
+            "Select"
+          ]
+        }
+      },
+      "textProperties": {
+        "標題#8163:0": "父級或主要標題",
+        "子標題#8163:5": "子級標題"
+      },
+      "booleanProperties": {
+        "Show Right#8162:0": "顯示右側展開指示"
+      },
+      "useWhen": "具名側欄項目無法滿足需求，且需要組合父級／子級導覽結構時",
+      "notes": [
+        "使用後必須標記為共用層代用",
+        "不得取代已經存在的具名側欄項目"
+      ]
+    },
+    {
+      "assetId": "shell-breadcrumb",
+      "figmaName": "Breadcrumb",
+      "displayNameZh": "麵包屑導覽",
+      "displayNameEn": "Breadcrumb",
+      "role": "page-shell",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "e8e219d609084a66c88f08e1dd813f9fb59c2234",
+      "aiUsage": "allowed",
+      "variantProperties": {
+        "Size": {
+          "defaultValue": "Large",
+          "options": [
+            "Large",
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "booleanProperties": {
+        "Show 1#5524:0": "顯示第一層",
+        "Show 2#5524:2": "顯示第二層",
+        "Show 3#5524:4": "顯示第三層",
+        "Show 4#5524:6": "顯示第四層",
+        "Show 5#5524:8": "顯示第五層",
+        "Show 6#5524:10": "顯示第六層"
+      },
+      "useWhen": "後台內容區顯示目前頁面所在層級"
+    },
+    {
+      "assetId": "shell-page-header",
+      "figmaName": "header",
+      "displayNameZh": "後台頁面標頭",
+      "displayNameEn": "Backoffice Page Header",
+      "role": "page-shell",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "45b40b38af0ddadde89c919857dc2de3e845fe55",
+      "aiUsage": "allowed-with-fallback",
+      "variantProperties": {
+        "類型": {
+          "defaultValue": "參數類別管理",
+          "normalizedPropertyName": "Type",
+          "options": [
+            "新增事件/結算事件",
+            "確認新增事件",
+            "確認編輯事件",
+            "參數類別管理",
+            "事件參數設定",
+            "新增事件次類別",
+            "新增事件主類別",
+            "圖片管理",
+            "新增圖片路徑",
+            "商戶事件顯示管理",
+            "事件參數管理/預設值維護",
+            "事件參數管理/批次更新",
+            "事件結算",
+            "通用",
+            "庫存管理"
+          ]
+        },
+        "裝置": {
+          "defaultValue": "PC",
+          "normalizedPropertyName": "Device",
+          "options": [
+            "PC",
+            "Mobile"
+          ]
+        }
+      },
+      "textProperties": {
+        "title#8205:0": "頁面標題",
+        "年#8703:16": "最後更新年份",
+        "月#8703:32": "最後更新月份",
+        "日#8703:48": "最後更新日期",
+        "時#8703:64": "最後更新小時",
+        "分#8703:80": "最後更新分鐘",
+        "秒#8711:0": "最後更新秒數"
+      },
+      "booleanProperties": {
+        "Show 新增事件#8213:0": "顯示新增事件操作",
+        "Show 確認新增事件#8213:3": "顯示確認新增操作",
+        "Show 教學指引#8213:6": "顯示教學指引",
+        "Show 匯入AI建議議題#8384:0": "顯示匯入 AI 建議議題",
+        "Show Back#8650:0": "顯示返回操作",
+        "Show 重新整理#8701:0": "顯示重新整理",
+        "Show 最後更新#8703:96": "顯示最後更新時間",
+        "Show Button 1#8723:34": "顯示第一個附加操作",
+        "Show Button 2#8723:51": "顯示第二個附加操作",
+        "Show Button 群組#8732:0": "顯示按鈕群組"
+      },
+      "useWhen": "後台內容區的頁面名稱、主要操作與更新狀態",
+      "fallbackRules": [
+        "缺少具名類型時，使用語意最接近的既有類型",
+        "只覆寫公開的 Text 與 Boolean Properties",
+        "生成報告必須標記共用層代用",
+        "缺少的具名類型必須記錄到 review-queue.md"
+      ]
+    },
+    {
+      "assetId": "shell-pagination",
+      "figmaName": "pagination",
+      "displayNameZh": "後台分頁",
+      "displayNameEn": "Backoffice Pagination",
+      "role": "page-shell",
+      "figmaType": "COMPONENT_SET",
+      "componentSetKey": "bd4ad3771dd42c78fef57dde4ff6d9153535b5c2",
+      "aiUsage": "allowed",
+      "variantProperties": {
+        "Property 1": {
+          "defaultValue": "Default",
+          "options": [
+            "Default",
+            "Small"
+          ]
+        }
+      },
+      "useWhen": "列表型後台頁面的頁碼切換"
+    },
+    {
+      "assetId": "shell-desktop-footer",
+      "figmaName": "Footer--pc",
+      "displayNameZh": "桌機版頁尾",
+      "displayNameEn": "Desktop Footer",
+      "role": "page-shell",
+      "figmaType": "COMPONENT",
+      "componentKey": "91f1cd5708155e1cd07344fddbd5d067418deab3",
+      "aiUsage": "allowed",
+      "textProperties": {
+        "content#8192:1": "頁尾版權或說明文字"
+      },
+      "useWhen": "完整桌機版後台畫面的底部頁尾"
+    }
+  ],
+  "verification": {
+    "lastVerifiedAt": "2026-09-17",
+    "verifiedAgainst": [
+      "Constructor X - Core published components",
+      "foundation/v1.0/foundation-library-components-v1.0.json",
+      "Backoffice Reference Screen 198:280336"
+    ],
+    "verificationStatus": "verified"
+  }
+}
