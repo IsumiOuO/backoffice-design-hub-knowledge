@@ -268,13 +268,24 @@
         "Show Button 2#8723:51": "顯示第二個附加操作",
         "Show Button 群組#8732:0": "顯示按鈕群組"
       },
+      "nestedInstanceProperties": {
+  "Primary Action Button": {
+    "figmaType": "INSTANCE",
+    "componentKey": "21ab50de4bb6e7cfaabf0f75b4fd67838d9330b3",
+    "componentSetKey": "59f8d0b3705f741d256b5beabf983fde112c9a59",
+    "textProperties": {
+      "Text#2343:0": "主要 CTA 文字"
+    }
+  }
+},
       "useWhen": "後台內容區的頁面名稱、主要操作與更新狀態",
-      "fallbackRules": [
-        "缺少具名類型時，使用語意最接近的既有類型",
-        "只覆寫公開的 Text 與 Boolean Properties",
-        "生成報告必須標記共用層代用",
-        "缺少的具名類型必須記錄到 review-queue.md"
-      ]
+  "fallbackRules": [
+  "缺少具名類型時，使用語意最接近的既有類型",
+  "管理列表頁可使用類型=參數類別管理、裝置=PC，並透過 title、Show Back 與 Primary Action Button.Text 覆寫內容",
+  "只覆寫公開的 Text、Boolean 與 exposed nested instance Properties",
+  "生成報告必須標記共用層代用",
+  "若既有 Variant 與公開 Properties 仍無法完整承載需求，記錄到 registry/v1.0/shell-review-queue.md"
+]
     },
     {
       "assetId": "shell-pagination",
@@ -312,11 +323,12 @@
     }
   ],
   "verification": {
-    "lastVerifiedAt": "2026-09-17",
+    "lastVerifiedAt": "2026-09-21",
     "verifiedAgainst": [
       "Constructor X - Core published components",
       "foundation/v1.0/foundation-library-components-v1.0.json",
       "Backoffice Reference Screen 198:280336"
+      "Backoffice AI Sandbox regression 25:1797 / Header 26:2116"
     ],
     "verificationStatus": "verified"
   }
