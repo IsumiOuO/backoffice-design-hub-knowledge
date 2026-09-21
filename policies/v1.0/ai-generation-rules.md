@@ -8,6 +8,17 @@
 
 ## 索引來源
 
+AI／MCP 必須先讀取 Registry 總入口，再依需求讀取 Core、Foundation 與 Shell 索引。
+
+- Registry 總入口：`registry/v1.0/library-registry.json`
+- Core：`core/v1.0/hub-manifest.json`
+- Core 人類可讀說明：`core/v1.0/*.md`
+- Foundation 元件資料：`foundation/v1.0/foundation-library-components-v1.0.json`
+- Foundation 人類可讀說明：`foundation/v1.0/foundation-shared-library-index-v1.0.md`
+- 完整畫面 Shell 元件：`registry/v1.0/shell-component-registry.json`
+
+當需求包含頂部導覽、側欄、側欄具名項目、麵包屑、頁面 Header、分頁或 Footer 時，必須讀取 Shell 元件索引，不得只依元件名稱猜測或自行繪製替代元件。
+
 - Core：`core/v1.0/hub-manifest.json`
 - Core 人類可讀說明：`core/v1.0/*.md`
 - Foundation 元件資料：`foundation/v1.0/foundation-library-components-v1.0.json`
