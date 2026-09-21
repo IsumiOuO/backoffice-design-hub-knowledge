@@ -7,6 +7,7 @@
   "figmaFileName": "Constructor X - Core",
   "figmaFileKey": "5gVv886YmZNXFH8nuenUbp",
   "description": "Constructor X - Core 中供後台完整畫面組裝使用的共用 Shell 元件。這些元件尚未納入 Backoffice Core canonicalId 治理，暫時以穩定 registry assetId 與 Figma componentKey/componentSetKey 識別。",
+  "reviewQueue": "registry/v1.0/shell-review-queue.md",
   "identifierPolicy": {
     "primary": "componentKey/componentSetKey",
     "secondary": "assetId",
