@@ -1,6 +1,6 @@
 # Backoffice Design Hub — AI／MCP 生成規則
 
-版本：v1.0
+版本：v1.0.1
 
 ## 目的
 
@@ -44,6 +44,66 @@ Shell Registry 是 Constructor X Foundation Library 的補充索引，不代表�
 - `kind=screen` 的項目是設計參考，不是可跨檔插入的元件。
 - 使用 `figmaUrl` 或 `nodeId` 定位代表畫面，理解資訊架構、版型與互動情境。
 - 不得宣稱 Frame／Section 已作為 Library 元件重用。
+
+## 流程型元件與互斥畫面狀態
+
+當多個元件屬於同一個操作流程，且 `canonicalId`、功能說明或元件內容顯示它們是 Step 1、Step 2、Step 3 等連續階段時，應視為同一流程中的互斥畫面狀態，而不是可同時排列的內容區塊。
+
+例如：
+
+- `create-event-main-category-step-1`
+- `create-event-main-category-step-2`
+- `create-event-main-category-step-3`
+- `create-event-main-category-step-4-upload-image`
+
+生成規則：
+
+1. 一個產品畫面 Frame 預設只能顯示一個目前作用中的 Step。
+2. 需要呈現完整流程時，應建立多個相鄰 Frame 或 Prototype 狀態，每個 Frame 對應一個 Step。
+3. 各 Step 畫面應維持相同的 Shell、Breadcrumb、Page Header 與內容寬度，只替換流程內容區的 Step Instance。
+4. 不得把同一流程的所有 Step 垂直堆疊在同一個產品畫面中。
+5. 只有需求明確指定「流程總覽」、「元件展示板」或「設計文件」時，才可以同時陳列多個 Step；此時必須標記為 `reference-only`，不得宣稱為實際產品畫面。
+6. AI／MCP 無法判斷多個 Step 是否屬於同一流程時，必須停止組合並列入人工確認，不得自行猜測。
+
+建議流程 metadata：
+
+- `flowGroupId`：同一操作流程的穩定識別碼。
+- `stepIndex`：流程順序，從 1 開始。
+- `compositionMode`：流程型元件使用 `exclusive`。
+- `initialDataPolicy`：初始資料策略，可使用 `published-default`、`empty`、`placeholder`、`example` 或 `prefilled`。
+
+在正式 metadata 尚未補齊前，AI／MCP 必須綜合 `canonicalId`、`functionSummary`、步驟器文字與實際可見內容判斷；若證據互相衝突，交由人工確認。
+
+## Published 預設值與初始資料
+
+未收到產品需求指定值時，AI／MCP 必須保留所選 Published Component Variant 的實際預設內容與狀態，包括：
+
+- 預設文字。
+- 預設選取項目。
+- 預設 Toggle／Checkbox／Radio 狀態。
+- 預設可見／隱藏狀態。
+- 預設 Variant 與巢狀 Instance Properties。
+
+不得因內容看起來像範例資料，就自行清空、重新命名或改成推測的初始狀態。只有符合下列任一條件時才可覆寫：
+
+1. 需求明確指定目標文字、選取狀態或初始值。
+2. 智庫明確標記 `initialDataPolicy=empty`、`placeholder` 或其他不同策略。
+3. 元件已公開對應 Property，且需求與索引能共同確認應使用的值。
+
+若保留 Published 預設值，生成報告必須列出實際 Variant、重要 Component Properties，以及「保留 Published 預設值」的判定。不得為了取得空白狀態而 Detach Instance、修改 Library Master、建立本地副本或自行新增 Variant。
+
+## 附屬元件的步驟歸屬
+
+共用元件或 shared-pattern 不代表可任意插入任何 Step。AI／MCP 必須先依 `functionSummary`、`useWhen`、來源結構與既有巢狀關係判斷它所屬的流程位置。
+
+若索引無法證明附屬元件屬於哪一個 Step：
+
+- 不得自行選擇位置。
+- 不得把它放在流程最下方或所有 Step 之外作為臨時處理。
+- 應暫不加入生成畫面。
+- 必須在生成報告與 `review-queue.md` 中記錄為「流程歸屬待確認」。
+
+例如 `enabled-status-field` 若只有通用功能說明，卻沒有 `useWhen` 或 Step 歸屬資料，應先交由產品／設計確認，不得自行歸入 Step 1～4。
 
 ## 建立新元件的條件
 
