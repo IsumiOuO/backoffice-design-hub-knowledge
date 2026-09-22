@@ -13,7 +13,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-mobile-light-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:246876` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246876
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
 - Page Type: Create
@@ -41,7 +41,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-desktop-light-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:246937` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246937
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - 遷移備註: 圖片檢視器 light desktop 代表畫面
 - Page Type: Create
@@ -69,7 +69,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-tablet-light-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247003` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247003
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
 - Page Type: Create
@@ -97,7 +97,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-mobile-dark-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247066` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247066
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
 - Page Type: Create
@@ -125,7 +125,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-desktop-dark-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247127` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247127
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
 - Page Type: Create
@@ -153,7 +153,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [image-path-image-viewer-tablet-dark-image-view-modal-open] 圖片路徑管理 / Image Path Management / `190:247193` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247193
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - 遷移備註: 同一圖片檢視器的 RWD／Theme 變體
 - Page Type: Create
@@ -181,7 +181,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [event-main-category-image-viewer-desktop-image-viewer-modal-open] 新增事件主類別 / Create Event Main Category / `198:280336` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280336
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌機版事件主類別管理列表上開啟圖片檢視層，讓管理人員查看圖片細節並透過滑桿、快捷比例或滾輪調整縮放。
 - 遷移備註: 本圖片檢視功能家族的 Desktop 代表畫面
 - Page Type: List
@@ -209,7 +209,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [event-main-category-image-viewer-tablet-image-viewer-modal-open] 新增事件主類別 / Create Event Main Category / `198:280374` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280374
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在平板版事件主類別管理中開啟圖片檢視層，讓管理人員查看圖片並使用縮放控制調整檢視比例。
 - 遷移備註: 同一圖片檢視功能的 Tablet RWD variant
 - Page Type: List
@@ -237,7 +237,7 @@
 - Figma: 05_代表畫面 / Reference Screens / [event-main-category-image-viewer-mobile-image-viewer-modal-open] 新增事件主類別 / Create Event Main Category / `198:280400` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280400
 - Figma 原生類型: `FRAME`; Library Key=missing; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機版事件主類別管理中開啟圖片檢視層，讓管理人員以適合窄螢幕的方式查看圖片，並可用雙指或縮放控制調整比例。
 - 遷移備註: 同一圖片檢視功能的 Mobile RWD variant
 - Page Type: List

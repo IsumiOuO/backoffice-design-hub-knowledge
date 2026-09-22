@@ -13,7 +13,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-topic-filter] 事件主題篩選器 / Event Topic Filter / `121:293267` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293267
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cdc5869023719b7c1720fe296ae8d3b6444a42d8`
-- Component Properties: 項目 (VARIANT: 顯示全部/議題事件/運動事件)
+- Component Properties: 項目 (VARIANT: 顯示全部/議題事件/運動事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件主題類型篩選事件，可切換顯示全部、議題事件或運動事件。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -41,7 +41,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-league-filter] 聯盟類別篩選器 / League Filter / `121:293274` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293274
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4ab47da35a9c21f33979b340564e6a78e6098d0c`
-- Component Properties: 項目 (VARIANT: NBA/MLB/MLS/NHL/顯示全部/無)
+- Component Properties: 項目 (VARIANT: NBA/MLB/MLS/NHL/顯示全部/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依 NBA、MLB、MLS、NHL 等聯盟類別篩選運動事件。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -69,7 +69,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [sport-category-filter] 運動類別篩選器 / Sport Category Filter / `121:293287` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293287
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4d926363549b5e28406429887689ee5998299a6e`
-- Component Properties: 項目 (VARIANT: NBA/MLB/NFL/NHL/顯示全部/無)
+- Component Properties: 項目 (VARIANT: NBA/MLB/NFL/NHL/顯示全部/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依不同運動類別篩選事件，提供多個運動項目 variants。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -97,7 +97,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [parameter-last-updated-filter] 參數最後異動時間篩選器 / Parameter Last-updated Filter / `121:293300` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293300
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b7b3113e29a078057a4489c55e61c46a252d715f`
-- Component Properties: 狀態 (VARIANT: Default/已選擇)
+- Component Properties: 狀態 (VARIANT: Default/已選擇)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件參數最後異動時間條件篩選列表，包含預設與已選擇狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -125,7 +125,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-secondary-category-filter] 事件次要類別篩選器 / Secondary Event Category Filter / `121:293305` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293305
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5eb32c53aa7a6deea7c66373a228852753bcaa96`
-- Component Properties: 項目 (VARIANT: 顯示全部/US Elections/Congress/Game/BTC/無)
+- Component Properties: 項目 (VARIANT: 顯示全部/US Elections/Congress/Game/BTC/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件次要類別篩選事件，例如 US Elections、Congress、Game、BTC 等。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -153,7 +153,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-primary-category-filter] 事件主要類別篩選器 / Primary Event Category Filter / `121:293318` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293318
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4509f1f26b678d3db382736d0006dcbcac1fecf5`
-- Component Properties: 項目 (VARIANT: 顯示全部/Elections/Politics/Culture/Crypto/無)
+- Component Properties: 項目 (VARIANT: 顯示全部/Elections/Politics/Culture/Crypto/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件主要類別篩選事件，例如 Elections、Politics、Culture、Crypto 等。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -181,7 +181,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-title] 事件名稱標題 / Event Title / `121:293465` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293465
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`26458a776e2605f978551c9ed5443f8b51ec716e`
-- Component Properties: 事件名稱#6110:0 (TEXT)；事件名稱 (VARIANT: topic/sport)
+- Component Properties: 事件名稱#6110:0 (TEXT)；事件名稱 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件名稱，並依議題事件或運動事件切換呈現方式。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -209,7 +209,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-thumbnail] 事件圖片 / Event Thumbnail / `121:293474` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293474
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b4a35156b9b497b4ae80d8316d246bf7270bcf02`
-- Component Properties: Property 1 (VARIANT: topic/sport)
+- Component Properties: Property 1 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件縮圖或類型圖示，支援議題與運動事件。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -237,7 +237,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-info-row] 事件資訊列 / Event Info Row / `121:293482` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293482
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cb6caa2948c52b8b2f60b4bd633ce70155451f2b`
-- Component Properties: Show input 3#5524:0 (BOOLEAN)；項目 (VARIANT: 事件編號-1001/事件編號-1002/事件編號-1003/事件類型-運動事件/事件類型-議題事件/主次類別-足球/主次類別-娛樂/參數最後異動時間--近期異動/參數最後異動時間--曾有異動/參數最後異動時間--無異動/比賽開始時間--有明確時間/比賽開始時間--無明確時間/主次類別-Rush Hour)
+- Component Properties: Show input 3#5524:0 (BOOLEAN)；項目 (VARIANT: 事件編號-1001/事件編號-1002/事件編號-1003/事件類型-運動事件/事件類型-議題事件/主次類別-足球/主次類別-娛樂/參數最後異動時間--近期異動/參數最後異動時間--曾有異動/參數最後異動時間--無異動/比賽開始時間--有明確時間/比賽開始時間--無明確時間/主次類別-Rush Hour)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件列表中呈現事件編號、事件類型等欄位的多種資料 variants。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -265,7 +265,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-data-card] 事件資料卡 / Event Data Card / `121:293563` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293563
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ba12cb8e8e83d6c528ae4ecb79786e22c1495869`
-- Component Properties: Property 1 (VARIANT: 事件編號1001/事件編號1002/事件編號1003)
+- Component Properties: Property 1 (VARIANT: 事件編號1001/事件編號1002/事件編號1003)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 整合事件編號、比賽時間、事件類型與分類等資訊，供事件列表/卡片使用。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -293,7 +293,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-status-header] 事件狀態標題 / Event Status Header / `121:293594` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293594
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d1e111f586c200a3cb9b5c0a11014a6ed53e5916`
-- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)
+- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示投分中、等待投分、結算中、已結算等事件狀態標題。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -321,7 +321,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [filter-toggle-button] 篩選器開關按鈕 / Filter Toggle Button / `121:293615` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293615
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1c2f523cb87651b50641c74fc598ed4f1725423c`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制事件篩選區的展開/收合，並包含 default 與 hover 狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -349,7 +349,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-list-fixed-header] 事件列表固定表頭 / Event List Fixed Header / `121:293658` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293658
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`175ba36c9ef7dcc771dea77db3a42d2fc6e385ea`
-- Component Properties: Property 1 (VARIANT: 未上架事件)
+- Component Properties: Property 1 (VARIANT: 未上架事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現事件列表的一組固定欄位標題，用於未上架/事件管理表格。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -377,7 +377,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-list-column-header] 事件列表欄位標題 / Event List Column Header / `121:293667` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293667
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`20f33b227478704f44276f79240ee1d83540eccc`
-- Component Properties: Property 1 (VARIANT: 投分狀態 / 狀態更新時間/事件名稱 / 事件類型/事件創建時間/事件主題 / 主分類 / 次分類 / 事件類型/比賽時間/empty/操作)
+- Component Properties: Property 1 (VARIANT: 投分狀態 / 狀態更新時間/事件名稱 / 事件類型/事件創建時間/事件主題 / 主分類 / 次分類 / 事件類型/比賽時間/empty/操作)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件狀態、事件名稱、分類、時間、操作等欄位標題 variants。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -405,7 +405,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-table-thumbnail] 事件表格圖片 / Event Table Thumbnail / `121:293686` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293686
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b0356fae9c49b506b80e47c812f58681085f6f5c`
-- Component Properties: Property 1 (VARIANT: topic/sport)
+- Component Properties: Property 1 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面事件表格列中顯示運動或議題事件圖片。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -433,7 +433,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-selection-cell] 事件勾選欄 / Event Selection Cell / `121:293691` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293691
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e2609a1fb7764db37b75529b510291d3712b4b56`
-- Component Properties: Property 1 (VARIANT: 勾選)
+- Component Properties: Property 1 (VARIANT: 勾選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格列中提供事件選取勾選控制。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -461,7 +461,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [wagering-status-cell] 投分狀態欄 / Wagering Status Cell / `121:293695` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293695
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3c95bfbb68ae301db9cfeabfb26e1ecb8da0a0a1`
-- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)
+- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格列中顯示投分狀態與狀態時間。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -489,7 +489,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-name-id-cell] 事件名稱與編號欄 / Event Name and ID Cell / `121:293716` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293716
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`63e2c13fbb43310784dd2fcbf6d6c2af2476d3f0`
-- Component Properties: Property 1 (VARIANT: 運動事件/議題事件/字數過長)
+- Component Properties: Property 1 (VARIANT: 運動事件/議題事件/字數過長)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格列中顯示事件名稱、編號及長文字狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -517,7 +517,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-classification-cell] 事件分類欄 / Event Classification Cell / `121:293723` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293723
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`eef864f174f84c2d0e3de43b38a539cb5c027ab2`
-- Component Properties: Property 1 (VARIANT: 運動事件/議題事件/Rush Hour)
+- Component Properties: Property 1 (VARIANT: 運動事件/議題事件/Rush Hour)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件主題、主類別、次類別與事件類型，包含 Rush Hour variant。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -545,7 +545,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [parameter-last-updated-cell] 參數最後異動時間欄 / Parameter Last-updated Cell / `121:293730` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293730
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`72ce3f2afcc91239999092c695103a5223510b5a`
-- Component Properties: 狀態 (VARIANT: 近期異動/無異動/曾有異動)
+- Component Properties: 狀態 (VARIANT: 近期異動/無異動/曾有異動)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示參數最後異動時間，並區分近期異動、曾有異動與無異動。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -573,7 +573,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [match-time-cell] 比賽時間欄 / Match Time Cell / `121:293737` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293737
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`35c3bb31fbf0bcb0b2c1871890fefee83789eef1`
-- Component Properties: 狀態 (VARIANT: 有比賽時間/無比賽時間)
+- Component Properties: 狀態 (VARIANT: 有比賽時間/無比賽時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格列中顯示比賽時間，支援有/無比賽時間狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -601,7 +601,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-table-row-base] 事件表格列基底 / Event Table Row Base / `121:293746` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293746
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dc6d3befa971a349c2ad9e6ecbb56e3bea14f535`
-- Component Properties: title#5323:0 (TEXT)；input 2#5323:3 (TEXT)；input 1#5323:6 (TEXT)；Show input 2#5324:9 (BOOLEAN)；Show >#5324:12 (BOOLEAN)；Show title#5324:15 (BOOLEAN)；input 3#5324:17 (TEXT)；Show input 3#5324:21 (BOOLEAN)；Property 1 (VARIANT: Default)
+- Component Properties: title#5323:0 (TEXT)；input 2#5323:3 (TEXT)；input 1#5323:6 (TEXT)；Show input 2#5324:9 (BOOLEAN)；Show >#5324:12 (BOOLEAN)；Show title#5324:15 (BOOLEAN)；input 3#5324:17 (TEXT)；Show input 3#5324:21 (BOOLEAN)；Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 作為事件表格資料列的共用基底，承載標題與多欄資料內容。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -629,7 +629,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-list-tab] 事件列表頁籤 / Event List Tab / `121:293758` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293758
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`65acbefcfd89d9f835518ae8c914eb7485d61596`
-- Component Properties: Show left num#5305:0 (BOOLEAN)；Show right num#5305:5 (BOOLEAN)；Left Text#5305:10 (TEXT)；Right Text#5305:15 (TEXT)；type (VARIANT: left/right)；status (VARIANT: default/hover)
+- Component Properties: Show left num#5305:0 (BOOLEAN)；Show right num#5305:5 (BOOLEAN)；Left Text#5305:10 (TEXT)；Right Text#5305:15 (TEXT)；type (VARIANT: left/right)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供左右頁籤及 default/hover 狀態，用於切換事件列表分類。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -657,7 +657,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [mobile-event-list] 行動版事件列表 / Mobile Event List / `121:294440` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294440
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fbf94bc382fa839939f9ec7d300e2775ba89d1b0`
-- Component Properties: Show right button#4018:6 (BOOLEAN)；Show left button#4018:9 (BOOLEAN)；Property 1 (VARIANT: 運動事件/一般議題事件/一般議題事件--非近期/Rush Hour)
+- Component Properties: Show right button#4018:6 (BOOLEAN)；Show left button#4018:9 (BOOLEAN)；Property 1 (VARIANT: 運動事件/一般議題事件/一般議題事件--非近期/Rush Hour)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Mobile 事件列表內容，支援運動事件、一般議題事件、非近期議題與 Rush Hour variants。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -685,7 +685,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [event-wager-filter] 事件／投分篩選器 / Event and Wager Filter / `122:525444` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=122-525444
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`63ac235f6c9e9d82461302fa567db7746830a264`
-- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/投分篩選-enable/投分篩選)
+- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/投分篩選-enable/投分篩選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 切換事件條件篩選與投分條件篩選，包含啟用/收合狀態，用於事件管理列表的 Desktop、Tablet 與 Mobile 版面。
 - 遷移備註: 跨 RWD、跨 Theme 且有正式產品畫面重用
 - Page Type: List
@@ -697,7 +697,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component: 8 uses/6 screens; viewports=mobile,desktop,tablet; themes=dark,light; Component Set variants=4; Figma key=5272c2e1042b7c4d90ffca67136d7feb9d428c30；4 個 variants 分別為事件篩選、事件篩選-enable、投分篩選、投分篩選-enable；使用證據跨 desktop/tablet/mobile 與 Light/Dark
+- Evidence: migrationScore=105; usageEvidence=figma-main-component: 8 uses/6 screens; viewports=mobile,desktop,tablet; themes=dark,light; Component Set variants=4；4 個 variants 分別為事件篩選、事件篩選-enable、投分篩選、投分篩選-enable；使用證據跨 desktop/tablet/mobile 與 Light/Dark
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.0-20260508 / 5776:68650
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -713,7 +713,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [parameter-setting-content] 參數設定內容 / Parameter Setting Content / `121:552347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-552347
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a38877a5ea78b4130d90fcca9c6e552ff58f99b0`
-- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour 計時設定)；status (VARIANT: open/close)；device (VARIANT: PC/Mobile/Tablet)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)
+- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour 計時設定)；status (VARIANT: open/close)；device (VARIANT: PC/Mobile/Tablet)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現手續費、投注限制、流動性、買單檔次、Netwin 盈利與 Rush Hour 等參數區塊。
 - 遷移備註: 正式使用證據充分
 - Page Type: Edit
@@ -741,7 +741,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [report-detail-content] 詳細資訊內容 / Detail Information Content / `155:347232` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347232
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a358baee21c9837fbd82209c4c365f57df661d9b`
-- Component Properties: 內容#8049:11 (TEXT)；數值#8049:14 (TEXT)；數值2#8049:17 (TEXT)；年#8049:20 (TEXT)；月#8049:25 (TEXT)；日#8049:30 (TEXT)；時#8049:35 (TEXT)；分#8049:40 (TEXT)；秒#8049:45 (TEXT)；Show +#8049:50 (BOOLEAN)；Show -#8049:57 (BOOLEAN)；Show 小數後四位#8049:64 (BOOLEAN)；分類 (VARIANT: 通用/選項方向/注單狀態/注單遊戲類型)；類型 (VARIANT: 事件狀態/訂單狀態/訂單類型/文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down/Orderbook/Rush Hour/Unsettled/Settled/Cancelled)
+- Component Properties: 內容#8049:11 (TEXT)；數值#8049:14 (TEXT)；數值2#8049:17 (TEXT)；年#8049:20 (TEXT)；月#8049:25 (TEXT)；日#8049:30 (TEXT)；時#8049:35 (TEXT)；分#8049:40 (TEXT)；秒#8049:45 (TEXT)；Show +#8049:50 (BOOLEAN)；Show -#8049:57 (BOOLEAN)；Show 小數後四位#8049:64 (BOOLEAN)；分類 (VARIANT: 通用/選項方向/注單狀態/注單遊戲類型)；類型 (VARIANT: 事件狀態/訂單狀態/訂單類型/文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down/Orderbook/Rush Hour/Unsettled/Settled/Cancelled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一詳細資訊中的文字、狀態、數值、盈虧、時間、方向、遊戲類型與注單狀態等內容呈現。
 - 遷移備註: 跨事件損益查詢與投分歷史詳細資訊可重用，且實際使用與依賴量高。
 - Page Type: List
@@ -769,7 +769,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [report-detail-selectable-item] 詳細資訊選取項目 / Detail Selectable Item / `155:347295` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347295
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`da386b6d5ded24d9306279128abcf271dc6fa0f1`
-- Component Properties: 項目#8049:4 (TEXT)；狀態 (VARIANT: 已勾選/取消)
+- Component Properties: 項目#8049:4 (TEXT)；狀態 (VARIANT: 已勾選/取消)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供詳細資訊或設定清單中的可選項目，區分已勾選與取消狀態。
 - 遷移備註: 沒有直接畫面 instance，但有 72 次正式巢狀依賴；依規則不可因 screen 使用量為 0 否定。
 - Page Type: List
@@ -797,7 +797,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [report-detail-row] 詳細資訊資料列 / Detail Information Row / `155:347304` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347304
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f6102b88a2579e06f78a55a64d11260394084e14`
-- Component Properties: 標題#8049:9 (TEXT)；Show info#10057:73 (BOOLEAN)；位置 (VARIANT: 上/中/下)
+- Component Properties: 標題#8049:9 (TEXT)；Show info#10057:73 (BOOLEAN)；位置 (VARIANT: 上/中/下)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 將標題與內容組合成詳細資訊資料列，依位於區塊上方、中間或下方調整樣式。
 - 遷移備註: 跨兩種報表詳細資訊高頻重用，並處理資料列邊界位置差異。
 - Page Type: List
@@ -825,7 +825,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [report-filter-collapse-button] 篩選器收合按鈕 / Filter Collapse Button / `155:347351` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347351
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ca43ee16363b96c63c39c22079e8e8a8a8d1f66c`
-- Component Properties: 收合狀態 (VARIANT: 開啟/關閉)；按鈕狀態 (VARIANT: default/hover)
+- Component Properties: 收合狀態 (VARIANT: 開啟/關閉)；按鈕狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制報表篩選器區塊的展開與收合，並提供預設與 Hover 視覺狀態。
 - 遷移備註: 正式 Desktop 報表畫面持續使用，並具有完整收合與 hover 狀態。
 - Page Type: List
@@ -853,7 +853,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [report-detail-order-type] 詳細資訊訂單類型 / Detail Order Type / `155:347372` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347372
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2f8154043d0bfa5c9627c4ee21e1fc1ae8574adf`
-- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour/補扣單)
+- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour/補扣單)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件損益或投分歷史詳細資訊中標示訂單類型，包括買入、賣出、結算、退款、Rush Hour 與補扣單。
 - 遷移備註: 正式詳細資訊流程跨 RWD/Theme 使用，訂單類型 variants 完整。
 - Page Type: List
@@ -881,7 +881,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [scroll-control] 捲動控制 / Scroll Control / `165:1160614` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160614
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`559678f7c0dbda1356c6ef75eadc3b51acaa087a`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供新增與編輯參數彈窗內長內容的捲動控制。
 - 遷移備註: 跨 32 個畫面使用的通用 pattern
 - Page Type: List
@@ -909,7 +909,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [detail-info-content] 詳細資訊內容 / Detail Info Content / `190:224891` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-224891
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`34ceac9293fd1da2d7f98d77e50ee7cd62dfdb1f`
-- Component Properties: 內容#8049:11 (TEXT)；數值#8049:14 (TEXT)；數值2#8049:17 (TEXT)；年#8049:20 (TEXT)；月#8049:25 (TEXT)；日#8049:30 (TEXT)；時#8049:35 (TEXT)；分#8049:40 (TEXT)；秒#8049:45 (TEXT)；Show +#8049:50 (BOOLEAN)；Show -#8049:57 (BOOLEAN)；Show 小數後四位#8049:64 (BOOLEAN)；類型 (VARIANT: 文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down/帳號狀態/雙重驗證狀態/身份組)；狀態 (VARIANT: 未啟用/已停用/已啟用/無)；身份組 (VARIANT: 營運人員/客服人員/尚未指派/無)
+- Component Properties: 內容#8049:11 (TEXT)；數值#8049:14 (TEXT)；數值2#8049:17 (TEXT)；年#8049:20 (TEXT)；月#8049:25 (TEXT)；日#8049:30 (TEXT)；時#8049:35 (TEXT)；分#8049:40 (TEXT)；秒#8049:45 (TEXT)；Show +#8049:50 (BOOLEAN)；Show -#8049:57 (BOOLEAN)；Show 小數後四位#8049:64 (BOOLEAN)；類型 (VARIANT: 文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down/帳號狀態/雙重驗證狀態/身份組)；狀態 (VARIANT: 未啟用/已停用/已啟用/無)；身份組 (VARIANT: 營運人員/客服人員/尚未指派/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示帳號詳細資訊中的各種值，支援文字、數值、盈虧、時間、帳號/2FA 狀態與身份組等格式。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -937,7 +937,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [detail-info-row] 詳細資訊列 / Detail Info Row / `190:224958` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-224958
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`32c9c7194ea9594aaa0f16115d1b8086cd0dcfb7`
-- Component Properties: 標題#8049:9 (TEXT)；位置 (VARIANT: 上/中/下)
+- Component Properties: 標題#8049:9 (TEXT)；位置 (VARIANT: 上/中/下)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合詳細資訊的標題與內容，並依上、中、下位置處理列樣式。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -965,7 +965,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [account-table-column-header] 表格欄位標頭 / Table Column Header / `190:224973` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-224973
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3a82a7de08fc6288e850337dd7411fb256c28a8d`
-- Component Properties: 類別 (VARIANT: 帳號/名稱/所屬身份/雙重驗證啟用/最後登入時間/操作/帳號啟用狀態)
+- Component Properties: 類別 (VARIANT: 帳號/名稱/所屬身份/雙重驗證啟用/最後登入時間/操作/帳號啟用狀態)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示帳號管理列表各欄位的欄名，例如帳號、使用者名稱、身份、狀態、最後登入與操作。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -993,7 +993,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [date-time-value] 日期時間 / Date Time Value / `190:225003` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225003
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0bae28fbe5ff5dcfa43f79ab4ac51157e558dc45`
-- Component Properties: 年#8034:4 (TEXT)；月#8034:6 (TEXT)；日#8034:8 (TEXT)；時#8034:10 (TEXT)；分#8034:12 (TEXT)；秒#8034:14 (TEXT)；類型 (VARIANT: Default)
+- Component Properties: 年#8034:4 (TEXT)；月#8034:6 (TEXT)；日#8034:8 (TEXT)；時#8034:10 (TEXT)；分#8034:12 (TEXT)；秒#8034:14 (TEXT)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以年、月、日與時間格式顯示帳號相關的日期時間資料。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -1021,7 +1021,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [identifier-and-value] 編號與數值 / Identifier and Value / `190:225020` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225020
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f15744b8135be9ebdc1a56f93aeb82fb72603657`
-- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；名稱#8034:22 (TEXT)；系統編號#8034:93 (TEXT)；正數#8035:0 (TEXT)；負數#8035:12 (TEXT)；數值2#8035:24 (TEXT)；Show 小數後四位#8035:36 (BOOLEAN)；Show +#8035:48 (BOOLEAN)；Show -#8035:60 (BOOLEAN)；類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/無名稱/Yes/No/Up/Down/無方向)
+- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；名稱#8034:22 (TEXT)；系統編號#8034:93 (TEXT)；正數#8035:0 (TEXT)；負數#8035:12 (TEXT)；數值2#8035:24 (TEXT)；Show 小數後四位#8035:36 (BOOLEAN)；Show +#8035:48 (BOOLEAN)；Show -#8035:60 (BOOLEAN)；類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/無名稱/Yes/No/Up/Down/無方向)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一呈現編號、名稱、數值、盈虧、方向與布林值等表格資料格式。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -1049,7 +1049,7 @@
 - Figma: 03_共用模式 / Shared Patterns / [enabled-status-field] 啟用狀態欄位 / Enabled Status Field / `198:254089` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-254089
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`f9ec3795016c925dc1d8d31a7cab0df1bc1644fb`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在表單中顯示「啟用狀態」標籤與切換控制，供新增與編輯類別彈窗共用。
 - 遷移備註: 通用啟用狀態欄位被新增與編輯彈窗共同依賴
 - Page Type: List
@@ -1077,7 +1077,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-creation-time-filter] 事件建立時間篩選器 / Event Creation Time Filter / `93:7154` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7154
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2f6e0486119fe3c3557cd133dcd2763183c121c1`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件建立日期/時間範圍限制事件列表結果。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1105,7 +1105,7 @@
 - Figma: 04_功能元件 / Feature Components / [desktop-tablet-filter-panel] 桌面平板篩選面板 / Desktop Tablet Filter Panel / `93:7166` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7166
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cf5376507c30c17173f64326d94f3aa95382f030`
-- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/投分篩選-enable/投分篩選)
+- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/投分篩選-enable/投分篩選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面與平板版承載事件篩選/投分篩選內容，並切換收合或啟用狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1133,7 +1133,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-image-cell] 事件圖片資料格 / Event Image Cell / `93:7291` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7291
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`196d2e275e8d9a4ef3bd54f7a0600c74609865b2`
-- Component Properties: 類型 (VARIANT: topic/sport)；收合狀態 (VARIANT: 關閉/開啟)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 類型 (VARIANT: topic/sport)；收合狀態 (VARIANT: 關閉/開啟)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件縮圖，依 topic/sport、過期與收合狀態切換。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1161,7 +1161,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-created-time-cell] 事件建立時間資料格 / Event Created Time Cell / `93:7514` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7514
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6fff4aa4a52817b1709df771baad8adb5d29a048`
-- Component Properties: 年#5913:0 (TEXT)；月#5913:7 (TEXT)；日#5913:14 (TEXT)；時#5913:21 (TEXT)；分#5913:28 (TEXT)；秒#5913:35 (TEXT)；時間狀態 (VARIANT: 尚未過期/已過期)；元件類型 (VARIANT: 選項事件/主事件)；收合狀態 (VARIANT: 開啟/關閉)
+- Component Properties: 年#5913:0 (TEXT)；月#5913:7 (TEXT)；日#5913:14 (TEXT)；時#5913:21 (TEXT)；分#5913:28 (TEXT)；秒#5913:35 (TEXT)；時間狀態 (VARIANT: 尚未過期/已過期)；元件類型 (VARIANT: 選項事件/主事件)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格顯示建立時間，並依主/選項事件、過期與收合狀態調整。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1189,7 +1189,7 @@
 - Figma: 04_功能元件 / Feature Components / [desktop-inventory-display] 桌面庫存顯示 / Desktop Inventory Display / `93:8114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8114
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`56f56f2ca842bb7c14987383d921c191049815df`
-- Component Properties: 選項方向 (VARIANT: Yes/No/Up/Down)；事件類型 (VARIANT: 多選項事件/單選項事件)
+- Component Properties: 選項方向 (VARIANT: Yes/No/Up/Down)；事件類型 (VARIANT: 多選項事件/單選項事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示 Yes/No/Up/Down 等方向的庫存值，支援單/多選項事件。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1217,7 +1217,7 @@
 - Figma: 04_功能元件 / Feature Components / [desktop-published-event-row] 桌面已上架事件列 / Desktop Published Event Row / `93:8187` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8187
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8c6055cd67a6fa25495ade9b8e5512db6dc24e43`
-- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；投分類型 (VARIANT: 投分中/等待投分/結算中/已結算/無)；收合類型 (VARIANT: 無/關閉/開啟)
+- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；投分類型 (VARIANT: 投分中/等待投分/結算中/已結算/無)；收合類型 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝桌面已上架主事件列，整合事件類型、投分狀態與收合狀態的欄位元件。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1245,7 +1245,7 @@
 - Figma: 04_功能元件 / Feature Components / [desktop-unpublished-event-row] 桌面未上架事件列 / Desktop Unpublished Event Row / `93:8284` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8284
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a19e849490a93db97daa2b522871b4ce801d31fa`
-- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；時間狀態 (VARIANT: 尚未過期/已過期)；收合狀態 (VARIANT: 開啟/無/關閉)
+- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；時間狀態 (VARIANT: 尚未過期/已過期)；收合狀態 (VARIANT: 開啟/無/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝桌面未上架主事件列，整合事件類型、過期狀態與收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1273,7 +1273,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-content-divider] 內容分隔線 / Content Divider / `93:8895` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8895
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c7338a2973b3fae4b4b9cc8971c90d87b75326b2`
-- Component Properties: Property 1 (VARIANT: 1/2)
+- Component Properties: Property 1 (VARIANT: 1/2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件資料卡片/摘要區分隔不同資訊列，提供兩種線條 variant。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1301,7 +1301,7 @@
 - Figma: 04_功能元件 / Feature Components / [desktop-unpublished-option-event-row] 桌面未上架選項事件列 / Desktop Unpublished Option Event Row / `93:8991` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8991
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d1b08ce07940b05f7389efad9780c9a9724472f`
-- Component Properties: 時間狀態 (VARIANT: 已過期/尚未過期)；事件類型 (VARIANT: 時間軸/單一事件結果)
+- Component Properties: 時間狀態 (VARIANT: 已過期/尚未過期)；事件類型 (VARIANT: 時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝桌面未上架選項事件列，支援時間軸/單一事件結果與過期狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1329,7 +1329,7 @@
 - Figma: 04_功能元件 / Feature Components / [desktop-published-option-event-row] 桌面已上架選項事件列 / Desktop Published Option Event Row / `93:9016` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-9016
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`54d6ace33e2f59a2cab2b1ad3d08c4894b70052c`
-- Component Properties: 投分類型 (VARIANT: 投分中/已結算/等待投分/結算中)；事件類型 (VARIANT: 時間軸/單一事件結果)
+- Component Properties: 投分類型 (VARIANT: 投分中/已結算/等待投分/結算中)；事件類型 (VARIANT: 時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝桌面已上架選項事件列，支援不同投分狀態與事件類型。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -1357,7 +1357,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-form-action-button] 事件表單操作按鈕 / Event Form Action Button / `110:112178` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112178
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d85e90c57e971de843d0d6a47b067c0ca58fc0c7`
-- Component Properties: type (VARIANT: 確認新增事件/確認編輯事件/教學指引/儲存編輯內容/儲存所有編輯內容/AI生成所有翻譯/上傳圖片/清空所有內容/移除圖片/AI生成其他語系翻譯/新增級距/回復預設值/儲存編輯/回復參數預設值/新增選項/匯入AI建議議題/新增選項事件/執行推算/批次更新參數)；status (VARIANT: default/hover)
+- Component Properties: type (VARIANT: 確認新增事件/確認編輯事件/教學指引/儲存編輯內容/儲存所有編輯內容/AI生成所有翻譯/上傳圖片/清空所有內容/移除圖片/AI生成其他語系翻譯/新增級距/回復預設值/儲存編輯/回復參數預設值/新增選項/匯入AI建議議題/新增選項事件/執行推算/批次更新參數)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增／編輯事件流程的操作按鈕集合。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -1385,7 +1385,7 @@
 - Figma: 04_功能元件 / Feature Components / [ai-suggested-topic-item] AI 建議議題項目 / AI Suggested Topic Item / `113:223195` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223195
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e89d761af0646fba33fa73473f16df847c739616`
-- Component Properties: Property 1 (VARIANT: PC/Mobile/Tablet)
+- Component Properties: Property 1 (VARIANT: PC/Mobile/Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示單筆 AI／第三方建議議題的圖片、事件資訊、標籤與匯入操作，並提供 Desktop、Tablet、Mobile 版型。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -1397,7 +1397,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=36、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=PC,Mobile,Tablet；Figma key=6e841d5ee9eed6bad3beea4c3d44df513795394a
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=36、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=PC,Mobile,Tablet
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4370:117423
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -1413,7 +1413,7 @@
 - Figma: 04_功能元件 / Feature Components / [ai-suggested-topic-review-dialog] AI 建議審核內容列表彈窗 / AI Suggested Topic Review Dialog / `113:223410` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223410
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`70a8e2bfd3ce1c97726b077a3434f809f7a3b5dd`
-- Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示可篩選的 AI／第三方建議議題清單，供營運人員檢視來源、時間與事件資料並選擇匯入，支援 Desktop、Tablet、Mobile。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -1425,7 +1425,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=0、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=PC,Tablet,Mobile；Figma key=a9639570b3d25a0bf3ab909a99a7ebe4038e60f5
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=0、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=PC,Tablet,Mobile
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4370:152855
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -1441,7 +1441,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-action-group] 事件操作區 / Event Action Group / `114:76677` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76677
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e359acab8401a7c4114d05097a147bf9e53be93d`
-- Component Properties: 收合狀態 (VARIANT: disable)；元件類型 (VARIANT: 主事件)
+- Component Properties: 收合狀態 (VARIANT: disable)；元件類型 (VARIANT: 主事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供時間軸事件的編輯與更多操作入口。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -1469,7 +1469,7 @@
 - Figma: 04_功能元件 / Feature Components / [ai-review-single-result-content] AI 建議單一結果審核內容 / AI Suggested Single-result Review Content / `116:230670` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230670
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`510684cdbb4060e503743194d0295db51de6a972`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 單一結果事件的審核彈窗內容。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -1497,7 +1497,7 @@
 - Figma: 04_功能元件 / Feature Components / [ai-wager-option-input] AI 建議選項輸入列 / AI Suggested Wager Option Input / `116:231095` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-231095
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`168adbfe4126913e4cab77ab46142bae3280c46a`
-- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty/error)
+- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選項名稱／初始價格輸入列。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -1525,7 +1525,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-category-selector] 批次更新參數分類選擇器 / Batch Parameter Category Selector / `121:293331` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293331
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8572692d81a3b63c5e649f74a4d21728887d54cf`
-- Component Properties: Property 1 (VARIANT: 顯示全部事件類型)
+- Component Properties: Property 1 (VARIANT: 顯示全部事件類型)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在批次更新流程中選擇欲修改的參數分類。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1553,7 +1553,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-selector] 批次更新參數選擇器 / Batch Parameter Selector / `121:293334` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293334
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`be8e78ccb99051a0ab633c56ff96612e1b9236e6`
-- Component Properties: Property 1 (VARIANT: 系統建立議題優先)
+- Component Properties: Property 1 (VARIANT: 系統建立議題優先)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在批次更新流程中選擇實際要修改的參數項目。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1581,7 +1581,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-new-value-input] 批次更新參數新值輸入 / Batch Parameter New Value Input / `121:293337` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293337
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`eadc1ca3ec28b30bb106eaeacceefdcb1238194a`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 輸入批次更新要套用的新參數值，包含預設與已填寫狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1609,7 +1609,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-update-button] 參數批次更新按鈕 / Batch Parameter Update Button / `121:293649` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293649
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`284df007246f0cf95414bfd7a417e5e9244f7915`
-- Component Properties: Property 1 (VARIANT: 參數批次更新)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 參數批次更新)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 開啟複數事件參數批次更新流程，包含 default 與 hover 狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1637,7 +1637,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-help-text] 批次參數說明 / Batch Parameter Help Text / `121:293811` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293811
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2e5a7645dc9a13f59c3f73ebb041fbea20294f4e`
-- Component Properties: 說明 (VARIANT: 批次參數說明)
+- Component Properties: 說明 (VARIANT: 批次參數說明)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提示使用者僅需輸入欲異動欄位，未輸入欄位不會被修改。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1665,7 +1665,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-update-step-3] 批次參數更新 Step 3 / Batch Parameter Update Step 3 / `121:293817` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293817
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1967352f47002fb6e8e0cd13125eb00b01e98597`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 批次更新流程的確認/執行步驟內容，提供 PC&Tablet 與 Mobile variants。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1693,7 +1693,7 @@
 - Figma: 04_功能元件 / Feature Components / [batch-parameter-update-step-1-2] 批次參數更新 Step 1/2 / Batch Parameter Update Step 1 and 2 / `121:294348` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294348
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b8d7a30b215669e0b6155d9faa4bf35630346a98`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)；tab (VARIANT: 已選擇事件/更改事件參數)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)；tab (VARIANT: 已選擇事件/更改事件參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 批次更新流程的已選擇事件與更改事件參數兩個步驟，涵蓋 PC&Tablet 與 Mobile。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -1721,7 +1721,7 @@
 - Figma: 04_功能元件 / Feature Components / [current-sell-quantity] 目前掛賣量 / Current Sell Quantity / `144:4748` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4748
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`eb1bde9577499cfcdfdc15624cec3c53e477e850`
-- Component Properties: 類型 (VARIANT: 無)
+- Component Properties: 類型 (VARIANT: 無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示某個掛賣價格層目前已掛出的數量，供列表與編輯情境快速查看。
 - 遷移備註: 高頻重用的核心掛賣數據欄位。
 - Page Type: Other
@@ -1749,7 +1749,7 @@
 - Figma: 04_功能元件 / Feature Components / [current-sell-quantity-mobile] 目前掛賣量（Mobile） / Current Sell Quantity Mobile / `144:5184` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5184
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`46e502e4d34c700f45aff27d016ccbfce66dcf94`
-- Component Properties: 類型 (VARIANT: 無)
+- Component Properties: 類型 (VARIANT: 無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Mobile 版價格層資料中顯示目前掛賣量，配合行動版堆疊式資料列使用。
 - 遷移備註: 行動版專用資料呈現，使用量極高且有明確 RWD 用途。
 - Page Type: Other
@@ -1777,7 +1777,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-sell-price-mobile] 新增價格（Mobile） / Add Price Mobile / `144:5189` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5189
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6f83045f740687857704b809bded01fe4ee2cb61`
-- Component Properties: 類型 (VARIANT: 無)
+- Component Properties: 類型 (VARIANT: 無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在行動版掛賣列表中提供新增價格的資料列／入口呈現，配合新增掛賣價格流程使用。
 - 遷移備註: 新增價格流程的 Mobile 專用資料列元件，正式畫面覆蓋完整。
 - Page Type: Other
@@ -1805,7 +1805,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-status-filter] 投分狀態篩選器 / Bet Status Filter / `155:346866` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-346866
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dfdda0489e3b5eb7c6137ef67f0b201671378ff9`
-- Component Properties: Property 1 (VARIANT: 全部投分狀態/投分中/結算中/已結算/等待投分/已取消)
+- Component Properties: Property 1 (VARIANT: 全部投分狀態/投分中/結算中/已結算/等待投分/已取消)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供投分狀態篩選，讓營運人員依全部、投分中、結算中、已結算、等待投分或已取消縮小事件損益資料範圍。
 - 遷移備註: 正式事件損益查詢篩選流程跨 RWD 與 Theme 重用，狀態 variants 完整。
 - Page Type: List
@@ -1833,7 +1833,7 @@
 - Figma: 04_功能元件 / Feature Components / [default-sort-criteria-filter] 預設排序依據 / Default Sort Criteria / `155:346886` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-346886
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3eb84db02b3d852d030c91bb8cbacb22a32d9490`
-- Component Properties: Property 1 (VARIANT: 最近更新狀態的事件/最新創立的事件/最近上架的事件)
+- Component Properties: Property 1 (VARIANT: 最近更新狀態的事件/最新創立的事件/最近上架的事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓營運人員選擇事件列表的預設排序依據，包括最近更新狀態、最新創立或最近上架。
 - 遷移備註: 事件查詢正式篩選器中持續重用，且排序選項具有明確業務語意。
 - Page Type: List
@@ -1861,7 +1861,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-date-time-value] 日期時間 / Date and Time / `155:346987` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-346987
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`52c04b9785a3c981fda809333d34a47e126a930f`
-- Component Properties: 年#8034:4 (TEXT)；月#8034:6 (TEXT)；日#8034:8 (TEXT)；時#8034:10 (TEXT)；分#8034:12 (TEXT)；秒#8034:14 (TEXT)；類型 (VARIANT: Default)
+- Component Properties: 年#8034:4 (TEXT)；月#8034:6 (TEXT)；日#8034:8 (TEXT)；時#8034:10 (TEXT)；分#8034:12 (TEXT)；秒#8034:14 (TEXT)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一呈現事件建立、投分開始／結束、結算完成等日期與時間資料。
 - 遷移備註: 為事件損益表格多個時間欄位共用的高頻資料元件。
 - Page Type: List
@@ -1889,7 +1889,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-identifier-and-value] 編號與數值 / Identifier and Numeric Value / `155:347002` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347002
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bef132b39eaaa20b4bc574e70784467626bbc2a6`
-- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；名稱#8034:22 (TEXT)；系統編號#8034:93 (TEXT)；正數#8035:0 (TEXT)；負數#8035:12 (TEXT)；數值2#8035:24 (TEXT)；Show 小數後四位#8035:36 (BOOLEAN)；Show +#8035:48 (BOOLEAN)；Show -#8035:60 (BOOLEAN)；類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/名稱(特殊)/無名稱/Yes/No/Up/Down/無方向)
+- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；名稱#8034:22 (TEXT)；系統編號#8034:93 (TEXT)；正數#8035:0 (TEXT)；負數#8035:12 (TEXT)；數值2#8035:24 (TEXT)；Show 小數後四位#8035:36 (BOOLEAN)；Show +#8035:48 (BOOLEAN)；Show -#8035:60 (BOOLEAN)；類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/名稱(特殊)/無名稱/Yes/No/Up/Down/無方向)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一顯示事件編號、名稱、一般數值、正負盈虧、選項結果與方向結果，並處理無資料狀態。
 - 遷移備註: 本批使用量最高的資料顯示元件之一，承載列表多種核心值型態。
 - Page Type: List
@@ -1917,7 +1917,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-column-header] 投分歷史欄位表頭 / Bet History Column Header / `155:1162929` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1162929
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e1b459a770a05b89b0dcb276280b3c7812526fdf`
-- Component Properties: 類別 (VARIANT: 序列/事件編號/事件名稱/玩家選項/選項方向/商戶名稱/會員編號/數量/訂單類型/投入成本/價格/玩家賠付/手續費/結算費/投分結果/方向結果/記錄時間/類別18)
+- Component Properties: 類別 (VARIANT: 序列/事件編號/事件名稱/玩家選項/選項方向/商戶名稱/會員編號/數量/訂單類型/投入成本/價格/玩家賠付/手續費/結算費/投分結果/方向結果/記錄時間/類別18)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 定義投分歷史表格各欄位表頭，包括事件、玩家、商戶、訂單、成本、價格、賠付、費用、結果、時間與操作欄位。
 - 遷移備註: 高頻跨 RWD/Theme 使用，完整定義投分歷史欄位，是正式資料表基礎元件。
 - Page Type: List
@@ -1945,7 +1945,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-data-row] 投分歷史資料列 / Bet History Data Row / `155:1163010` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1163010
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5efd3724dd480e4a05fb2e1aea600919a967d560`
-- Component Properties: Show 序列#10057:9 (BOOLEAN)；Show 事件編號#10057:18 (BOOLEAN)；Show 事件名稱#10057:21 (BOOLEAN)；Show 玩家選項#10057:24 (BOOLEAN)；Show 選項方向#10057:27 (BOOLEAN)；Show 商戶名稱#10057:30 (BOOLEAN)；Show 會員編號#10057:33 (BOOLEAN)；Show 數量#10057:36 (BOOLEAN)；Show 訂單類型#10057:39 (BOOLEAN)；Show 投入成本#10057:42 (BOOLEAN)；Show 價格#10057:45 (BOOLEAN)；Show 玩家賠付#10057:48 (BOOLEAN)；Show 手續費#10057:51 (BOOLEAN)；Show 結算費#10057:54 (BOOLEAN)；Show 選項結果#10057:57 (BOOLEAN)；Show 方向結果#10057:60 (BOOLEAN)；Show 記錄時間#10057:63 (BOOLEAN)；Show 操作#10057:66 (BOOLEAN)；背景 (VARIANT: 黑底/白底)
+- Component Properties: Show 序列#10057:9 (BOOLEAN)；Show 事件編號#10057:18 (BOOLEAN)；Show 事件名稱#10057:21 (BOOLEAN)；Show 玩家選項#10057:24 (BOOLEAN)；Show 選項方向#10057:27 (BOOLEAN)；Show 商戶名稱#10057:30 (BOOLEAN)；Show 會員編號#10057:33 (BOOLEAN)；Show 數量#10057:36 (BOOLEAN)；Show 訂單類型#10057:39 (BOOLEAN)；Show 投入成本#10057:42 (BOOLEAN)；Show 價格#10057:45 (BOOLEAN)；Show 玩家賠付#10057:48 (BOOLEAN)；Show 手續費#10057:51 (BOOLEAN)；Show 結算費#10057:54 (BOOLEAN)；Show 選項結果#10057:57 (BOOLEAN)；Show 方向結果#10057:60 (BOOLEAN)；Show 記錄時間#10057:63 (BOOLEAN)；Show 操作#10057:66 (BOOLEAN)；背景 (VARIANT: 黑底/白底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現一筆投分歷史資料，依欄位設定顯示事件、玩家、商戶、訂單、金額、結果、時間與操作。
 - 遷移備註: 正式產品畫面大量使用，並以布林屬性控制欄位顯示及白底／黑底資料列狀態。
 - Page Type: List
@@ -1973,7 +1973,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-table-header] 投分歷史表頭 / Bet History Table Header / `155:1163049` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1163049
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dce6d24c50a64c26fc09a37c1367ed3f6f5be4e7`
-- Component Properties: Show 序列#10030:0 (BOOLEAN)；Show 事件編號#10030:2 (BOOLEAN)；Show 事件名稱#10030:4 (BOOLEAN)；Show 玩家選項#10030:6 (BOOLEAN)；Show 選項方向#10030:8 (BOOLEAN)；Show 商戶名稱#10030:10 (BOOLEAN)；Show 會員編號#10030:12 (BOOLEAN)；Show 數量#10030:14 (BOOLEAN)；Show 訂單類型#10030:16 (BOOLEAN)；Show 投入成本#10030:18 (BOOLEAN)；Show 價格#10030:20 (BOOLEAN)；Show 玩家賠付#10030:22 (BOOLEAN)；Show 手續費#10030:24 (BOOLEAN)；Show 結算費#10030:26 (BOOLEAN)；Show 選項結果#10030:28 (BOOLEAN)；Show 方向結果#10030:30 (BOOLEAN)；Show 記錄時間#10030:32 (BOOLEAN)；類型 (VARIANT: Default)
+- Component Properties: Show 序列#10030:0 (BOOLEAN)；Show 事件編號#10030:2 (BOOLEAN)；Show 事件名稱#10030:4 (BOOLEAN)；Show 玩家選項#10030:6 (BOOLEAN)；Show 選項方向#10030:8 (BOOLEAN)；Show 商戶名稱#10030:10 (BOOLEAN)；Show 會員編號#10030:12 (BOOLEAN)；Show 數量#10030:14 (BOOLEAN)；Show 訂單類型#10030:16 (BOOLEAN)；Show 投入成本#10030:18 (BOOLEAN)；Show 價格#10030:20 (BOOLEAN)；Show 玩家賠付#10030:22 (BOOLEAN)；Show 手續費#10030:24 (BOOLEAN)；Show 結算費#10030:26 (BOOLEAN)；Show 選項結果#10030:28 (BOOLEAN)；Show 方向結果#10030:30 (BOOLEAN)；Show 記錄時間#10030:32 (BOOLEAN)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合完整投分歷史表頭，並依自訂欄位設定控制各欄位是否顯示。
 - 遷移備註: 40 個正式畫面直接使用，封裝完整投分歷史表格欄位表頭。
 - Page Type: List
@@ -2001,7 +2001,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-order-type] 投分訂單類型 / Bet Order Type / `155:1163069` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1163069
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2bf44733626804bf15f4eafd91311aaac5a2e841`
-- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour/補扣單)
+- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour/補扣單)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示投分訂單類型，包括買入／賣出市價或限價、Win/Lose 結算、退款、Rush Hour 與補扣單。
 - 遷移備註: 跨 38 個正式畫面與 2 個元件重用，且包含最新版新增的「補扣單」類型。
 - Page Type: List
@@ -2029,7 +2029,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-member-id-search] 會員編號搜尋 / Member ID Search / `155:1163097` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1163097
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`17d48b2e7dcd3c04d0331c3d18b16eb863ca141f`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓營運人員輸入會員編號篩選投分歷史，支援空白與已輸入狀態。
 - 遷移備註: 40 個正式畫面跨 Desktop/Tablet/Mobile 與 Light/Dark 使用，具 Default/Filled variants。
 - Page Type: List
@@ -2057,7 +2057,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-transaction-id-search] 注單交易序號搜尋 / Bet Transaction ID Search / `155:1163102` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1163102
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`266bf32878eac15bfbf3ed37fb75657fbe5a43a8`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓營運人員輸入注單交易序號篩選投分歷史，支援空白與已輸入狀態。
 - 遷移備註: 40 個正式畫面跨 Desktop/Tablet/Mobile 與 Light/Dark 使用，具 Default/Filled variants。
 - Page Type: List
@@ -2085,7 +2085,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-history-detail-dialog] 投分歷史詳細資訊 / Bet History Detail Dialog / `155:1163179` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-1163179
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8e504a1570d610db73c8e939ac92042d1e34e33d`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: Rush Hour/二元-lose結算/二元-賣出市價)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: Rush Hour/二元-lose結算/二元-賣出市價)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以對話框顯示單筆投分詳細資訊，涵蓋 Rush Hour、二元 Lose 結算與二元賣出市價等訂單情境。
 - 遷移備註: 18 個正式產品畫面直接使用，跨 Desktop/Tablet/Mobile 與 Light/Dark；Component Set 有 6 個裝置×類型 variants。
 - Page Type: List
@@ -2113,7 +2113,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-order-info-dialog] 注單資訊 / Order Details Dialog / `160:822517` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=160-822517
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c7a010f1b65e411ea0dbc80240889506bd3e6467`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；遊戲類型 (VARIANT: Rush Hour/Orderbook)；注單狀態 (VARIANT: Unsettled/Settled/Cancelled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；遊戲類型 (VARIANT: Rush Hour/Orderbook)；注單狀態 (VARIANT: Unsettled/Settled/Cancelled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示單筆注單的完整資訊；依裝置、遊戲類型與注單狀態切換欄位與版面，用於投分歷史紀錄的注單資訊彈窗。
 - 遷移備註: 高使用量、跨 RWD 且具完整狀態變體，是此功能應遷移的核心元件
 - Page Type: List
@@ -2141,7 +2141,7 @@
 - Figma: 04_功能元件 / Feature Components / [bet-amount-tooltip] 注單金額提示 / Bet Amount Tooltip / `160:822680` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=160-822680
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a4f77ec07879ddc8b5718ccbe47b8f489a6de8fe`
-- Component Properties: 項目 (VARIANT: 投分額/結算額)
+- Component Properties: 項目 (VARIANT: 投分額/結算額)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在注單相關欄位旁補充說明投分額或結算額的意義，提供兩種提示內容變體。
 - 遷移備註: 有正式 variants，但缺少產品畫面使用證據，先保留為候選而非直接遷移
 - Page Type: List
@@ -2169,7 +2169,7 @@
 - Figma: 04_功能元件 / Feature Components / [data-overview-toggle] 顯示數據總覽 / Data Overview Toggle / `163:487365` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487365
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c95228f9a0906918fbe5bbf01fd26d414e1b6c10`
-- Component Properties: device (VARIANT: Tablet/Mobile)
+- Component Properties: device (VARIANT: Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Tablet 與 Mobile 顯示或收合會員訂單的數據總覽。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -2197,7 +2197,7 @@
 - Figma: 04_功能元件 / Feature Components / [data-overview-desktop] 數據總覽－PC / Desktop Data Overview / `163:487377` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487377
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`b9a33ef343dbf36f432c15ac5f33e53697d67aee`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面版會員訂單紀錄呈現數據總覽資訊。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -2225,7 +2225,7 @@
 - Figma: 04_功能元件 / Feature Components / [event-id-filter] 事件編號篩選 / Event ID Filter / `163:487576` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487576
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e4583b703310d7ee946b7c79a47b4bec1c89d88b`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件編號搜尋會員訂單紀錄。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -2253,7 +2253,7 @@
 - Figma: 04_功能元件 / Feature Components / [data-field-selector] 數據欄位 / Data Field Selector / `163:487591` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487591
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ae52d04517ac1a15651ca2fb24c9b2cc6e20e0f7`
-- Component Properties: 標題#8049:2 (TEXT)；文字#8049:3 (TEXT)；device (VARIANT: Tablet＆Mobile/PC)
+- Component Properties: 標題#8049:2 (TEXT)；文字#8049:3 (TEXT)；device (VARIANT: Tablet＆Mobile/PC)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依裝置決定會員訂單紀錄要呈現的數據欄位結構。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -2281,7 +2281,7 @@
 - Figma: 04_功能元件 / Feature Components / [custom-column-dialog] 自訂欄位顯示彈窗 / Custom Column Dialog / `163:487918` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487918
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ebc8b9b0fc3f1f1f5cf43e71cb62bb5e7c983c3c`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓後台人員選擇會員訂單紀錄要顯示的資料欄位，提供 PC／Tablet 與 Mobile 版式。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -2309,7 +2309,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-parameter-button] 編輯參數按鈕 / Edit Parameter Button / `165:1159629` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159629
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`929bebc1fc7f6b102915f4f11815084f6b76a625`
-- Component Properties: type (VARIANT: 編輯參數類別)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯參數類別)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在參數列表開啟編輯參數流程，支援 default、hover 與 disabled 狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -2337,7 +2337,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-parameter-button] 新增參數按鈕 / Add Parameter Button / `165:1159642` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159642
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6b8dfbd174f03e50fcee070b0d402b4eb34f2cbd`
-- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在參數列表開啟新增參數流程，支援 default 與 hover 狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -2365,7 +2365,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-json-parameter-dialog] 編輯 JSON 參數彈窗 / Edit JSON Parameter Dialog / `165:1159651` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159651
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3d0f2df3be895aa47ff03ac3f7745b9c94645211`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 編輯 JSON 級距表參數，提供 PC／Tablet、Mobile 與 filled／error 狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -2393,7 +2393,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-number-parameter-dialog] 編輯數字參數彈窗 / Edit Number Parameter Dialog / `165:1159728` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159728
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`03e45f35e64a1b9378c00c12f660b0dcd2c16a86`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 編輯數字型參數，提供 PC／Tablet、Mobile 與 filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2421,7 +2421,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-text-parameter-dialog] 編輯文字參數彈窗 / Edit Text Parameter Dialog / `165:1159803` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159803
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c33aaa5ea29ac041717c13a94d3f042a102c9381`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 編輯文字型參數，提供 PC／Tablet、Mobile 與 filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2449,7 +2449,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-date-parameter-dialog] 編輯日期參數彈窗 / Edit Date Parameter Dialog / `165:1159878` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159878
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3c556f0f2a397b978e38479e086c6adcbdaf3b3b`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 編輯日期型參數，提供 PC／Tablet、Mobile 與 filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2477,7 +2477,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-boolean-parameter-dialog] 編輯布林參數彈窗 / Edit Boolean Parameter Dialog / `165:1159953` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159953
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8f453fa2272b6d042531942f109e16d9e01a0184`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 編輯布林型參數，提供 PC／Tablet、Mobile 與 filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2505,7 +2505,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-json-parameter-dialog] 新增 JSON 參數彈窗 / Add JSON Parameter Dialog / `165:1160028` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160028
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`72528d34c42b305901aff8644b8376545c899fb3`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增 JSON 級距表參數，提供 PC／Tablet、Mobile 與 empty／filled／error 狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -2533,7 +2533,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-number-parameter-dialog] 新增數字參數彈窗 / Add Number Parameter Dialog / `165:1160140` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160140
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a3a9378c6f73fb580999839fcea924bb85a8153d`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增數字型參數，提供 PC／Tablet、Mobile 與 empty／filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2561,7 +2561,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-text-parameter-dialog] 新增文字參數彈窗 / Add Text Parameter Dialog / `165:1160252` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160252
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`22ccfae085a67c797f5ec6d3555069f632515327`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增文字型參數，提供 PC／Tablet、Mobile 與 empty／filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2589,7 +2589,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-date-parameter-dialog] 新增日期參數彈窗 / Add Date Parameter Dialog / `165:1160364` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160364
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b06245c59a363dcf589ff294ab61f162e28daa13`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增日期型參數，提供 PC／Tablet、Mobile 與 empty／filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2617,7 +2617,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-boolean-parameter-dialog] 新增布林參數彈窗 / Add Boolean Parameter Dialog / `165:1160476` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160476
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4028de62e15a554674fa6ae77ec6e287be51e756`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/emprt/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增布林型參數，提供 PC／Tablet、Mobile 與 empty／filled／error 狀態。
 - 遷移備註: 正式 variants，但目前無產品畫面使用證據
 - Page Type: List
@@ -2645,7 +2645,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-table-actions] 表格操作 / Table Actions / `190:225563` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225563
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a1a6091f92f9364bcce19bfb720115828d0491f6`
-- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；類型 (VARIANT: 編號)
+- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；類型 (VARIANT: 編號)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供帳號管理列表列項目的操作入口與狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2673,7 +2673,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-management-table-row] 帳號管理列表資料列 / Account Management Table Row / `190:225568` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225568
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`52a880727a18d9b33e0f7469f19f769d598bdebd`
-- Component Properties: Show 帳號#8034:43 (BOOLEAN)；Show 使用者名稱#8034:46 (BOOLEAN)；Show 最後登入時間#8034:56 (BOOLEAN)；Show 操作#8034:87 (BOOLEAN)；Show 所屬身份#10084:0 (BOOLEAN)；Show 帳號啟用狀態#10084:3 (BOOLEAN)；Show 雙重驗證啟用#10084:9 (BOOLEAN)；背景 (VARIANT: 黑底/白底)
+- Component Properties: Show 帳號#8034:43 (BOOLEAN)；Show 使用者名稱#8034:46 (BOOLEAN)；Show 最後登入時間#8034:56 (BOOLEAN)；Show 操作#8034:87 (BOOLEAN)；Show 所屬身份#10084:0 (BOOLEAN)；Show 帳號啟用狀態#10084:3 (BOOLEAN)；Show 雙重驗證啟用#10084:9 (BOOLEAN)；背景 (VARIANT: 黑底/白底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合帳號、使用者名稱、身份、啟用狀態、2FA、最後登入與操作，形成帳號管理列表的一筆資料列。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2701,7 +2701,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-management-table-header] 帳號管理列表表頭 / Account Management Table Header / `190:225587` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225587
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5f43f143b895b8ab91e1c9bc106b77371c6acbab`
-- Component Properties: Show 帳號#8034:57 (BOOLEAN)；Show 使用者名稱#8034:59 (BOOLEAN)；Show 操作#8034:85 (BOOLEAN)；Show 所屬身份#10084:14 (BOOLEAN)；Show 帳號啟用狀態#10084:16 (BOOLEAN)；Show 雙重驗證啟用#10084:18 (BOOLEAN)；Show 最後登入時間#10084:20 (BOOLEAN)；類型 (VARIANT: Default)
+- Component Properties: Show 帳號#8034:57 (BOOLEAN)；Show 使用者名稱#8034:59 (BOOLEAN)；Show 操作#8034:85 (BOOLEAN)；Show 所屬身份#10084:14 (BOOLEAN)；Show 帳號啟用狀態#10084:16 (BOOLEAN)；Show 雙重驗證啟用#10084:18 (BOOLEAN)；Show 最後登入時間#10084:20 (BOOLEAN)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合帳號管理列表的完整表頭欄位。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2729,7 +2729,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-filter-panel-desktop] 桌面版篩選區 / Desktop Filter Panel / `190:225598` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225598
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`eda18fb39a6a61dcb6e4da3159093d7fa93dc658`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載桌面版帳號管理列表的篩選器區塊。
 - 遷移備註: 有實際使用但僅覆蓋 desktop，建議先確認是否需要與其他 RWD 篩選容器合併後再遷移。
 - Page Type: List
@@ -2757,7 +2757,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-enabled-status-badge] 帳號啟用狀態標籤 / Account Enabled Status Badge / `190:225602` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225602
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8ad62a28bff06a541ccb12103a74b93d7f50b7ed`
-- Component Properties: 狀態 (VARIANT: 已啟用/已停用)
+- Component Properties: 狀態 (VARIANT: 已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在帳號列表或詳細資訊中標示帳號目前為已啟用或已停用。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2785,7 +2785,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-status-filter-panel-desktop-tablet] 帳號狀態篩選面板－桌面平板 / Account Status Filter Panel - Desktop Tablet / `190:225611` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225611
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`83a2c53324b4532db5e5ad058e623e1940a1974f`
-- Component Properties: 開關 (VARIANT: 開啟/關閉)
+- Component Properties: 開關 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面與平板版承載帳號啟用狀態及雙重驗證狀態等篩選條件。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2813,7 +2813,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-status-filter-panel-mobile] 帳號狀態篩選面板－行動版 / Account Status Filter Panel - Mobile / `190:225633` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225633
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`da7fe906eabffe29b593a721bbc9c9634daa3e39`
-- Component Properties: 開關 (VARIANT: 開啟/關閉)
+- Component Properties: 開關 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在行動版承載帳號啟用狀態及雙重驗證狀態等篩選條件。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2841,7 +2841,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-filter-toggle-buttons] 篩選器按鈕組 / Filter Toggle Buttons / `190:225653` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225653
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d9a0da3cc7f0076b1233859bb599138c21e2c37`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制帳號管理篩選器的展開/收合與按鈕互動狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2869,7 +2869,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-search-filter] 帳號搜尋篩選 / Account Search Filter / `190:225676` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225676
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fb2c181630d3ac7f747725750a6764e4aacb627c`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓管理者以使用者名稱或帳號文字搜尋帳號。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2897,7 +2897,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-enabled-status-filter] 帳號啟用狀態篩選 / Account Enabled Status Filter / `190:225683` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225683
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b95e13ed84d908c369975ca60fd4a450e39d17ea`
-- Component Properties: 類型 (VARIANT: 顯示全部帳號啟用狀態/已啟用/已停用)
+- Component Properties: 類型 (VARIANT: 顯示全部帳號啟用狀態/已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 用於篩選帳號為全部、已啟用或已停用等狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2925,7 +2925,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-info-field] 帳號資訊欄位 / Account Info Field / `190:225692` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225692
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6579757ff6bce84143703e498e1672713ece96ad`
-- Component Properties: 標題#10084:24 (TEXT)；內容#10084:25 (TEXT)；Property 1 (VARIANT: 通常/有啟用/未啟用)
+- Component Properties: 標題#10084:24 (TEXT)；內容#10084:25 (TEXT)；Property 1 (VARIANT: 通常/有啟用/未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在帳號資訊總覽中顯示欄位標題與內容，並呈現啟用或未啟用狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2953,7 +2953,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-status-summary] 帳號狀態摘要 / Account Status Summary / `190:225708` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225708
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`177bbbd850a01a88a5400d0fd4d5a032f9ba9423`
-- Component Properties: 帳號狀態 (VARIANT: 已啟用/尚未啟用)
+- Component Properties: 帳號狀態 (VARIANT: 已啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在帳號資訊總覽中顯示帳號是否已啟用。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -2981,7 +2981,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-status-item] 帳號狀態項目 / Account Status Item / `190:225715` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225715
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`a992e25f4eaaf85ac9b9d1172bc6fd4bbb1521dc`; componentSet=`—`
-- Component Properties: 標題#10090:57 (TEXT)；內容#10090:58 (TEXT)
+- Component Properties: 標題#10090:57 (TEXT)；內容#10090:58 (TEXT)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合帳號狀態設定中的標題與說明內容。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3009,7 +3009,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-form-action-button] 帳號表單操作按鈕 / Account Form Action Button / `190:225720` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225720
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9471b565d3fbd17cf78cac65019848c34621de29`
-- Component Properties: 類型 (VARIANT: 確認新增/確認編輯/取消)；status (VARIANT: default/hover)
+- Component Properties: 類型 (VARIANT: 確認新增/確認編輯/取消)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供確認新增、確認編輯與取消等表單操作及 hover 狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3037,7 +3037,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-account-button] 新增帳號按鈕 / Add Account Button / `190:225741` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225741
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8dc9520847f6c055737c624c298a42fe2e7838d3`
-- Component Properties: 類型 (VARIANT: 新增帳號)；status (VARIANT: default/hover)
+- Component Properties: 類型 (VARIANT: 新增帳號)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供新增帳號操作及預設/hover 狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3065,7 +3065,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-details] 帳號詳細資訊 / Account Details / `190:225752` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225752
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e85c461c63c31bd3e89f82cd5d08e1564f6e8842`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile/device3/device4)；啟用狀態 (VARIANT: 已啟用/已停用)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile/device3/device4)；啟用狀態 (VARIANT: 已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依裝置與帳號啟用狀態顯示帳號詳細資訊內容。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3093,7 +3093,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-action-dialog] 帳號操作彈窗 / Account Action Dialog / `190:225807` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225807
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`73871428cb41634e9454a4779cbcb1c50c86ac6a`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依裝置呈現帳號操作選項，例如顯示詳細資訊或修改密碼與安全性。
 - 遷移備註: 目前沒有直接產品畫面使用，但具有正式 Component Set／Variant 結構；保留為候選並需人工確認是否為現行流程元件。
 - Page Type: List
@@ -3121,7 +3121,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-overview] 帳號資訊總覽 / Account Overview / `190:225826` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225826
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7cd4765b899596f3c2fcb5b6590971b12bb96f39`
-- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 開啟/無/關閉)；狀態 (VARIANT: 尚未啟用/已啟用)
+- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 開啟/無/關閉)；狀態 (VARIANT: 尚未啟用/已啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 彙整帳號、使用者名稱、帳號狀態與雙重驗證狀態，並支援裝置與收合狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3149,7 +3149,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-operation-result] 帳號操作結果 / Account Operation Result / `190:225863` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-225863
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`32dc421ed3137d82a6a00c462d338a831eb803f4`
-- Component Properties: 類型 (VARIANT: 新增/編輯/刪除/停用/取消啟用)；狀態 (VARIANT: 成功/失敗)；裝置 (VARIANT: PC/Mobile)
+- Component Properties: 類型 (VARIANT: 新增/編輯/刪除/停用/取消啟用)；狀態 (VARIANT: 成功/失敗)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一呈現新增、編輯、刪除、停用與取消啟用等操作的成功/失敗結果，支援桌面與行動版。
 - 遷移備註: 目前沒有直接產品畫面使用，但具有正式 Component Set／Variant 結構；保留為候選並需人工確認是否為現行流程元件。
 - Page Type: List
@@ -3177,7 +3177,7 @@
 - Figma: 04_功能元件 / Feature Components / [account-status-section] 帳號狀態區塊 / Account Status Section / `190:226066` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-226066
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4972fbc15952db1d70598957e2921ae2488c4200`
-- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 關閉/開啟)
+- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現帳號目前啟用狀態，並提供停用或刪除等帳號狀態操作。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3205,7 +3205,7 @@
 - Figma: 04_功能元件 / Feature Components / [authenticator-status-message] 驗證器啟用訊息 / Authenticator Status Message / `190:228751` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228751
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d7305b1f29840eeb7ad7e351017263082e6c7834`
-- Component Properties: 類型 (VARIANT: 已啟用/尚未啟用)
+- Component Properties: 類型 (VARIANT: 已啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示驗證器 App 已啟用或尚未啟用的狀態訊息。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3233,7 +3233,7 @@
 - Figma: 04_功能元件 / Feature Components / [delete-account-button] 刪除帳號按鈕 / Delete Account Button / `190:228760` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228760
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a3f52a5bd19e1877ff88460916d38799a72dfcc2`
-- Component Properties: 帳號狀態 (VARIANT: Default/Hover)
+- Component Properties: 帳號狀態 (VARIANT: Default/Hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供刪除帳號操作及預設/hover 狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3261,7 +3261,7 @@
 - Figma: 04_功能元件 / Feature Components / [disable-account-button] 停用帳號按鈕 / Disable Account Button / `190:228767` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228767
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bc1f299912b526da6b75d87c19ca1ebc028fccc3`
-- Component Properties: 帳號狀態 (VARIANT: Default/Hover)
+- Component Properties: 帳號狀態 (VARIANT: Default/Hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供停用帳號操作及預設/hover 狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3289,7 +3289,7 @@
 - Figma: 04_功能元件 / Feature Components / [create-account-information] 建立帳號資訊 / Create Account Information / `190:228774` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228774
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`85d9fd3d11327905b39dab1c16747f3f12c4d414`
-- Component Properties: 裝置 (VARIANT: Mobile/PC)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空/兩次輸入的密碼必須相同)
+- Component Properties: 裝置 (VARIANT: Mobile/PC)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空/兩次輸入的密碼必須相同)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供新增帳號欄位、啟用設定與各種輸入/錯誤/收合狀態，支援桌面與行動版。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3317,7 +3317,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-account-information] 修改帳號資訊 / Edit Account Information / `190:228901` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228901
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`de4f0a5c80195280de11797049c98642bb984a0f`
-- Component Properties: 裝置 (VARIANT: Mobile/PC)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空/兩次輸入的密碼必須相同)
+- Component Properties: 裝置 (VARIANT: Mobile/PC)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空/兩次輸入的密碼必須相同)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供修改帳號資料與密碼的欄位及輸入/錯誤/收合狀態，支援桌面與行動版。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -3345,7 +3345,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-parameter-category-button] 編輯參數類別按鈕 / Edit Parameter Category Button / `198:255148` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255148
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2e67fabff1639e4ecb2fdbceb0d21851c62210e5`
-- Component Properties: type (VARIANT: 編輯參數類別)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯參數類別)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供進入編輯參數類別流程的操作按鈕，包含 default、hover、disable 狀態並用於多種裝置列表。
 - 遷移備註: 跨 RWD 高使用量且包含互動狀態 variants
 - Page Type: List
@@ -3373,7 +3373,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-parameter-category-button] 新增參數類別按鈕 / Add Parameter Category Button / `198:255163` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255163
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`536f5a7c06369ca71aa67a577cf773f13c98d1f1`
-- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在行動版參數類別頁提供新增類別入口，包含 default 與 hover 狀態。
 - 遷移備註: 具正式 hover variant 且在多個行動畫面重用
 - Page Type: List
@@ -3401,7 +3401,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-parameter-category-dialog-content] 新增參數類別彈窗內容 / Add Parameter Category Dialog Content / `198:255174` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255174
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2c3513da58eba91bfb9874ced8320066f290cfd8`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載新增類別表單內容，依 PC&Tablet／Mobile 與 default／error 狀態切換，供新增彈窗直接重用。
 - 遷移備註: 跨 RWD/Theme 且具有 device 與 input variants
 - Page Type: List
@@ -3429,7 +3429,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-parameter-category-dialog-content] 編輯參數類別彈窗內容 / Edit Parameter Category Dialog Content / `198:255243` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255243
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5a2702305be9dbe7d2c0ba6de8835e4c89b75436`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載編輯類別表單內容，依 PC&Tablet／Mobile 與 default／error 狀態切換，供編輯彈窗直接重用。
 - 遷移備註: 跨 RWD/Theme 且具有 device 與 input variants
 - Page Type: List
@@ -3457,7 +3457,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-event-subcategory-button] 新增事件次類別按鈕 / Add Event Subcategory Button / `198:255496` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255496
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`418201f7fab8466d49c09997c6f893317fe9b78f`
-- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增事件次類別按鈕。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -3485,7 +3485,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-event-subcategory-dialog-content] 新增事件次類別彈窗內容 / Add Event Subcategory Dialog Content / `198:255507` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255507
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ec4f95b0cb7bcc20a1ddd8d3ea685078897a03d6`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增事件次類別彈窗內容。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -3513,7 +3513,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-event-subcategory-dialog-content] 編輯事件次類別彈窗內容 / Edit Event Subcategory Dialog Content / `198:255636` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255636
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bd1a91d66924074d23e5fc020790a999849089a1`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 編輯事件次類別彈窗內容。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -3541,7 +3541,7 @@
 - Figma: 04_功能元件 / Feature Components / [add-event-main-category-button] 新增事件主類別按鈕 / Add Event Main Category Button / `198:260742` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260742
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fb7fee9204bf8cb8b8e09746aa6c55ec6adafaff`
-- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 新增參數類別)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供行動版事件主類別管理的新增入口，開啟新增事件主類別流程。
 - 遷移備註: 在 30 個 Mobile 產品畫面直接使用，具 default／hover 正式 variants。
 - Page Type: Create
@@ -3553,7 +3553,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=30、screens=30、components=0、viewports=mobile、themes=light/variables/dark；Component Set 含 2 個 variants：Property 1=新增參數類別, status=default；Property 1=新增參數類別, status=hover；Figma key=1b42cbc4694b98a28a00493d45b855c9767d6eb6
+- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=30、screens=30、components=0、viewports=mobile、themes=light/variables/dark；Component Set 含 2 個 variants：Property 1=新增參數類別, status=default；Property 1=新增參數類別, status=hover
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77746
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3569,7 +3569,7 @@
 - Figma: 04_功能元件 / Feature Components / [create-event-main-category-step-1] 新增主類別第 1 步 / Create Main Category Step 1 / `198:261138` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4a146c997256d30181625237900032cca9d26201`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝新增事件主類別第 1 步的名稱設定介面，依裝置切換版型並處理正常與錯誤輸入狀態。
 - 遷移備註: 跨三種 viewport、Light/Dark 正式流程畫面使用，並包含輸入正常／錯誤狀態，適合遷移。
 - Page Type: Create
@@ -3581,7 +3581,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants；Figma key=ffe22ca97175cecaacf9395d11c1a0f79f0fe427
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6444:649137
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3597,7 +3597,7 @@
 - Figma: 04_功能元件 / Feature Components / [create-event-main-category-step-2] 新增主類別第 2 步 / Create Main Category Step 2 / `198:261303` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261303
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`68ea2952839e2b92cfb9653acef65ab8e6cf62ff`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝新增事件主類別第 2 步的掛載次類別選擇介面，依裝置與表單狀態切換呈現。
 - 遷移備註: 跨 RWD 與多 Theme 的正式流程使用，並具 default／enable／error 狀態，適合遷移。
 - Page Type: Create
@@ -3609,7 +3609,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=8、screens=7、viewports=desktop/tablet/mobile、themes=light/dark/unknown；Component Set 含 device=PC&Tablet/Mobile × input=enable/default/error 共 6 個 variants；Figma key=d2b6b97e9692c093f5c469067cf41cf2676635a4
+- Evidence: migrationScore=105，usageEvidence：directInstances=8、screens=7、viewports=desktop/tablet/mobile、themes=light/dark/unknown；Component Set 含 device=PC&Tablet/Mobile × input=enable/default/error 共 6 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6444:655744
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3625,7 +3625,7 @@
 - Figma: 04_功能元件 / Feature Components / [create-event-main-category-step-4-upload-image] 新增主類別第 4 步－上傳圖片 / Create Main Category Step 4 - Upload Image / `198:261451` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261451
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c10897037ee12cacda6d78aaaab8bceb15c347e1`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/default/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/default/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝新增事件主類別第 4 步的圖片上傳介面，依裝置與未填、錯誤、已填內容狀態切換。
 - 遷移備註: 圖片上傳流程跨 RWD／雙 Theme 正式使用，且具有 default／error／filled 完整狀態。
 - Page Type: Create
@@ -3637,7 +3637,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=default/error/filled 共 6 個 variants；Figma key=a96f74f2cf18fb1e25dc03b3ff79a57cc5f2b6bb
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=default/error/filled 共 6 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6444:658507
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3653,7 +3653,7 @@
 - Figma: 04_功能元件 / Feature Components / [create-event-main-category-step-4-image-list] 新增主類別第 4 步－圖片列表 / Create Main Category Step 4 - Image List / `198:261729` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261729
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`87933b7b4f62b83bccc470c581272813a4ee3666`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/default/filled)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/default/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝新增事件主類別第 4 步的圖片列表介面，顯示可用／已加入圖片並處理不同裝置與表單狀態。
 - 遷移備註: 圖片列表狀態跨三種 viewport 與雙 Theme 使用，且具有完整輸入狀態 variants。
 - Page Type: Create
@@ -3665,7 +3665,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=tablet/desktop/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=default/error/filled 共 6 個 variants；Figma key=2b8da8c3ac766df578df77be07387f21b352a08c
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=tablet/desktop/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=default/error/filled 共 6 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6453:689864
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3681,7 +3681,7 @@
 - Figma: 04_功能元件 / Feature Components / [create-event-main-category-step-3] 新增主類別第 3 步 / Create Main Category Step 3 / `198:261899` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261899
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9480969cdac248aea20f356915a27824794991be`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝新增事件主類別第 3 步的發布介面設定，依裝置與 default／enable／error 狀態切換。
 - 遷移備註: 跨三種 viewport 與雙 Theme 的正式流程元件，發布介面設定狀態完整。
 - Page Type: Create
@@ -3693,7 +3693,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error/default 共 6 個 variants；Figma key=a9ee7d6e516652782e8dacb2b4a2b607fd00e178
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error/default 共 6 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6444:661270
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3709,7 +3709,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-event-main-category-step-1] 編輯主類別第 1 步 / Edit Main Category Step 1 / `198:262047` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3283cf4ac885a0b2410ba922bbb619e1236f4126`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝編輯事件主類別第 1 步的名稱設定介面，顯示既有資料並依裝置與驗證狀態切換。
 - 遷移備註: 編輯流程第 1 步跨三種 viewport 與雙 Theme 實際使用，且有正常／錯誤狀態。
 - Page Type: Create
@@ -3721,7 +3721,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=8、screens=8、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants；Figma key=54ce8d3f0711665fcd851ed4abba9c1ceee03667
+- Evidence: migrationScore=105，usageEvidence：directInstances=8、screens=8、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6491:137308
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3737,7 +3737,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-event-main-category-step-2] 編輯主類別第 2 步 / Edit Main Category Step 2 / `198:262198` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262198
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6d9c1ba690e4b42c296f6bbfa102238ca481160a`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝編輯事件主類別第 2 步的掛載次類別選擇介面，依裝置與表單狀態切換。
 - 遷移備註: 已有 Desktop／Mobile 與雙 Theme 正式使用，且 Component Set 明確包含 PC&Tablet/Mobile variants，適合遷移。
 - Page Type: Create
@@ -3749,7 +3749,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=4、screens=4、viewports=desktop/mobile、themes=light/dark；Component Set 本身具 device=PC&Tablet/Mobile × input=enable/default/error 共 6 個 variants，具有正式 RWD 結構；Figma key=47c6f4eb37b1dc6193a05ec878cfd862d41671fc
+- Evidence: migrationScore=105，usageEvidence：directInstances=4、screens=4、viewports=desktop/mobile、themes=light/dark；Component Set 本身具 device=PC&Tablet/Mobile × input=enable/default/error 共 6 個 variants，具有正式 RWD 結構
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6491:137455
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3765,7 +3765,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-event-main-category-step-4-upload-image] 編輯主類別第 4 步－上傳圖片 / Edit Main Category Step 4 - Upload Image / `198:262322` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262322
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9774eee0effe4e1ec251cbfdc8ac6703aa8ed8e6`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝編輯事件主類別第 4 步的圖片上傳介面，讓管理人員調整既有主類別圖片並處理驗證狀態。
 - 遷移備註: 跨三種 viewport 與雙 Theme 的正式編輯圖片流程使用，適合遷移。
 - Page Type: Create
@@ -3777,7 +3777,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants；Figma key=3eebbfe0d3a4cff92d6e480f93b6db955e34eab4
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6491:137534
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3793,7 +3793,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-event-main-category-step-4-image-list] 編輯主類別第 4 步－圖片列表 / Edit Main Category Step 4 - Image List / `198:262491` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262491
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`73ec9ec1dfa6340ddcb4da478f20b0cadd1ab2a3`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝編輯事件主類別第 4 步的圖片列表介面，呈現既有／已新增圖片並依裝置與驗證狀態切換。
 - 遷移備註: 跨 RWD／雙 Theme 正式使用，是編輯流程圖片列表狀態的穩定元件。
 - Page Type: Create
@@ -3805,7 +3805,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants；Figma key=27ed7acad4b37c77664aa9ee08d06127248f6f61
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=light/dark；Component Set 含 device=PC&Tablet/Mobile × input=enable/error 共 4 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6491:137700
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3821,7 +3821,7 @@
 - Figma: 04_功能元件 / Feature Components / [edit-event-main-category-step-3] 編輯主類別第 3 步 / Edit Main Category Step 3 / `198:262590` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262590
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e5d0708fb4d272d6d09f409da58b1888a02e95c0`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: error/enable/default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 封裝編輯事件主類別第 3 步的發布介面設定，依裝置與 default／enable／error 狀態切換。
 - 遷移備註: 跨三種 viewport 與 Light/Dark 正式使用，發布介面選擇狀態完整。
 - Page Type: Create
@@ -3833,7 +3833,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=dark/light；Component Set 含 device=PC&Tablet/Mobile × input=enable/default/error 共 6 個 variants；Figma key=e64d96e81b36fec7e23792dec2b757ad8017ec52
+- Evidence: migrationScore=105，usageEvidence：directInstances=6、screens=6、viewports=desktop/tablet/mobile、themes=dark/light；Component Set 含 device=PC&Tablet/Mobile × input=enable/default/error 共 6 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6491:137794
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -3849,7 +3849,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [select-order-action-dialog] 選擇訂單操作彈窗 / Select Order Action Dialog / `163:487606` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487606
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ea47289e968bbf1c2e0cd0f24e96d24456595486`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓後台人員選擇單筆訂單要執行的操作，提供 PC／Tablet 與 Mobile 版式。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -3877,7 +3877,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-action-cell] 掛賣操作欄 / Sell Action Cell / `144:4756` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4756
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`197ff1e0cfa163b4eda0b0a65b6689c3af325c8c`
-- Component Properties: 類型 (VARIANT: 編輯/通常)
+- Component Properties: 類型 (VARIANT: 編輯/通常)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在掛賣價格層資料列中放置可用操作，並依一般或編輯狀態切換不同控制。
 - 遷移備註: 列表操作欄在完整掛賣流程中高頻使用，且具有編輯與一般狀態。
 - Page Type: Other
@@ -3905,7 +3905,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-data-row] 掛賣數據列 / Sell Data Row / `144:5193` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5193
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`71e343d1ff541b10af7567e344cd875fac3e423e`
-- Component Properties: 數值#7736:0 (TEXT)；小數點前一位#7736:5 (TEXT)；小數點後一位#7736:10 (TEXT)；年#7736:15 (TEXT)；月#7736:20 (TEXT)；日#7736:25 (TEXT)；時#7736:30 (TEXT)；分#7736:35 (TEXT)；秒#7736:40 (TEXT)；類型 (VARIANT: 掛賣量變化/佔用總庫存變化/已佔用總庫存/異動時間/目前掛單量)
+- Component Properties: 數值#7736:0 (TEXT)；小數點前一位#7736:5 (TEXT)；小數點後一位#7736:10 (TEXT)；年#7736:15 (TEXT)；月#7736:20 (TEXT)；日#7736:25 (TEXT)；時#7736:30 (TEXT)；分#7736:35 (TEXT)；秒#7736:40 (TEXT)；類型 (VARIANT: 掛賣量變化/佔用總庫存變化/已佔用總庫存/異動時間/目前掛單量)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一呈現掛賣列表不同類型的數據列，包括掛賣量變化、庫存變化、佔用庫存、異動時間與目前掛單量。
 - 遷移備註: 封裝多種掛賣資料類型的通用資料列，在多個複合元件與產品畫面中重用。
 - Page Type: Other
@@ -3933,7 +3933,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-detail-data] 掛賣詳細數據 / Sell Detail Data / `144:5958` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5958
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`51c4034b5ae736917dcc16d58910759b18974418`
-- Component Properties: 類型 (VARIANT: Default/少量掛賣/大量掛賣)
+- Component Properties: 類型 (VARIANT: Default/少量掛賣/大量掛賣)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現掛賣價格層展開後的詳細資料，包括掛賣量變化、佔用總庫存變化、已佔用總庫存與不同掛賣量級的進度資訊。
 - 遷移備註: 高覆蓋率且承載多個掛賣數據子元件，是價格層展開內容的正式複合元件。
 - Page Type: Other
@@ -3961,7 +3961,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-input-field] 掛賣輸入欄位 / Sell Input Field / `144:5986` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5986
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a9bac4d64cac57e50e8a669729171afcbfe1971a`
-- Component Properties: 類型 (VARIANT: 輸入掛單量/請輸入價格)；狀態 (VARIANT: 通常/已輸入/請輸入價格/請輸入掛單量/超過可用上限/已有重複價格)；裝置 (VARIANT: Tablet&Mobile/PC)
+- Component Properties: 類型 (VARIANT: 輸入掛單量/請輸入價格)；狀態 (VARIANT: 通常/已輸入/請輸入價格/請輸入掛單量/超過可用上限/已有重複價格)；裝置 (VARIANT: Tablet&Mobile/PC)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 處理掛賣價格與掛單量輸入，包含已輸入、必填、重複價格與超過可用上限等驗證狀態，並支援桌面與行動版。
 - 遷移備註: 新增與編輯掛賣共用的正式輸入元件，跨裝置、Theme 與多個複合元件重用。
 - Page Type: Other
@@ -3989,7 +3989,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-last-modified-time] 最後異動時間 / Last Modified Time / `144:4694` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4694
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ac91efb1d8d93513d1b512ad81788bcfa5642cff`
-- Component Properties: 結束-年#5926:12 (TEXT)；結束-月#5926:14 (TEXT)；結束-日#5926:16 (TEXT)；結束-時#5926:18 (TEXT)；結束-分#5926:20 (TEXT)；結束-秒#5926:22 (TEXT)；類型 (VARIANT: 顯示時間/無顯示)
+- Component Properties: 結束-年#5926:12 (TEXT)；結束-月#5926:14 (TEXT)；結束-日#5926:16 (TEXT)；結束-時#5926:18 (TEXT)；結束-分#5926:20 (TEXT)；結束-秒#5926:22 (TEXT)；類型 (VARIANT: 顯示時間/無顯示)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示掛賣價格層最後一次異動的日期時間，也支援不顯示時間的狀態。
 - 遷移備註: 資料欄位用途明確、跨畫面高頻重用且狀態完整。
 - Page Type: Other
@@ -4017,7 +4017,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-list-action-button-pc] 掛賣列表操作按鈕（PC） / Sell List Action Button PC / `144:4584` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4584
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d20b58cd7f9cad6a480bdc217afdb379096e3cc6`
-- Component Properties: type (VARIANT: 編輯/刪除/確認編輯/最大值/取消)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯/刪除/確認編輯/最大值/取消)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供桌面版掛賣列表的編輯、刪除、確認、最大值與取消等列級操作，並涵蓋 hover 與 disabled 狀態。
 - 遷移備註: 同名候選中功能最完整且使用量最高，適合作為主要 canonical 元件。
 - Page Type: Other
@@ -4045,7 +4045,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-list-header] 掛賣列表表頭 / Sell List Header / `144:5160` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5160
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`99229ae7be0acd9e3ae8420f3799a616a26c6928`
-- Component Properties: 類型 (VARIANT: 庫存管理)
+- Component Properties: 類型 (VARIANT: 庫存管理)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 定義庫存管理掛賣列表的欄位表頭，用來標示價格、掛單量、佔用庫存、異動時間與操作等資訊。
 - 遷移備註: 正式列表所需的欄位表頭，跨所有主要畫面重用。
 - Page Type: Other
@@ -4073,7 +4073,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-management-result-states] 掛賣新增／編輯／刪除結果狀態 / Sell Create Edit Delete Result States / `144:5427` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5427
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`045ac68616ab4a82900c91572bdac754bf3cf85e`
-- Component Properties: 類型 (VARIANT: 新增/編輯/刪除)；狀態 (VARIANT: 成功/失敗/確認)；裝置 (VARIANT: PC/Mobile)
+- Component Properties: 類型 (VARIANT: 新增/編輯/刪除)；狀態 (VARIANT: 成功/失敗/確認)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 統一掛賣新增、編輯與刪除流程的確認、成功與失敗對話框內容，並提供 PC 與 Mobile 版型。
 - 遷移備註: 直接對應正式新增、編輯與刪除流程的結果／確認 UI，狀態與 RWD 結構完整。
 - Page Type: Other
@@ -4101,7 +4101,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-order-sort-filter] 排序篩選 / Sort Filter / `144:4543` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4543
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2632088c557a282a7e3920539baa452c3e5aa5c1`
-- Component Properties: 類型 (VARIANT: 掛賣價格：低到高/掛賣價格：高到低/掛賣量：少到多/掛賣量：多到少/最近調整：舊到新/最近調整：新到舊)
+- Component Properties: 類型 (VARIANT: 掛賣價格：低到高/掛賣價格：高到低/掛賣量：少到多/掛賣量：多到少/最近調整：舊到新/最近調整：新到舊)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供掛賣列表排序方式切換，可依掛賣價格、掛賣量或最近調整時間改變資料排列順序。
 - 遷移備註: 高使用量、跨 RWD/Theme 且 variant 結構完整，適合作為掛賣列表正式功能元件遷移。
 - Page Type: Other
@@ -4129,7 +4129,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-block-state] 掛賣價格區塊狀態 / Sell Price Block State / `144:4800` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4800
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f7c1c367e1734ed11b19f14610b948657caf53f0`
-- Component Properties: Show 滑桿#7678:10 (BOOLEAN)；種類 (VARIANT: 剩餘可用庫存/已分配價格)；按鈕狀態 (VARIANT: 已選取/預設)；Hover (VARIANT: 關閉/已啟用)；價格位階 (VARIANT: 最低價格/其他價格)；成交狀態 (VARIANT: 尚未成交/部分成交)
+- Component Properties: Show 滑桿#7678:10 (BOOLEAN)；種類 (VARIANT: 剩餘可用庫存/已分配價格)；按鈕狀態 (VARIANT: 已選取/預設)；Hover (VARIANT: 關閉/已啟用)；價格位階 (VARIANT: 最低價格/其他價格)；成交狀態 (VARIANT: 尚未成交/部分成交)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制掛賣熱圖價格區塊的互動與業務狀態，包括庫存類型、選取、Hover、價格位階與成交狀態。
 - 遷移備註: 熱圖的核心互動狀態元件，使用量極高且狀態模型完整。
 - Page Type: Other
@@ -4157,7 +4157,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-block] 掛賣價格區塊 / Sell Price Block / `144:4846` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4846
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8b1fe7e96b1964d49d4d5c22fd996de4fa2e213a`
-- Component Properties: 掛賣價格#7677:5 (TEXT)；單位量#7677:6 (TEXT)；％數-小數前2位#7677:7 (TEXT)；％數-小數後1位#7677:8 (TEXT)；Show 數據#7677:9 (BOOLEAN)；價格色階 (VARIANT: 01/02/03/04/05/06/07/08/剩餘可用庫存/09/10)；Hover (VARIANT: 關閉/已啟用)
+- Component Properties: 掛賣價格#7677:5 (TEXT)；單位量#7677:6 (TEXT)；％數-小數前2位#7677:7 (TEXT)；％數-小數後1位#7677:8 (TEXT)；Show 數據#7677:9 (BOOLEAN)；價格色階 (VARIANT: 01/02/03/04/05/06/07/08/剩餘可用庫存/09/10)；Hover (VARIANT: 關閉/已啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現熱圖中的單一掛賣價格區塊，顯示價格、單位量、比例與不同價格色階，並支援 Hover。
 - 遷移備註: 總庫存分配熱圖的主要視覺單元，具有高使用量與完整色階 variants。
 - Page Type: Other
@@ -4185,7 +4185,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-data-desktop] 掛賣價格數據（Desktop） / Sell Price Data Desktop / `144:6019` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-6019
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`97b539dcc7e907e55af0438c10af5a831600f029`
-- Component Properties: 類型 (VARIANT: 掛賣中/新增掛賣/編輯原有掛掛賣)；狀態 (VARIANT: 通常/已有重複價格/已輸入/超過可用上限/請輸入掛單量/請輸入價格)；選取狀態 (VARIANT: 未選取/已選取/無)
+- Component Properties: 類型 (VARIANT: 掛賣中/新增掛賣/編輯原有掛掛賣)；狀態 (VARIANT: 通常/已有重複價格/已輸入/超過可用上限/請輸入掛單量/請輸入價格)；選取狀態 (VARIANT: 未選取/已選取/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Desktop 掛賣列表中呈現單一價格層的完整資料，並處理一般掛賣、新增與編輯時的不同輸入、選取及操作狀態。
 - 遷移備註: Desktop 掛賣資料列的核心複合元件，功能狀態完整且實際使用量高。
 - Page Type: Other
@@ -4213,7 +4213,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-data-mobile] 掛賣價格數據（Mobile） / Sell Price Data Mobile / `144:6116` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-6116
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9eafcb5607a3ea530079a222c08a3f541d948c64`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；類型 (VARIANT: 編輯原有掛掛賣/新增掛賣/掛賣中)；狀態 (VARIANT: 通常/已輸入/請輸入掛單量/超過可用上限/請輸入價格/已有重複價格)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；類型 (VARIANT: 編輯原有掛掛賣/新增掛賣/掛賣中)；狀態 (VARIANT: 通常/已輸入/請輸入掛單量/超過可用上限/請輸入價格/已有重複價格)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Mobile 掛賣價格項目中呈現價格、掛賣量與展開後的詳細資料，並支援一般、新增、編輯與輸入錯誤狀態。
 - 遷移備註: Mobile 掛賣價格資料的主要內容元件，使用量極高並完整涵蓋展開及編輯流程。
 - Page Type: Other
@@ -4241,7 +4241,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-item-mobile] 掛賣價格項目（Mobile） / Sell Price Item Mobile / `144:5973` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5973
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7535bd6b3657cdc43736c52939d42dec518b58ac`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；選取狀態 (VARIANT: 未選取/已選取)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；選取狀態 (VARIANT: 未選取/已選取)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Mobile 掛賣列表中組合價格層、目前掛賣量與展開內容，並支援展開／收合及選取狀態。
 - 遷移備註: Mobile 掛賣列表的核心複合項目，使用量高且收合與選取狀態完整。
 - Page Type: Other
@@ -4269,7 +4269,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-range-filter-mobile] 價格區間篩選（Mobile） / Price Range Filter Mobile / `144:4556` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4556
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`382ffce7adba747ed696b7d8f5723b6b55ac8d8b`
-- Component Properties: 區間 (VARIANT: 全部價格區間/0.00~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~1.00)
+- Component Properties: 區間 (VARIANT: 全部價格區間/0.00~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~1.00)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在行動版掛賣列表中選擇價格區間，讓營運人員快速縮小要檢視的掛賣價格層。
 - 遷移備註: 具明確 Mobile 呈現與完整價格區間 variants，且實際被大量產品畫面引用。
 - Page Type: Other
@@ -4297,7 +4297,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-price-search-input] 價格搜尋輸入 / Price Search Input / `144:4579` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4579
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`64d21a9413a2e038b37b141590247ac3e80aaabe`
-- Component Properties: 狀態 (VARIANT: 尚未輸入/已輸入)
+- Component Properties: 狀態 (VARIANT: 尚未輸入/已輸入)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供掛賣價格搜尋輸入，區分未輸入與已輸入狀態，用於依價格文字快速篩選掛賣資料。
 - 遷移備註: 搜尋輸入狀態清楚，且跨裝置與 Theme 實際重用。
 - Page Type: Other
@@ -4325,7 +4325,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-quantity-change-editing] 掛賣量變化（編輯掛賣） / Sell Quantity Change Editing / `144:4741` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4741
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ecc763b62f012857347fe94db105fc5b0582cf82`
-- Component Properties: 掛賣量#5839:0 (TEXT)；類型 (VARIANT: 無)
+- Component Properties: 掛賣量#5839:0 (TEXT)；類型 (VARIANT: 無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在編輯掛賣時顯示掛賣數量的變化值，讓營運人員確認修改前後的數量差異。
 - 遷移備註: 功能本身有正式使用價值，但原始節點名稱與實際內容不一致，遷移時應人工確認並更名。
 - Page Type: Other
@@ -4353,7 +4353,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-quantity-input] 輸入掛賣量 / Sell Quantity Input / `144:4753` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4753
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cb0596adcb97d21ccaa8adcc01943c983a723eed`
-- Component Properties: 類型 (VARIANT: 無)
+- Component Properties: 類型 (VARIANT: 無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓營運人員在新增或編輯掛賣時輸入要配置的掛賣數量。
 - 遷移備註: 新增／編輯掛賣流程需要的輸入控制，雖直接引用較少但跨全部正式畫面家族使用。
 - Page Type: Other
@@ -4381,7 +4381,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-row-title] 掛賣資料列標題 / Sell Row Title / `144:5169` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5169
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7b7847b0b2e37313de1c99ffb32b9b3307f89758`
-- Component Properties: 分類 (VARIANT: empty/投分狀態/目前掛單量/異動時間/操作/已佔用總庫存)
+- Component Properties: 分類 (VARIANT: empty/投分狀態/目前掛單量/異動時間/操作/已佔用總庫存)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在掛賣資料列或響應式資料區塊中標示各數值所代表的欄位，例如掛單量、異動時間、操作與已佔用總庫存。
 - 遷移備註: 資料列語意標題在掛賣列表與行動版資料呈現中高頻重用。
 - Page Type: Other
@@ -4409,7 +4409,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sell-upper-lower-limits] 上下限 / Upper and Lower Limits / `144:5333` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5333
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ad17b0035ab4ab01ee5d62feed68e953adb2fc6b`
-- Component Properties: 下限#7739:49 (TEXT)；上限#7739:50 (TEXT)；Property 1 (VARIANT: Default)
+- Component Properties: 下限#7739:49 (TEXT)；上限#7739:50 (TEXT)；Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示掛賣或庫存調整可接受的上限與下限數值，供新增與編輯流程參考。
 - 遷移備註: 上下限資料在多個掛賣複合元件中持續重用，適合納入正式 feature 元件。
 - Page Type: Other
@@ -4437,7 +4437,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [send-order-message-dialog] 發送訂單訊息彈窗 / Send Order Message Dialog / `163:487643` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487643
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3774de91537c561917b3cb82cd49c0e3889033ee`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示訂單資訊並讓後台人員發送訂單相關訊息，提供不同裝置版式。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -4465,7 +4465,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [send-order-message-info] 發送訂單訊息－訂單資訊 / Send Order Message Info / `163:487470` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487470
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c4dc8f8e0dd99e5e476a4f52ff5874a26018fc4d`
-- Component Properties: 標題#8059:2 (TEXT)；內容#8059:3 (TEXT)；年#8059:4 (TEXT)；月#8059:8 (TEXT)；日#8059:12 (TEXT)；時#8059:16 (TEXT)；分#8059:20 (TEXT)；秒#8059:24 (TEXT)；類別 (VARIANT: 文字(特殊)/文字/時間)
+- Component Properties: 標題#8059:2 (TEXT)；內容#8059:3 (TEXT)；年#8059:4 (TEXT)；月#8059:8 (TEXT)；日#8059:12 (TEXT)；時#8059:16 (TEXT)；分#8059:20 (TEXT)；秒#8059:24 (TEXT)；類別 (VARIANT: 文字(特殊)/文字/時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在發送訂單訊息流程中顯示訂單文字、特殊文字與時間資訊。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -4493,7 +4493,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-event-action-state] 事件操作狀態 / Settlement Event Action State / `114:226843` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226843
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a4ddd4122af7e8e8edb7aa5dee56b460ac0cfbdb`
-- Component Properties: Property 1 (VARIANT: select/empty)
+- Component Properties: Property 1 (VARIANT: select/empty)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件是否已選擇切換結算操作區的可操作或空狀態。
 - 遷移備註: 正式流程高頻重用
 - Page Type: Other
@@ -4505,7 +4505,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；Component Set variants：select、empty；Figma key=3e93ba0af2f5e40ab089ff90b1df0574f8bf25cd
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；Component Set variants：select、empty
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5385:282784
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4521,7 +4521,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-event-content-layout] 事件內容態樣 / Settlement Event Content Layout / `114:226698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226698
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`30fd809f7d46a04b9231703bac56aa7a80a0e5f0`
-- Component Properties: Property 1 (VARIANT: PC/Mobile/Tablet)
+- Component Properties: Property 1 (VARIANT: PC/Mobile/Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制事件結算事件卡在 Desktop、Tablet、Mobile 的內容版型。
 - 遷移備註: 跨 RWD 正式流程重用
 - Page Type: Other
@@ -4533,7 +4533,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=39、usedByScreenCount=36；跨 desktop/tablet/mobile 與 light/dark/variables 使用；Component Set variants：PC、Mobile、Tablet；Figma key=56a3df2468b9a0dfd2bbec4a5b09071deb20cc1f
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=39、usedByScreenCount=36；跨 desktop/tablet/mobile 與 light/dark/variables 使用；Component Set variants：PC、Mobile、Tablet
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5385:281813
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4549,7 +4549,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-event-details] 事件細節 / Settlement Event Details / `114:226826` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226826
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`143d3467055a4dc892dc36d20c8bf348834331c7`
-- Component Properties: 選項數#4369:0 (TEXT)；投分開始時間-日期#4369:4 (TEXT)；投分結束時間-日期#4369:8 (TEXT)；投分結束時間-時間#4369:12 (TEXT)；投分開始時間-時間#4369:16 (TEXT)；Property 1 (VARIANT: 選項數/投分開始時間/投分結束時間)
+- Component Properties: 選項數#4369:0 (TEXT)；投分開始時間-日期#4369:4 (TEXT)；投分結束時間-日期#4369:8 (TEXT)；投分結束時間-時間#4369:12 (TEXT)；投分開始時間-時間#4369:16 (TEXT)；Property 1 (VARIANT: 選項數/投分開始時間/投分結束時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件選項數、投分開始時間與投分結束時間等摘要資訊。
 - 遷移備註: 高頻正式流程重用
 - Page Type: Other
@@ -4561,7 +4561,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=117、nestedDependencyCount=99、usedByScreenCount=36；variants：選項數、投分開始時間、投分結束時間；Figma key=2f5630e1664f02c67fec29834e988225c47d7eda
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=117、nestedDependencyCount=99、usedByScreenCount=36；variants：選項數、投分開始時間、投分結束時間
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5381:499794
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4577,7 +4577,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-event-name] 事件名稱 / Settlement Event Name / `114:226707` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226707
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`db8c7a94f5527a7c591315d40452bd237aca26d9`
-- Component Properties: Show right button#4372:0 (BOOLEAN)；Show left button#4372:4 (BOOLEAN)；事件名稱#6662:4 (TEXT)；裝置 (VARIANT: Mobile/PC/Tablet)；介面 (VARIANT: 選擇列表/事件結算畫面)
+- Component Properties: Show right button#4372:0 (BOOLEAN)；Show left button#4372:4 (BOOLEAN)；事件名稱#6662:4 (TEXT)；裝置 (VARIANT: Mobile/PC/Tablet)；介面 (VARIANT: 選擇列表/事件結算畫面)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件名稱，並依事件選擇列表或事件結算畫面切換操作與版型。
 - 遷移備註: 跨流程與 RWD 重用
 - Page Type: Other
@@ -4589,7 +4589,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=39、nestedDependencyCount=27、usedByScreenCount=36；variants：裝置=Mobile/PC/Tablet；介面=選擇列表/事件結算畫面；Figma key=8bf520ce63e764194faafa6e15124f0d57fa79ca
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=39、nestedDependencyCount=27、usedByScreenCount=36；variants：裝置=Mobile/PC/Tablet；介面=選擇列表/事件結算畫面
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5381:499713
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4605,7 +4605,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-option-name-direction] 選項事件名稱與方向提示 / Settlement Option Name and Direction / `114:226857` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226857
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c91b681a007d1beae309a93679d82733acd1c3c0`
-- Component Properties: 選項#5386:0 (TEXT)；Show 選項方向提示#7456:0 (BOOLEAN)；介面 (VARIANT: 關閉比分輸入/顯示比分輸入)；比分欄位狀態 (VARIANT: 尚未輸入)
+- Component Properties: 選項#5386:0 (TEXT)；Show 選項方向提示#7456:0 (BOOLEAN)；介面 (VARIANT: 關閉比分輸入/顯示比分輸入)；比分欄位狀態 (VARIANT: 尚未輸入)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示結算選項名稱與方向提示，並配合運動比分輸入的顯示／隱藏狀態。
 - 遷移備註: 正式流程高頻重用
 - Page Type: Other
@@ -4617,7 +4617,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；variants：介面=關閉比分輸入/顯示比分輸入；比分欄位狀態=尚未輸入；Figma key=d976d53112831a51229e9201ac88cbded420cf88
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；variants：介面=關閉比分輸入/顯示比分輸入；比分欄位狀態=尚未輸入
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5385:282430
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4633,7 +4633,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-option-result] 選項結果 / Settlement Option Result / `114:226870` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226870
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`99e6ad8832c5c423c163277a315a88fbf593092a`
-- Component Properties: 事件類型 (VARIANT: 多選項議題/多選項議題-運動比分選填)；方向 (VARIANT: Yes/No/Down/Up)
+- Component Properties: 事件類型 (VARIANT: 多選項議題/多選項議題-運動比分選填)；方向 (VARIANT: Yes/No/Down/Up)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示並選擇事件最終結果，支援一般議題與運動比分選填情境。
 - 遷移備註: 跨事件類型正式流程重用
 - Page Type: Other
@@ -4645,7 +4645,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；variants：事件類型=多選項議題/多選項議題-運動比分選填；方向=Yes/No/Down/Up；Figma key=6af7706b43cb35a0b9dd4cf7fda5f92103bdd3c4
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；variants：事件類型=多選項議題/多選項議題-運動比分選填；方向=Yes/No/Down/Up
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5386:282965
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4661,7 +4661,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-result-selection-section] 選擇事件結果區塊 / Settlement Result Selection Section / `114:227019` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-227019
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e7e5bb29de0ac69c331aa67a490955b564de224f`
-- Component Properties: 事件類型 (VARIANT: 多選項二元/多選項二元-運動)；其他示意 (VARIANT: 預設/字數過多/empty/第三方)；結果比分輸入 (VARIANT: 關閉/開啟)；收合狀態 (VARIANT: 開啟/關閉)
+- Component Properties: 事件類型 (VARIANT: 多選項二元/多選項二元-運動)；其他示意 (VARIANT: 預設/字數過多/empty/第三方)；結果比分輸入 (VARIANT: 關閉/開啟)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供最終結果選擇，並支援一般議題、運動比分、空資料、第三方與展開／收合等狀態。
 - 遷移備註: 涵蓋主要結算狀態且跨 RWD 使用
 - Page Type: Other
@@ -4673,7 +4673,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=37、usedByScreenCount=28；variants：事件類型=多選項二元/多選項二元-運動、其他示意=預設/字數過多/empty/第三方、結果比分輸入=關閉/開啟、收合狀態=開啟/關閉；Figma key=4efba930490df8af6a47806ac2d9b33dcb38446b
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=37、usedByScreenCount=28；variants：事件類型=多選項二元/多選項二元-運動、其他示意=預設/字數過多/empty/第三方、結果比分輸入=關閉/開啟、收合狀態=開啟/關閉
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5386:305909
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4689,7 +4689,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-target-event-section] 欲結算的事件區塊 / Settlement Target Event Section / `114:226911` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226911
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2a74ccfaeed74e56e67b634512a17d945bffef6f`
-- Component Properties: 裝置 (VARIANT: Mobile/PC&Tablet＆Mobile/PC/Tablet)；資料狀態 (VARIANT: Default/empty)；收合狀態 (VARIANT: 開啟/關閉)
+- Component Properties: 裝置 (VARIANT: Mobile/PC&Tablet＆Mobile/PC/Tablet)；資料狀態 (VARIANT: Default/empty)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示目前欲結算事件，支援空資料與展開／收合狀態。
 - 遷移備註: 正式流程跨 RWD／狀態重用
 - Page Type: Other
@@ -4701,7 +4701,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=45、usedByScreenCount=36；variants：裝置=Mobile/PC&Tablet＆Mobile/PC/Tablet、資料狀態=Default/empty、收合狀態=開啟/關閉；Figma key=250378e2cd4ba0ec97e5dca397bf30a5f9c7f6b4
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=45、usedByScreenCount=36；variants：裝置=Mobile/PC&Tablet＆Mobile/PC/Tablet、資料狀態=Default/empty、收合狀態=開啟/關閉
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5386:305617
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4717,7 +4717,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [single-parameter-update-step-1] 單一參數更新 Step 1 / Single Parameter Update Step 1 / `121:294670` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9ea0c1c7eb9a45e384000a2841a96a5bf7abd489`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 單一事件參數更新的編輯步驟，提供投分參數設定與 PC&Tablet/Mobile variants。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -4745,7 +4745,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [single-parameter-update-step-2] 單一參數更新 Step 2 / Single Parameter Update Step 2 / `121:294469` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a488648b9db2d876de59859e39bd439973cf6121`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 單一事件參數更新的確認步驟，顯示更新後參數並支援 PC&Tablet/Mobile。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -4773,7 +4773,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sports-event-content-settings] 運動事件內容設定 / Sports Event Content Settings / `110:113280` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113280
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`72967038555401bce9b74841da480cd9a94bf1dd`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)；type (VARIANT: 新增事件/編輯事件)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)；type (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 運動事件多語系內容設定。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -4801,7 +4801,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sports-event-theme-selector] 運動事件主題選擇 / Sports Event Theme Selector / `110:113189` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113189
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1e04b7f3c09aaf6d821d892ceea7b1b791d43a61`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 運動、聯盟與比賽選擇。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -4829,7 +4829,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sports-league-badge] 運動聯盟標籤 / Sports League Badge / `93:6697` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6697
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dff1acc453df0114beaded2809269fff9479aba2`
-- Component Properties: Property 1 (VARIANT: NBA/MLB/NFL/NHL)
+- Component Properties: Property 1 (VARIANT: NBA/MLB/NFL/NHL)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示運動事件所屬聯盟，例如 NBA、MLB、NFL、NHL。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -4857,7 +4857,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sports-wager-options-mobile] 運動事件選項管理（Mobile） / Sports Wager Options Mobile / `110:113746` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113746
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`81ed382078cbcf372d990af46e539e28f9c09c5a`
-- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)
+- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供 Mobile 版運動事件盤口與選項設定，以垂直欄位顯示一至三個投注選項，並支援展開與收合狀態。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -4885,7 +4885,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sports-wager-options-desktop-tablet] 運動事件選項管理（PC/Tablet） / Sports Wager Options Desktop Tablet / `110:113821` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113821
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2ab7805c6f0afb3e6524b165802e3e2f314ba942`
-- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)
+- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供 PC 與 Tablet 版運動事件盤口與選項設定，以橫向欄位顯示一至三個投注選項，並支援展開與收合狀態。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -4913,7 +4913,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [sports-wager-time-range] 運動事件投分時間 / Sports Wager Time Range / `110:113601` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113601
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`36880e464808fcb12df6185c17e5d5a19d18b53e`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 運動事件投分起訖時間設定。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -4941,7 +4941,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [subcategory-selection-list-group] 掛載次類別清單群組 / Subcategory Selection List Group / `198:279349` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-279349
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`76d60758881d54f4c74326bbdbdf9921c3738429`
-- Component Properties: Show Scroll#6166:0 (BOOLEAN)；Show Item 1#6166:1 (BOOLEAN)；Show Item 2#6166:2 (BOOLEAN)；Show Item 3#6166:3 (BOOLEAN)；Show Item 4#6166:4 (BOOLEAN)；Show Item 5#6166:5 (BOOLEAN)；Show Item 6#6166:6 (BOOLEAN)；Show Item 7#6166:7 (BOOLEAN)；Show Item 8#6166:8 (BOOLEAN)；Show Item 9#6166:9 (BOOLEAN)；Show Item 10#6166:10 (BOOLEAN)；Show Head#6166:11 (BOOLEAN)；Show Footer#6166:12 (BOOLEAN)；Property 1 (VARIANT: 6/12)
+- Component Properties: Show Scroll#6166:0 (BOOLEAN)；Show Item 1#6166:1 (BOOLEAN)；Show Item 2#6166:2 (BOOLEAN)；Show Item 3#6166:3 (BOOLEAN)；Show Item 4#6166:4 (BOOLEAN)；Show Item 5#6166:5 (BOOLEAN)；Show Item 6#6166:6 (BOOLEAN)；Show Item 7#6166:7 (BOOLEAN)；Show Item 8#6166:8 (BOOLEAN)；Show Item 9#6166:9 (BOOLEAN)；Show Item 10#6166:10 (BOOLEAN)；Show Head#6166:11 (BOOLEAN)；Show Footer#6166:12 (BOOLEAN)；Property 1 (VARIANT: 6/12)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現新增／編輯主類別第 2 步的事件次類別清單群組，可依內容量切換 6／12 項配置。
 - 遷移備註: 跨 RWD、雙 Theme 且有正式產品畫面與元件依賴，是掛載次類別流程的實際使用版本。
 - Page Type: Create
@@ -4953,7 +4953,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=12、nestedDependencies=26、screens=11、components=5、viewports=tablet/desktop/mobile、themes=light/dark/unknown；Component Set 具 Property 1=6/12 variants；Figma key=1757061a434b991aa475be8cab0edb6ed05f9e89
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=12、nestedDependencies=26、screens=11、components=5、viewports=tablet/desktop/mobile、themes=light/dark/unknown；Component Set 具 Property 1=6/12 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6166:173257
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4969,7 +4969,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [suggested-event-action-group] 建議事件操作區 / Suggested Event Action Group / `113:223319` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223319
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`285d0957d14acb2d3a1b26ac9d5e12f20ab7b6e3`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 配置匯入建議議題等操作，並依 PC/Tablet 與 Mobile 調整排列。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -4981,7 +4981,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=42、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=PC&Tablet,Mobile；Figma key=9a8da06e078301ab31dbd6c81b55e08bdb7847c7
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=42、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=PC&Tablet,Mobile
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4376:154780
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -4997,7 +4997,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [suggested-event-detail] 建議事件細節 / Suggested Event Detail / `113:223297` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223297
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`eb0198a638bedccb3efd034e4c6fcccb704b039a`
-- Component Properties: 選項數#4369:0 (TEXT)；投分開始時間-日期#4369:4 (TEXT)；投分結束時間-日期#4369:8 (TEXT)；投分結束時間-時間#4369:12 (TEXT)；投分開始時間-時間#4369:16 (TEXT)；事件來源#6075:0 (TEXT)；項目 (VARIANT: 事件來源/投分結束時間/投分開始時間/選項數)
+- Component Properties: 選項數#4369:0 (TEXT)；投分開始時間-日期#4369:4 (TEXT)；投分結束時間-日期#4369:8 (TEXT)；投分結束時間-時間#4369:12 (TEXT)；投分開始時間-時間#4369:16 (TEXT)；事件來源#6075:0 (TEXT)；項目 (VARIANT: 事件來源/投分結束時間/投分開始時間/選項數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項數、事件來源、投分開始時間與投分結束時間等單筆建議事件細節。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5009,7 +5009,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=144、nestedDependencyCount=192、usedByScreenCount=6；usedByThemes=light,dark；Component Set 結構：項目=事件來源,投分結束時間,投分開始時間,選項數；Figma key=0e78ae34a2a8bb56326a31ca3f17cb89c5ade65f
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=144、nestedDependencyCount=192、usedByScreenCount=6；usedByThemes=light,dark；Component Set 結構：項目=事件來源,投分結束時間,投分開始時間,選項數
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4368:153691
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -5025,7 +5025,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [suggested-event-name-block] 建議事件名稱區塊 / Suggested Event Name Block / `113:223207` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223207
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`473e8c54decb23ed370ee11e972499a455b69fd9`
-- Component Properties: Show right button#4372:0 (BOOLEAN)；Show left button#4372:4 (BOOLEAN)；事件名稱#6075:5 (TEXT)；Property 1 (VARIANT: Mobile/PC/Tablet)
+- Component Properties: Show right button#4372:0 (BOOLEAN)；Show left button#4372:4 (BOOLEAN)；事件名稱#6075:5 (TEXT)；Property 1 (VARIANT: Mobile/PC/Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示建議事件名稱、來源、類型標籤與摘要資訊，作為 AI 建議議題項目的主要資訊區。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5037,7 +5037,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=42、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=Mobile,PC,Tablet；Figma key=9de7ef662ef3caa191b1730d10e90da135a91f55
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=42、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：Property 1=Mobile,PC,Tablet
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4369:159633
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -5053,7 +5053,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [system-order-id-filter] 系統訂單編號篩選 / System Order ID Filter / `163:487552` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487552
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0845c56cc76e77dc9faa1bcb5be32db2b03c2da6`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依系統訂單編號搜尋會員訂單紀錄。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -5081,7 +5081,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [theme-category-badge] 主題分類標籤 / Theme Category Badge / `93:6710` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6710
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c6eb09b09bf669ebfc85d9203a807bfd36002160`
-- Component Properties: Property 1 (VARIANT: Crypto/Finance/Tech/Culture/World/Elections)
+- Component Properties: Property 1 (VARIANT: Crypto/Finance/Tech/Culture/World/Elections)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示議題事件的主題分類，例如 Crypto、Finance、Tech、Culture、World、Elections。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -5109,7 +5109,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [third-party-category-filter] 第三方類別篩選 / Third-party Category Filter / `113:223340` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223340
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f36aa6aca0f9560d9dff67cf5fe2ef5516e3747c`
-- Component Properties: 項目 (VARIANT: 顯示全部/主類別1/主類別2)
+- Component Properties: 項目 (VARIANT: 顯示全部/主類別1/主類別2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依第三方來源的主類別篩選建議事件。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5121,7 +5121,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=10、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：項目=顯示全部,主類別1,主類別2；Figma key=2e4904d852d35e9dd98bff9702cce005f927f987
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=10、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：項目=顯示全部,主類別1,主類別2
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 6719:668638
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -5137,7 +5137,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [time-range-separator] 起訖時間分隔 / Time Range Separator / `114:76744` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76744
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`11e8af88367a0ef09379caaa6677bd4c98d5e512`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在開始與結束時間之間顯示起訖分隔符號。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5165,7 +5165,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [timeline-event-date-name] 時間軸事件日期名稱 / Timeline Event Date Name / `114:76748` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76748
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e3d05acbc39d0935230f3007a6cf3e8a1f5e2508`
-- Component Properties: 年#5839:0 (TEXT)；Show Badge#5877:10 (BOOLEAN)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；類型 (VARIANT: 時間軸)
+- Component Properties: 年#5839:0 (TEXT)；Show Badge#5877:10 (BOOLEAN)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；類型 (VARIANT: 時間軸)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以年月日顯示時間軸類型的事件名稱。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5193,7 +5193,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [timeline-event-divider] 時間軸事件分隔線 / Timeline Event Divider / `114:76534` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76534
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`62ff615eae6b4c4ec92687892fec1e7c6306f929`
-- Component Properties: Property 1 (VARIANT: 1/2)
+- Component Properties: Property 1 (VARIANT: 1/2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 用於時間軸事件資料列與狀態區塊中的結構分隔線。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5221,7 +5221,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [timeline-event-name] 時間軸事件名稱 / Timeline Event Name / `114:76628` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76628
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2e73bc486f7c80b87a43f1b5c92ba5b3112d9192`
-- Component Properties: 年#5839:0 (TEXT)；Show Badge#5877:10 (BOOLEAN)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；Show left button#5926:24 (BOOLEAN)；Show right button#5926:27 (BOOLEAN)；類型 (VARIANT: 使用全域參數/單獨設定參數)
+- Component Properties: 年#5839:0 (TEXT)；Show Badge#5877:10 (BOOLEAN)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；Show left button#5926:24 (BOOLEAN)；Show right button#5926:27 (BOOLEAN)；類型 (VARIANT: 使用全域參數/單獨設定參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示依日期命名的時間軸事件名稱，並標示使用全域參數或單獨設定參數。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5249,7 +5249,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [timeline-option-event-management-header] 時間軸選項事件管理表頭 / Timeline Option Event Management Header / `114:77701` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77701
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5e67f113b0777f18ec0b50b652f62a6a3c0a69ed`
-- Component Properties: 類型 (VARIANT: 已進行投分/尚未投分/Tablet&Mobile)
+- Component Properties: 類型 (VARIANT: 已進行投分/尚未投分/Tablet&Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示已投分／尚未投分選項事件列表的欄位表頭，並提供 Tablet/Mobile 版型。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5277,7 +5277,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [timeline-option-event-management-pre-wager] 時間軸選項事件管理（尚未投分） / Timeline Option Event Management - Pre-Wager / `114:76924` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76924
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3f9d7dfd54059b2254ee2b722dacc3ef2b4b064f`
-- Component Properties: status (VARIANT: enable/enable--filled in/disable/enable--set close)；device (VARIANT: PC/Tablet/Mobile)
+- Component Properties: status (VARIANT: enable/enable--filled in/disable/enable--set close)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 管理尚未開始投分的時間軸選項事件，包含時間設定、事件數量、列表與批次參數操作。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5305,7 +5305,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [timeline-option-event-management-wager-phase] 時間軸選項事件管理（投分階段） / Timeline Option Event Management - Wager Phase / `114:76758` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76758
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9eb5f4823cc07056046612e809f7ba8f459eb174`
-- Component Properties: status (VARIANT: enable/enable--filled in/disable/enable--set close)；device (VARIANT: PC/Tablet/Mobile)
+- Component Properties: status (VARIANT: enable/enable--filled in/disable/enable--set close)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 管理已進入投分流程的時間軸選項事件，包含批次更新參數、投分狀態、投分量、剩餘時間與上下架操作。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5333,7 +5333,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [topic-event-content-settings] 議題事件內容設定 / Topic Event Content Settings / `110:112695` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112695
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5aa3749f1ac9e9ff521de5b69de8922b7e960d23`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)；type (VARIANT: 新增事件/編輯事件)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)；type (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 議題事件的多語系內容設定。
 - 遷移備註: 保留候選，待確認
 - Page Type: Create
@@ -5361,7 +5361,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [topic-event-theme-selector] 議題事件主題選擇 / Topic Event Theme Selector / `110:112570` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112570
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`246780141116720b2c23dc07456b9630bb1a7260`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 議題事件主題、類別與類型選擇。
 - 遷移備註: 保留候選，待確認
 - Page Type: Create
@@ -5389,7 +5389,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [topic-wager-time-range] 議題事件投分時間 / Topic Wager Time Range / `110:113032` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113032
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`07289b7349a5aeb90d1254974b3ca33495e54fe8`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 議題事件投分起訖時間設定。
 - 遷移備註: 保留候選，待確認
 - Page Type: Create
@@ -5417,7 +5417,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [total-inventory-distribution] 總庫存分布 / Total Inventory Distribution / `144:6679` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-6679
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`212879190d1b59eae96e5b2d6d82c248c683b440`
-- Component Properties: 狀態 (VARIANT: 全區間展示/少量掛賣/大量掛賣/尚未分配庫存)；按鈕狀態 (VARIANT: 通常/Hover)；選取狀態 (VARIANT: 無/已單選)；裝置 (VARIANT: PC/Mobile/Tablet)；顏色資訊收合 (VARIANT: 無/關閉/開啟)
+- Component Properties: 狀態 (VARIANT: 全區間展示/少量掛賣/大量掛賣/尚未分配庫存)；按鈕狀態 (VARIANT: 通常/Hover)；選取狀態 (VARIANT: 無/已單選)；裝置 (VARIANT: PC/Mobile/Tablet)；顏色資訊收合 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以熱圖方式顯示總庫存在不同價格區間的分布，支援未分配、少量／大量掛賣、選取、Hover 與不同裝置的資訊呈現。
 - 遷移備註: 總庫存分配熱圖的核心複合元件，狀態與跨裝置結構完整並有正式畫面使用。
 - Page Type: Other
@@ -5445,7 +5445,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [transaction-id-filter] 交易編號篩選 / Transaction ID Filter / `163:487571` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487571
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f4d9bfc237e2428651ee2c08feb0ee807b2c51d0`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依交易編號搜尋會員訂單紀錄。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -5473,7 +5473,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [transaction-record-time-filter] 搜尋交易紀錄時間 / Transaction Record Time Filter / `155:347571` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347571
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`56942e49c7a27e22717d2d8af8c9383081e652f3`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供交易紀錄時間查詢條件，讓營運人員限制事件損益資料的交易時間範圍。
 - 遷移備註: 相同時間篩選候選中具有直接產品使用證據，作為正式 canonical 遷移。
 - Page Type: List
@@ -5501,7 +5501,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-authentication-flow-action-button] 雙重驗證流程操作按鈕 / Two-Factor Authentication Flow Action Button / `150:728170` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=150-728170
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2e0100cc2b89598da0c37eb77575731c2f4fa0f7`
-- Component Properties: 類型 (VARIANT: 下載 .txt/複製全部/返回/完成掃描/確認驗證/下一步/完成啟用)；按鈕狀態 (VARIANT: Default/Hover)
+- Component Properties: 類型 (VARIANT: 下載 .txt/複製全部/返回/完成掃描/確認驗證/下一步/完成啟用)；按鈕狀態 (VARIANT: Default/Hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供 2FA 啟用流程中的返回、下一步、完成掃描、確認驗證、備援碼複製／下載與完成啟用等操作。
 - 遷移備註: 高使用量且完整覆蓋 2FA 流程主要操作及 Hover 狀態，適合作為 feature 級正式按鈕元件。
 - Page Type: Other
@@ -5529,7 +5529,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-authentication-flow-alert] 雙重驗證流程提示 / Two-Factor Authentication Flow Alert / `150:728145` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=150-728145
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8402a6213938c0187ce36e92cdde4208b85dabd7`
-- Component Properties: 類型 (VARIANT: 重新產生 QR Code 後，先前的金鑰會立即失效。/請輸入Google Authenticator中顯示的 6 位數驗證碼。/請先下載或複製備援碼；離開此頁後將不再完整顯示。/帳號 admin_01 已於 2026/08/05 10:32 啟用/我已確認保存備援碼/我已確認保存備援碼-未勾選)
+- Component Properties: 類型 (VARIANT: 重新產生 QR Code 後，先前的金鑰會立即失效。/請輸入Google Authenticator中顯示的 6 位數驗證碼。/請先下載或複製備援碼；離開此頁後將不再完整顯示。/帳號 admin_01 已於 2026/08/05 10:32 啟用/我已確認保存備援碼/我已確認保存備援碼-未勾選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 2FA 綁定流程中顯示 QR Code、驗證碼、備援碼與啟用結果相關提示及確認資訊。
 - 遷移備註: 多個 2FA 步驟共同使用且跨 RWD/Theme 重用，訊息 variants 功能明確。
 - Page Type: Other
@@ -5557,7 +5557,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-authentication-setup-content] 雙重驗證啟用流程內容 / Two-Factor Authentication Setup Content / `150:727130` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=150-727130
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`050b6f5a5420d3b206e71773f972355365d54828`
-- Component Properties: 步驟 (VARIANT: 保存備援碼/綁定QR Code/輸入驗證碼/雙重驗證啟用結果)；裝置 (VARIANT: PC/Mobile)
+- Component Properties: 步驟 (VARIANT: 保存備援碼/綁定QR Code/輸入驗證碼/雙重驗證啟用結果)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載首次登入啟用雙重驗證的主要內容，依流程步驟切換 QR Code 綁定、驗證碼輸入、備援碼保存與啟用結果，並提供 PC/Mobile 版型。
 - 遷移備註: 跨 RWD 與 Light/Dark 正式使用，且完整承載 2FA 四個主要步驟，可作為此流程的主要 feature 元件。
 - Page Type: Other
@@ -5585,7 +5585,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-authentication-verification-code-input] 雙重驗證驗證碼輸入 / Two-Factor Authentication Verification Code Input / `150:728209` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=150-728209
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`475994f3c306f3c5202a9156b0a9578f4fb30540`
-- Component Properties: 狀態 (VARIANT: 預設/選取/驗證碼不正確或已過期，請確認後重新輸入。/驗證失敗次數過多，請於 5 分鐘後重試。)
+- Component Properties: 狀態 (VARIANT: 預設/選取/驗證碼不正確或已過期，請確認後重新輸入。/驗證失敗次數過多，請於 5 分鐘後重試。)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合 6 個單格輸入形成完整 2FA 驗證碼欄位，並呈現正常輸入、聚焦、驗證碼錯誤與嘗試次數過多等狀態。
 - 遷移備註: 直接對應 2FA 驗證碼輸入與兩種錯誤情境，並跨全部正式裝置與 Theme 使用。
 - Page Type: Other
@@ -5613,7 +5613,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-authentication] 雙重驗證設定 / Two-Factor Authentication / `190:236241` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236241
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c1b83c4e034264c57dced077b089313236118994`
-- Component Properties: 年#10090:26 (TEXT)；月#10090:30 (TEXT)；日#10090:34 (TEXT)；時#10090:38 (TEXT)；分#10090:42 (TEXT)；秒#10090:46 (TEXT)；裝置 (VARIANT: Mobile/PC)；收合狀態 (VARIANT: 關閉/開啟)；狀態 (VARIANT: 已啟用/尚未啟用)
+- Component Properties: 年#10090:26 (TEXT)；月#10090:30 (TEXT)；日#10090:34 (TEXT)；時#10090:38 (TEXT)；分#10090:42 (TEXT)；秒#10090:46 (TEXT)；裝置 (VARIANT: Mobile/PC)；收合狀態 (VARIANT: 關閉/開啟)；狀態 (VARIANT: 已啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現驗證器 App 的啟用狀態、最後驗證資訊與 2FA 設定操作，支援多裝置與收合狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -5641,7 +5641,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-enabled-status-badge] 2FA 啟用狀態標籤 / 2FA Enabled Status Badge / `190:236191` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236191
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e7518fd94557c7b89ed5df87d1fc0bc1a124da0c`
-- Component Properties: 狀態 (VARIANT: 已啟用/未啟用)
+- Component Properties: 狀態 (VARIANT: 已啟用/未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在帳號列表或詳細資訊中標示雙重驗證是否已啟用。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -5669,7 +5669,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-setup-dialog-flow] 雙重驗證綁定流程彈窗 / Two-Factor Setup Dialog Flow / `190:236439` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236439
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dc65fe7adf8d5e8a4b1567cad1d2894e9aa398f9`
-- Component Properties: 步驟 (VARIANT: 保存備援碼/綁定QR Code/輸入驗證碼/雙重驗證啟用結果)；裝置 (VARIANT: PC/Mobile)
+- Component Properties: 步驟 (VARIANT: 保存備援碼/綁定QR Code/輸入驗證碼/雙重驗證啟用結果)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載 QR Code 綁定、驗證碼輸入、備援碼保存與啟用結果四個步驟，支援桌面與行動版。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -5697,7 +5697,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-status-filter] 雙重驗證狀態篩選 / Two-Factor Status Filter / `190:236218` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236218
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a2e55c0f4af5442754e7002bf98d72649b014a09`
-- Component Properties: 類型 (VARIANT: 顯示全部綁定狀態/已綁定/未綁定)
+- Component Properties: 類型 (VARIANT: 顯示全部綁定狀態/已綁定/未綁定)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 用於篩選雙重驗證的全部、已綁定或未綁定狀態。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -5725,7 +5725,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-status-summary] 雙重驗證狀態摘要 / Two-Factor Status Summary / `190:236234` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236234
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`19b90128e143fc7b46b615cc341397d038b52e47`
-- Component Properties: 帳號狀態 (VARIANT: 已啟用/尚未啟用)
+- Component Properties: 帳號狀態 (VARIANT: 已啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在帳號資訊總覽中顯示雙重驗證是否已啟用。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -5753,7 +5753,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [two-factor-toggle-button] 雙重驗證切換按鈕 / Two-Factor Toggle Button / `190:236227` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236227
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1f9656299aba41a53e46d61afa9febb69a7e3f6c`
-- Component Properties: 類型 (VARIANT: 啟用雙重驗證/取消啟用)
+- Component Properties: 類型 (VARIANT: 啟用雙重驗證/取消啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供啟用或取消啟用雙重驗證的操作按鈕。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -5781,7 +5781,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [unpublished-event-status-header] 未上架事件狀態標題 / Unpublished Event Status Header / `114:76539` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76539
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5fa23180e2f77a55efe61b31a265141a78070982`
-- Component Properties: 上架狀態 (VARIANT: 等待上架)；收合狀態 (VARIANT: enable/無/disable)
+- Component Properties: 上架狀態 (VARIANT: 等待上架)；收合狀態 (VARIANT: enable/無/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示等待上架事件狀態並支援展開與收合。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5809,7 +5809,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [unpublished-main-event-status-header] 未上架主事件狀態標題 / Unpublished Main Event Status Header / `93:8085` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8085
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9e4335aee35bc89479d7c5a6b00d25c5e3d642fe`
-- Component Properties: 時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面未上架主事件列顯示尚未過期或已過期狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -5837,7 +5837,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [unpublished-option-event-status-header] 未上架選項事件狀態標題 / Unpublished Option Event Status Header / `93:8092` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8092
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c63548c821c01563db71a3795d50c670d5e286b1`
-- Component Properties: 時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面未上架選項事件列顯示尚未過期或已過期狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -5865,7 +5865,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [verification-code-digit-input] 驗證碼單格輸入 / Verification Code Digit Input / `150:728199` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=150-728199
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`62f3b58e2b80eadf261206709b668b4d5010fff9`
-- Component Properties: 驗證碼#7477:7 (TEXT)；狀態 (VARIANT: 預設/選取/錯誤)
+- Component Properties: 驗證碼#7477:7 (TEXT)；狀態 (VARIANT: 預設/選取/錯誤)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 表示 6 位數驗證碼中的單一輸入格，處理預設、聚焦選取與輸入錯誤三種視覺狀態。
 - 遷移備註: 驗證碼輸入的高頻基礎元件，狀態完整且由正式流程跨 RWD/Theme 使用。
 - Page Type: Other
@@ -5893,7 +5893,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [verification-code-field] 驗證碼欄位 / Verification Code Field / `104:65431` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65431
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ae864663189b9f072ca8521b15d4a6b2b24bb8cd`
-- Component Properties: 狀態 (VARIANT: 預設/選取/驗證碼不正確或已過期，請確認後重新輸入。/驗證失敗次數過多，請於 5 分鐘後重試。)
+- Component Properties: 狀態 (VARIANT: 預設/選取/驗證碼不正確或已過期，請確認後重新輸入。/驗證失敗次數過多，請於 5 分鐘後重試。)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 包裝驗證碼輸入與驗證錯誤／鎖定提示，用於退款授權。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -5921,7 +5921,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [view-main-category-content] 查看主類別內容 / View Main Category Content / `198:259333` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259333
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8b6e109b6d0e9b8c448c5dfcc5002dcc7a2041cb`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 查看主類別內容。
 - 遷移備註: 待確認使用
 - Page Type: List
@@ -5949,7 +5949,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [view-main-category-table-header-cell] 查看主類別表格欄位標題 / View Main Category Table Header Cell / `198:259360` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259360
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`503e8f7d1bd2e8a85e3abf5022cd564d566046a0`
-- Component Properties: Property 1 (VARIANT: 名稱/Variant2)
+- Component Properties: Property 1 (VARIANT: 名稱/Variant2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 查看主類別表格欄位標題。
 - 遷移備註: 待確認使用
 - Page Type: List
@@ -5977,7 +5977,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [view-main-category-table-header] 查看主類別表格表頭 / View Main Category Table Header / `198:259369` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259369
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fc61b114be5d82f38e424bfaa5cae5a28eec9ff0`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 查看主類別表格表頭。
 - 遷移備註: 待確認使用
 - Page Type: List
@@ -6005,7 +6005,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [view-main-category-table-row] 查看主類別表格資料列 / View Main Category Table Row / `198:259375` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259375
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`13ae189f6c6cb426807c8f5c9e154c39f4ed5705`
-- Component Properties: Property 1 (VARIANT: 主類別 1)
+- Component Properties: Property 1 (VARIANT: 主類別 1)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 查看主類別表格資料列。
 - 遷移備註: 待確認使用
 - Page Type: List
@@ -6033,7 +6033,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [volume-listing-status-row] 投分量與上架狀態列 / Volume and Listing Status Row / `93:7735` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7735
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1d964887d587ba60a0dd838abbd8259b54126ccf`
-- Component Properties: 投分狀態 (VARIANT: 投分中/尚未投分/結算中)；收合狀態 (VARIANT: 關閉/開啟)；元件類型 (VARIANT: 主事件/選項事件)
+- Component Properties: 投分狀態 (VARIANT: 投分中/尚未投分/結算中)；收合狀態 (VARIANT: 關閉/開啟)；元件類型 (VARIANT: 主事件/選項事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 同時呈現投分量與上架/投分狀態，並依收合與主/選項事件調整。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6061,7 +6061,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [volume-listing-status] 投分量與上架狀態 / Volume and Listing Status / `93:8099` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8099
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2bb3d1d8e03e87435b081946b9e1ae50b9043cf6`
-- Component Properties: 投分量#5877:7 (TEXT)；狀態 (VARIANT: 投分中/尚未投分/已結束)
+- Component Properties: 投分量#5877:7 (TEXT)；狀態 (VARIANT: 投分中/尚未投分/已結束)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 列表/卡片顯示投分量與尚未投分、投分中、已結束等狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6089,7 +6089,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [volume-value] 投分量數值 / Volume Value / `93:8184` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8184
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5fda77f6137c9a16a8df5dca5ea9be106c433a4d`
-- Component Properties: 投分量#5877:7 (TEXT)；類型 (VARIANT: 數值)
+- Component Properties: 投分量#5877:7 (TEXT)；類型 (VARIANT: 數值)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面事件列表顯示投分量數值。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6117,7 +6117,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-option-column-header] 選項欄位標題 / Wager Option Column Header / `116:231086` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-231086
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bbb605028e6185578363d993094d09530249fbaa`
-- Component Properties: Property 1 (VARIANT: 選項名稱/初始價格(Price))
+- Component Properties: Property 1 (VARIANT: 選項名稱/初始價格(Price))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選項名稱／初始價格欄位標題。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -6145,7 +6145,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-option-row-title] 選項列標題 / Wager Option Row Title / `116:231091` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-231091
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`0b8540c1b6e853b389d603ee8f223e44e68a7bcd`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 單一選項列標題。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -6173,7 +6173,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-options-section-desktop] 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop / `116:230920` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230920
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`467518251407f240077c1c4251c50f9a0ca98844`
-- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)
+- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC/Tablet 的選項管理區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -6201,7 +6201,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-options-section-mobile] 選項管理區塊（Mobile） / Wager Options Section - Mobile / `116:231042` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-231042
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d42e7daeca12ca6980e34895ae26c8d1e65c5b33`
-- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)
+- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Mobile 的選項管理區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -6229,7 +6229,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-parameter-settings-section] 投分參數設定區塊 / Wager Parameter Settings Section / `110:114115` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-114115
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2c3c3ab0b747225064898328a5c49e1f853133cf`
-- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)
+- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 手續費、限制、流動性等參數區塊。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -6257,7 +6257,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-parameter-settings] 投分參數設定 / Wager Parameter Settings / `110:112421` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112421
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`61406bc3f9e4ebeec2e72e8e375f54e2352c2eb2`
-- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/tablet/Mobile)
+- Component Properties: status (VARIANT: enable/disable/enable--filled in)；device (VARIANT: PC/tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 投分參數設定總容器。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -6285,7 +6285,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-phase-column-header] 投分階段欄位標題 / Wager Phase Column Header / `114:77720` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77720
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cff3746b2e4d1f92d22e49f92817fe408f060f95`
-- Component Properties: 分類 (VARIANT: checkbox/投分狀態/選項事件名稱/剩餘結束天數 / 投分結束時間/玩家投分量(VoL.)/上架狀態/操作/checkbox--Tablet&Mobile/全部展開/全部收合)
+- Component Properties: 分類 (VARIANT: checkbox/投分狀態/選項事件名稱/剩餘結束天數 / 投分結束時間/玩家投分量(VoL.)/上架狀態/操作/checkbox--Tablet&Mobile/全部展開/全部收合)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供投分狀態、選項事件名稱、剩餘時間、投分量、上架狀態、操作與全選／展開收合等欄位標題。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -6313,7 +6313,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-phase-status-row] 投分階段狀態列 / Wager Phase Status Row / `114:76681` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76681
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a63c712707d9e0bd71d99c20227cfa099a2acbba`
-- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)
+- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以狀態列顯示投分中、等待投分、結算中與已結算等投分階段。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -6341,7 +6341,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-start-time-cell] 投分開始時間資料格 / Wager Start Time Cell / `93:7593` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7593
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b47ee779d1329d4de480a942ac370b630e6b023d`
-- Component Properties: 年#5913:0 (TEXT)；月#5913:7 (TEXT)；日#5913:14 (TEXT)；時#5913:21 (TEXT)；分#5913:28 (TEXT)；秒#5913:35 (TEXT)；收合狀態 (VARIANT: 開啟/關閉)；元件類型 (VARIANT: 選項事件/主事件)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 年#5913:0 (TEXT)；月#5913:7 (TEXT)；日#5913:14 (TEXT)；時#5913:21 (TEXT)；分#5913:28 (TEXT)；秒#5913:35 (TEXT)；收合狀態 (VARIANT: 開啟/關閉)；元件類型 (VARIANT: 選項事件/主事件)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格顯示投分開始時間，支援主/選項事件與過期/收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6369,7 +6369,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-status-filter] 投分狀態篩選器 / Wager Status Filter / `93:7106` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7106
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1941034311f5b99fb9c029006905b36cf5bf4ac3`
-- Component Properties: Property 1 (VARIANT: 全部投分狀態/投分中/結算中/已結算/等待投分/已取消)
+- Component Properties: Property 1 (VARIANT: 全部投分狀態/投分中/結算中/已結算/等待投分/已取消)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依全部、投分中、結算中、已結算、等待投分、已取消等投分狀態篩選事件。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6397,7 +6397,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-status-row] 投分狀態資料列 / Wager Status Row / `93:7258` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7258
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1361e693f036c4ab7cf73b3733e674f49ed2b812`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/無)；收合狀態 (VARIANT: 關閉/開啟)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/無)；收合狀態 (VARIANT: 關閉/開啟)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示主事件投分狀態，並依事件類型與收合狀態切換內容。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6425,7 +6425,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-time-range-filter] 投分起訖時間篩選 / Wager Time Range Filter / `113:223337` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223337
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c3a612c1ef8037349982763a9b04899c8c5ade44`
-- Component Properties: 項目 (VARIANT: Default)
+- Component Properties: 項目 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依投分開始／結束時間篩選第三方建議事件。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -6437,7 +6437,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=10、usedByScreenCount=6；usedByThemes=light,dark；Component Set 結構：項目=Default；Figma key=c179da91e0da39476732db8901a103f479daf313
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=10、usedByScreenCount=6；usedByThemes=light,dark；Component Set 結構：項目=Default
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 6203:624151
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -6453,7 +6453,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-time-range-section-desktop] 投分時間區塊（PC/Tablet） / Wager Time Range Section - Desktop / `116:230881` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230881
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`62071d674936a7668c4f8c10838d356973f0fd7f`
-- Component Properties: input (VARIANT: default/filled)；stauts (VARIANT: open/close)
+- Component Properties: input (VARIANT: default/filled)；stauts (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC/Tablet 的投分時間區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -6481,7 +6481,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-time-range-section-mobile] 投分時間區塊（Mobile） / Wager Time Range Section - Mobile / `116:231003` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-231003
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`44ef51cd4a1cb410d074a26d69f86c93882b91a5`
-- Component Properties: input (VARIANT: default/filled)；stauts (VARIANT: open/close)
+- Component Properties: input (VARIANT: default/filled)；stauts (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Mobile 的投分時間區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -6509,7 +6509,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-time-range] 投分起訖時間 / Wager Time Range / `114:76710` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76710
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1a942d08752a600f451025cd800b042fdb856538`
-- Component Properties: 開始-年#5926:0 (TEXT)；開始-月#5926:2 (TEXT)；開始-日#5926:4 (TEXT)；開始-時#5926:6 (TEXT)；開始-分#5926:8 (TEXT)；開始-秒#5926:10 (TEXT)；結束-年#5926:12 (TEXT)；結束-月#5926:14 (TEXT)；結束-日#5926:16 (TEXT)；結束-時#5926:18 (TEXT)；結束-分#5926:20 (TEXT)；結束-秒#5926:22 (TEXT)；Show 開始時間#5929:38 (BOOLEAN)；Show 結束時間#5929:40 (BOOLEAN)；類型 (VARIANT: Default)
+- Component Properties: 開始-年#5926:0 (TEXT)；開始-月#5926:2 (TEXT)；開始-日#5926:4 (TEXT)；開始-時#5926:6 (TEXT)；開始-分#5926:8 (TEXT)；開始-秒#5926:10 (TEXT)；結束-年#5926:12 (TEXT)；結束-月#5926:14 (TEXT)；結束-日#5926:16 (TEXT)；結束-時#5926:18 (TEXT)；結束-分#5926:20 (TEXT)；結束-秒#5926:22 (TEXT)；Show 開始時間#5929:38 (BOOLEAN)；Show 結束時間#5929:40 (BOOLEAN)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示或設定投分開始與結束日期時間。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -6537,7 +6537,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-type-badge] 投分類型標籤 / Wager Type Badge / `93:6687` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6687
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f1b8d45f5b45f81b77715f238867ab70346beaf1`
-- Component Properties: Property 1 (VARIANT: 二元/時間軸/單一事件結果)
+- Component Properties: Property 1 (VARIANT: 二元/時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 標示事件採二元、時間軸或單一事件結果等投分類型。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6565,7 +6565,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-volume-status] 投分量狀態 / Wager Volume Status / `114:76665` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76665
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`003aea67c59366ab60ed579fcb4a292d651a3235`
-- Component Properties: 投分狀態 (VARIANT: 投分中/尚未投分/結算中)；收合狀態 (VARIANT: disable)；元件類型 (VARIANT: 主事件)
+- Component Properties: 投分狀態 (VARIANT: 投分中/尚未投分/結算中)；收合狀態 (VARIANT: disable)；元件類型 (VARIANT: 主事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示玩家投分量以及尚未投分、已被投分或結算中的狀態提示。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -6593,7 +6593,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [mobile-unpublished-event-card] 手機未上架事件卡片 / Mobile Unpublished Event Card / `93:8468` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8468
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9789e736c9b880e1235d94e9e5abe18748a3cf6a`
-- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；時間狀態 (VARIANT: 尚未過期/已過期)；收合狀態 (VARIANT: 開啟/無/關閉)
+- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；時間狀態 (VARIANT: 尚未過期/已過期)；收合狀態 (VARIANT: 開啟/無/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝手機/平板未上架主事件卡片，依事件類型、過期與收合狀態切換內容。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6621,7 +6621,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [mobile-unpublished-main-status-header] 手機未上架主事件狀態標題 / Mobile Unpublished Main Status Header / `93:7952` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7952
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d675caba65ec28b432eaf2bc4eee9557d53b72d`
-- Component Properties: 計數#7046:5 (TEXT)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)；收合狀態 (VARIANT: 開啟/無/關閉)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 計數#7046:5 (TEXT)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)；收合狀態 (VARIANT: 開啟/無/關閉)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 未上架主事件卡片依事件類型、過期與收合狀態顯示標題。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6649,7 +6649,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [mobile-unpublished-option-event-card] 手機未上架選項事件卡片 / Mobile Unpublished Option Event Card / `93:8960` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8960
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4b63fe36dadadf08eae3d1d49ad61867aef34580`
-- Component Properties: Show 按鈕組#7098:0 (BOOLEAN)；時間狀態 (VARIANT: 已過期/尚未過期)；收合狀態 (VARIANT: 開啟/關閉)
+- Component Properties: Show 按鈕組#7098:0 (BOOLEAN)；時間狀態 (VARIANT: 已過期/尚未過期)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝手機/平板未上架選項事件卡片，依過期狀態與收合狀態切換。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6677,7 +6677,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [mobile-unpublished-option-status-header] 手機未上架選項事件狀態標題 / Mobile Unpublished Option Status Header / `93:7927` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7927
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ab188a6a28df99f2b768b635641b85d213754c44`
-- Component Properties: 收合狀態 (VARIANT: 開啟/關閉)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 收合狀態 (VARIANT: 開啟/關閉)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 未上架選項事件卡片顯示過期狀態與收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6705,7 +6705,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [mounted-subcategory-image-path-filter] 已掛載次類別圖片路徑篩選器 / Mounted Subcategory Image Path Filter / `198:279358` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-279358
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e985cb1eb3c3263ea076695ae29fc4ee1e2d11de`
-- Component Properties: Property 1 (VARIANT: 請選擇/次類別 1/次類別 2)
+- Component Properties: Property 1 (VARIANT: 請選擇/次類別 1/次類別 2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在圖片上傳流程中依已掛載事件次類別選擇或篩選可使用的圖片路徑。
 - 遷移備註: 雖無直接 instance，但 usageEvidence 證明經由正式元件間接出現在 12 個跨 RWD 畫面，且具明確流程 variants。
 - Page Type: Create
@@ -6717,7 +6717,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.96
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=0、nestedDependencies=2、screens=12、components=2、viewports=mobile/tablet/desktop、themes=dark/light；Component Set 具「請選擇／次類別 1／次類別 2」3 個 variants；Figma key=5b97d59fddfea8d8f9af4b398b33f8f080611d3c
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=0、nestedDependencies=2、screens=12、components=2、viewports=mobile/tablet/desktop、themes=dark/light；Component Set 具「請選擇／次類別 1／次類別 2」3 個 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6150:76106
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -6733,7 +6733,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [multi-option-main-event-collapse] 多選項主事件收合控制 / Multi-option Main Event Collapse / `93:8060` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8060
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b8206b23cd6c9327f7c7561f66bc5a25d1b2fa14`
-- Component Properties: 計數#7046:0 (TEXT)；收合狀態 (VARIANT: 關閉/開啟)；事件類型 (VARIANT: 時間軸/單一事件結果)
+- Component Properties: 計數#7046:0 (TEXT)；收合狀態 (VARIANT: 關閉/開啟)；事件類型 (VARIANT: 時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制多選項主事件在桌面列中的開啟/關閉收合狀態，支援時間軸與單一事件結果。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6761,7 +6761,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [netwin-column-header] Netwin 欄位標題 / Netwin Column Header / `110:113892` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113892
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d8f69345f8d4e221a3d9dacd6e193d7777c0cc0f`
-- Component Properties: Property 1 (VARIANT: Max/Rate/Min)
+- Component Properties: Property 1 (VARIANT: Max/Rate/Min)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Netwin Min/Max/Rate 欄位標題。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -6789,7 +6789,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [netwin-header-row] Netwin 表頭列 / Netwin Header Row / `110:113899` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113899
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`c82d0d682bc1907404f1244cec8b4dc6c27fd07f`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Netwin Min/Max/Rate 表頭列。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -6817,7 +6817,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [netwin-profit-range-settings] Netwin 盈利範圍設定 / Netwin Profit Range Settings / `110:113904` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113904
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d1f1ff24d1da7437d77d453f955ad1d8b8a36acf`
-- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty)
+- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Netwin 盈利級距與 Rate 設定。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -6845,7 +6845,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [occupied-inventory-change-editing] 佔用總庫存變化（編輯掛賣） / Occupied Inventory Change Editing / `144:4730` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4730
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e79c5bf65b23c3163f6f0427ebc116ad5981a1ef`
-- Component Properties: ％數#5839:0 (TEXT)；小數#5877:12 (TEXT)；類型 (VARIANT: 無)
+- Component Properties: ％數#5839:0 (TEXT)；小數#5877:12 (TEXT)；類型 (VARIANT: 無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在編輯掛賣時呈現調整前後造成的佔用總庫存變化，協助營運人員確認修改影響。
 - 遷移備註: 雖直接 instance 數較少，但透過正式畫面與元件依賴廣泛使用，功能語意清楚。
 - Page Type: Other
@@ -6873,7 +6873,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [occupied-total-inventory] 佔用總庫存 / Occupied Total Inventory / `144:4713` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4713
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`55a20d390b2092c4b0d145510f6881d41664192b`
-- Component Properties: ％數#5839:0 (TEXT)；小數#5877:12 (TEXT)；類型 (VARIANT: 少量掛賣/大量掛賣)
+- Component Properties: ％數#5839:0 (TEXT)；小數#5877:12 (TEXT)；類型 (VARIANT: 少量掛賣/大量掛賣)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示目前掛賣價格層已佔用的總庫存與比例，並針對少量或大量掛賣使用不同呈現。
 - 遷移備註: 核心庫存資料欄位，具有明確情境 variants 與大量實際引用。
 - Page Type: Other
@@ -6901,7 +6901,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-direction-indicator] 選項方向提示 / Option Direction Indicator / `114:226895` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226895
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`96ce3434cd9c2dd32c12ae21f255b454045096bb`
-- Component Properties: 方向 (VARIANT: Yes/No/Up/Down)
+- Component Properties: 方向 (VARIANT: Yes/No/Up/Down)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以 Yes、No、Up、Down 等方向標示結算選項。
 - 遷移備註: 正式流程高頻重用
 - Page Type: Other
@@ -6913,7 +6913,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；variants：Yes、No、Up、Down；Figma key=ab80b92b947ea87d745e8b575aeee817c8b992b7
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=114、usedByScreenCount=36；variants：Yes、No、Up、Down
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 7456:34472
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -6929,7 +6929,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-action-button] 選項事件操作按鈕 / Option Event Action Button / `93:7000` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7000
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b58629a274978fbc6240a835c5a2c89d536aed2e`
-- Component Properties: type (VARIANT: 更多操作/編輯事件/確認上架/查看結果)；status (VARIANT: default/hover/enable/disable)
+- Component Properties: type (VARIANT: 更多操作/編輯事件/確認上架/查看結果)；status (VARIANT: default/hover/enable/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供選項事件的更多操作、編輯、確認上架與查看結果等操作，含多種互動狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6957,7 +6957,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-column-title] 選項事件欄位標題 / Option Event Column Title / `93:8441` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8441
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`25849a33ae537f5b6c209c90cc225b80f36c54b1`
-- Component Properties: 分類 (VARIANT: 事件創建時間/上架狀態/玩家投分量(VoL.)/操作/投分開始時間/選項事件投分狀態/選項事件名稱/empty/剩餘結束天數/合約庫存)
+- Component Properties: 分類 (VARIANT: 事件創建時間/上架狀態/玩家投分量(VoL.)/操作/投分開始時間/選項事件投分狀態/選項事件名稱/empty/剩餘結束天數/合約庫存)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供選項事件表格欄位標題，如事件時間、投分量、剩餘天數、庫存與操作。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -6985,7 +6985,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-data-row] 選項事件資料列 / Option Event Data Row / `114:77282` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77282
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ae2887f84ad373026893b067fb013e2302157f6b`
-- Component Properties: 年#5913:49 (TEXT)；月#5913:58 (TEXT)；日#5913:67 (TEXT)；時#5913:76 (TEXT)；分#5913:85 (TEXT)；秒#5913:94 (TEXT)；天數#5940:0 (TEXT)；分類 (VARIANT: 投分量--已被投分/投分量--尚未投分/上架狀態--上架中/上架狀態--已下架/剩餘天數警告--7天以上/剩餘天數警告--7天以內/剩餘天數警告--已結束/事件創建時間/狀態更新時間/投分開始時間/投分結束時間/投分結束時間--已結束/已過期/參數設定狀態)；device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: 年#5913:49 (TEXT)；月#5913:58 (TEXT)；日#5913:67 (TEXT)；時#5913:76 (TEXT)；分#5913:85 (TEXT)；秒#5913:94 (TEXT)；天數#5940:0 (TEXT)；分類 (VARIANT: 投分量--已被投分/投分量--尚未投分/上架狀態--上架中/上架狀態--已下架/剩餘天數警告--7天以上/剩餘天數警告--7天以內/剩餘天數警告--已結束/事件創建時間/狀態更新時間/投分開始時間/投分結束時間/投分結束時間--已結束/已過期/參數設定狀態)；device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項事件投分量、上下架狀態、剩餘天數、建立／更新時間與參數設定等欄位。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7013,7 +7013,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-data] 選項事件資料 / Option Event Data / `114:77248` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77248
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`09c043afe927becef734f6313bdf87fb7171d400`
-- Component Properties: 類型 (VARIANT: 尚未投分/投分階段)；device (VARIANT: Tablet/Mobile)
+- Component Properties: 類型 (VARIANT: 尚未投分/投分階段)；device (VARIANT: Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項事件的參數設定狀態、投分開始與結束時間等資料，適用尚未投分與投分階段。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7041,7 +7041,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-list-pre-wager] 選項事件列表（尚未投分） / Option Event List - Pre-Wager / `114:77215` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77215
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ca4519a78ae94503f3d59a9b8085ed621cdbd1ee`
-- Component Properties: 類型 (VARIANT: 等待上架)；收合狀態 (VARIANT: disable/enable)；device (VARIANT: Tablet/Mobile)
+- Component Properties: 類型 (VARIANT: 等待上架)；收合狀態 (VARIANT: disable/enable)；device (VARIANT: Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示等待上架的選項事件列表，支援 Tablet 與 Mobile 展開收合。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7069,7 +7069,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-list-wager-phase] 選項事件列表（投分階段） / Option Event List - Wager Phase / `114:77090` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77090
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a61046eb5867e1046645f953b9e94e6b241d0682`
-- Component Properties: 類型 (VARIANT: 投分/投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: enable/disable)；device (VARIANT: Tablet/Mobile)
+- Component Properties: 類型 (VARIANT: 投分/投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: enable/disable)；device (VARIANT: Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示投分中、等待投分、結算中與已結算的選項事件列表，支援 Tablet 與 Mobile 展開收合。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7097,7 +7097,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-name-cell] 選項事件名稱資料格 / Option Event Name Cell / `93:7708` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7708
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`855f96a8098a99b2e51651924077a9dbd3017e94`
-- Component Properties: 年#5839:0 (TEXT)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；選項名稱#6986:57 (TEXT)；事件類型 (VARIANT: 時間軸/單一事件結果)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 年#5839:0 (TEXT)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；選項名稱#6986:57 (TEXT)；事件類型 (VARIANT: 時間軸/單一事件結果)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項事件名稱與事件類型，並處理時間狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -7125,7 +7125,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-name] 選項事件名稱 / Option Event Name / `93:7913` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7913
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`427f0aca39066c536e3d1b82b99297c0c203531f`
-- Component Properties: 年#5839:0 (TEXT)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；選項名稱#6986:98 (TEXT)；事件類型 (VARIANT: 時間軸/單一事件結果)
+- Component Properties: 年#5839:0 (TEXT)；月#5877:12 (TEXT)；日#5877:14 (TEXT)；Show day#5877:16 (BOOLEAN)；選項名稱#6986:98 (TEXT)；事件類型 (VARIANT: 時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選項事件卡片/列表顯示時間軸或單一事件結果的事件名稱。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -7153,7 +7153,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-row-pre-wager] 選項事件列（尚未投分） / Option Event Row - Pre-Wager / `114:77594` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77594
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4b82b5cf3b7df0e896e16dde7964c343cb977d3c`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示尚未投分之選項事件的日期與基本資料。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7181,7 +7181,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-row-wager-phase] 選項事件列（投分階段） / Option Event Row - Wager Phase / `114:77565` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77565
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`45ceae0e5ab4ab61cc170ab01a23436acacc5c91`
-- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)
+- Component Properties: Property 1 (VARIANT: 投分中/等待投分/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示已進入投分流程之選項事件的日期、剩餘時間與投分階段資訊。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7209,7 +7209,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-selection-row] 選項事件勾選列 / Option Event Selection Row / `114:76740` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76740
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`02b710cc2bcbfea765fc914e19b265ff0fbfe844`
-- Component Properties: Property 1 (VARIANT: 勾選)
+- Component Properties: Property 1 (VARIANT: 勾選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供選項事件列表的勾選控制，供批次操作使用。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7237,7 +7237,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-setup-content] 設定選項事件內容 / Option Event Setup Content / `114:77602` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77602
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cfeb035117ce411a315a6570fae95d9099b063e8`
-- Component Properties: status (VARIANT: enable/enable--filled in/disable)；device (VARIANT: PC/Mobile)
+- Component Properties: status (VARIANT: enable/enable--filled in/disable)；device (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供設定時間區間、事件數量、批次更新參數與執行推算等選項事件設定操作。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7265,7 +7265,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-table-header] 選項事件表頭 / Option Event Header / `93:8397` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8397
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d9624c3e5038c8252611a7c991b1d3d134202c13`
-- Component Properties: Property 1 (VARIANT: 已上架事件/未上架事件)
+- Component Properties: Property 1 (VARIANT: 已上架事件/未上架事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示已上架/未上架選項事件的欄位表頭。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -7293,7 +7293,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-wager-status-row] 選項事件投分狀態列 / Option Event Wager Status Row / `93:7695` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7695
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4def5d7b6aeec6d733b9a181ee8c556a69760115`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項事件的投分中、等待投分、結算中、已結算等狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -7321,7 +7321,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-event-wager-status] 選項事件投分狀態 / Option Event Wager Status / `93:7839` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7839
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`00a7c1fff5776fea5f872bea1bf41b1a4ccfe398`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/已取消)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/已取消)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項事件的投分中、等待投分、結算中、已結算、已取消等狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -7349,7 +7349,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-inventory-display-row] 選項事件庫存資料列 / Option Inventory Display Row / `93:7771` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7771
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f89d6e3347117d8c06a4e0ae8f430a8f94860eff`
-- Component Properties: 選項方向 (VARIANT: Yes/No/Up/Down)
+- Component Properties: 選項方向 (VARIANT: Yes/No/Up/Down)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面選項事件列顯示 Yes/No/Up/Down 等方向的庫存資訊。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -7377,7 +7377,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [option-type-filter] 選項類型篩選 / Option Type Filter / `113:223347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223347
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4e32a20dacbf4aa8ddf3334b9cdd14e335c01ec3`
-- Component Properties: 項目 (VARIANT: 二元選項/顯示全部)
+- Component Properties: 項目 (VARIANT: 二元選項/顯示全部)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依二元選項等選項型態篩選建議事件。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -7389,7 +7389,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=10、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：項目=二元選項,顯示全部；Figma key=7c45dc32cba99e7a625bed242954dc8d74edaf26
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=6、nestedDependencyCount=10、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：項目=二元選項,顯示全部
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 6719:668733
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -7405,7 +7405,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-action-cell] 操作欄位 / Order Action Cell / `163:487279` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487279
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0cccedb628b795587bcc16e5baadd50471cf0225`
-- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；類型 (VARIANT: 編號)
+- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；類型 (VARIANT: 編號)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在列表操作欄提供單筆訂單的操作入口。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7433,7 +7433,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-action-trigger] 操作按鈕 / Order Action Trigger / `163:487300` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487300
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`e033963ba8879e588a78a7b8d68e16bbb2d48fb6`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 觸發單筆訂單的操作選單或後續操作流程。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7461,7 +7461,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-created-time-filter] 訂單成立時間篩選 / Order Created Time Filter / `163:487557` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487557
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`45ce82a55fd5b7092b2374eedf7dad0f6fc689b5`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依訂單成立時間區間篩選會員訂單紀錄。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7489,7 +7489,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-detail-content-cell] 詳細資訊內容 / Order Detail Content Cell / `163:487397` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487397
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9cb67d97bf8fb8db63116150a49983420f1f0bb1`
-- Component Properties: 內容#8049:11 (TEXT)；數值#8049:14 (TEXT)；數值2#8049:17 (TEXT)；年#8049:20 (TEXT)；月#8049:25 (TEXT)；日#8049:30 (TEXT)；時#8049:35 (TEXT)；分#8049:40 (TEXT)；秒#8049:45 (TEXT)；Show +#8049:50 (BOOLEAN)；Show -#8049:57 (BOOLEAN)；Show 小數後四位#8049:64 (BOOLEAN)；類型 (VARIANT: 訂單類型/訂單狀態/文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down)
+- Component Properties: 內容#8049:11 (TEXT)；數值#8049:14 (TEXT)；數值2#8049:17 (TEXT)；年#8049:20 (TEXT)；月#8049:25 (TEXT)；日#8049:30 (TEXT)；時#8049:35 (TEXT)；分#8049:40 (TEXT)；秒#8049:45 (TEXT)；Show +#8049:50 (BOOLEAN)；Show -#8049:57 (BOOLEAN)；Show 小數後四位#8049:64 (BOOLEAN)；類型 (VARIANT: 訂單類型/訂單狀態/文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在詳細資訊彈窗顯示文字、狀態、訂單類型、數值、盈虧、時間與方向等欄位值。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7517,7 +7517,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-detail-dialog] 詳細資訊彈窗 / Order Detail Dialog / `163:487779` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487779
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`99d1c0a3521bb26b746f9e7b3ac5f0306cb95758`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: Rush Hour/二元-Yes/二元-No)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: Rush Hour/二元-Yes/二元-No)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示單筆會員訂單的詳細資訊，支援 Rush Hour、二元 Yes／No 與 PC／Tablet
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7545,7 +7545,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-detail-item] 詳細資訊項目 / Order Detail Item / `163:487448` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487448
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8409a294b2a35f1c667b8fed2500ab220b57ba03`
-- Component Properties: 項目#8049:4 (TEXT)；狀態 (VARIANT: 已勾選/取消)
+- Component Properties: 項目#8049:4 (TEXT)；狀態 (VARIANT: 已勾選/取消)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供詳細資訊項目的勾選與取消狀態。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -7573,7 +7573,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-detail-row] 詳細資訊列 / Order Detail Row / `163:487457` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487457
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b566f811008c72a282e085b47d33efff177c04e3`
-- Component Properties: 標題#8049:9 (TEXT)；位置 (VARIANT: 上/中/下)
+- Component Properties: 標題#8049:9 (TEXT)；位置 (VARIANT: 上/中/下)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合詳細資訊彈窗的上、中、下位置資料列。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7601,7 +7601,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-detail-text-cell] 文字儲存格 / Text Cell / `163:487498` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487498
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`73309149ec56cd2498aa19cad1ae5148c43e5cc2`
-- Component Properties: Show ：#8060:0 (BOOLEAN)；內容#8060:3 (TEXT)；類型 (VARIANT: Default)
+- Component Properties: Show ：#8060:0 (BOOLEAN)；內容#8060:3 (TEXT)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供重新執行或詳細資訊區塊使用的基本文字儲存格。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -7629,7 +7629,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-status-cell-desktop] 訂單狀態－PC / Desktop Order Status Cell / `163:487291` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487291
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`59e3ac2ca42e328c9f95f46b24722490c15a0d0b`
-- Component Properties: 訂單狀態 (VARIANT: Finished/Failed/Error/Canceled)
+- Component Properties: 訂單狀態 (VARIANT: Finished/Failed/Error/Canceled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面列表以 PC 專用版式顯示訂單狀態。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7657,7 +7657,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-status-cell] 訂單狀態 / Order Status Cell / `163:487282` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487282
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`389cf8af2dee2578c29d800083f348a7617b0aaf`
-- Component Properties: 類型 (VARIANT: Error/Finished/Failed/Canceled)
+- Component Properties: 類型 (VARIANT: Error/Finished/Failed/Canceled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以狀態樣式顯示 Finished、Failed、Error、Canceled 等訂單狀態。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7685,7 +7685,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-status-filter] 訂單狀態篩選 / Order Status Filter / `163:487560` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487560
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`34ad0efee201c7b597ea416f15dab25fd76193cd`
-- Component Properties: Property 1 (VARIANT: 全部訂單狀態/成功(Successful)/失敗(Failed)/系統錯誤(Error)/已取消(Canceled))
+- Component Properties: Property 1 (VARIANT: 全部訂單狀態/成功(Successful)/失敗(Failed)/系統錯誤(Error)/已取消(Canceled))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依 Successful、Failed、Error、Canceled 等狀態篩選訂單。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7713,7 +7713,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-table-header] 表格欄位標題 / Order Table Header / `163:487095` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487095
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9025b2d5ab2124013f13b9f9eb0ce45d449ee02d`
-- Component Properties: 類別 (VARIANT: 系統訂單編號/事件編號/局號/交易編號/事件名稱/玩家選項/選項方向/商戶名稱與會員編號/訂單類型/訂單狀態/總投分額/價格/單位量/盈虧/訂單成立時間/操作)
+- Component Properties: 類別 (VARIANT: 系統訂單編號/事件編號/局號/交易編號/事件名稱/玩家選項/選項方向/商戶名稱與會員編號/訂單類型/訂單狀態/總投分額/價格/單位量/盈虧/訂單成立時間/操作)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示會員訂單紀錄的欄位標題，涵蓋系統訂單編號、事件、商戶、訂單狀態、金額、時間與操作等欄位。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7741,7 +7741,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-time-cell] 時間 / Order Time Cell / `163:487201` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487201
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`373fb42186e6952bc1f6a8cd76da8745a48de195`
-- Component Properties: 年#8034:4 (TEXT)；月#8034:6 (TEXT)；日#8034:8 (TEXT)；時#8034:10 (TEXT)；分#8034:12 (TEXT)；秒#8034:14 (TEXT)；類型 (VARIANT: Default)
+- Component Properties: 年#8034:4 (TEXT)；月#8034:6 (TEXT)；日#8034:8 (TEXT)；時#8034:10 (TEXT)；分#8034:12 (TEXT)；秒#8034:14 (TEXT)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在會員訂單列表顯示訂單成立時間等時間資料。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7769,7 +7769,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-type-cell] 訂單類型 / Order Type Cell / `163:487160` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487160
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7c9576f6258a9650721722ed6671924f295f7c16`
-- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour/補扣單)
+- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour/補扣單)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在會員訂單列表顯示買入、賣出、結算、退款、Rush Hour、補扣單等訂單類型。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7797,7 +7797,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-type-detail] 訂單類型－詳細資訊 / Order Type Detail / `163:487503` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487503
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4e9455e651e5d6c746abcd5e3dc0c68f99edb790`
-- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour)
+- Component Properties: 訂單類型 (VARIANT: 買入/市價/買入/限價/賣出/市價/賣出/限價/Win/結算/Lose/結算/退款/Rush Hour)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在詳細資訊彈窗顯示各種買賣、結算、退款與 Rush Hour 訂單類型。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7825,7 +7825,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-type-filter] 全部訂單類型 / Order Type Filter / `163:487528` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487528
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1517a7a6076f50a8b8b37dc870ee0d4e38131039`
-- Component Properties: 類型 (VARIANT: 全部訂單類型/Rush Hour/買入/市價/買入/限價/賣出/市價/賣出/限價/Lose/結算/Win/結算/退款)
+- Component Properties: 類型 (VARIANT: 全部訂單類型/Rush Hour/買入/市價/買入/限價/賣出/市價/賣出/限價/Lose/結算/Win/結算/退款)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 篩選會員訂單紀錄的訂單類型，包含全部、Rush Hour、買賣、結算與退款。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -7853,7 +7853,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-filter] 參數分類篩選器 / Parameter Category Filter / `121:552123` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-552123
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6cc580a34f76a7752d55e7ae6c75ac52ebef3f5a`
-- Component Properties: Property 1 (VARIANT: 顯示全部參數/手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)
+- Component Properties: Property 1 (VARIANT: 顯示全部參數/手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 切換顯示全部參數、手續費、投注限制、流動性、買單檔次與 Netwin 盈利抽成等分類。
 - 遷移備註: 正式使用證據充分
 - Page Type: Edit
@@ -7881,7 +7881,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-list-card] 參數類別列表卡片 / Parameter Category List Card / `198:259263` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259263
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a1d743ac389c47d2410e63aa1ef91f10a9bf8f96`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Tablet 與 Mobile 以卡片方式呈現參數類別名稱、狀態與詳細欄位，並提供編輯入口。
 - 遷移備註: Tablet/Mobile 列表核心元件且使用量高
 - Page Type: List
@@ -7909,7 +7909,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-mobile-content-row] 參數類別行動版內容列 / Parameter Category Mobile Content Row / `198:259302` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259302
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c1baaafbd60f7491867a1fb1873bce90c79e9efe`
-- Component Properties: Property 1 (VARIANT: 排序權重10/排序權重20/ID/最後更新時間)
+- Component Properties: Property 1 (VARIANT: 排序權重10/排序權重20/ID/最後更新時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以標籤與值的形式顯示行動版單一資料欄位，可切換排序權重、ID、最後更新時間等內容。
 - 遷移備註: 高使用量欄位列且被兩個本地元件依賴
 - Page Type: List
@@ -7937,7 +7937,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-mobile-content] 參數類別行動版內容 / Parameter Category Mobile Content / `198:259284` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259284
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d1aa540470b7154fc928a92ad3136bb6dec5ba68`
-- Component Properties: Property 1 (VARIANT: 審核事件)
+- Component Properties: Property 1 (VARIANT: 審核事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合行動版參數類別的 ID、排序權重與最後更新時間等欄位內容，供列表卡片使用。
 - 遷移備註: 行動列表內容結構被正式畫面與上層元件重用
 - Page Type: List
@@ -7965,7 +7965,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-search-filter] 參數類別搜尋篩選器 / Parameter Category Search Filter / `198:259249` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259249
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8501791921422213ea0884ef628431db4c8177c6`
-- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)
+- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供參數類別關鍵字搜尋輸入，供 Desktop、Tablet、Mobile 的列表與狀態畫面共用。
 - 遷移備註: 跨 RWD 與 Theme 穩定重用
 - Page Type: List
@@ -7993,7 +7993,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-status-desktop] 參數類別啟用狀態（桌面） / Parameter Category Status Desktop / `198:259293` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259293
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`05bf2ecdcfd9983e6fca1b40186c41d252a6a66d`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示桌面版參數類別的啟用／停用狀態，供表格資料列與其他列表元件組合使用。
 - 遷移備註: 高使用量狀態元件且被多個列表元件依賴
 - Page Type: List
@@ -8021,7 +8021,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-status-filter] 參數類別啟用狀態篩選器 / Parameter Category Status Filter / `198:259254` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259254
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1d8620625013bf215a3286ef5107f7e82c785553`
-- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)
+- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 切換顯示全部、已啟用或已停用的參數類別，供各裝置列表篩選使用。
 - 遷移備註: 跨 RWD 且具三種正式狀態
 - Page Type: List
@@ -8049,7 +8049,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-status-mobile] 參數類別啟用狀態（行動） / Parameter Category Status Mobile / `198:259326` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259326
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bb155cffdad95b5f91acf0860bd5bdba041dc657`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示 Tablet／Mobile 參數類別的啟用或停用狀態，供卡片列表組合使用。
 - 遷移備註: 行動／平板狀態元件有正式 variants 與穩定重用
 - Page Type: List
@@ -8077,7 +8077,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-table-header-cell] 參數類別表格欄位標題 / Parameter Category Table Header Cell / `198:259183` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259183
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`87d95d4658361812ce35defcf14ce5a44ac26d61`
-- Component Properties: Property 1 (VARIANT: 操作/排序/最後更新時間/ID/啟用狀態/名稱)
+- Component Properties: Property 1 (VARIANT: 操作/排序/最後更新時間/ID/啟用狀態/名稱)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依 variant 切換 ID、名稱、排序、啟用狀態、最後更新時間與操作等欄位標題，供桌面表格表頭組合使用。
 - 遷移備註: 保留為功能層表格表頭原子元件
 - Page Type: List
@@ -8105,7 +8105,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-table-header] 參數類別表格表頭 / Parameter Category Table Header / `198:259202` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259202
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`931c0af04164743487d03b8c1f6eae8e8debe16f`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合參數類別列表的完整桌面表頭，排列 ID、名稱、排序、啟用狀態、最後更新時間與操作欄位。
 - 遷移備註: 正式桌面表格表頭且有穩定重用
 - Page Type: List
@@ -8133,7 +8133,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-category-table-row] 參數類別表格資料列 / Parameter Category Table Row / `198:259212` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259212
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`905af2988b057657ad9794f393718b166996a5ed`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示桌面版單筆參數類別資料與啟用狀態，並提供編輯操作，供參數類別列表重複使用。
 - 遷移備註: 高使用量且具狀態 variants
 - Page Type: List
@@ -8161,7 +8161,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-edit-history-field] 編輯記錄欄位 / Edit History Field / `121:552112` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-552112
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cf11a8582402606e17acbb157eaee26bf02ade29`
-- Component Properties: 最後編輯者#6092:0 (TEXT)；最後編輯時間#6092:3 (TEXT)；項目 (VARIANT: 最後編輯者/編輯時間)
+- Component Properties: 最後編輯者#6092:0 (TEXT)；最後編輯時間#6092:3 (TEXT)；項目 (VARIANT: 最後編輯者/編輯時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示最後編輯者或最後編輯時間單一欄位。
 - 遷移備註: 正式使用證據充分
 - Page Type: Edit
@@ -8189,7 +8189,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-edit-history-row] 編輯記錄列 / Edit History Row / `121:552105` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-552105
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`04ec6936ca22ac563d45119a7ff5b4e4b0a4d27e`
-- Component Properties: 項目 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: 項目 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合最後編輯者與最後編輯時間。
 - 遷移備註: 正式使用證據充分
 - Page Type: Edit
@@ -8217,7 +8217,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-keyword-search] 參數關鍵字搜尋 / Parameter Keyword Search / `121:552102` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-552102
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c13f51ee2b3ae675575e44f20e95c8fc2ac66a2d`
-- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)
+- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以關鍵字搜尋參數設定。
 - 遷移備註: 正式使用證據充分
 - Page Type: Edit
@@ -8245,7 +8245,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-name-search-filter] 參數名稱搜尋 / Parameter Name Search Filter / `165:1159444` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159444
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7f3cb707ab9c0dae52ddd76acd3f73e5141a4f7d`
-- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)
+- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依參數名稱關鍵字搜尋列表資料。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8273,7 +8273,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-setting-status-badge] 參數設定狀態標籤 / Parameter Setting Status Badge / `114:76557` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76557
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9d04c4d7bc0f90f51258e1a2ecbb656fefa641a6`
-- Component Properties: Property 1 (VARIANT: 使用全域參數/不使用全域參數)
+- Component Properties: Property 1 (VARIANT: 使用全域參數/不使用全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 標示選項事件使用全域參數或不使用全域參數。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -8301,7 +8301,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-settings-category-cell] 參數設定類別項目 / Parameter Settings Category Cell / `110:112396` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112396
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`538d53d02a2f67c80d550517b7cce8de8ffc28a4`
-- Component Properties: Property 1 (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour)；hover (VARIANT: hover/no hover)
+- Component Properties: Property 1 (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour)；hover (VARIANT: hover/no hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 投分參數類別導覽項目。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -8329,7 +8329,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-status-desktop] 參數啟用狀態－桌面 / Parameter Status Desktop / `165:1159529` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159529
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f13081d9e7cb8d4429ff537b23149bf860c30315`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC列表顯示參數已啟用或已停用狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8357,7 +8357,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-status-filter] 參數啟用狀態篩選 / Parameter Status Filter / `165:1159447` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159447
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8ae5a279b4a4629e9f6e9732412febfc57c8a8aa`
-- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)
+- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依全部、已啟用或已停用狀態篩選參數。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8385,7 +8385,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-status-mobile] 參數啟用狀態－行動版 / Parameter Status Mobile / `165:1159577` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159577
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8a5622aeef7b7c7021cc867fbe3032f439deb8cb`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版版列表顯示參數已啟用或已停用狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8413,7 +8413,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-type-desktop] 參數類型－桌面 / Parameter Type Desktop / `165:1159582` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159582
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dfbb83530de4557a90595a7af9b057e0b5d52ba3`
-- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/布林(Boolean)/日期(Date)/JSON(級距表))
+- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/布林(Boolean)/日期(Date)/JSON(級距表))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC參數列表顯示數字、文字、日期、布林或 JSON 等數值類型。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8441,7 +8441,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-type-mobile] 參數類型－行動版 / Parameter Type Mobile / `165:1159593` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159593
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`428108f7b3c373ca4d164cf056644111a475504b`
-- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/布林(Boolean)/日期(Date)/JSON(級距表))
+- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/布林(Boolean)/日期(Date)/JSON(級距表))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版參數列表顯示數字、文字、日期、布林或 JSON 等數值類型。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8469,7 +8469,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-update-action-cell] 參數更新操作欄 / Parameter Update Action Cell / `121:293742` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293742
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`99341609408562c87b618ce432b61cdf9470622b`
-- Component Properties: Property 1 (VARIANT: 近期異動)
+- Component Properties: Property 1 (VARIANT: 近期異動)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件表格操作欄提供參數更新入口。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -8497,7 +8497,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-update-button] 參數更新按鈕 / Parameter Update Button / `121:293636` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293636
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cc95e4f8f5419809ec41e55f9f2962042efea7b9`
-- Component Properties: type (VARIANT: 參數更新)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 參數更新)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 開啟單一事件參數更新流程，包含 default、hover 與 disabled 狀態。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -8525,7 +8525,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-value-input] 參數數值輸入 / Parameter Value Input / `165:1160588` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160588
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7ee697144c4b4bcdb14853da5ebee112aa8900d0`
-- Component Properties: 數值類型 (VARIANT: JSON(級距表)/日期/數字/文字/布林)；輸入狀態 (VARIANT: emprt/error/filled/On/Off)
+- Component Properties: 數值類型 (VARIANT: JSON(級距表)/日期/數字/文字/布林)；輸入狀態 (VARIANT: emprt/error/filled/On/Off)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增或編輯參數時輸入 JSON、日期、數字／文字或布林值，支援 empty、filled、error、On 與 Off。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8553,7 +8553,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-value-preview-desktop] 數值預覽－桌面 / Parameter Value Preview Desktop / `165:1159604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159604
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a68e57c64611dcf3add32433beca8fe39e230012`
-- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/日期(Date)/布林(Boolean) on/布林(Boolean) off/JSON(級距表))
+- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/日期(Date)/布林(Boolean) on/布林(Boolean) off/JSON(級距表))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC參數列表預覽數字、文字、日期、布林與 JSON 內容。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8581,7 +8581,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-value-preview-mobile] 數值預覽－行動版 / Parameter Value Preview Mobile / `165:1159617` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159617
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3ac366b4eee2f710eebedf12076b3f773563e772`
-- Component Properties: 數值類型 (VARIANT: JSON(級距表)/日期/數字/文字/布林)；輸入狀態 (VARIANT: filled/On/Off)
+- Component Properties: 數值類型 (VARIANT: JSON(級距表)/日期/數字/文字/布林)；輸入狀態 (VARIANT: filled/On/Off)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版參數列表預覽 JSON、日期、數字／文字與布林值。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8609,7 +8609,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [parameter-value-type-select] 數值類型選擇 / Parameter Value Type Select / `165:1160620` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1160620
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6348a816b4fd8b1dc1122a8f109a60140eb52241`
-- Component Properties: 數值類型 (VARIANT: 數字(Number)/日期(Date)/文字(Text)/布林(Boolean)/JSON(級距表))
+- Component Properties: 數值類型 (VARIANT: 數字(Number)/日期(Date)/文字(Text)/布林(Boolean)/JSON(級距表))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 新增或編輯參數時選擇數字、日期、文字、布林或 JSON 數值類型。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -8637,7 +8637,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [password-requirement-alert] 密碼規則提示 / Password Requirement Alert / `149:905438` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=149-905438
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7901d495f6036eea95e7ff1a2ba87f1e64e7ddbc`
-- Component Properties: 類型 (VARIANT: 至少 8 個字元，密碼須包含英文「大小寫」字母及數字，且不可與初始密碼相同。)
+- Component Properties: 類型 (VARIANT: 至少 8 個字元，密碼須包含英文「大小寫」字母及數字，且不可與初始密碼相同。)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在首次登入重設密碼表單中顯示新密碼格式與不可沿用初始密碼的規則提示。
 - 遷移備註: 密碼重設流程中跨裝置與 Theme 重用的正式提示元件，具有清楚且穩定的功能語意。
 - Page Type: List
@@ -8665,7 +8665,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [password-reset-dialog-secondary-button] 重設密碼對話框次要按鈕 / Password Reset Dialog Secondary Button / `149:905443` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=149-905443
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4fd3b1c913ace377f5c624434a88f9f8ef3b1cab`
-- Component Properties: 類型 (VARIANT: 返回/確認重設/返回登入)；按鈕狀態 (VARIANT: Default/Hover)
+- Component Properties: 類型 (VARIANT: 返回/確認重設/返回登入)；按鈕狀態 (VARIANT: Default/Hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供首次登入重設密碼流程的返回、確認重設與返回登入操作，並處理預設與 Hover 狀態。
 - 遷移備註: 高使用量且操作語意、Hover 狀態完整，適合作為此 feature 的標準流程按鈕元件遷移。
 - Page Type: List
@@ -8693,7 +8693,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [password-reset-flow-action-button] 密碼重設流程操作按鈕 / Password Reset Flow Action Button / `151:729192` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=151-729192
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`68373f18ad6f334c8f5c54942bfa26756e3145d5`
-- Component Properties: 類型 (VARIANT: 返回/驗證身分/返回登入/確認重設)；按鈕狀態 (VARIANT: Default/Hover)
+- Component Properties: 類型 (VARIANT: 返回/驗證身分/返回登入/確認重設)；按鈕狀態 (VARIANT: Default/Hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供忘記密碼與密碼重設流程中的返回、驗證身分、確認重設與返回登入操作，並處理預設與 Hover 狀態。
 - 遷移備註: 跨三種 RWD 與 Light/Dark 正式流程高頻重用，且操作與互動狀態完整，適合作為 feature 級 canonical 元件。
 - Page Type: List
@@ -8721,7 +8721,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [pending-event-card-list] 待審核事件卡片列表 / Pending Event Card List / `116:230500` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230500
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d0f1735276aede112ba6a5037627dca9fb4ee29c`
-- Component Properties: Property 1 (VARIANT: 待審核/已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 待審核/已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Tablet/Mobile 的事件卡片列表。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -8749,7 +8749,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [pre-wager-column-header] 尚未投分欄位標題 / Pre-Wager Column Header / `114:77748` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-77748
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`aa0ab9f8aa643e537e251f4a7e35505407a32df3`
-- Component Properties: 分類 (VARIANT: 操作/投分開始時間/選項事件名稱/empty/投分結束時間/empty2)
+- Component Properties: 分類 (VARIANT: 操作/投分開始時間/選項事件名稱/empty/投分結束時間/empty2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供尚未投分列表的選項事件名稱、投分開始時間、投分結束時間與操作欄位標題。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -8777,7 +8777,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [price-tier-desktop] 價格層（Desktop） / Price Tier Desktop / `144:6367` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-6367
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`297ffce19c9def118eb30075b3e767062b852597`
-- Component Properties: 價格#7695:0 (TEXT)；價格層級 (VARIANT: 0.01~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~0.99/新增價格)；狀態 (VARIANT: 通常/編輯中)
+- Component Properties: 價格#7695:0 (TEXT)；價格層級 (VARIANT: 0.01~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~0.99/新增價格)；狀態 (VARIANT: 通常/編輯中)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Desktop 列表中顯示價格層級，依價格區間套用對應樣式，並支援編輯中與新增價格狀態。
 - 遷移備註: Desktop 價格層顯示與編輯的正式基礎元件，價格區間與狀態結構完整。
 - Page Type: Other
@@ -8805,7 +8805,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [price-tier-range-mobile] 價格層區間（Mobile） / Price Tier Range Mobile / `144:5946` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5946
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8ebaf4bbfa564faa0dfd384d815d063dd82b603d`
-- Component Properties: 價格層級 (VARIANT: 0.01~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~0.99/新增價格)
+- Component Properties: 價格層級 (VARIANT: 0.01~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~0.99/新增價格)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Mobile 掛賣價格層內容中提供各價格區間與新增價格的區間／狀態單元，作為複合價格層元件的基礎。
 - 遷移備註: 高使用量且與同名數值元件有可驗證的結構差異，應以不同 canonical 名稱分開遷移。
 - Page Type: Other
@@ -8833,7 +8833,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [price-tier-value-mobile] 價格層數值（Mobile） / Price Tier Value Mobile / `144:5340` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5340
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`633a977b6ebbe0926ff1bb6800134b1feabdbfbc`
-- Component Properties: 價格#7738:46 (TEXT)；價格層級 (VARIANT: 0.01~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~0.99)
+- Component Properties: 價格#7738:46 (TEXT)；價格層級 (VARIANT: 0.01~0.09/0.10~0.19/0.20~0.29/0.30~0.39/0.40~0.49/0.50~0.59/0.60~0.69/0.70~0.79/0.80~0.89/0.90~0.99)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Mobile 資料列中顯示價格層的實際價格值，依 0.01~0.99 的不同價格區間切換樣式。
 - 遷移備註: 雖與另一元件同名，但結構與用途證據顯示它是 Mobile 數據欄位中的價格值呈現，可獨立遷移。
 - Page Type: Other
@@ -8861,7 +8861,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [primary-event-category-filter] 事件主要類別篩選器 / Primary Event Category Filter / `93:7133` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7133
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5d0bbeed3bfd5540808d381781d5052fa1abfd3a`
-- Component Properties: Property 1 (VARIANT: 顯示全部/主類別1/主類別2/Variant4)
+- Component Properties: Property 1 (VARIANT: 顯示全部/主類別1/主類別2/Variant4)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件主要類別篩選列表，支援顯示全部與不同主類別。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -8889,7 +8889,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [published-event-status-header] 已上架事件狀態標題 / Published Event Status Header / `114:76485` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76485
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3d42abeab8d5a7f209c6efe146637d1a990dec6e`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: disable/enable)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: disable/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示已上架時間軸事件目前處於投分中、等待投分、結算中或已結算，並支援收合狀態。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -8917,7 +8917,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [published-main-event-status-header] 已上架主事件狀態標題 / Published Main Event Status Header / `93:7776` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7776
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6217dd9954c0290e09eff59f135a28b69e0c7a0c`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/時間軸事件)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/時間軸事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面已上架主事件列顯示投分中、等待投分、結算中、已結算等狀態標題。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -8945,7 +8945,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [published-option-event-status-header] 已上架選項事件狀態標題 / Published Option Event Status Header / `93:7782` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7782
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6eda94ea226603c0cd72a9c0c8e318d55c134235`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面已上架選項事件列顯示目前投分狀態標題。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -8973,7 +8973,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [remaining-days-badge] 剩餘天數標籤 / Remaining Days Badge / `114:76564` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76564
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6a1b8593bb78bc76b811f2833a1db2b7ebd1d58d`
-- Component Properties: Property 1 (VARIANT: 剩餘 20 天/剩餘 7 天)
+- Component Properties: Property 1 (VARIANT: 剩餘 20 天/剩餘 7 天)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示選項事件距離投分結束的剩餘天數，並區分接近結束的提示狀態。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -9001,7 +9001,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [remaining-days-indicator] 剩餘結束天數 / Remaining Days / `93:7491` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7491
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f1d8c72c7c704eb2a9be0a2658a8494739c13476`
-- Component Properties: 天數#5929:0 (TEXT)；剩餘天數警告 (VARIANT: 7天以上/7天以內/已結束)；事件類型 (VARIANT: 時間軸/單一事件結果)
+- Component Properties: 天數#5929:0 (TEXT)；剩餘天數警告 (VARIANT: 7天以上/7天以內/已結束)；事件類型 (VARIANT: 時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示距離事件結束的剩餘天數，區分 7 天以上、7 天以內與已結束。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -9029,7 +9029,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [remaining-days-wager-end-time] 剩餘天數與投分結束時間 / Remaining Days and Wager End Time / `114:76571` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76571
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9c7147dea2d78616b064ac1e8b7f7c1d12a57128`
-- Component Properties: 剩餘天數#5926:8 (TEXT)；結束-年#5926:12 (TEXT)；結束-月#5926:14 (TEXT)；結束-日#5926:16 (TEXT)；結束-時#5926:18 (TEXT)；結束-分#5926:20 (TEXT)；結束-秒#5926:22 (TEXT)；剩餘天數警告 (VARIANT: 7天以上/7天以內/已結束)
+- Component Properties: 剩餘天數#5926:8 (TEXT)；結束-年#5926:12 (TEXT)；結束-月#5926:14 (TEXT)；結束-日#5926:16 (TEXT)；結束-時#5926:18 (TEXT)；結束-分#5926:20 (TEXT)；結束-秒#5926:22 (TEXT)；剩餘天數警告 (VARIANT: 7天以上/7天以內/已結束)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示距離投分結束的天數與完整結束日期時間，並支援七天以上、七天以內與已結束狀態。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -9057,7 +9057,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [rerun-order-result-dialog] 重新執行訂單結果彈窗 / Rerun Order Result Dialog / `163:487682` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487682
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bed6454b72e4722c7919ee645cc555e50a6eccfd`
-- Component Properties: Show Content#8060:6 (BOOLEAN)；device (VARIANT: PC&Tablet/Mobile)；狀態 (VARIANT: 成功/失敗/不支援重新執行/重新執行中/請至少選擇一格資料欄位/選擇商戶)
+- Component Properties: Show Content#8060:6 (BOOLEAN)；device (VARIANT: PC&Tablet/Mobile)；狀態 (VARIANT: 成功/失敗/不支援重新執行/重新執行中/請至少選擇一格資料欄位/選擇商戶)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 處理重新執行訂單的成功、失敗、不支援、執行中、未選欄位與選擇商戶等結果狀態。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -9085,7 +9085,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [reselect-event-button] 重新選擇事件按鈕 / Reselect Event Button / `114:226848` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226848
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`eb5e213a2c4ea85b8fb815bfc62860ce46abdbd6`
-- Component Properties: type (VARIANT: 重新選擇事件)；status (VARIANT: default/hover)
+- Component Properties: type (VARIANT: 重新選擇事件)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓營運人員回到事件選擇流程重新選擇欲結算事件。
 - 遷移備註: 跨 RWD 正式流程重用
 - Page Type: Other
@@ -9097,7 +9097,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=45、usedByScreenCount=36；variants：status=default/hover；Figma key=61592415afc9daa45014a3edd52e6a411703f5d2
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=45、usedByScreenCount=36；variants：status=default/hover
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5386:294856
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -9113,7 +9113,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [role-group-badge] 身份組標籤 / Role Group Badge / `190:236200` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236200
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cfef8172d74be4c931a9a3dd23615ed9b4608dc1`
-- Component Properties: 身份組 (VARIANT: 營運人員/客服人員/尚未指派)
+- Component Properties: 身份組 (VARIANT: 營運人員/客服人員/尚未指派)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在帳號列表或詳細資訊中顯示使用者所屬身份組。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -9141,7 +9141,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [role-group-filter] 身份組篩選 / Role Group Filter / `190:236209` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236209
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8e1d5ea6abb93c12aab02ca007191537a66cac23`
-- Component Properties: 類型 (VARIANT: 顯示全部身份組/營運人員/客服人員)
+- Component Properties: 類型 (VARIANT: 顯示全部身份組/營運人員/客服人員)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 用於依營運人員、客服人員或尚未指派等身份組篩選帳號。
 - 遷移備註: 目前沒有直接產品畫面使用，但具有正式 Component Set／Variant 結構；保留為候選並需人工確認是否為現行流程元件。
 - Page Type: List
@@ -9169,7 +9169,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [round-id-filter] 局號篩選 / Round ID Filter / `163:487581` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487581
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d0a3f526986731e42629538405205872f2660dc5`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依局號搜尋會員訂單紀錄。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -9197,7 +9197,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [rush-hour-parameter-update-step-1] Rush Hour 參數更新 Step 1 / Rush Hour Parameter Update Step 1 / `121:294697` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294697
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`27fb0dd5d40657b091fb2d99ea105493f2b49c02`
-- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Rush Hour 事件參數更新的編輯步驟，供 Rush Hour Light/Dark 與各裝置畫面使用。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
@@ -9225,7 +9225,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [secondary-event-category-filter] 事件次要類別篩選器 / Secondary Event Category Filter / `93:7157` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7157
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9b81df04d79e36723e07cff6ed5ce0c39c957aa7`
-- Component Properties: Property 1 (VARIANT: 顯示全部/次類別1/次類別2/次類別3)
+- Component Properties: Property 1 (VARIANT: 顯示全部/次類別1/次類別2/次類別3)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件次要類別篩選列表，支援全部與多個次類別。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -9253,7 +9253,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [force-refund-round-search] 局號搜尋 / Force Refund Round Search / `104:65414` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65414
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2803cd8e8c3d5f1601cd4f36630e216ef491f0e3`
-- Component Properties: Property 1 (VARIANT: 尚未輸入/不可為空/已輸入)
+- Component Properties: Property 1 (VARIANT: 尚未輸入/不可為空/已輸入)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 輸入並驗證局號，用於尋找要執行強制退款的事件。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -9281,7 +9281,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [forgot-password-reset-content] 忘記密碼與重設密碼內容 / Forgot Password and Reset Password Content / `151:729209` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=151-729209
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d3102f0f3427179d65989dfbc7cc56a5435e1a2`
-- Component Properties: 步驟 (VARIANT: 設定新密碼/密碼重設結果/驗證身分)；裝置 (VARIANT: PC/Mobile)；輸入狀態 (VARIANT: 無/帳號錯誤，請重新輸入/驗證碼不正確或已過期，請確認後重新輸入。/驗證失敗次數過多，請於 5 分鐘後重試。/密碼格式錯誤/必填項目不可為空/已成功重設/重設失敗)
+- Component Properties: 步驟 (VARIANT: 設定新密碼/密碼重設結果/驗證身分)；裝置 (VARIANT: PC/Mobile)；輸入狀態 (VARIANT: 無/帳號錯誤，請重新輸入/驗證碼不正確或已過期，請確認後重新輸入。/驗證失敗次數過多，請於 5 分鐘後重試。/密碼格式錯誤/必填項目不可為空/已成功重設/重設失敗)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載忘記密碼與重設密碼流程的主要內容，依驗證身分、設定新密碼與重設結果等步驟，以及裝置與輸入錯誤狀態切換對應 UI。
 - 遷移備註: 完整承載忘記密碼流程的步驟、裝置與驗證狀態，且已跨 Light/Dark 與所有主要 RWD 正式使用。
 - Page Type: List
@@ -9309,7 +9309,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [heatmap-color-legend] 熱圖顏色資訊 / Heatmap Color Legend / `144:7602` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-7602
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8136d5373ab309188acf5974258318fe7e113fc2`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；裝置 (VARIANT: Tablet/Mobile)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；裝置 (VARIANT: Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 說明熱圖各價格區間對應的顏色資訊，並在 Tablet 與 Mobile 上支援展開與收合。
 - 遷移備註: 有 Theme variable 與跨 Theme 使用證據，適合整理成不綁 Light 名稱的正式熱圖圖例元件。
 - Page Type: Other
@@ -9337,7 +9337,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [identifier-value-cell] 編號與數值 / Identifier and Value Cell / `163:487216` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487216
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8084dac26a9f25ab731e4318ffab4189078c006e`
-- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；名稱#8034:22 (TEXT)；系統編號#8034:93 (TEXT)；正數#8035:0 (TEXT)；負數#8035:12 (TEXT)；數值2#8035:24 (TEXT)；Show 小數後四位#8035:36 (BOOLEAN)；Show +#8035:48 (BOOLEAN)；Show -#8035:60 (BOOLEAN)；類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/無名稱/Yes/No/Up/Down/無方向)
+- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；名稱#8034:22 (TEXT)；系統編號#8034:93 (TEXT)；正數#8035:0 (TEXT)；負數#8035:12 (TEXT)；數值2#8035:24 (TEXT)；Show 小數後四位#8035:36 (BOOLEAN)；Show +#8035:48 (BOOLEAN)；Show -#8035:60 (BOOLEAN)；類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/無名稱/Yes/No/Up/Down/無方向)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示訂單相關編號、名稱、數值、盈虧、Yes/No、Up/Down 等多種表格值。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -9365,7 +9365,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-display-mode-filter] 圖片顯示模式篩選器 / Image Display Mode Filter / `198:276051` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-276051
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2a554c8d9f448b068064659d6bcfa0ef006de1d2`
-- Component Properties: Property 1 (VARIANT: 全部顯示/日間模式/夜間模式/Variant4)
+- Component Properties: Property 1 (VARIANT: 全部顯示/日間模式/夜間模式/Variant4)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在主類別圖片列表中依顯示模式篩選圖片，可查看全部、日間模式或夜間模式。
 - 遷移備註: 跨 RWD、多 Theme 且具正式模式 variants，適合遷移。
 - Page Type: Create
@@ -9377,7 +9377,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=8、nestedDependencies=7、screens=18、components=5、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 含全部顯示、日間模式、夜間模式與額外 Variant4；Figma key=64daa84590ae4a2e211011962333b13ba1e403b8
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=8、nestedDependencies=7、screens=18、components=5、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 含全部顯示、日間模式、夜間模式與額外 Variant4
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6150:79292
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -9393,7 +9393,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-interface-filter] 圖片介面篩選器 / Image Interface Filter / `198:276027` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-276027
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4ef5d2960933430550df48a48689bc2a673121e2`
-- Component Properties: Property 1 (VARIANT: 全部顯示/iframe/Widget/Variant4)
+- Component Properties: Property 1 (VARIANT: 全部顯示/iframe/Widget/Variant4)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在主類別圖片列表中依發布介面篩選圖片，可查看全部、iframe 或 Widget。
 - 遷移備註: 跨三種 viewport 與多 Theme 的圖片流程正式使用元件，適合遷移。
 - Page Type: Create
@@ -9405,7 +9405,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=8、nestedDependencies=7、screens=18、components=5、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 含全部顯示、iframe、Widget 與額外 Variant4；Figma key=d1cd665a24dfec61cf66e4fc18cf9472db22c837
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=8、nestedDependencies=7、screens=18、components=5、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 含全部顯示、iframe、Widget 與額外 Variant4
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6150:79106
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -9421,7 +9421,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-list-action-button] 圖片列表操作按鈕 / Image List Action Button / `198:276062` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-276062
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5534663ba3bb7af58801e2237251b36c16544800`
-- Component Properties: type (VARIANT: 查看大圖/編輯路徑/儲存設定--尚未異動資料/刪除圖片)；status (VARIANT: default/hover/disable/enable)
+- Component Properties: type (VARIANT: 查看大圖/編輯路徑/儲存設定--尚未異動資料/刪除圖片)；status (VARIANT: default/hover/disable/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供主類別圖片列表的查看大圖、編輯路徑、儲存設定與刪除圖片操作及其互動狀態。
 - 遷移備註: 高使用量且互動狀態完整，是圖片列表核心操作元件。
 - Page Type: Create
@@ -9433,7 +9433,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=72、nestedDependencies=84、screens=18、components=5、viewports=mobile/desktop/tablet、themes=light/dark/variables；Component Set 共 11 個 child variants，涵蓋查看大圖、編輯路徑、儲存設定、刪除圖片及 default/hover/disable/enable 狀態；Figma key=8fec9171a487833bde8f8962309f27c8701a7343
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=72、nestedDependencies=84、screens=18、components=5、viewports=mobile/desktop/tablet、themes=light/dark/variables；Component Set 共 11 個 child variants，涵蓋查看大圖、編輯路徑、儲存設定、刪除圖片及 default/hover/disable/enable 狀態
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6153:106646
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -9449,7 +9449,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-list-header] 圖片列表標頭 / Image List Header / `198:276109` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-276109
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6b15303673d15133e5e1b346d0359489a1d95f09`
-- Component Properties: 圖片數量 (VARIANT: 3/0)；device (VARIANT: Mobile/PC&Tablet)
+- Component Properties: 圖片數量 (VARIANT: 3/0)；device (VARIANT: Mobile/PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示圖片列表標題與圖片數量／新增入口，並依 Mobile、PC&Tablet 及有無圖片調整呈現。
 - 遷移備註: 跨 RWD、多 Theme 的圖片列表正式標頭，並處理有資料／零圖片數量狀態。
 - Page Type: Create
@@ -9461,7 +9461,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=18、nestedDependencies=14、screens=18、components=3、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 具圖片數量 3/0 與 device Mobile/PC&Tablet variants；Figma key=76369595b60046c0a4f410ea24b92959b4db5b31
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=18、nestedDependencies=14、screens=18、components=3、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 具圖片數量 3/0 與 device Mobile/PC&Tablet variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6153:107617
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -9477,7 +9477,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-add-button] botton--新增圖片路徑 / Add Image Path Button / `190:228673` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228673
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`202c6fe3e2a5bed36b58896b40334a2cf5407e30`
-- Component Properties: Property 1 (VARIANT: 新增圖片路徑)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 新增圖片路徑)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供新增圖片路徑的主要操作按鈕及 hover 狀態。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9505,7 +9505,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-display-mode-field] 顯示模式 / Display Mode Field / `190:228684` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228684
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8336a008b7a774fd90487938861c173ad14f6b8e`
-- Component Properties: Property 1 (VARIANT: 請選擇/夜間模式/日間模式)
+- Component Properties: Property 1 (VARIANT: 請選擇/夜間模式/日間模式)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在新增／編輯表單選擇日間或夜間顯示模式。
 - 遷移備註: 跨多裝置與 Theme 的高使用量 Component Set，Variant 結構完整，適合作為功能層共用元件
 - Page Type: List
@@ -9533,7 +9533,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-event-subcategory-field] 綁定事件次類別 / Event Subcategory Field / `190:228704` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228704
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8a49b8f5bd5ed71f62bf1fb436789d1f5e90c210`
-- Component Properties: Property 1 (VARIANT: 請選擇/次類別 1)
+- Component Properties: Property 1 (VARIANT: 請選擇/次類別 1)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選擇圖片路徑要綁定的事件次類別。
 - 遷移備註: 跨多裝置與 Theme 的高使用量 Component Set，Variant 結構完整，適合作為功能層共用元件
 - Page Type: List
@@ -9561,7 +9561,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-filter-display-mode] 篩選器--圖片路徑管理--請選擇顯示模式 / Display Mode Filter / `190:228565` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228565
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b3fc713192bff500f5b7e64b8bce7f40eb9d5ab2`
-- Component Properties: Property 1 (VARIANT: 全部顯示/日間模式/夜間模式)
+- Component Properties: Property 1 (VARIANT: 全部顯示/日間模式/夜間模式)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 篩選日間、夜間或全部顯示模式。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9589,7 +9589,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-filter-image-type] 篩選器--圖片路徑管理--請選擇圖片類型 / Image Type Filter / `190:228574` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228574
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`23300c2cc84a49719e9a2db8bd0c30fdeab5093a`
-- Component Properties: Property 1 (VARIANT: 全部顯示/Icon/Background/Cover)
+- Component Properties: Property 1 (VARIANT: 全部顯示/Icon/Background/Cover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 篩選 Icon、Background、Cover 等圖片類型。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9617,7 +9617,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-filter-interface] 篩選器--圖片路徑管理--請選擇介面 / Interface Filter / `190:228556` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228556
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4fffc7d0801f0c07f12ec2173780c7bf78caae38`
-- Component Properties: Property 1 (VARIANT: 全部顯示/iframe/Widget)
+- Component Properties: Property 1 (VARIANT: 全部顯示/iframe/Widget)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 篩選圖片路徑要發佈到的介面，例如 iframe 或 Widget。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9645,7 +9645,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-image-type-field] 該介面提供圖片類型 / Image Type Field / `190:228693` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228693
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0dfc3345b39e82d257a0c21edc01525e8329a5c5`
-- Component Properties: Property 1 (VARIANT: Icon/Background/Cover/請選擇)
+- Component Properties: Property 1 (VARIANT: Icon/Background/Cover/請選擇)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選擇該介面使用的 Icon、Background 或 Cover 類型。
 - 遷移備註: 跨多裝置與 Theme 的高使用量 Component Set，Variant 結構完整，適合作為功能層共用元件
 - Page Type: List
@@ -9673,7 +9673,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-image-viewer] 檢視圖片--Light / Image Viewer / `190:228711` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228711
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8cccca949ae4848d819e511781213d8edec567ff`
-- Component Properties: device (VARIANT: Tablet/Mobile/PC)
+- Component Properties: device (VARIANT: Tablet/Mobile/PC)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供跨裝置的大圖檢視容器，作為圖片檢視器的 light 來源元件。
 - 遷移備註: 跨 desktop/tablet/mobile 的實際大圖檢視來源元件，直接被 6 個檢視畫面使用
 - Page Type: List
@@ -9701,7 +9701,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-list-column-header] 圖片路徑管理列表--title--header--PC / Image Path List Column Header / `190:228463` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228463
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`be6f845e5418846b4e1b9f928814d5f8a5b75561`
-- Component Properties: Property 1 (VARIANT: 操作/顯示模式/圖片預覽/圖片URL/介面/類型/依附次類別)
+- Component Properties: Property 1 (VARIANT: 操作/顯示模式/圖片預覽/圖片URL/介面/類型/依附次類別)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 定義圖片路徑列表桌面版各欄位標題，讓不同欄位標頭以 Variant 統一管理。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9729,7 +9729,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-list-desktop-content] 圖片路徑管理列表--PC / Image Path List Desktop Content / `190:228496` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228496
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`42ced919a25d7686c1bfb6429cc04e81a1976b80`
-- Component Properties: Property 1 (VARIANT: Icon/Background/Cover)
+- Component Properties: Property 1 (VARIANT: Icon/Background/Cover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示桌面版圖片路徑資料列中的圖片類型與預覽內容。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9757,7 +9757,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-list-header] 圖片路徑管理列表--header--PC / Image Path List Header / `190:228485` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228485
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6f8ed4d6d1af79242a89c7d2a4749b3c1a04f64d`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合圖片路徑桌面列表的表頭列，供列表與空狀態頁共用。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9785,7 +9785,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-list-mobile-content] 圖片路徑列表內容--Mobile / Image Path List Mobile Content / `190:228609` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228609
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0fa8cea3322f112c3103b796bbfbaca10bd17604`
-- Component Properties: Property 1 (VARIANT: 圖片路徑列表內容)
+- Component Properties: Property 1 (VARIANT: 圖片路徑列表內容)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合手機版單筆圖片路徑的內容區塊。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9813,7 +9813,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-list-mobile-row] 圖片路徑列表內容row--Mobile / Image Path List Mobile Row / `190:228622` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228622
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`67e593e45c86f27c92a7d8b7b0562cbf2041ce1e`
-- Component Properties: Property 1 (VARIANT: Icon/Background/Cover/介面--Widget/介面--iframe/日間模式/夜間模式/URL/依附次類別)
+- Component Properties: Property 1 (VARIANT: Icon/Background/Cover/介面--Widget/介面--iframe/日間模式/夜間模式/URL/依附次類別)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現手機版圖片路徑的介面、模式、URL、次類別等欄位列。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9841,7 +9841,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-list-mobile] 圖片路徑管理列表--Mobile / Image Path List Mobile / `190:228585` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-228585
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7a0a5b3dad949cf9d2818eaefd3fe336d7eb4f26`
-- Component Properties: Property 1 (VARIANT: Icon/Background/Cover)
+- Component Properties: Property 1 (VARIANT: Icon/Background/Cover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在平板／手機以卡片化方式顯示圖片路徑列表項目。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9869,7 +9869,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-preview-canvas] preview / Image Preview Canvas / `190:235861` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-235861
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`65c97126f6d11749070b68030fb8109d10aed749`
-- Component Properties: 介面類型 (VARIANT: iframe)；裝置 (VARIANT: PC/Mobile/Tablet)；元件 (VARIANT: 首頁Banner/運動詳情比分)；圖片類型 (VARIANT: Background/Icon)；日夜模式 (VARIANT: Light/Dark)；事件類型 (VARIANT: 運動事件/議題事件)；置入狀態 (VARIANT: Default/Filled)
+- Component Properties: 介面類型 (VARIANT: iframe)；裝置 (VARIANT: PC/Mobile/Tablet)；元件 (VARIANT: 首頁Banner/運動詳情比分)；圖片類型 (VARIANT: Background/Icon)；日夜模式 (VARIANT: Light/Dark)；事件類型 (VARIANT: 運動事件/議題事件)；置入狀態 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在圖片路徑表單中依裝置、圖片類型、Theme 與事件類型產生預覽畫布。
 - 遷移備註: 跨 32 個畫面情境與多 RWD/Theme 使用，且 Variant 已涵蓋預覽核心維度
 - Page Type: List
@@ -9897,7 +9897,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-preview-controls] 預覽控制項 / Preview Controls / `190:235958` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-235958
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`935c9dc149e82dcca6d2f67b6f68435509f953fa`
-- Component Properties: 縮放比例100%#6177:0 (TEXT)；縮放比例150%#6177:8 (TEXT)；縮放比例10%#6177:20 (TEXT)；Property 1 (VARIANT: PC 150%/PC 100%/PC 10%/Tablet 150%/Tablet 100%/Tablet 10%/Mobile 150%/Mobile 100%/Mobile 10%/PC 放大圖片/Tablet 放大圖片/Mobile 放大圖片)
+- Component Properties: 縮放比例100%#6177:0 (TEXT)；縮放比例150%#6177:8 (TEXT)；縮放比例10%#6177:20 (TEXT)；Property 1 (VARIANT: PC 150%/PC 100%/PC 10%/Tablet 150%/Tablet 100%/Tablet 10%/Mobile 150%/Mobile 100%/Mobile 10%/PC 放大圖片/Tablet 放大圖片/Mobile 放大圖片)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制桌面、平板、手機預覽的縮放比例與放大檢視。
 - 遷移備註: 跨多裝置與 Theme 的高使用量 Component Set，Variant 結構完整，適合作為功能層共用元件
 - Page Type: List
@@ -9925,7 +9925,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-preview-thumbnail] pic--圖片路徑管理 / Image Path Preview Thumbnail / `190:235819` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-235819
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d6ab75b3789a55a51244c72359ac5027bf65cdf4`
-- Component Properties: Property 1 (VARIANT: Icon/Background/Cover)；device (VARIANT: Mobile/PC&Tablet)
+- Component Properties: Property 1 (VARIANT: Icon/Background/Cover)；device (VARIANT: Mobile/PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依圖片類型與裝置顯示圖片路徑的縮圖預覽。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -9953,7 +9953,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-publish-interface-field] 預計發佈介面 / Publish Interface Field / `190:235949` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-235949
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bf4b9f471f446e1b86cb28462a318edd15c1f1a1`
-- Component Properties: Property 1 (VARIANT: 請選擇/iframe/Widget (V2-長版))
+- Component Properties: Property 1 (VARIANT: 請選擇/iframe/Widget (V2-長版))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選擇圖片預計使用的介面，例如 iframe 或 Widget。
 - 遷移備註: 跨多裝置與 Theme 的高使用量 Component Set，Variant 結構完整，適合作為功能層共用元件
 - Page Type: List
@@ -9981,7 +9981,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-row-action-button] botton--編輯參數類別 / Image Path Row Action Button / `190:235834` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-235834
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2da380e347eddf174b8d932ea7eb886e4c960751`
-- Component Properties: type (VARIANT: 編輯路徑/查看大圖)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯路徑/查看大圖)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供編輯路徑與查看大圖等列表操作按鈕及互動狀態。
 - 遷移備註: 高使用量的本地 Component Set，適合遷移為功能層共用元件
 - Page Type: List
@@ -10009,7 +10009,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-path-url-field] 圖片URL / Image URL Field / `190:235942` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-235942
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`61d2da4301aedea9f64fbef3f7d2b0b7cdeeb25b`
-- Component Properties: Property 1 (VARIANT: empty/filled)
+- Component Properties: Property 1 (VARIANT: empty/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 輸入或顯示圖片 URL，包含空白與已填值狀態。
 - 遷移備註: 跨多裝置與 Theme 的高使用量 Component Set，Variant 結構完整，適合作為功能層共用元件
 - Page Type: List
@@ -10037,7 +10037,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [image-type-filter] 圖片類型篩選器 / Image Type Filter / `198:276038` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-276038
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`169d625005652ae68afa688133eed8a6b2ada16d`
-- Component Properties: Property 1 (VARIANT: 全部顯示/Icon/Background/Cover/Variant5)
+- Component Properties: Property 1 (VARIANT: 全部顯示/Icon/Background/Cover/Variant5)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在主類別圖片列表中依圖片類型篩選，可查看全部、Icon、Background 或 Cover。
 - 遷移備註: 跨 RWD、多 Theme 且同時被產品畫面與其他元件使用，適合遷移。
 - Page Type: Create
@@ -10049,7 +10049,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=8、nestedDependencies=7、screens=18、components=5、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 含全部顯示、Icon、Background、Cover 與額外 Variant5；Figma key=3d91dea4c7f35b2d131f039af27cfce09e64d6e1
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=8、nestedDependencies=7、screens=18、components=5、viewports=desktop/tablet/mobile、themes=light/dark/variables；Component Set 含全部顯示、Icon、Background、Cover 與額外 Variant5
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6150:79384
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -10065,7 +10065,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [import-topic-button] 匯入議題按鈕 / Import Topic Button / `113:223324` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223324
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f7fa0dec56dc3b4abe47048c857595d93f063a63`
-- Component Properties: type (VARIANT: 匯入議題)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 匯入議題)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在建議事件清單中執行匯入議題操作，包含 default、hover、disable 狀態。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -10077,7 +10077,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=46、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：type=匯入議題; status=default,hover,disable；Figma key=c587e38f7cf0028df007f6434a14342d1757dbea
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=36、nestedDependencyCount=46、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：type=匯入議題; status=default,hover,disable
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4291:148908
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -10093,7 +10093,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-adjustment-amount] 庫存調整量 / Inventory Adjustment Amount / `144:4763` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4763
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`24a1eaf643c5f281245fa29679a1ec920c75b1d2`
-- Component Properties: 數值#7695:11 (TEXT)；調整方向 (VARIANT: 增加/％數)
+- Component Properties: 數值#7695:11 (TEXT)；調整方向 (VARIANT: 增加/％數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示庫存調整的數值與方向，用於新增或編輯掛賣時表達本次操作對庫存的增減影響。
 - 遷移備註: 跨多個複合元件使用的核心庫存調整資料元件。
 - Page Type: Other
@@ -10121,7 +10121,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-change] 庫存變化 / Inventory Change / `144:4775` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-4775
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`da494fd38a452599968aa86a9a70b7a42c8b93ed`
-- Component Properties: 前次庫存#5839:0 (TEXT)；編輯庫存#5877:12 (TEXT)；類型 (VARIANT: 新增價格及數量/編輯數量)
+- Component Properties: 前次庫存#5839:0 (TEXT)；編輯庫存#5877:12 (TEXT)；類型 (VARIANT: 新增價格及數量/編輯數量)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 比較操作前後的庫存數值，分別支援新增價格與數量或編輯既有數量的變更情境。
 - 遷移備註: 明確支援新增與編輯兩種業務情境，且由正式產品畫面跨裝置引用。
 - Page Type: Other
@@ -10149,7 +10149,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-display-row] 庫存顯示資料列 / Inventory Display Row / `93:7754` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7754
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ae173b8f63e4e59158ad0fcb990fda0bd9c23189`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；選項方向 (VARIANT: Yes/No/Up/Down)；事件類型 (VARIANT: 單選項事件/多選項事件)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；選項方向 (VARIANT: Yes/No/Up/Down)；事件類型 (VARIANT: 單選項事件/多選項事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示 Yes/No/Up/Down 等方向的庫存資訊，支援單/多選項與收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10177,7 +10177,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-management-overview] 庫存管理概況 / Inventory Management Overview / `144:5562` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5562
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5a3dcc159e23d9a82b25c7c9728bae82d9cf46c9`
-- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 開啟/關閉)；類型 (VARIANT: 少量掛賣/大量掛賣/新增價格/編輯原有掛賣/查無資料結果/尚未分配庫存)
+- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 開啟/關閉)；類型 (VARIANT: 少量掛賣/大量掛賣/新增價格/編輯原有掛賣/查無資料結果/尚未分配庫存)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合掛賣列表主要內容，處理不同裝置、收合狀態與少量／大量掛賣、新增、編輯、空結果及未分配庫存等完整業務情境。
 - 遷移備註: 是掛賣控管畫面的核心複合內容元件，正式畫面覆蓋完整且狀態模型成熟。
 - Page Type: Other
@@ -10205,7 +10205,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-progress-line-large-sell] 庫存進度線（大量掛賣） / Inventory Progress Line Large Sell / `144:5275` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5275
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`10d3de8469bf740ce2a726f6312aede25d0f4403`
-- Component Properties: 百分比 (VARIANT: 2.2%/3.1%/4.7%/1.8%/3.9%/2.6%/1.4%/8.8%/3.3%/1.7%/5.4%/1.1%/9.6%/6.3%/4.1%/7.3%/6.1%/7.2%/0%)
+- Component Properties: 百分比 (VARIANT: 2.2%/3.1%/4.7%/1.8%/3.9%/2.6%/1.4%/8.8%/3.3%/1.7%/5.4%/1.1%/9.6%/6.3%/4.1%/7.3%/6.1%/7.2%/0%)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以進度線顯示大量掛賣情境下的庫存／掛賣比例，配合大量價格層資料快速判讀。
 - 遷移備註: 與少量掛賣進度線相對應，正式支援大量掛賣比例顯示並跨完整畫面家族使用。
 - Page Type: Other
@@ -10233,7 +10233,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-progress-line-small-sell] 庫存進度線（少量掛賣） / Inventory Progress Line Small Sell / `144:5241` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5241
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f0631e4a777170a61e5565be75f5ec30fca2c6e1`
-- Component Properties: 百分比 (VARIANT: 7.2%/11.8%/6.4%/13.6%/9.5%/8.2%/12.1%/7.6%/8.8%/5.9%/0%)
+- Component Properties: 百分比 (VARIANT: 7.2%/11.8%/6.4%/13.6%/9.5%/8.2%/12.1%/7.6%/8.8%/5.9%/0%)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以進度線顯示少量掛賣情境下的庫存／掛賣比例，供列表與概況畫面快速判讀。
 - 遷移備註: 高頻使用且被 12 個本地元件依賴，是少量掛賣庫存比例的正式視覺元件。
 - Page Type: Other
@@ -10261,7 +10261,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-status] 庫存狀態 / Inventory Status / `93:8143` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8143
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`56f3861658dc0efc7b5b5cec9149a3e2d51b021f`
-- Component Properties: 正向庫存#6467:9 (TEXT)；反向庫存#6467:12 (TEXT)；選項方向 (VARIANT: Yes/No/Up/Down)；庫存狀態 (VARIANT: 尚有庫存/已售罄)
+- Component Properties: 正向庫存#6467:9 (TEXT)；反向庫存#6467:12 (TEXT)；選項方向 (VARIANT: Yes/No/Up/Down)；庫存狀態 (VARIANT: 尚有庫存/已售罄)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件列或卡片顯示各方向庫存是否尚有庫存或已售罄。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10289,7 +10289,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [inventory-summary-data] 庫存概況數據 / Inventory Summary Data / `144:5411` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=144-5411
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4d5488afe013734589612379eb93fe0ef1af60fe`
-- Component Properties: 項目#7753:0 (TEXT)；數值#7753:3 (TEXT)；備註#7753:6 (TEXT)；Show 備註#7753:9 (BOOLEAN)；裝置 (VARIANT: PC/Mobile)
+- Component Properties: 項目#7753:0 (TEXT)；數值#7753:3 (TEXT)；備註#7753:6 (TEXT)；Show 備註#7753:9 (BOOLEAN)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示庫存概況中的項目名稱、數值與可選備註，並提供 PC 與 Mobile 兩種版型。
 - 遷移備註: 正式庫存概況畫面使用的跨裝置數據元件，結構與屬性完整。
 - Page Type: Other
@@ -10317,7 +10317,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [language-cell] 語系項目 / Language Cell / `110:112331` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112331
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c09cd59289e78cc279426b04bf1ec5130ff6145c`
-- Component Properties: language (VARIANT: 英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG)/日文(ja-JP))
+- Component Properties: language (VARIANT: 英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG)/日文(ja-JP))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 多語系事件內容的語系項目。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -10345,7 +10345,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [language-save-status-cell] 語系儲存狀態項目 / Language Save Status Cell / `110:112340` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112340
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8a3b471f0cb4fcc88780a156840b9bbcb9847a4a`
-- Component Properties: button status (VARIANT: disabled/enabled)；saved status (VARIANT: save/draft/empty)；hover (VARIANT: hover/no hover)
+- Component Properties: button status (VARIANT: disabled/enabled)；saved status (VARIANT: save/draft/empty)；hover (VARIANT: hover/no hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 語系內容的草稿、儲存與可操作狀態。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -10373,7 +10373,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [listing-status-filter] 上架狀態篩選器 / Listing Status Filter / `93:7119` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7119
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`61b54c7d54388c902e2027cc658c3a4581de998a`
-- Component Properties: Property 1 (VARIANT: 全部上架狀態/上架中/已下架)
+- Component Properties: Property 1 (VARIANT: 全部上架狀態/上架中/已下架)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依全部、上架中、已下架等上架狀態篩選事件。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10401,7 +10401,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [login-security-policy] 登入安全政策 / Login Security Policy / `190:236352` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-236352
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`197e973465aa0f1e322ec33641e918b2ff218535`
-- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；狀態 (VARIANT: 已選取/尚未選取)
+- Component Properties: 裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；狀態 (VARIANT: 已選取/尚未選取)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 管理首次登入改密碼、首次登入綁定 2FA 與登入失敗鎖定等安全政策。
 - 遷移備註: 有正式 Figma mainComponent 使用證據，且具跨畫面、RWD／Theme 或 Variant 結構，值得納入 Hub 維護。
 - Page Type: List
@@ -10429,7 +10429,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [main-event-action-button] 主事件操作按鈕 / Main Event Action Button / `93:6932` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6932
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`46cb4d188add46cbc68a3ecd816e8f52022d528b`
-- Component Properties: type (VARIANT: 更多操作/編輯事件/確認上架/查看結果)；status (VARIANT: default/hover/enable/disable)
+- Component Properties: type (VARIANT: 更多操作/編輯事件/確認上架/查看結果)；status (VARIANT: default/hover/enable/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供主事件的更多操作、編輯、確認上架與查看結果等操作，含 hover/enable/disable 狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10457,7 +10457,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [main-event-column-title] 主事件欄位標題 / Main Event Column Title / `93:8412` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8412
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`622b079238fa59c0d4185d511eec4a68319d3ce9`
-- Component Properties: 分類 (VARIANT: 投分狀態/事件名稱/事件創建時間/上架狀態/玩家投分量(VoL.)/操作/投分開始時間/empty/選項事件投分狀態/選項事件名稱/合約庫存)
+- Component Properties: 分類 (VARIANT: 投分狀態/事件名稱/事件創建時間/上架狀態/玩家投分量(VoL.)/操作/投分開始時間/empty/選項事件投分狀態/選項事件名稱/合約庫存)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供主事件表格欄位標題，如投分狀態、事件名稱、建立時間、上架狀態、投分量與操作。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10485,7 +10485,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [main-event-table-header] 主事件表頭 / Main Event Header / `93:8383` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8383
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6d70038ffa4b9e8273c0262ebf4c0eb1bf59437a`
-- Component Properties: Property 1 (VARIANT: 已上架事件/未上架事件)
+- Component Properties: Property 1 (VARIANT: 已上架事件/未上架事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示已上架/未上架主事件的欄位表頭。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10513,7 +10513,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [main-event-wager-status] 主事件投分狀態 / Main Event Wager Status / `93:7787` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7787
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2ee3c17e41a731d2e3e843a37d8bcb318c68ac7e`
-- Component Properties: 選項事件數量#6986:90 (TEXT)；投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/已取消/投分狀態)；事件類型 (VARIANT: 二元/單一事件結果/時間軸)；收合狀態 (VARIANT: 無/關閉/開啟)
+- Component Properties: 選項事件數量#6986:90 (TEXT)；投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/已取消/投分狀態)；事件類型 (VARIANT: 二元/單一事件結果/時間軸)；收合狀態 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示主事件投分狀態，涵蓋投分中、等待投分、結算中、已結算、已取消並配合事件類型/收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10541,7 +10541,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [market-publication-status] 事件上架狀態 / Market Publication Status / `114:76672` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-76672
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5ef2f69305572ab4b2b3a14e083423874c9f7e3b`
-- Component Properties: 上架狀態 (VARIANT: 上架中/已下架)；收合狀態 (VARIANT: disable)；元件類型 (VARIANT: 主事件)
+- Component Properties: 上架狀態 (VARIANT: 上架中/已下架)；收合狀態 (VARIANT: disable)；元件類型 (VARIANT: 主事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示時間軸選項事件目前為上架中或已下架／已結束。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -10569,7 +10569,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [member-id-filter] 會員編號篩選 / Member ID Filter / `163:487586` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487586
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`daf188c958638b11bf5ed3b4a5d1680676ecf1b8`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依會員編號搜尋會員訂單紀錄。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -10597,7 +10597,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [member-order-header] 會員訂單紀錄表頭 / Member Order Header / `163:487347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487347
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1a6fd69122df32f7373a1c0100a51b7ecda40e45`
-- Component Properties: Show 系統訂單編號#8034:57 (BOOLEAN)；Show 事件編號#8034:59 (BOOLEAN)；Show 交易編號#8034:61 (BOOLEAN)；Show 事件名稱#8034:63 (BOOLEAN)；Show 玩家選項#8034:65 (BOOLEAN)；Show 選項方向#8034:67 (BOOLEAN)；Show 商戶名稱與會員編號#8034:69 (BOOLEAN)；Show 訂單類型#8034:71 (BOOLEAN)；Show 訂單狀態#8034:73 (BOOLEAN)；Show 總投分額#8034:75 (BOOLEAN)；Show 價格#8034:77 (BOOLEAN)；Show 單位量#8034:79 (BOOLEAN)；Show 盈虧#8034:81 (BOOLEAN)；Show 訂單成立時間#8034:83 (BOOLEAN)；Show 操作#8034:85 (BOOLEAN)；類型 (VARIANT: Default)
+- Component Properties: Show 系統訂單編號#8034:57 (BOOLEAN)；Show 事件編號#8034:59 (BOOLEAN)；Show 交易編號#8034:61 (BOOLEAN)；Show 事件名稱#8034:63 (BOOLEAN)；Show 玩家選項#8034:65 (BOOLEAN)；Show 選項方向#8034:67 (BOOLEAN)；Show 商戶名稱與會員編號#8034:69 (BOOLEAN)；Show 訂單類型#8034:71 (BOOLEAN)；Show 訂單狀態#8034:73 (BOOLEAN)；Show 總投分額#8034:75 (BOOLEAN)；Show 價格#8034:77 (BOOLEAN)；Show 單位量#8034:79 (BOOLEAN)；Show 盈虧#8034:81 (BOOLEAN)；Show 訂單成立時間#8034:83 (BOOLEAN)；Show 操作#8034:85 (BOOLEAN)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組成會員訂單紀錄列表的表頭列。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -10625,7 +10625,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [member-order-refresh-button] 重新整理按鈕 / Refresh Button / `163:487388` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487388
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4f607cd111ecaf012c3a0a66c8bc270328a4aa72`
-- Component Properties: 類型 (VARIANT: 重新整理)；status (VARIANT: default/hover)
+- Component Properties: 類型 (VARIANT: 重新整理)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機版會員訂單紀錄重新整理目前資料，包含 default 與 hover 狀態。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -10653,7 +10653,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [member-order-row] 會員訂單紀錄列 / Member Order Row / `163:487312` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487312
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0a486604d8fe12b9df96d2f82344e2ebfbea0337`
-- Component Properties: Show 系統訂單編號#8034:43 (BOOLEAN)；Show 事件編號#8034:44 (BOOLEAN)；Show 交易編號#8034:45 (BOOLEAN)；Show 事件名稱#8034:46 (BOOLEAN)；Show 玩家選項#8034:47 (BOOLEAN)；Show 選項方向#8034:48 (BOOLEAN)；Show 商戶名稱與會員編號#8034:49 (BOOLEAN)；Show 訂單類型#8034:50 (BOOLEAN)；Show 訂單狀態-PC#8034:51 (BOOLEAN)；Show 總投分額#8034:52 (BOOLEAN)；Show 價格#8034:53 (BOOLEAN)；Show 單位量#8034:54 (BOOLEAN)；Show 盈虧#8034:55 (BOOLEAN)；Show 訂單成立時間#8034:56 (BOOLEAN)；Show 操作#8034:87 (BOOLEAN)；Show 局號#8145:0 (BOOLEAN)；背景 (VARIANT: 黑底/白底)
+- Component Properties: Show 系統訂單編號#8034:43 (BOOLEAN)；Show 事件編號#8034:44 (BOOLEAN)；Show 交易編號#8034:45 (BOOLEAN)；Show 事件名稱#8034:46 (BOOLEAN)；Show 玩家選項#8034:47 (BOOLEAN)；Show 選項方向#8034:48 (BOOLEAN)；Show 商戶名稱與會員編號#8034:49 (BOOLEAN)；Show 訂單類型#8034:50 (BOOLEAN)；Show 訂單狀態-PC#8034:51 (BOOLEAN)；Show 總投分額#8034:52 (BOOLEAN)；Show 價格#8034:53 (BOOLEAN)；Show 單位量#8034:54 (BOOLEAN)；Show 盈虧#8034:55 (BOOLEAN)；Show 訂單成立時間#8034:56 (BOOLEAN)；Show 操作#8034:87 (BOOLEAN)；Show 局號#8145:0 (BOOLEAN)；背景 (VARIANT: 黑底/白底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組成會員訂單紀錄列表的資料列，支援不同背景樣式。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -10681,7 +10681,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-badge] 商戶標籤 / Merchant Badge / `93:6670` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6670
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0d163bbafb81806bad5627f7f07ce50f8631f557`
-- Component Properties: Property 1 (VARIANT: Zestplay/Botan/Jitabet)
+- Component Properties: Property 1 (VARIANT: Zestplay/Botan/Jitabet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件所屬商戶/供應來源，例如 Zestplay、Botan、Jitabet。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -10709,7 +10709,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-bulk-visibility-actions] 批次顯示／隱藏按鈕組 / Bulk Visibility Action Group / `198:255767` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255767
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b03a8ccf6f02ac0eba4dee6dd5d29bd66139a737`
-- Component Properties: type (VARIANT: 批次隱藏/批次顯示)；status (VARIANT: default/hover/enable)
+- Component Properties: type (VARIANT: 批次隱藏/批次顯示)；status (VARIANT: default/hover/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 批次切換商戶事件的顯示或隱藏狀態，包含 default、hover、enable 等按鈕狀態。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10737,7 +10737,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-desktop-column-header] 桌面欄位標題 / Desktop Column Header / `198:255794` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255794
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6c8ea905a745c691e021e1212f1a8e5b50788234`
-- Component Properties: Property 1 (VARIANT: 事件名稱/事件創建時間/商戶事件編號/操作/empty/所屬地區)
+- Component Properties: Property 1 (VARIANT: 事件名稱/事件創建時間/商戶事件編號/操作/empty/所屬地區)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件名稱、建立時間、事件編號、操作、地區等桌面表格欄位標題變體。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10765,7 +10765,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-desktop-row] 桌面事件資料列 / Desktop Merchant Event Row / `198:257907` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257907
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`38327cb587e14ec4ea0d9bb563862ba6ad087145`
-- Component Properties: Property 1 (VARIANT: 運動事件--日本/一般議題事件--台灣/運動事件--美國/一般議題事件--全球)
+- Component Properties: Property 1 (VARIANT: 運動事件--日本/一般議題事件--台灣/運動事件--美國/一般議題事件--全球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合事件編號、名稱、地區、關聯委託單、顯示狀態與操作欄，形成桌面列表資料列。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10793,7 +10793,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-desktop-table-header] 桌面表格標題列 / Desktop Table Header Row / `198:257942` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257942
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`41c1fea4afeda0b93c69a830e9ff4b87c94f25c7`
-- Component Properties: Property 1 (VARIANT: 未上架事件)
+- Component Properties: Property 1 (VARIANT: 未上架事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示桌面商戶事件列表的欄位標題與選取欄。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10821,7 +10821,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-id-table-cell] 商戶事件編號表格儲存格 / Merchant Event ID Table Cell / `198:257705` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257705
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c6ad17fa59420b14e0eb6e29557cba7f11578aab`
-- Component Properties: Property 1 (VARIANT: #10001/#10002/#10003/#10004)
+- Component Properties: Property 1 (VARIANT: #10001/#10002/#10003/#10004)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面表格列中顯示商戶事件編號。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10849,7 +10849,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-id-value] 商戶事件編號內容值 / Merchant Event ID Value / `198:257798` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257798
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fd78e441b34b642f40fb5618c68c0e68005cda22`
-- Component Properties: Property 1 (VARIANT: #10001/#10002/#10003/#10004)
+- Component Properties: Property 1 (VARIANT: #10001/#10002/#10003/#10004)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示商戶事件編號內容值，供事件列與卡片組裝。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10877,7 +10877,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-image-table-cell] 事件圖片表格儲存格 / Event Image Table Cell / `198:257682` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257682
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9f76b8c86cc50386df828e8ca741adfad46ba4fc`
-- Component Properties: Property 1 (VARIANT: topic/sport)
+- Component Properties: Property 1 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面表格列中顯示一般議題或運動事件的圖片。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10905,7 +10905,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-image-value] 事件圖片內容 / Event Image Value / `198:257833` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257833
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`84d963cd707c6e18f8990d59e9abf875d1b51212`
-- Component Properties: Property 1 (VARIANT: topic/sport)
+- Component Properties: Property 1 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示一般議題或運動事件圖片，供事件列與卡片內容組裝。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10933,7 +10933,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-mobile-attribute-content] 手機事件屬性內容 / Mobile Event Attribute Content / `198:257843` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257843
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9b42df1ecfd3d77681cd10d89257234f74885180`
-- Component Properties: Property 1 (VARIANT: 所屬地區--台灣/所屬地區--日本/所屬地區--美國/所屬地區--全球/關聯委託單--是/關聯委託單--否/啟用狀態--已顯示/啟用狀態--已隱藏)
+- Component Properties: Property 1 (VARIANT: 所屬地區--台灣/所屬地區--日本/所屬地區--美國/所屬地區--全球/關聯委託單--是/關聯委託單--否/啟用狀態--已顯示/啟用狀態--已隱藏)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機與平板卡片中呈現地區、關聯委託單與啟用狀態等屬性內容。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10961,7 +10961,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-mobile-detail-row] 手機事件資訊內容列 / Mobile Event Detail Row / `198:257727` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257727
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bd81c5d8123987b5d0fd15e52352eb59a8c493c5`
-- Component Properties: Property 1 (VARIANT: 顯示管理事件標題--台灣/顯示管理事件標題--日本/顯示管理事件標題--美國/顯示管理事件標題--全球)
+- Component Properties: Property 1 (VARIANT: 顯示管理事件標題--台灣/顯示管理事件標題--日本/顯示管理事件標題--美國/顯示管理事件標題--全球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機與平板卡片中排列關聯委託單、所屬地區與啟用狀態等事件資訊。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -10989,7 +10989,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-mobile-id-header] 手機事件編號標題列 / Mobile Event ID Header / `198:257754` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257754
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8026e61a1cb47b1f50364f8b4c7aa78db0e1b05a`
-- Component Properties: Property 1 (VARIANT: #10001/#10002/#10003/#10004)
+- Component Properties: Property 1 (VARIANT: #10001/#10002/#10003/#10004)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機與平板事件卡片頂部顯示商戶事件編號。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11017,7 +11017,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-mobile-list-item] 手機事件列表項目 / Mobile Merchant Event List Item / `198:257884` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257884
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0fe7faa0e4e563dc7eb9cf5501b84b6c7daf14f0`
-- Component Properties: Show right button#4018:6 (BOOLEAN)；Show left button#4018:9 (BOOLEAN)；Property 1 (VARIANT: 一般議題事件--台灣/運動事件--日本/運動事件--美國/一般議題事件--全球)
+- Component Properties: Show right button#4018:6 (BOOLEAN)；Show left button#4018:9 (BOOLEAN)；Property 1 (VARIANT: 一般議題事件--台灣/運動事件--日本/運動事件--美國/一般議題事件--全球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合事件編號、標題、圖片與屬性資訊，形成手機／平板使用的事件卡片列表項目。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11045,7 +11045,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-mobile-title] 手機事件標題內容 / Mobile Event Title / `198:257822` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257822
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d14f9db6ba9927c44d0b2bce5992d48222b14e4a`
-- Component Properties: Property 1 (VARIANT: topic/sport)
+- Component Properties: Property 1 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機與平板事件卡片中顯示一般議題或運動事件標題。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11073,7 +11073,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-name-id-search] 事件名稱／編號搜尋 / Event Name or ID Search / `198:257675` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257675
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fc31d67feceb31f4e22e3d661d085b9bb151a937`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件名稱或商戶事件編號搜尋列表資料。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11101,7 +11101,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-name-table-cell] 事件名稱表格儲存格 / Event Name Table Cell / `198:257689` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257689
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c34f344627ef1a366c71a6d7fa661336d3ae2cbb`
-- Component Properties: Show right button#4015:0 (BOOLEAN)；Show left button#4015:3 (BOOLEAN)；Property 1 (VARIANT: sport/topic)
+- Component Properties: Show right button#4015:0 (BOOLEAN)；Show left button#4015:3 (BOOLEAN)；Property 1 (VARIANT: sport/topic)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面表格列中顯示一般議題或運動事件名稱。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11129,7 +11129,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-region-table-cell] 所屬地區表格儲存格 / Region Table Cell / `198:257716` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257716
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`20b9b2eff1ae4c4703090b26e93a58706cb2422e`
-- Component Properties: Property 1 (VARIANT: 台灣/日本/美國/全球)
+- Component Properties: Property 1 (VARIANT: 台灣/日本/美國/全球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面表格列中顯示事件所屬服務地區。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11157,7 +11157,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-region-value] 地區內容值 / Region Value / `198:257787` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257787
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e0e3fb45409ba8c2afe4e6e94244a8c4cdc1fe29`
-- Component Properties: Property 1 (VARIANT: 台灣/日本/美國/全球)
+- Component Properties: Property 1 (VARIANT: 台灣/日本/美國/全球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件所屬地區的內容值，供桌面與響應式事件內容組裝。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11185,7 +11185,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-related-order-table-cell] 關聯委託單表格儲存格 / Related Order Table Cell / `198:257698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257698
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`832f80b945e2c35f29284ccb3e7e841702bd515c`
-- Component Properties: Property 1 (VARIANT: 有/無)
+- Component Properties: Property 1 (VARIANT: 有/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面表格列中顯示事件是否有關聯委託單及其說明。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11213,7 +11213,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-related-order-value] 關聯委託單內容值 / Related Order Value / `198:257809` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257809
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4f5e0c6125fe155fc032b69d7ae258b2e52f5cb5`
-- Component Properties: Property 1 (VARIANT: 有/無)
+- Component Properties: Property 1 (VARIANT: 有/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件是否有關聯委託單及對應文字狀態。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11241,7 +11241,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-row-action-cell] 桌面列操作欄 / Desktop Row Action Cell / `198:257775` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257775
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7c41d4d38179765d94230c58c116b362254cd20d`
-- Component Properties: Property 1 (VARIANT: Default/已顯示/已隱藏)
+- Component Properties: Property 1 (VARIANT: Default/已顯示/已隱藏)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件資料列的編輯、更多操作與顯示／隱藏狀態操作。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11269,7 +11269,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-row-selection-cell] 桌面列勾選欄位 / Desktop Row Selection Cell / `198:257769` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257769
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2c894db47c1f7071ee3e8d27181b995b9c7606ee`
-- Component Properties: Property 1 (VARIANT: 勾選欄位)
+- Component Properties: Property 1 (VARIANT: 勾選欄位)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供桌面事件資料列的勾選欄位，以支援批次顯示或隱藏。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11297,7 +11297,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-service-region-filter] 服務地區篩選器 / Service Region Filter / `198:257664` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-257664
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`304864691afdc18a52556ef588da4d86fde80e3a`
-- Component Properties: Property 1 (VARIANT: 台灣/日本/美國/全球)
+- Component Properties: Property 1 (VARIANT: 台灣/日本/美國/全球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依台灣、日本、美國、全球等服務地區篩選商戶事件。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11325,7 +11325,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-target-merchant-filter] 目標商戶篩選器 / Target Merchant Filter / `198:259384` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259384
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d6a4240eab99fa7c992c07da607124bea347416a`
-- Component Properties: Property 1 (VARIANT: 商戶A/商戶B/商戶C)
+- Component Properties: Property 1 (VARIANT: 商戶A/商戶B/商戶C)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依目標商戶篩選商戶事件列表。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11353,7 +11353,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-visibility-status-filter] 顯示狀態篩選器 / Visibility Status Filter / `198:259393` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259393
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1058749feec254cfc5345697ab91d96e23491bc4`
-- Component Properties: Property 1 (VARIANT: 顯示/隱藏)
+- Component Properties: Property 1 (VARIANT: 顯示/隱藏)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依顯示或隱藏狀態篩選商戶事件列表。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11381,7 +11381,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-event-visibility-status-value] 顯示狀態內容值 / Visibility Status Value / `198:259400` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-259400
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5ec165e03c71459ff48434b9b3714152634b2626`
-- Component Properties: Property 1 (VARIANT: 已顯示/已隱藏)
+- Component Properties: Property 1 (VARIANT: 已顯示/已隱藏)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件目前為已顯示或已隱藏。
 - 遷移備註: 有正式 Component Set/variants，並由實際產品畫面透過 Figma mainComponent 關係重用，適合納入功能層元件。
 - Page Type: List
@@ -11409,7 +11409,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-member-cell] 商戶名稱與會員編號 / Merchant and Member Cell / `163:487188` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487188
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`35519baf004768da16347981fe1a71b557976192`
-- Component Properties: 商戶名稱#8034:0 (TEXT)；會員編號#8034:2 (TEXT)；類型 (VARIANT: 兩者皆有/僅有商戶名稱/僅有會員編號)
+- Component Properties: 商戶名稱#8034:0 (TEXT)；會員編號#8034:2 (TEXT)；類型 (VARIANT: 兩者皆有/僅有商戶名稱/僅有會員編號)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在訂單列表顯示商戶名稱與會員編號，並支援只顯示其中一項的情況。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
@@ -11437,7 +11437,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-publish-confirm-dialog] 發佈商戶確認彈窗（Light） / Merchant Publish Confirmation Dialog Light / `104:65271` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65271
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`87454e3927c5e1228597c1bcb7a2ca76a445f4f9`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件發佈到指定商戶前顯示確認資訊，讓後台營運人員核對商戶名單，並返回上一步或確認執行發佈。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -11465,7 +11465,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-publish-confirm-dialog-dark] 發佈商戶確認彈窗（Dark） / Merchant Publish Confirmation Dialog Dark / `104:65340` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65340
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`52181965775b33afe04f2b89a65f144fc0913b19`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件發佈到指定商戶前顯示確認資訊，讓後台營運人員核對商戶名單，並返回上一步或確認執行發佈。
 - 遷移備註: Dark/主題複本待合併
 - Page Type: List
@@ -11493,7 +11493,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-publish-dialog] 事件發佈商戶彈窗（Light） / Merchant Publish Dialog Light / `104:65252` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65252
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4d9f1c977a8ebd8e959b81dd6407d124b140688a`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 供後台營運人員選擇要開放事件的合作商戶，並依桌面、平板或手機版面進入下一步發佈流程。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -11521,7 +11521,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-publish-dialog-dark] 事件發佈商戶彈窗（Dark） / Merchant Publish Dialog Dark / `104:65321` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65321
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`90bd4248867846b41e819d48a09af58efc7c933b`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 供後台營運人員選擇要開放事件的合作商戶，並依桌面、平板或手機版面進入下一步發佈流程。
 - 遷移備註: Dark/主題複本待合併
 - Page Type: List
@@ -11549,7 +11549,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-publish-result-dialog] 發佈結果彈窗（Light） / Merchant Publish Result Dialog Light / `104:65288` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65288
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`35b9cf36f3e7d997716cf41b4f42ed76df20f060`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: 成功/失敗)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: 成功/失敗)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件發佈流程完成後顯示成功或失敗結果，供後台營運人員確認發佈狀態並關閉提示；元件包含桌面、平板與手機版結果狀態。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -11577,7 +11577,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-publish-result-dialog-dark] 發佈結果彈窗（Dark） / Merchant Publish Result Dialog Dark / `104:65357` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65357
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6d2ad938421eaf1773014f970412ff5d7ad94186`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: 成功/失敗)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: 成功/失敗)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件發佈流程完成後顯示成功或失敗結果，供後台營運人員確認發佈狀態並關閉提示；元件包含桌面、平板與手機版結果狀態。
 - 遷移備註: Dark/主題複本待合併
 - Page Type: List
@@ -11605,7 +11605,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [merchant-search-filter] 搜尋商戶 / Merchant Search Filter / `163:487547` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487547
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`12291b71a273b219aa847878845d18e33de524d4`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供會員訂單紀錄依商戶搜尋的輸入篩選。
 - 遷移備註: 正式結構但缺直接使用證據
 - Page Type: List
@@ -11633,7 +11633,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-event-data] 手機主事件資料區 / Mobile Event Data / `93:8793` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8793
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`202c8fff9325abdf8911f31e3eb43da334590090`
-- Component Properties: 上架狀態 (VARIANT: 已上架事件/未上架事件)；時間狀態 (VARIANT: 無/已過期/尚未過期)
+- Component Properties: 上架狀態 (VARIANT: 已上架事件/未上架事件)；時間狀態 (VARIANT: 無/已過期/尚未過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合主事件卡片的上架狀態、過期狀態與相關資料列。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11661,7 +11661,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-event-detail-row] 手機主事件資料列 / Mobile Event Detail Row / `93:8808` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8808
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`429db28334ef16df0a005e4da01a428488ac8386`
-- Component Properties: 年#5913:49 (TEXT)；月#5913:58 (TEXT)；日#5913:67 (TEXT)；時#5913:76 (TEXT)；分#5913:85 (TEXT)；秒#5913:94 (TEXT)；分類 (VARIANT: 事件創建時間/庫存量/投分量/投分開始時間/狀態更新時間)；類型 (VARIANT: 單選項/多選項/已被投分/尚未投分/投分中/尚未過期/已過期/無)
+- Component Properties: 年#5913:49 (TEXT)；月#5913:58 (TEXT)；日#5913:67 (TEXT)；時#5913:76 (TEXT)；分#5913:85 (TEXT)；秒#5913:94 (TEXT)；分類 (VARIANT: 事件創建時間/庫存量/投分量/投分開始時間/狀態更新時間)；類型 (VARIANT: 單選項/多選項/已被投分/尚未投分/投分中/尚未過期/已過期/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 主事件卡片顯示建立時間、庫存量、投分量、投分開始與狀態更新時間。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11689,7 +11689,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-event-image] 手機事件圖片 / Mobile Event Image / `93:7864` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7864
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a837b1940886d2a297af64eddf007a5b16dd7132`
-- Component Properties: 類別 (VARIANT: topic/sport)
+- Component Properties: 類別 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件卡片顯示 sport/topic 類型的事件縮圖。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11717,7 +11717,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-event-title] 手機事件標題 / Mobile Event Title / `93:7855` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7855
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7848cf9831e4418af544b5101eae26f3cdaff2c7`
-- Component Properties: 事件名稱#5913:42 (TEXT)；類別 (VARIANT: topic/sport)
+- Component Properties: 事件名稱#5913:42 (TEXT)；類別 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件卡片顯示 sport/topic 類型的事件標題。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11745,7 +11745,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-filter-panel] 手機篩選面板 / Mobile Filter Panel / `93:7211` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7211
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`47be0815a14ef1017075f8bc006c2c03fde08254`
-- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/投分篩選-enable/投分篩選)
+- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/投分篩選-enable/投分篩選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 手機版承載事件篩選/投分篩選內容與切換狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11773,7 +11773,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-image-list-content] 行動版圖片列表內容 / Mobile Image List Content / `198:279367` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-279367
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4ef5b4f3fbb8a33de898ccfac22d148aa8947520`
-- Component Properties: 資料類型 (VARIANT: 尚未設定資料/cover/icon/background)
+- Component Properties: 資料類型 (VARIANT: 尚未設定資料/cover/icon/background)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現窄版圖片列表的次類別、圖片類型、介面與顯示模式等內容，並支援多種資料類型。
 - 遷移備註: 高使用量且跨 RWD／多 Theme 被重用，資料類型 variants 明確。
 - Page Type: Create
@@ -11785,7 +11785,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=36、nestedDependencies=30、screens=18、components=5、viewports=desktop/mobile/tablet、themes=dark/variables/light；Component Set 具尚未設定資料、cover、icon、background 4 個資料類型 variants；Figma key=10fb44d56deab5a9eb615cf64b0c87dacdfe756d
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=36、nestedDependencies=30、screens=18、components=5、viewports=desktop/mobile/tablet、themes=dark/variables/light；Component Set 具尚未設定資料、cover、icon、background 4 個資料類型 variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6153:68550
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -11801,7 +11801,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-image-path-row] 行動版圖片路徑資料列 / Mobile Image Path Row / `198:279402` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-279402
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c1bae540677a21320a900f370718de5ed0df31f6`
-- Component Properties: Property 1 (VARIANT: 次類別1/次類別2/次類別--無/Icon/Background/Cover/類型--無/介面--Widget/介面--iframe/介面--無/日間模式/夜間模式/模式--無)
+- Component Properties: Property 1 (VARIANT: 次類別1/次類別2/次類別--無/Icon/Background/Cover/類型--無/介面--Widget/介面--iframe/介面--無/日間模式/夜間模式/模式--無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供行動版圖片路徑資料列的各欄位 variants，涵蓋次類別、圖片類型、發布介面、顯示模式與未設定狀態。
 - 遷移備註: 本批最高重用層級之一，且欄位狀態 variants 完整，適合遷移。
 - Page Type: Create
@@ -11813,7 +11813,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=144、nestedDependencies=152、screens=18、components=7、viewports=mobile/desktop/tablet、themes=light/variables/dark；Component Set 含 13 個 variants，涵蓋次類別、Icon/Background/Cover、iframe/Widget、日間/夜間與缺值狀態；Figma key=a782cc5636e4278e8a5cca44f20d885f5b77b694
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=144、nestedDependencies=152、screens=18、components=7、viewports=mobile/desktop/tablet、themes=light/variables/dark；Component Set 含 13 個 variants，涵蓋次類別、Icon/Background/Cover、iframe/Widget、日間/夜間與缺值狀態
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6153:68564
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -11829,7 +11829,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-inventory-display] 手機庫存顯示 / Mobile Inventory Display / `93:8782` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8782
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ced0140412bbe99fa89938b3f7a5d351590171e9`
-- Component Properties: Yes#6467:9 (TEXT)；No#6467:12 (TEXT)；Up#6986:0 (TEXT)；Down#6986:4 (TEXT)；Show Yes庫存#6986:12 (BOOLEAN)；Show No庫存#6986:17 (BOOLEAN)；Show Yes已售罄#6986:22 (BOOLEAN)；Show Up已售罄#6986:27 (BOOLEAN)；Show No已售罄#6986:37 (BOOLEAN)；Show Down已售罄#6986:42 (BOOLEAN)；Show Up庫存#6986:47 (BOOLEAN)；Show Down庫存#6986:52 (BOOLEAN)；選項方向 (VARIANT: Yes/No/Up/Down)；事件類型 (VARIANT: 單選項事件)
+- Component Properties: Yes#6467:9 (TEXT)；No#6467:12 (TEXT)；Up#6986:0 (TEXT)；Down#6986:4 (TEXT)；Show Yes庫存#6986:12 (BOOLEAN)；Show No庫存#6986:17 (BOOLEAN)；Show Yes已售罄#6986:22 (BOOLEAN)；Show Up已售罄#6986:27 (BOOLEAN)；Show No已售罄#6986:37 (BOOLEAN)；Show Down已售罄#6986:42 (BOOLEAN)；Show Up庫存#6986:47 (BOOLEAN)；Show Down庫存#6986:52 (BOOLEAN)；選項方向 (VARIANT: Yes/No/Up/Down)；事件類型 (VARIANT: 單選項事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選項事件卡片顯示 Yes/No/Up/Down 方向的庫存值。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11857,7 +11857,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-language-save-status] 行動版語系儲存狀態 / Mobile Language Save Status / `110:112377` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-112377
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5ad508f8669502a48831d21d201f5942493ee30d`
-- Component Properties: language (VARIANT: 英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG))；saved status (VARIANT: draft/save/empty)
+- Component Properties: language (VARIANT: 英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG))；saved status (VARIANT: draft/save/empty)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 手機版語系選擇與儲存狀態。
 - 遷移備註: 正式流程重用
 - Page Type: Create
@@ -11885,7 +11885,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-option-event-data] 手機選項事件資料區 / Mobile Option Event Data / `93:8763` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8763
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9fc3c85c9d709aad200475c9ad14b6c70e6d1254`
-- Component Properties: 上架狀態 (VARIANT: 已上架事件/未上架事件)；時間狀態 (VARIANT: 已過期/無/尚未過期)
+- Component Properties: 上架狀態 (VARIANT: 已上架事件/未上架事件)；時間狀態 (VARIANT: 已過期/無/尚未過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合選項事件的上架狀態、過期狀態與相關資料列。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11913,7 +11913,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-option-event-detail-row] 手機選項事件資料列 / Mobile Option Event Detail Row / `93:8663` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8663
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9ba6cc0852402faeeb1361cb3c613eccb94d981d`
-- Component Properties: 年#5913:49 (TEXT)；月#5913:58 (TEXT)；日#5913:67 (TEXT)；時#5913:76 (TEXT)；分#5913:85 (TEXT)；秒#5913:94 (TEXT)；天數#5929:42 (TEXT)；分類 (VARIANT: 事件創建時間/狀態更新時間/投分開始時間/剩餘結束天數/庫存顯示/投分量)；類型 (VARIANT: 尚未過期/7天以上/7天以內/已結束/無/已過期/已被投分/尚未投分/投分中/單選項)
+- Component Properties: 年#5913:49 (TEXT)；月#5913:58 (TEXT)；日#5913:67 (TEXT)；時#5913:76 (TEXT)；分#5913:85 (TEXT)；秒#5913:94 (TEXT)；天數#5929:42 (TEXT)；分類 (VARIANT: 事件創建時間/狀態更新時間/投分開始時間/剩餘結束天數/庫存顯示/投分量)；類型 (VARIANT: 尚未過期/7天以上/7天以內/已結束/無/已過期/已被投分/尚未投分/投分中/單選項)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 選項事件卡片顯示建立/更新/投分時間、剩餘天數、庫存與投分量等欄位。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -11941,7 +11941,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-parameter-content-row] 行動版參數內容列 / Mobile Parameter Content Row / `165:1159536` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159536
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a9f3742e86638f3ca00975b7bb77c3eeec3d48f9`
-- Component Properties: Property 1 (VARIANT: 類型/參數類別1/參數類別2/事件參數名稱1/事件參數名稱2/數值預覽1/數值預覽2/最後更新時間)
+- Component Properties: Property 1 (VARIANT: 類型/參數類別1/參數類別2/事件參數名稱1/事件參數名稱2/數值預覽1/數值預覽2/最後更新時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版版參數內容列，顯示類別、名稱、數值預覽、類型與時間等欄位。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -11969,7 +11969,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-parameter-content] 行動版參數內容 / Mobile Parameter Content / `165:1159522` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159522
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2282bb9e0149419e0fe1b74723989ff9f4082338`
-- Component Properties: Property 1 (VARIANT: 審核事件)
+- Component Properties: Property 1 (VARIANT: 審核事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版版參數項目的主要內容區，顯示類別、類型與最後更新時間。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -11997,7 +11997,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-parameter-list-item] 行動版參數列表項目 / Mobile Parameter List Item / `165:1159461` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159461
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`eaa2e0f60fabe33d7204e8f54bb1dfcd8f2d769a`
-- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/日期(Date)/布林(Boolean) on/JSON(級距表)/布林(Boolean) off)
+- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/日期(Date)/布林(Boolean) on/JSON(級距表)/布林(Boolean) off)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版版參數列表項目，依不同數值類型呈現對應資料與狀態。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -12025,7 +12025,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-published-event-card] 手機已上架事件卡片 / Mobile Published Event Card / `93:8577` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8577
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`37729322218117576ea410629070afee62942315`
-- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；投分狀態 (VARIANT: 投分中/等待中/結算中/已結算/無)；收合狀態 (VARIANT: 無/關閉/開啟)
+- Component Properties: 事件類型 (VARIANT: 二元/時間軸/單一事件結果)；投分狀態 (VARIANT: 投分中/等待中/結算中/已結算/無)；收合狀態 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝手機/平板已上架主事件卡片，依事件類型、投分狀態與收合狀態切換內容。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12053,7 +12053,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-published-main-status-header] 手機已上架主事件狀態標題 / Mobile Published Main Status Header / `93:8007` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8007
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a8d1be15df128bbd9eb0dcd6f7a30c83e543166c`
-- Component Properties: 選項事件數量#6986:74 (TEXT)；投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/無)；收合狀態 (VARIANT: 關閉/開啟)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)
+- Component Properties: 選項事件數量#6986:74 (TEXT)；投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算/無)；收合狀態 (VARIANT: 關閉/開啟)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 已上架主事件卡片依投分狀態、事件類型與收合狀態顯示標題。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12081,7 +12081,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-published-option-event-card] 手機已上架選項事件卡片 / Mobile Published Option Event Card / `93:8900` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-8900
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`719fb4615c289d9fc4ec5f8104f7b8d6f650c7b3`
-- Component Properties: Show 按鈕組#6986:101 (BOOLEAN)；類型 (VARIANT: 投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: 開啟/關閉)
+- Component Properties: Show 按鈕組#6986:101 (BOOLEAN)；類型 (VARIANT: 投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組裝手機/平板已上架選項事件卡片，依投分狀態與收合狀態切換。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12109,7 +12109,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 4 / [mobile-published-option-status-header] 手機已上架選項事件狀態標題 / Mobile Published Option Status Header / `93:7872` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7872
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b74a1a5ebd3ee9958b9dc96ab2c1602f98c49da3`
-- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: 關閉/開啟)
+- Component Properties: 投分狀態 (VARIANT: 投分中/等待投分/結算中/已結算)；收合狀態 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 已上架選項事件卡片顯示投分狀態並控制收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12137,7 +12137,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-interface-chip-cell] 發布介面 Chip 欄位 / Publishing Interface Chip Cell / `198:260854` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260854
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`39c70a7ef0d7a6cf56354e8eb16295ba35f9fcce`; componentSet=`—`
-- Component Properties: Title#6071:4 (TEXT)；Show Chip#6071:5 (BOOLEAN)；Show Chip 2#6071:6 (BOOLEAN)；Show Chip 3#6071:7 (BOOLEAN)；Show Chip 4#6071:8 (BOOLEAN)；Sub#6071:9 (TEXT)
+- Component Properties: Title#6071:4 (TEXT)；Show Chip#6071:5 (BOOLEAN)；Show Chip 2#6071:6 (BOOLEAN)；Show Chip 3#6071:7 (BOOLEAN)；Show Chip 4#6071:8 (BOOLEAN)；Sub#6071:9 (TEXT)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合發布介面選擇區的標題、副標與 iframe／Widget Chip，供新增／編輯主類別流程使用。
 - 遷移備註: 跨三種 viewport 與 Light/Dark 正式流程使用，並被其他本地元件依賴，適合遷移。
 - Page Type: Create
@@ -12149,7 +12149,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=70，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=17、nestedDependencies=18、screens=14、components=3、viewports=tablet/desktop/mobile、themes=dark/light；Figma key=147d1b8d30982f478939175adcbc72fe0ff33007，且 textSummary 含 Title、Sub、iframe、Widget，對應正式發布介面選擇內容
+- Evidence: inventory migrationScore=70，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=17、nestedDependencies=18、screens=14、components=3、viewports=tablet/desktop/mobile、themes=dark/light；且 textSummary 含 Title、Sub、iframe、Widget，對應正式發布介面選擇內容
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6071:67603
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12165,7 +12165,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-interface-chip] 發布介面選擇標籤 / Publishing Interface Chip / `198:260871` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260871
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e4273ddba9ef5ea7d1736fae2be1d84b09701fc3`
-- Component Properties: Text#6071:0 (TEXT)；Status (VARIANT: Default/Hover/Active)
+- Component Properties: Text#6071:0 (TEXT)；Status (VARIANT: Default/Hover/Active)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 用 Chip 顯示與切換發布介面選項，支援 Default、Hover 與 Active 狀態。
 - 遷移備註: 高使用量、跨 RWD 與雙 Theme，且具完整互動狀態，適合遷移。
 - Page Type: Create
@@ -12177,7 +12177,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=68、nestedDependencies=76、screens=14、components=4、viewports=mobile/desktop/tablet、themes=dark/light；Component Set 含 3 個正式狀態 variants：Default、Hover、Active；Figma key=6020c2d63400b7f1e06911ab3cf63d9ab4b3a6a7
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=68、nestedDependencies=76、screens=14、components=4、viewports=mobile/desktop/tablet、themes=dark/light；Component Set 含 3 個正式狀態 variants：Default、Hover、Active
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6071:67472
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12193,7 +12193,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-list-action-group] 列表操作按鈕組 / List Action Group / `93:6880` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6880
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`13a42ff626ff2c01edb4bac5055e2fdb131f77ba`
-- Component Properties: type (VARIANT: 前台上架顯示設定/詳細數據顯示/批次下架/批次上架)；status (VARIANT: default/hover/enable)
+- Component Properties: type (VARIANT: 前台上架顯示設定/詳細數據顯示/批次下架/批次上架)；status (VARIANT: default/hover/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供前台上架顯示設定、詳細數據顯示、批次上架/下架等列表層級操作。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12221,7 +12221,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-list-desktop] 事件列表（Desktop） / Event List - Desktop / `122:525400` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=122-525400
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`18690571afb4158c116c4ec7b40b9de297106ea7`
-- Component Properties: Property 1 (VARIANT: 投分中--一般議題事件/結算中--一般議題事件/已結算--一般議題事件/等待投分--一般議題事件)
+- Component Properties: Property 1 (VARIANT: 投分中--一般議題事件/結算中--一般議題事件/已結算--一般議題事件/等待投分--一般議題事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Desktop 事件管理列表的主要事件列元件，呈現事件圖片、名稱、投分量、狀態、建立時間與操作，並支援投分中/等待投分/結算中/已結算狀態。
 - 遷移備註: 正式畫面有直接使用證據，且涵蓋事件生命週期狀態
 - Page Type: List
@@ -12233,7 +12233,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.95
 - Original Review Action: —
-- Evidence: migrationScore=85; usageEvidence=figma-main-component: 8 uses/2 screens; viewports=desktop; themes=dark,light; Component Set variants=4; Figma key=c2b9e5f0b04d4c20babeb69aa4fb5585ec3fbeae；4 個狀態 variants：投分中、等待投分、結算中、已結算；實例同時出現在 Light 與 Dark Desktop 畫面
+- Evidence: migrationScore=85; usageEvidence=figma-main-component: 8 uses/2 screens; viewports=desktop; themes=dark,light; Component Set variants=4；4 個狀態 variants：投分中、等待投分、結算中、已結算；實例同時出現在 Light 與 Dark Desktop 畫面
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.0-20260508 / 5776:68606
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12249,7 +12249,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-list-primary-action-button] 列表主要動作按鈕 / List Primary Action Button / `93:7068` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7068
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4f7ee4360bc1d4bd8ef7ea78901c32b03163b18e`
-- Component Properties: Property 1 (VARIANT: 新增事件/結算事件)；status (VARIANT: default/hover)
+- Component Properties: Property 1 (VARIANT: 新增事件/結算事件)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供新增事件或結算事件等列表主要 CTA，含 default/hover 狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12277,7 +12277,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-list-tablet-mobile] 事件列表（Tablet/Mobile） / Event List - Tablet/Mobile / `122:525486` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=122-525486
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`26054e89a414d62316dfa7dea6e695f7d871c2b0`
-- Component Properties: Show right button#4018:0 (BOOLEAN)；Show left button#4018:3 (BOOLEAN)；Property 1 (VARIANT: 投分中--一般議題事件/等待投分--一般議題事件/結算中--一般議題事件/已結算--一般議題事件)
+- Component Properties: Show right button#4018:0 (BOOLEAN)；Show left button#4018:3 (BOOLEAN)；Property 1 (VARIANT: 投分中--一般議題事件/等待投分--一般議題事件/結算中--一般議題事件/已結算--一般議題事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Tablet 與 Mobile 事件管理列表的卡片式事件元件，顯示事件狀態、名稱、分類、投分量與操作，支援事件生命週期的四種狀態。
 - 遷移備註: Tablet/Mobile 正式畫面高頻重用且狀態結構完整
 - Page Type: List
@@ -12289,7 +12289,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component: 16 uses/4 screens; viewports=mobile,tablet; themes=dark,light; Component Set variants=4; Figma key=2edc7e71fae30a91a35de8c8ff1d44a1c779ae4f；usageEvidence 明確只落在 tablet/mobile 畫面；4 個狀態 variants：投分中、等待投分、結算中、已結算
+- Evidence: migrationScore=105; usageEvidence=figma-main-component: 16 uses/4 screens; viewports=mobile,tablet; themes=dark,light; Component Set variants=4；usageEvidence 明確只落在 tablet/mobile 畫面；4 個狀態 variants：投分中、等待投分、結算中、已結算
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.0-20260508 / 5776:68692
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12305,7 +12305,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-added-image-list] 已新增圖片列表 / Added Image List / `198:260961` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260961
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2e97379677422a6e24f2b913f01200b5db30206f`
-- Component Properties: 狀態 (VARIANT: enable/disable)；pic type (VARIANT: Background/Icon/Cover)；device (VARIANT: Mobile/PC&Tablet)
+- Component Properties: 狀態 (VARIANT: enable/disable)；pic type (VARIANT: Background/Icon/Cover)；device (VARIANT: Mobile/PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示主類別目前已加入的圖片、圖片屬性與查看／刪除操作，依圖片類型、啟用狀態與裝置切換版型。
 - 遷移備註: 新增／編輯主類別第 4 步的正式核心內容，跨 RWD、多 Theme 且具完整圖片狀態 variants。
 - Page Type: Create
@@ -12317,7 +12317,7 @@
 - Theme: explicit=unknown, strategy=manual, support=light
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=36、nestedDependencies=18、screens=18、components=3、viewports=tablet/desktop/mobile、themes=light/dark/variables；Component Set 具狀態 enable/disable、pic type Background/Icon/Cover、device Mobile/PC&Tablet 共 12 個 child variants；Figma key=b2b7e58273079c92e24ef7cffeeb4d2f4e253b56
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=36、nestedDependencies=18、screens=18、components=3、viewports=tablet/desktop/mobile、themes=light/dark/variables；Component Set 具狀態 enable/disable、pic type Background/Icon/Cover、device Mobile/PC&Tablet 共 12 個 child variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6153:107201
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12333,7 +12333,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-desktop-row] 事件主類別桌機資料列 / Event Main Category Desktop Row / `198:260665` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260665
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d99357e4ebeeba0368c276388dc5c81b0b18e8c7`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕/iframe/Widget)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕/iframe/Widget)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現事件主類別桌機列表單筆資料，包含 ID、名稱、掛載次類別數、發布介面、啟用狀態與操作。
 - 遷移備註: 在大量桌機產品畫面直接使用，且包含多種狀態／介面 variants，屬核心列表內容元件。
 - Page Type: Create
@@ -12345,7 +12345,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=280、screens=28、components=0、viewports=desktop、themes=dark/light/variables；Component Set 含 4 個 variants：Property 1=已啟用；Property 1=已拒絕；Property 1=iframe；Property 1=Widget；Figma key=779286a4a52185fdf5b3c890b38f864c7507e6e1
+- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=280、screens=28、components=0、viewports=desktop、themes=dark/light/variables；Component Set 含 4 個 variants：Property 1=已啟用；Property 1=已拒絕；Property 1=iframe；Property 1=Widget
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77602
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12361,7 +12361,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-image-action-button] 主類別圖片操作按鈕 / Main Category Image Action Button / `198:260753` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260753
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`939651922bad7edda74f806c4bb379c00dd0b1d4`
-- Component Properties: type (VARIANT: 上傳圖片/移除圖片/刪除圖片/儲存設定)；status (VARIANT: default/hover/enable)
+- Component Properties: type (VARIANT: 上傳圖片/移除圖片/刪除圖片/儲存設定)；status (VARIANT: default/hover/enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供主類別圖片設定中的上傳、儲存、移除與刪除操作及其互動狀態。
 - 遷移備註: 跨 Desktop／Tablet／Mobile 的 12 個正式流程畫面使用，並被 3 個本地元件依賴，包含 9 個操作狀態 variants。
 - Page Type: Create
@@ -12373,7 +12373,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=24、screens=12、components=3、viewports=mobile/desktop/tablet、themes=light/dark；Component Set 含 9 個 variants：type=上傳圖片, status=default；type=上傳圖片, status=hover；type=儲存設定, status=default；type=儲存設定, status=hover；type=儲存設定, status=enable；type=移除圖片, status=default；type=移除圖片, status=hover；type=刪除圖片, status=default；type=刪除圖片, status=hover；Figma key=c4bbd7d8de18322c11ff53df7e2e61a30779a4df
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=24、screens=12、components=3、viewports=mobile/desktop/tablet、themes=light/dark；Component Set 含 9 個 variants：type=上傳圖片, status=default；type=上傳圖片, status=hover；type=儲存設定, status=default；type=儲存設定, status=hover；type=儲存設定, status=enable；type=移除圖片, status=default；type=移除圖片, status=hover；type=刪除圖片, status=default；type=刪除圖片, status=hover
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6453:692850
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12389,7 +12389,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-image-filter-group] 圖片篩選器群組 / Image Filter Group / `198:260895` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260895
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ae2319ac9995a5f4953f0b8ced6815304863ffb2`
-- Component Properties: Property 1 (VARIANT: disable/enable)；device (VARIANT: Mobile/PC&Tablet)
+- Component Properties: Property 1 (VARIANT: disable/enable)；device (VARIANT: Mobile/PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合主類別圖片列表的多個篩選條件，並依裝置與啟用狀態切換版型。
 - 遷移備註: 圖片列表的正式篩選器容器，跨 RWD 與多 Theme 使用且整合子篩選器，適合遷移。
 - Page Type: Create
@@ -12401,7 +12401,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=18、nestedDependencies=14、screens=18、components=3、viewports=mobile/tablet/desktop、themes=dark/light/variables；Component Set 具 disable/enable 與 Mobile/PC&Tablet variants；Figma key=f31fd957fbd7c935b6ad605d4ae8e916ef705f46
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=18、nestedDependencies=14、screens=18、components=3、viewports=mobile/tablet/desktop、themes=dark/light/variables；Component Set 具 disable/enable 與 Mobile/PC&Tablet variants
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6153:131190
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12417,7 +12417,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-image-mode-tabs] 圖片編輯／列表模式切換 / Image Edit/List Mode Tabs / `198:260792` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260792
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`82120121bc9cdea29c2c1e2b3d0e972192fcefdf`
-- Component Properties: type (VARIANT: 上傳圖片/圖片列表)；status (VARIANT: default/hover)
+- Component Properties: type (VARIANT: 上傳圖片/圖片列表)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在主類別圖片設定中切換上傳圖片與圖片列表模式，並呈現各模式的預設與滑入狀態。
 - 遷移備註: 跨三種 viewport 與多 Theme 的 28 個產品畫面使用，且被 6 個本地元件依賴。
 - Page Type: Create
@@ -12429,7 +12429,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=28、screens=28、components=6、viewports=desktop/tablet/mobile、themes=dark/light/variables；Component Set 含 4 個 variants：type=上傳圖片, status=default；type=上傳圖片, status=hover；type=圖片列表, status=default；type=圖片列表, status=hover；Figma key=c97b7acd13cba1b7fa480d9f4e8527b0a1f4ed84
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=28、screens=28、components=6、viewports=desktop/tablet/mobile、themes=dark/light/variables；Component Set 含 4 個 variants：type=上傳圖片, status=default；type=上傳圖片, status=hover；type=圖片列表, status=default；type=圖片列表, status=hover
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6453:689800
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12445,7 +12445,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-image-sequence-control] 圖片序列控制 / Image Sequence Control / `198:260847` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260847
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f0b20120d0e16c3dab392c29cbebe45e8e3f8dac`
-- Component Properties: Property 1 (VARIANT: 1/2)
+- Component Properties: Property 1 (VARIANT: 1/2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供主類別圖片排序或序列選擇控制，目前包含序列 1 與序列 2 variants。
 - 遷移備註: 跨三種 viewport 的 12 個正式圖片設定畫面使用，並被 3 個本地元件依賴。
 - Page Type: Create
@@ -12457,7 +12457,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.97
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=24、screens=12、components=3、viewports=mobile/tablet/desktop、themes=light/dark；Component Set 含 2 個 variants：Property 1=1；Property 1=2；Figma key=b2f613bb33b61e697b4b8ce6a4ef521aa5b84277
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=24、screens=12、components=3、viewports=mobile/tablet/desktop、themes=light/dark；Component Set 含 2 個 variants：Property 1=1；Property 1=2
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6474:127182
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12473,7 +12473,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-image-upload-guidance] 圖片上傳說明 / Image Upload Guidance / `198:260928` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-260928
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`895064ba118bca6da665dccb09e37508af47e7e4`
-- Component Properties: Property 1 (VARIANT: Default/Variant2)
+- Component Properties: Property 1 (VARIANT: Default/Variant2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 說明主類別圖片上傳流程，包括先選已掛載次類別、設定圖片類型／模式／發布介面，再上傳與管理圖片。
 - 遷移備註: 跨 RWD、雙 Theme 的正式圖片設定流程使用，且承載固定操作說明，適合遷移。
 - Page Type: Create
@@ -12485,7 +12485,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=12、nestedDependencies=14、screens=12、components=3、viewports=mobile/tablet/desktop、themes=dark/light；Component Set 具 Default/Variant2；textSummary 包含已掛載次類別、圖片資訊設定與圖片列表操作說明；Figma key=5afd1d42e734832683bf311c6f12d6d97935f53a
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=12、nestedDependencies=14、screens=12、components=3、viewports=mobile/tablet/desktop、themes=dark/light；Component Set 具 Default/Variant2；textSummary 包含已掛載次類別、圖片資訊設定與圖片列表操作說明
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6399:256683
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12501,7 +12501,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-image-viewer] 檢視圖片 / Image Viewer / `198:275776` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275776
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6a84f5b9be29b88afe35422207d64f4768b76ea4`
-- Component Properties: device (VARIANT: Tablet/Mobile/PC)
+- Component Properties: device (VARIANT: Tablet/Mobile/PC)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件主類別圖片的大圖檢視介面，依 Desktop、Tablet、Mobile 切換版型並整合縮放與關閉控制。
 - 遷移備註: 跨 Desktop／Tablet／Mobile 實際產品畫面使用，且具正式裝置 variants，適合遷移為功能元件。
 - Page Type: Create
@@ -12513,7 +12513,7 @@
 - Theme: explicit=unknown, strategy=variables, support=light
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=6、screens=6、components=0、viewports=desktop/tablet/mobile、themes=variables；Component Set 含 3 個 variants：device=PC；device=Tablet；device=Mobile；Figma key=24283e9603ef2424867a53c4b1ae503fdc87df19
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=6、screens=6、components=0、viewports=desktop/tablet/mobile、themes=variables；Component Set 含 3 個 variants：device=PC；device=Tablet；device=Mobile
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6178:181094
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12529,7 +12529,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-interface-filter] 事件主類別介面篩選器 / Event Main Category Interface Filter / `198:275860` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275860
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0c47b75abcf7cf166f56c2f9f1d89fb81ea8c0fb`
-- Component Properties: Property 1 (VARIANT: 顯示全部狀態/iframe/Widget)
+- Component Properties: Property 1 (VARIANT: 顯示全部狀態/iframe/Widget)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件主類別發布介面篩選，可查看全部或指定 iframe、Widget 類型。
 - 遷移備註: 跨三種 viewport 與多 Theme 的 90 個產品畫面使用，且有全部／iframe／Widget variants。
 - Page Type: Create
@@ -12541,7 +12541,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=90、screens=90、components=0、viewports=desktop/tablet/mobile、themes=light/variables/dark；Component Set 含 3 個 variants：Property 1=顯示全部狀態；Property 1=iframe；Property 1=Widget；Figma key=0aa9c8b8b76d8439eebb5782a7eb96a414dd2942
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=90、screens=90、components=0、viewports=desktop/tablet/mobile、themes=light/variables/dark；Component Set 含 3 個 variants：Property 1=顯示全部狀態；Property 1=iframe；Property 1=Widget
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6154:48667
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12557,7 +12557,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-mobile-content] 事件主類別行動內容 / Event Main Category Mobile Content / `198:275927` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275927
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`67ce2960915f9d9ff43a63c4c8679da9cafd09c4`
-- Component Properties: Property 1 (VARIANT: 審核事件)
+- Component Properties: Property 1 (VARIANT: 審核事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現行動版事件主類別的詳細欄位內容，例如 ID、掛載次類別數與發布介面。
 - 遷移備註: 在 56 個 Tablet／Mobile 畫面直接使用 112 次，且被兩個本地元件依賴。
 - Page Type: Create
@@ -12569,7 +12569,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=112、screens=56、components=2、viewports=mobile/tablet、themes=light/dark/variables；Component Set 含 1 個 variants：Property 1=審核事件；Figma key=e95aaab0d040267021d2030f07aaae12e8a50983
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=112、screens=56、components=2、viewports=mobile/tablet、themes=light/dark/variables；Component Set 含 1 個 variants：Property 1=審核事件
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77666
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12585,7 +12585,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-mobile-list] 事件主類別行動列表 / Event Main Category Mobile List / `198:275884` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275884
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dc4f5b45779b678d999888060a0ff62cd12395a1`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕/iframe/Widget)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕/iframe/Widget)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合事件主類別在窄版裝置上的列表內容與狀態，供 Tablet／Mobile 版管理頁顯示多筆主類別。
 - 遷移備註: 在 56 個 Tablet／Mobile 畫面被直接使用 112 次，並涵蓋多 Theme 與多 variants。
 - Page Type: Create
@@ -12597,7 +12597,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=112、screens=56、components=0、viewports=tablet/mobile、themes=light/dark/variables；Component Set 含 4 個 variants：Property 1=已啟用；Property 1=已拒絕；Property 1=iframe；Property 1=Widget；Figma key=255be1b060b2e768f3ffebf099d49f02ca9a4169
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=112、screens=56、components=0、viewports=tablet/mobile、themes=light/dark/variables；Component Set 含 4 個 variants：Property 1=已啟用；Property 1=已拒絕；Property 1=iframe；Property 1=Widget
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77645
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12613,7 +12613,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-mobile-row-field] 事件主類別行動資料列欄位 / Event Main Category Mobile Row Field / `198:275945` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275945
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`22476083b0b880f3926fc2498255f28b7ac8db56`
-- Component Properties: Property 1 (VARIANT: ID/已掛載次類別數--5/已掛載次類別數--10/已發佈介面--both/已發佈介面--iframe/已發佈介面--Widget)
+- Component Properties: Property 1 (VARIANT: ID/已掛載次類別數--5/已掛載次類別數--10/已發佈介面--both/已發佈介面--iframe/已發佈介面--Widget)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供行動版事件主類別資料列中的 ID、掛載數與發布介面等欄位內容 variants。
 - 遷移備註: 直接使用 336 次、涵蓋 56 個 Tablet／Mobile 畫面並被 4 個本地元件依賴，variants 涵蓋主要欄位型態。
 - Page Type: Create
@@ -12625,7 +12625,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=336、screens=56、components=4、viewports=tablet/mobile、themes=light/dark/variables；Component Set 含 6 個 variants：Property 1=ID；Property 1=已掛載次類別數--5；Property 1=已掛載次類別數--10；Property 1=已發佈介面--both；Property 1=已發佈介面--iframe；Property 1=已發佈介面--Widget；Figma key=f6a8493d46a14680cd23854218f1e3052dab04b6
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=336、screens=56、components=4、viewports=tablet/mobile、themes=light/dark/variables；Component Set 含 6 個 variants：Property 1=ID；Property 1=已掛載次類別數--5；Property 1=已掛載次類別數--10；Property 1=已發佈介面--both；Property 1=已發佈介面--iframe；Property 1=已發佈介面--Widget
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77678
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12641,7 +12641,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-mobile-status] 事件主類別行動啟用狀態 / Event Main Category Mobile Status / `198:275981` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275981
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f2e647c5e78a534d6e598f68c8d210d9485fed28`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以行動版尺寸呈現事件主類別已啟用或已停用狀態，供 Tablet／Mobile 列表使用。
 - 遷移備註: 在 56 個 Tablet／Mobile 畫面直接使用 112 次，並被行動列表內容元件依賴。
 - Page Type: Create
@@ -12653,7 +12653,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=112、screens=56、components=2、viewports=tablet/mobile、themes=light/dark/variables；Component Set 含 2 個 variants：Property 1=已啟用；Property 1=已拒絕；Figma key=60bd9db94bfb3065c5bc61ee9b77cd53c9f468e3
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=112、screens=56、components=2、viewports=tablet/mobile、themes=light/dark/variables；Component Set 含 2 個 variants：Property 1=已啟用；Property 1=已拒絕
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77702
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12669,7 +12669,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-row-actions] 事件主類別列操作 / Event Main Category Row Actions / `198:275988` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275988
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`877247324e0977d1a3f49ad50ae910b23adbafa2`
-- Component Properties: type (VARIANT: 編輯主類別/已掛載次類別列表/編輯次類別)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯主類別/已掛載次類別列表/編輯次類別)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供已掛載次類別、編輯主類別與編輯次類別等事件主類別列操作，含預設、滑入與停用狀態。
 - 遷移備註: 直接使用 784 次、涵蓋 84 個畫面並被 8 個本地元件依賴，包含三種操作與 default/hover/disable variants。
 - Page Type: Create
@@ -12681,7 +12681,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=784、screens=84、components=8、viewports=tablet/mobile/desktop、themes=dark/light/variables；Component Set 含 9 個 variants：type=已掛載次類別列表, status=default；type=已掛載次類別列表, status=hover；type=已掛載次類別列表, status=disable；type=編輯主類別, status=default；type=編輯主類別, status=hover；type=編輯主類別, status=disable；type=編輯次類別, status=default；type=編輯次類別, status=hover；type=編輯次類別, status=disable；Figma key=f1c326b78ee5e8a88ff98e9903cbd91ded0a7c66
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=784、screens=84、components=8、viewports=tablet/mobile/desktop、themes=dark/light/variables；Component Set 含 9 個 variants：type=已掛載次類別列表, status=default；type=已掛載次類別列表, status=hover；type=已掛載次類別列表, status=disable；type=編輯主類別, status=default；type=編輯主類別, status=hover；type=編輯主類別, status=disable；type=編輯次類別, status=default；type=編輯次類別, status=hover；type=編輯次類別, status=disable
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77708
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12697,7 +12697,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-search-filter] 事件主類別搜尋篩選器 / Event Main Category Search Filter / `198:275846` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275846
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d1adeddc1f5862235bfdc9844cb742fb9fcdc796`
-- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)
+- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件主類別名稱關鍵字搜尋輸入，供列表快速查找指定主類別。
 - 遷移備註: 跨 Desktop／Tablet／Mobile 與多 Theme 的 90 個產品畫面直接使用，適合統一維護。
 - Page Type: Create
@@ -12709,7 +12709,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=90、screens=90、components=0、viewports=desktop/tablet/mobile、themes=light/variables/dark；Component Set 含 1 個 variants：Property 1=關鍵字搜尋；Figma key=a03c8ba03a447ec7a310cdd979d5338cf4ced923
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=90、screens=90、components=0、viewports=desktop/tablet/mobile、themes=light/variables/dark；Component Set 含 1 個 variants：Property 1=關鍵字搜尋
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77634
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12725,7 +12725,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-status-filter] 事件主類別狀態篩選器 / Event Main Category Status Filter / `198:275851` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275851
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d64cf40ca6de49baed5768c5ef3d9a998e6b326`
-- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)
+- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件主類別啟用狀態篩選，可切換顯示全部、已啟用或已停用。
 - 遷移備註: 跨三種 viewport 與多 Theme 的 90 個產品畫面使用，且有全部／啟用／停用 variants。
 - Page Type: Create
@@ -12737,7 +12737,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=90、screens=90、components=0、viewports=mobile/tablet/desktop、themes=light/variables/dark；Component Set 含 3 個 variants：Property 1=顯示全部狀態；Property 1=已啟用；Property 1=已停用；Figma key=500bfa7c04a39a347af6ec95ed5dcd80907c4ca5
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=90、screens=90、components=0、viewports=mobile/tablet/desktop、themes=light/variables/dark；Component Set 含 3 個 variants：Property 1=顯示全部狀態；Property 1=已啟用；Property 1=已停用
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77637
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12753,7 +12753,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-status] 事件主類別啟用狀態 / Event Main Category Status / `198:275936` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275936
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f5d5343c02ce2bc151cbb01dc3a5df578df89b86`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件主類別目前為已啟用或已停用，供桌機、平板與手機列表及相關元件共用。
 - 遷移備註: 直接使用 392 次、涵蓋 84 個畫面與三種 viewport，並被 6 個本地元件依賴，是高重用核心狀態元件。
 - Page Type: Create
@@ -12765,7 +12765,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=392、screens=84、components=6、viewports=desktop/tablet/mobile、themes=dark/light/variables；Component Set 含 2 個 variants：Property 1=已啟用；Property 1=已拒絕；Figma key=5e16a5ec60883b65bf90a00dbb8d3f4d0584c369
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=392、screens=84、components=6、viewports=desktop/tablet/mobile、themes=dark/light/variables；Component Set 含 2 個 variants：Property 1=已啟用；Property 1=已拒絕
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77671
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12781,7 +12781,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-table-header-cell] 事件主類別表頭欄位 / Event Main Category Table Header Cell / `198:275816` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275816
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3a4f6dd33588f7cd29b267f5d38c45f751d795df`
-- Component Properties: Property 1 (VARIANT: 操作/已掛載次類別數/ID/啟用狀態/事件主類別名稱/已發佈的平台)
+- Component Properties: Property 1 (VARIANT: 操作/已掛載次類別數/ID/啟用狀態/事件主類別名稱/已發佈的平台)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供事件主類別桌機表格的各欄位標題與排序圖示，可切換 ID、名稱、掛載數、發布介面、啟用狀態與操作欄位。
 - 遷移備註: 高使用量且由表頭容器依賴，欄位 variants 完整，適合成為事件主類別表格基礎元件。
 - Page Type: Create
@@ -12793,7 +12793,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=180、screens=30、components=2、viewports=desktop、themes=light/variables/dark；Component Set 含 6 個 variants：Property 1=ID；Property 1=事件主類別名稱；Property 1=已掛載次類別數；Property 1=已發佈的平台；Property 1=啟用狀態；Property 1=操作；Figma key=5fa4af0a4443a958b0ac8b0b0d5b317a0137ecd9
+- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=180、screens=30、components=2、viewports=desktop、themes=light/variables/dark；Component Set 含 6 個 variants：Property 1=ID；Property 1=事件主類別名稱；Property 1=已掛載次類別數；Property 1=已發佈的平台；Property 1=啟用狀態；Property 1=操作
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77580
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12809,7 +12809,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-table-header] 事件主類別表頭 / Event Main Category Table Header / `198:275836` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275836
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e5f9bc155b8e6aa3fd5fd2c520164190c65cd213`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合事件主類別桌機列表的完整表頭列，統一各欄位標題、欄寬與排序控制。
 - 遷移備註: 正式桌機列表畫面大量使用，並組合多個表頭欄位元件，適合遷移。
 - Page Type: Create
@@ -12821,7 +12821,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=30、screens=30、components=0、viewports=desktop、themes=variables/light/dark；Component Set 含 1 個 variants：Property 1=Default；Figma key=615267318c9210aaadaa25cd29c9a7489e9da7f0
+- Evidence: inventory migrationScore=85，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=30、screens=30、components=0、viewports=desktop、themes=variables/light/dark；Component Set 含 1 個 variants：Property 1=Default
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6066:77595
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12837,7 +12837,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-main-category-validation-message] 事件主類別驗證訊息 / Event Main Category Validation Message / `198:275869` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-275869
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`17e3488f3f782bced128d1240cff991ce470a34c`
-- Component Properties: Property 1 (VARIANT: 請選擇事件次類別/請選擇設定發佈介面/請至少上傳一張圖片)
+- Component Properties: Property 1 (VARIANT: 請選擇事件次類別/請選擇設定發佈介面/請至少上傳一張圖片)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示新增／編輯事件主類別流程中的必填驗證訊息，例如未選次類別、未選發布介面或未上傳圖片。
 - 遷移備註: 具三種正式錯誤訊息 variants，跨 RWD 與 Light/Dark 實際流程畫面使用，並被其他本地元件依賴。
 - Page Type: Create
@@ -12849,7 +12849,7 @@
 - Theme: explicit=unknown, strategy=variables, support=variables
 - Review: reviewed / confidence=0.97
 - Original Review Action: —
-- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=12、screens=12、components=2、viewports=mobile/desktop/tablet、themes=dark/light；Component Set 含 3 個 variants：Property 1=請選擇事件次類別；Property 1=請選擇設定發佈介面；Property 1=請至少上傳一張圖片；Figma key=4a14deee91f75031a182854bf5755233cac63f24
+- Evidence: inventory migrationScore=105，recommendation=migrate，usageCountMethod=figma-main-component；usageEvidence：directInstances=12、screens=12、components=2、viewports=mobile/desktop/tablet、themes=dark/light；Component Set 含 3 個 variants：Property 1=請選擇事件次類別；Property 1=請選擇設定發佈介面；Property 1=請至少上傳一張圖片
 - Legacy mapping: —
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.1-20260423 / 6826:105768
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -12865,7 +12865,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-metric-item] 詳細數據項目 / Metric Item / `93:6744` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6744
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`74139ef260295cfe1a30a8cd76ff1d7805a196f8`
-- Component Properties: 投分中事件數#7046:12 (TEXT)；等待投分事件數#7046:17 (TEXT)；結算中事件數#7046:22 (TEXT)；結束投分事件數#7046:27 (TEXT)；類型 (VARIANT: 投分中事件數/等待投分事件數/結算中事件數/結束投分事件數)
+- Component Properties: 投分中事件數#7046:12 (TEXT)；等待投分事件數#7046:17 (TEXT)；結算中事件數#7046:22 (TEXT)；結束投分事件數#7046:27 (TEXT)；類型 (VARIANT: 投分中事件數/等待投分事件數/結算中事件數/結束投分事件數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示投分中、等待投分、結算中、結束投分等事件數量。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12893,7 +12893,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-metrics-row] 詳細數據列 / Metrics Row / `93:6729` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6729
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f866836ee39f0f95efe597f3e616a900d68d37cf`
-- Component Properties: 類型 (VARIANT: pc&tablet/mobile)
+- Component Properties: 類型 (VARIANT: pc&tablet/mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依 PC/Tablet 與 Mobile 版型排列事件數量摘要，作為列表上方統計區容器。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12921,7 +12921,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-mode-badge] 事件模式標籤 / Event Mode Badge / `104:65764` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65764
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9d42e635605d5214d3bbb608e47c0b6a8fbcdae7`
-- Component Properties: Property 1 (VARIANT: Rush Hour/單一結果事件/時間軸事件)
+- Component Properties: Property 1 (VARIANT: Rush Hour/單一結果事件/時間軸事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 標示事件採用 Rush Hour、時間軸事件或單一結果等不同事件模式，供事件列表與管理畫面辨識事件運作方式。
 - 遷移備註: Dark/主題複本待合併
 - Page Type: List
@@ -12949,7 +12949,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-name-cell] 事件名稱資料格 / Event Name Cell / `93:7308` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7308
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`414dbbbf04cff49420ca587a870e126ceb5ef919`
-- Component Properties: 事件名稱#5868:2 (TEXT)；Show 選項事件#6707:0 (BOOLEAN)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)；收合狀態 (VARIANT: 關閉/開啟/無)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 事件名稱#5868:2 (TEXT)；Show 選項事件#6707:0 (BOOLEAN)；事件類型 (VARIANT: 二元/時間軸/單一事件結果)；收合狀態 (VARIANT: 關閉/開啟/無)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件名稱與事件類型，並處理過期與收合狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -12977,7 +12977,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-name-search] 事件名稱搜尋 / Event Name Search / `93:7253` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7253
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`997daca5cc8fb29ee0b6cd27166a8b9bd76105ee`
-- Component Properties: Property 1 (VARIANT: Default/Filled)
+- Component Properties: Property 1 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依事件名稱關鍵字搜尋列表，支援 Default 與 Filled 狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -13005,7 +13005,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-operation-cell] 事件操作資料格 / Event Operation Cell / `93:7676` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7676
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ce4a297010e286f93e2b93b793fe8c3bd9b00080`
-- Component Properties: 收合狀態 (VARIANT: 開啟/關閉/無)；元件類型 (VARIANT: 主事件/選項事件)；時間狀態 (VARIANT: 尚未過期/已過期)
+- Component Properties: 收合狀態 (VARIANT: 開啟/關閉/無)；元件類型 (VARIANT: 主事件/選項事件)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載事件列的操作控制，依主/選項事件、過期與收合狀態顯示可用操作。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -13033,7 +13033,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-parameter-desktop-row] 事件參數資料列 / Event Parameter Desktop Row / `165:1159335` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159335
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2af62790192c5a29b74d0af86be7eff6187aef0a`
-- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/日期(Date)/布林(Boolean) on/布林(Boolean) off/JSON(級距表))
+- Component Properties: Property 1 (VARIANT: 數字(Number)/文字(Text)/日期(Date)/布林(Boolean) on/布林(Boolean) off/JSON(級距表))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC參數列表資料列，依數字、文字、日期、布林與 JSON 類型呈現對應內容。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -13061,7 +13061,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-parameter-table-column-header] 表格欄位標題 / Event Parameter Table Column Header / `165:1159306` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159306
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`95bda1b5c8ebd038442bb894152bb1afa97c7546`
-- Component Properties: Property 1 (VARIANT: 操作/類型/最後更新時間/啟用狀態/參數類別/事件參數名稱/數值預覽)
+- Component Properties: Property 1 (VARIANT: 操作/類型/最後更新時間/啟用狀態/參數類別/事件參數名稱/數值預覽)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 參數列表PC版的欄位標題，可切換參數類別、名稱、數值預覽、類型、狀態、更新時間與操作。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -13089,7 +13089,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-parameter-table-header-row] 事件參數表頭列 / Event Parameter Table Header Row / `165:1159326` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=165-1159326
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6e289eaf7b4c580a2b893dead4123d605a847f2c`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組成PC參數列表的完整表頭列。
 - 遷移備註: 有 mainComponent 使用證據，可重用
 - Page Type: List
@@ -13117,7 +13117,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-action-column] 事件損益操作欄 / Event Profit/Loss Action Column / `155:347102` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347102
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`6ffeff4204364862bb08f0915e5f53a4d782e3cb`; componentSet=`—`
-- Component Properties: —
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合事件損益表格的操作欄內容，讓各資料列提供一致的更多操作入口。
 - 遷移備註: 正式畫面有明確跨 RWD/Theme 使用證據，不應因不是 Component Set 而排除。
 - Page Type: List
@@ -13145,7 +13145,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-data-row] 事件損益資料列 / Event Profit/Loss Data Row / `155:347114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347114
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c4010cc0d89f366dcaee8fb7ad73c7bcc2d9fb01`
-- Component Properties: Show 序列#10009:36 (BOOLEAN)；Show 事件編號#10009:39 (BOOLEAN)；Show 事件名稱#10009:42 (BOOLEAN)；Show 事件狀態#10009:45 (BOOLEAN)；Show 選項結果#10009:48 (BOOLEAN)；Show 結果方向#10009:51 (BOOLEAN)；Show 交易筆數#10009:54 (BOOLEAN)；Show 投分量#10009:57 (BOOLEAN)；Show 玩家賠付#10009:60 (BOOLEAN)；Show 手續費#10009:63 (BOOLEAN)；Show 結算費#10009:66 (BOOLEAN)；Show 系統營收#10009:69 (BOOLEAN)；Show 事件創建時間#10009:72 (BOOLEAN)；Show 投分開始時間#10009:75 (BOOLEAN)；Show 投分結束時間#10009:78 (BOOLEAN)；Show 結算完成時間#10009:81 (BOOLEAN)；Show 操作#10009:84 (BOOLEAN)；背景 (VARIANT: 黑底/白底)
+- Component Properties: Show 序列#10009:36 (BOOLEAN)；Show 事件編號#10009:39 (BOOLEAN)；Show 事件名稱#10009:42 (BOOLEAN)；Show 事件狀態#10009:45 (BOOLEAN)；Show 選項結果#10009:48 (BOOLEAN)；Show 結果方向#10009:51 (BOOLEAN)；Show 交易筆數#10009:54 (BOOLEAN)；Show 投分量#10009:57 (BOOLEAN)；Show 玩家賠付#10009:60 (BOOLEAN)；Show 手續費#10009:63 (BOOLEAN)；Show 結算費#10009:66 (BOOLEAN)；Show 系統營收#10009:69 (BOOLEAN)；Show 事件創建時間#10009:72 (BOOLEAN)；Show 投分開始時間#10009:75 (BOOLEAN)；Show 投分結束時間#10009:78 (BOOLEAN)；Show 結算完成時間#10009:81 (BOOLEAN)；Show 操作#10009:84 (BOOLEAN)；背景 (VARIANT: 黑底/白底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 呈現事件損益查詢的一筆事件資料，並依欄位設定顯示事件資訊、結果、損益數值、時間與操作。
 - 遷移備註: 完整封裝事件損益列表單列資料，使用量高且支援自訂欄位顯示。
 - Page Type: List
@@ -13173,7 +13173,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-detail-dialog] 事件損益詳細資訊 / Event Profit and Loss Detail Dialog / `155:347806` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347806
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5dda4e27c223d1aeca434f94bf973dce6325d3cb`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: Rush Hour/二元-投分中/二元-等待中)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；類型 (VARIANT: Rush Hour/二元-投分中/二元-等待中)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 以對話框顯示單一事件的完整損益詳細資訊，支援 Rush Hour、二元投分中、二元等待中等事件情境，以及 PC/Tablet 與 Mobile 排版。
 - 遷移備註: 直接被 12 個正式 Light/Dark、跨 RWD 詳細資訊畫面使用，是事件損益查詢的核心 feature 元件。
 - Page Type: List
@@ -13201,7 +13201,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-filter-panel-mobile] 事件損益篩選面板（Mobile） / Event Profit/Loss Filter Panel Mobile / `155:347629` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347629
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6f0047944605aec65103fd767d2116a46d8d2a28`
-- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/交易篩選-enable/交易篩選)
+- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/交易篩選-enable/交易篩選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Mobile 版整合事件、交易及投分排序相關篩選內容，並支援不同篩選分頁的啟用狀態。
 - 遷移備註: 元件有大量正式使用且 mobile 結構明確，但 inventory 的 usedByViewports 含 desktop，與名稱及 responsiveSupport 不完全一致，需人工確認引用來源。
 - Page Type: List
@@ -13229,7 +13229,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-filter-panel-pc-tablet] 事件損益篩選面板（PC／Tablet） / Event Profit/Loss Filter Panel PC/Tablet / `155:347583` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347583
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7f7c82f81ae1cad531c656e01ce0603935fdf98e`
-- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/交易篩選-enable/交易篩選)
+- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選/交易篩選-enable/交易篩選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在較寬版面整合事件條件與交易條件篩選，並支援事件／交易篩選區的啟用狀態切換。
 - 遷移備註: 正式 Tablet Light/Dark 畫面有直接使用證據，但「pc--tablet」命名與 usageEvidence 僅列 tablet 存在 RWD 標記落差，遷移並保留人工核對。
 - Page Type: List
@@ -13257,7 +13257,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-row-action-menu] 列操作選單 / Row Action Menu / `155:347099` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347099
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`02b49b1944f4f1dde46dde1578c89885fdcaeb55`
-- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；類型 (VARIANT: 編號)
+- Component Properties: 編號#8034:16 (TEXT)；數值#8034:19 (TEXT)；類型 (VARIANT: 編號)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在事件損益資料列提供更多操作選單入口，用於開啟詳細資訊或其他事件操作。
 - 遷移備註: 是事件損益資料列的高頻操作入口，且已由複合列元件正式依賴。
 - Page Type: List
@@ -13285,7 +13285,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-sequence] 資料序列 / Table Sequence / `155:347068` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347068
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fdef4f4e631b9e77871306cff3a80424a44e5f61`
-- Component Properties: 序列 (VARIANT: 1/2/3/4/5/6/7/8/9/10)
+- Component Properties: 序列 (VARIANT: 1/2/3/4/5/6/7/8/9/10)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件損益列表中的資料序號，支援目前設計所需的 1 至 10 序列值。
 - 遷移備註: 事件損益列表資料列正式重用的序號元件。
 - Page Type: List
@@ -13313,7 +13313,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-summary-data-field] 數據總覽欄位 / Data Summary Field / `155:347677` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347677
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d563dc9d082287beac14a85ee392986a529fc1c`
-- Component Properties: 標題#8049:2 (TEXT)；文字#8049:3 (TEXT)；Show info#10057:0 (BOOLEAN)；device (VARIANT: Tablet＆Mobile/PC)
+- Component Properties: 標題#8049:2 (TEXT)；文字#8049:3 (TEXT)；Show info#10057:0 (BOOLEAN)；device (VARIANT: Tablet＆Mobile/PC)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件損益數據總覽中的單一指標標題與數值，並依 PC 或 Tablet/Mobile 調整排版。
 - 遷移備註: 高頻跨 RWD/Theme 使用，作為數據總覽的可重用基礎欄位。
 - Page Type: List
@@ -13341,7 +13341,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-summary-desktop] 數據總覽（PC） / Data Summary Desktop / `155:347219` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347219
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`aa9731a805b34c21fd6a7035f2214e326446c17b`; componentSet=`—`
-- Component Properties: Show 總系統營收#10057:8 (BOOLEAN)
+- Component Properties: Show 總系統營收#10057:8 (BOOLEAN)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Desktop 顯示事件損益總覽指標，並提供自訂欄位顯示及匯出報表相關入口。
 - 遷移備註: 雖 migrationScore 較低，正式 Desktop Light/Dark 畫面有直接使用證據，應遷移。
 - Page Type: List
@@ -13369,7 +13369,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-summary-tablet-mobile] 數據總覽（Tablet/Mobile） / Data Summary Tablet/Mobile / `155:347170` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347170
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b189d474e2ce94d3a77a96b4f7badef88475f512`
-- Component Properties: Show 總系統營收#10057:3 (BOOLEAN)；device (VARIANT: Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)
+- Component Properties: Show 總系統營收#10057:3 (BOOLEAN)；device (VARIANT: Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在 Tablet 與 Mobile 顯示事件損益數據總覽區塊，並支援展開與收合。
 - 遷移備註: 正式產品頁在 Tablet/Mobile 使用，且收合狀態與 RWD variants 定義完整。
 - Page Type: List
@@ -13397,7 +13397,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-table-column-header] 事件損益表格欄位表頭 / Event Profit/Loss Table Column Header / `155:346893` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-346893
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`56001e3772bb972066c92335716b723750e31386`
-- Component Properties: 類別 (VARIANT: 序列/事件編號/事件名稱/事件狀態/選項結果/方向結果/交易筆數/投分量/玩家賠付/手續費/結算費/系統營收/事件創建時間/投分開始時間/投分結束時間/結算完成時間/操作)
+- Component Properties: 類別 (VARIANT: 序列/事件編號/事件名稱/事件狀態/選項結果/方向結果/交易筆數/投分量/玩家賠付/手續費/結算費/系統營收/事件創建時間/投分開始時間/投分結束時間/結算完成時間/操作)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 定義事件損益表格各欄位的表頭，包括事件資訊、結果、交易與損益數據、時間及操作。
 - 遷移備註: 使用量高且完整定義事件損益表格欄位，是正式列表的基礎元件。
 - Page Type: List
@@ -13425,7 +13425,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-profit-loss-table-header] 事件損益表頭 / Event Profit/Loss Table Header / `155:347151` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347151
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6dd3c60675c07351b8c44bb44b03c0a638bf4ae6`
-- Component Properties: Show 序列#10009:2 (BOOLEAN)；Show 事件編號#10009:4 (BOOLEAN)；Show 事件名稱#10009:6 (BOOLEAN)；Show 事件狀態#10009:8 (BOOLEAN)；Show 選項結果#10009:10 (BOOLEAN)；Show 方向結果#10009:12 (BOOLEAN)；Show 交易筆數#10009:14 (BOOLEAN)；Show 投分量#10009:16 (BOOLEAN)；Show 玩家賠付#10009:18 (BOOLEAN)；Show 手續費#10009:20 (BOOLEAN)；Show 結算費#10009:22 (BOOLEAN)；Show 系統營收#10009:24 (BOOLEAN)；Show 事件創建時間#10009:26 (BOOLEAN)；Show 投分開始時間#10009:28 (BOOLEAN)；Show 投分結束時間#10009:30 (BOOLEAN)；Show 結算完成時間#10009:32 (BOOLEAN)；Show 操作#10009:34 (BOOLEAN)；類型 (VARIANT: Default)
+- Component Properties: Show 序列#10009:2 (BOOLEAN)；Show 事件編號#10009:4 (BOOLEAN)；Show 事件名稱#10009:6 (BOOLEAN)；Show 事件狀態#10009:8 (BOOLEAN)；Show 選項結果#10009:10 (BOOLEAN)；Show 方向結果#10009:12 (BOOLEAN)；Show 交易筆數#10009:14 (BOOLEAN)；Show 投分量#10009:16 (BOOLEAN)；Show 玩家賠付#10009:18 (BOOLEAN)；Show 手續費#10009:20 (BOOLEAN)；Show 結算費#10009:22 (BOOLEAN)；Show 系統營收#10009:24 (BOOLEAN)；Show 事件創建時間#10009:26 (BOOLEAN)；Show 投分開始時間#10009:28 (BOOLEAN)；Show 投分結束時間#10009:30 (BOOLEAN)；Show 結算完成時間#10009:32 (BOOLEAN)；Show 操作#10009:34 (BOOLEAN)；類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 組合事件損益查詢完整表頭，統一各欄位名稱、排序提示與自訂欄位對應。
 - 遷移備註: 是完整事件損益資料表的正式複合表頭，跨所有主要畫面使用。
 - Page Type: List
@@ -13453,7 +13453,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-action-button] 事件審核操作按鈕 / Event Review Action Button / `116:230623` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230623
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0143dce0a166edcda7862d9d84f391218631bafb`
-- Component Properties: type (VARIANT: 編輯事件/審核事件)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯事件/審核事件)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 提供審核／編輯事件操作。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13481,7 +13481,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-column-header] 審核表格欄位標題 / Event Review Column Header / `116:230365` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230365
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ddf94e8e5eed195138aa591fd0491bda5987405d`
-- Component Properties: Property 1 (VARIANT: 操作/事件名稱 / 事件類型/投分結束時間/審核狀態/投分開始時間/Variant6)
+- Component Properties: Property 1 (VARIANT: 操作/事件名稱 / 事件類型/投分結束時間/審核狀態/投分開始時間/Variant6)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 審核表格欄位標題與排序圖示。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13509,7 +13509,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-data-block] 事件審核資料區塊 / Event Review Data Block / `116:230576` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230576
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4e105272eaf306f9ed8dacafd3aaf99f4a92d63d`
-- Component Properties: Property 1 (VARIANT: 審核事件)
+- Component Properties: Property 1 (VARIANT: 審核事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版事件資料區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13537,7 +13537,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-data-row] 事件審核資料列 / Event Review Data Row / `116:230593` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230593
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a86ee3c0b3791bda741a3926b659396e33584bc2`
-- Component Properties: 項目 (VARIANT: 投分開始時間/投分結束時間/Polymarket/Kalshi)
+- Component Properties: 項目 (VARIANT: 投分開始時間/投分結束時間/Polymarket/Kalshi)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示投分時間或來源等單一資料列。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13565,7 +13565,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-keyword-filter] 審核列表關鍵字篩選器 / Event Review Keyword Filter / `116:230488` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230488
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e9434ee721e426074ae7f7f9f7ae254ef9864bfb`
-- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)
+- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 關鍵字搜尋建議事件。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13593,7 +13593,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-status-filter] 審核狀態篩選器 / Event Review Status Filter / `116:230491` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230491
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`362c9f5508e9fe026d5e74b02862756af49c3ddc`
-- Component Properties: Property 1 (VARIANT: 全部審核狀態/待審核/已審核/已拒絕)
+- Component Properties: Property 1 (VARIANT: 全部審核狀態/待審核/已審核/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依審核狀態篩選事件。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13621,7 +13621,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-status-header] 事件審核狀態標題 / Event Review Status Header / `116:230616` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230616
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8dfdb05845e4cee192a5d4c5f675f1cbf08b9717`
-- Component Properties: Property 1 (VARIANT: 已啟用/待審核/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/待審核/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 行動版卡片的狀態標頭。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13649,7 +13649,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-status] 事件審核狀態 / Event Review Status / `116:230583` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230583
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c7252722af3867026c5aaf09ee6ce260caef366b`
-- Component Properties: Property 1 (VARIANT: 已啟用/待審核/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/待審核/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件審核狀態。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13677,7 +13677,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-table-header] 審核表格標題列 / Event Review Table Header / `116:230382` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230382
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a467bf6c14c535b6358df8143ba15fa34dffb20a`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 桌面審核列表的完整表頭。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13705,7 +13705,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-table-row] 審核表格資料列 / Event Review Table Row / `116:230390` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230390
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`83b7cbfd1f1fbc91f31d37b3761c98b4db299286`
-- Component Properties: 事件名稱#6187:0 (TEXT)；Property 1 (VARIANT: 待審核/已啟用/已拒絕)
+- Component Properties: 事件名稱#6187:0 (TEXT)；Property 1 (VARIANT: 待審核/已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示單筆建議事件資料與操作。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13733,7 +13733,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-review-type-badge] 事件審核類型標籤 / Event Review Type Badge / `116:230648` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230648
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`36617c2ac3dc5eb80e1d60bf74c7ec96115ef714`
-- Component Properties: 選項#2#4282:0 (TEXT)；選項#3#4282:5 (TEXT)；選項#1#4282:10 (TEXT)；選項#4#4282:15 (TEXT)；Property 1 (VARIANT: 時間軸事件/單一選項事件結果/議題事件/選項＃1/選項＃2/選項 #4/選項＃3)
+- Component Properties: 選項#2#4282:0 (TEXT)；選項#3#4282:5 (TEXT)；選項#1#4282:10 (TEXT)；選項#4#4282:15 (TEXT)；Property 1 (VARIANT: 時間軸事件/單一選項事件結果/議題事件/選項＃1/選項＃2/選項 #4/選項＃3)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 標示事件或選項類型。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13761,7 +13761,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-sort-filter] 事件排序篩選器 / Event Sort Filter / `93:7126` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7126
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`71897edb135af62e46b26acb6568ff4694e51b68`
-- Component Properties: Property 1 (VARIANT: 最近更新狀態的事件/最新創立的事件/最近上架的事件)
+- Component Properties: Property 1 (VARIANT: 最近更新狀態的事件/最新創立的事件/最近上架的事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依最近更新、最新創立或最近上架等條件決定事件列表排序。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -13789,7 +13789,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-source-badge] 事件來源標籤 / Event Source Badge / `93:6663` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6663
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ec07337181db5cb97ff7c25d69f78e67692ee3c4`
-- Component Properties: Property 1 (VARIANT: 系統建立議題/自定義議題)
+- Component Properties: Property 1 (VARIANT: 系統建立議題/自定義議題)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件來源為系統建立議題或自定義議題。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -13817,7 +13817,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-source-filter] 事件來源篩選器 / Event Source Filter / `93:7149` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7149
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f123daf16baf17e73a1de491e087456d09422e15`
-- Component Properties: Property 1 (VARIANT: 系統建立議題優先/自定義議題優先)
+- Component Properties: Property 1 (VARIANT: 系統建立議題優先/自定義議題優先)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 切換系統建立議題優先或自定義議題優先等事件來源排序/篩選條件。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -13845,7 +13845,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-source-type-filter] 來源類型篩選器 / Source Type Filter / `155:347566` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-347566
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c0fe8071548c3d69c0883118f4a533ce996a8b2f`
-- Component Properties: Property 1 (VARIANT: 系統建立議題優先/自定義議題優先)
+- Component Properties: Property 1 (VARIANT: 系統建立議題優先/自定義議題優先)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 讓營運人員依事件來源優先順序切換系統建立議題或自定義議題的呈現。
 - 遷移備註: 事件來源排序／篩選條件已有完整正式使用證據。
 - Page Type: List
@@ -13873,7 +13873,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-source] 事件來源 / Event Source / `116:230481` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230481
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6e56b0fb23cdcc08f1397d5163e364f84e7a0e2f`
-- Component Properties: 事件來源 (VARIANT: Kalshi/Polymarket)
+- Component Properties: 事件來源 (VARIANT: Kalshi/Polymarket)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示第三方事件來源。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -13901,7 +13901,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-status-filter-desktop-tablet] 事件狀態篩選（PC／Tablet） / Event Status Filter Desktop Tablet / `113:223361` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223361
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6ecb660708fdcf0f2f3ef677c06e4bfb7cc2e906`
-- Component Properties: 開關 (VARIANT: 事件篩選/事件篩選-enable)
+- Component Properties: 開關 (VARIANT: 事件篩選/事件篩選-enable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在桌面與平板的 AI 建議審核彈窗中展開或收合事件篩選條件。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -13913,7 +13913,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=4、nestedDependencyCount=4、usedByScreenCount=6；usedByThemes=light,dark；Component Set 結構：開關=事件篩選,事件篩選-enable；Figma key=ea860bfb64d175a66b21d7a911f427a3ceb2ff7e
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=4、nestedDependencyCount=4、usedByScreenCount=6；usedByThemes=light,dark；Component Set 結構：開關=事件篩選,事件篩選-enable
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 6203:624194
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13929,7 +13929,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-status-filter-mobile] 事件狀態篩選（Mobile） / Event Status Filter Mobile / `113:223385` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=113-223385
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9aae8d96732f0e1d8f678ec57c63fb937748f219`
-- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選)
+- Component Properties: 開關 (VARIANT: 事件篩選-enable/事件篩選)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在手機版 AI 建議審核彈窗中展開或收合事件篩選條件。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -13941,7 +13941,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=2、nestedDependencyCount=2、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：開關=事件篩選-enable,事件篩選；Figma key=2e56fe49ff2cf06a8f04ef572d3d893a8d50c23e
+- Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=2、nestedDependencyCount=2、usedByScreenCount=6；usedByThemes=dark,light；Component Set 結構：開關=事件篩選-enable,事件篩選
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 6203:624259
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13957,7 +13957,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-status-tabs] 事件狀態分頁 / Event Status Tabs / `93:6765` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6765
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`834ea66f31ffdf22d291902c8d70173f2f749814`
-- Component Properties: type (VARIANT: 已上架事件/未上架事件/待結算事件)；status (VARIANT: default/hover)
+- Component Properties: type (VARIANT: 已上架事件/未上架事件/待結算事件)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在已上架、未上架、待結算三個列表分頁間切換，並提供 default/hover 狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -13985,7 +13985,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-status] 事件狀態 / Event Status / `155:346974` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=155-346974
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f51f22dfe12c50a36a3ed0b77c1709dd6f22425b`
-- Component Properties: 訂單類型 (VARIANT: 投分中/等待中/結算中/已結算)
+- Component Properties: 訂單類型 (VARIANT: 投分中/等待中/結算中/已結算)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 顯示事件目前處於等待、投分、結算或已結算狀態，用於事件損益列表與詳細資料。
 - 遷移備註: 事件狀態在列表與複合資料元件中高頻重用，狀態集合穩定。
 - Page Type: List
@@ -14013,7 +14013,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-action-button] 事件次類別操作按鈕 / Event Subcategory Action Button / `198:255457` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255457
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5cb766a429bf889cee7de2262ff24565a11804f1`
-- Component Properties: type (VARIANT: 編輯參數類別/查看主類別/編輯主類別)；status (VARIANT: default/hover/disable)
+- Component Properties: type (VARIANT: 編輯參數類別/查看主類別/編輯主類別)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別操作按鈕。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14041,7 +14041,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-mobile-content-row] 事件次類別行動內容列 / Event Subcategory Mobile Content Row / `198:255424` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255424
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b8e5350cca2041ebe5b37daf2f6f510a0b1bc0d2`
-- Component Properties: Property 1 (VARIANT: 排序權重10/排序權重20/ID/最後更新時間)
+- Component Properties: Property 1 (VARIANT: 排序權重10/排序權重20/ID/最後更新時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別行動內容列。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14069,7 +14069,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-mobile-content] 事件次類別行動內容 / Event Subcategory Mobile Content / `198:255408` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255408
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0314eb06d038f6c373bc3fce8b6ce8819dde377b`
-- Component Properties: Property 1 (VARIANT: 審核事件)
+- Component Properties: Property 1 (VARIANT: 審核事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別行動內容。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14097,7 +14097,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-mobile-list-card] 事件次類別行動列表卡片 / Event Subcategory Mobile List Card / `198:255385` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255385
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e1cc7c589f16c65698d1711e2b6eae0ee18ee15f`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別行動列表卡片。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14125,7 +14125,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-search-filter] 事件次類別搜尋篩選器 / Event Subcategory Search Filter / `198:255371` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255371
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f277072b3b40206eacd6d1869594d494a2936671`
-- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)
+- Component Properties: Property 1 (VARIANT: 關鍵字搜尋)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別搜尋篩選器。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14153,7 +14153,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-status-desktop] 事件次類別啟用狀態（桌面） / Event Subcategory Status Desktop / `198:255415` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255415
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`16bc6fb8a73bec64044b2f9bc3694fae172290aa`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別啟用狀態（桌面）。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14181,7 +14181,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-status-filter] 事件次類別啟用狀態篩選器 / Event Subcategory Status Filter / `198:255376` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255376
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b713df8a4b6c16ddb5058ccb54622218ef987bd0`
-- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)
+- Component Properties: Property 1 (VARIANT: 顯示全部狀態/已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別啟用狀態篩選器。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14209,7 +14209,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-status-mobile] 事件次類別啟用狀態（行動） / Event Subcategory Status Mobile / `198:255450` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255450
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`329d4fbe6f1994cc22a4ddd7d10d90ee34189ddc`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別啟用狀態（行動）。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14237,7 +14237,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-table-header-cell] 事件次類別表格欄位標題 / Event Subcategory Table Header Cell / `198:255312` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255312
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`07755709cbf342d19a5f3b1dd61e091120b1aca0`
-- Component Properties: Property 1 (VARIANT: 操作/引用數/ID/啟用狀態/事件次類別名稱)
+- Component Properties: Property 1 (VARIANT: 操作/引用數/ID/啟用狀態/事件次類別名稱)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別表格欄位標題。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14265,7 +14265,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-table-header] 事件次類別表格表頭 / Event Subcategory Table Header / `198:255329` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255329
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2fd0e2a801d441b30071fc26c324a19e3f136c62`
-- Component Properties: Property 1 (VARIANT: Default)
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別表格表頭。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14293,7 +14293,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-subcategory-table-row] 事件次類別表格資料列 / Event Subcategory Table Row / `198:255338` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-255338
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f95736c0017848c07a397d0be813ef3c4f4ee2ad`
-- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)
+- Component Properties: Property 1 (VARIANT: 已啟用/已拒絕)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件次類別表格資料列。
 - 遷移備註: 正式重用
 - Page Type: List
@@ -14321,7 +14321,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-theme-section-desktop] 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop / `116:230825` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230825
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cbae8bd8286a5f981835e655216c4adf1d5892e1`
-- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)
+- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: PC/Tablet 的事件主題編輯／查看區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -14349,7 +14349,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-theme-section-mobile] 事件主題區塊（Mobile） / Event Theme Section - Mobile / `116:230948` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230948
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`47662c01bada0af38f48a14188bfb9a430f05750`
-- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)
+- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: Mobile 的事件主題編輯／查看區塊。
 - 遷移備註: 有正式畫面使用證據，適合遷移
 - Page Type: List
@@ -14377,7 +14377,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-type-badge] 事件類別標籤 / Event Type Badge / `93:6680` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-6680
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e0df97b1c0d05c1cbb0deb98159e3185ea9a667f`
-- Component Properties: Property 1 (VARIANT: sport/topic)
+- Component Properties: Property 1 (VARIANT: sport/topic)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 標示事件屬於運動或議題類型。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -14405,7 +14405,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-type-filter] 事件類型篩選器 / Event Type Filter / `93:7142` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7142
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bafb5d08a7e3e7a1b0614966acd3ac70ae8fe391`
-- Component Properties: Property 1 (VARIANT: 單一事件結果/二元選項/時間軸事件)
+- Component Properties: Property 1 (VARIANT: 單一事件結果/二元選項/時間軸事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 依單一事件結果、二元選項、時間軸事件等事件類型篩選列表。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -14433,7 +14433,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [filter-toggle-button-group] 篩選器切換按鈕組 / Filter Toggle Button Group / `93:7085` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7085
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`490f6d1b02bc643c5bbf086b9dbb2cf1ca7481d5`
-- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 控制事件篩選與投分篩選面板的開啟/關閉與按鈕互動狀態。
 - 遷移備註: 高重用正式元件
 - Page Type: List
@@ -14461,7 +14461,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [final-score-input] 結果比分輸入 / Final Score Input / `114:226904` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226904
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ee69146ee088c799e8e13499f083e4bec9034335`
-- Component Properties: 狀態 (VARIANT: 預設/已輸入/尚未輸入)
+- Component Properties: 狀態 (VARIANT: 預設/已輸入/尚未輸入)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 輸入運動事件最終比分，並呈現預設、已輸入與尚未輸入等欄位狀態。
 - 遷移備註: 運動結算正式流程使用
 - Page Type: Other
@@ -14473,7 +14473,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.98
 - Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=16、effectiveUsageCount=36、usedByScreenCount=36；variants：預設、已輸入、尚未輸入；Figma key=7708bcdf2aeff160730127eacec2bba7bd8743f2
+- Evidence: migrationScore=105；usageEvidence：directInstanceCount=16、effectiveUsageCount=36、usedByScreenCount=36；variants：預設、已輸入、尚未輸入
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 7445:796655
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14489,7 +14489,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [first-login-password-reset-content] 首次登入重設密碼內容 / First Login Password Reset Content / `149:905313` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=149-905313
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f6a000b82a129d5d9fd99c02ccfc325acaa11be1`
-- Component Properties: 步驟 (VARIANT: 設定新密碼/密碼重設結果)；裝置 (VARIANT: PC/Mobile)；輸入狀態 (VARIANT: 無/密碼格式錯誤/必填項目不可為空/已成功重設/重設失敗)
+- Component Properties: 步驟 (VARIANT: 設定新密碼/密碼重設結果)；裝置 (VARIANT: PC/Mobile)；輸入狀態 (VARIANT: 無/密碼格式錯誤/必填項目不可為空/已成功重設/重設失敗)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 承載首次登入重設密碼的主要表單與結果內容，依裝置、流程步驟與輸入／結果狀態切換對應 UI。
 - 遷移備註: 正式產品流程跨 RWD 與 Light/Dark 高度重用，且 variants 完整，可作為首次登入重設密碼的主要 feature 元件。
 - Page Type: List
@@ -14517,7 +14517,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [force-refund-dialog] 強制退款流程彈窗 / Force Refund Dialog / `104:65470` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65470
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e513f9633dbe79e70bd5b006c8047f551a5744a0`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；階段 (VARIANT: 退款失敗/輸入驗證碼/輸入局號/最終確認/退款成功)；事件類型 (VARIANT: 共用/Rush Hour/一般議題)
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；階段 (VARIANT: 退款失敗/輸入驗證碼/輸入局號/最終確認/退款成功)；事件類型 (VARIANT: 共用/Rush Hour/一般議題)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 強制退款主彈窗，整合裝置、事件類型與輸入局號／確認／驗證碼／成功失敗等流程 variants。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
@@ -14545,7 +14545,7 @@
 - Figma: 04_功能元件 / Feature Components · 分頁 5 / [force-refund-event-display] 退款事件資訊 / Force Refund Event Display / `104:65390` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=104-65390
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`aac3f8eafef5a05896f02e31769766ca0743bb8e`
-- Component Properties: 局號#7475:0 (TEXT)；事件名稱#7475:3 (TEXT)；Show 局號#7480:10 (BOOLEAN)；類型 (VARIANT: 強制退款)
+- Component Properties: 局號#7475:0 (TEXT)；事件名稱#7475:3 (TEXT)；Show 局號#7480:10 (BOOLEAN)；類型 (VARIANT: 強制退款)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 在強制退款流程中顯示事件名稱、局號與必要事件資訊。
 - 遷移備註: 正式流程重用，遷移
 - Page Type: List
