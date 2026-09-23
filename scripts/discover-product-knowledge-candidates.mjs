@@ -110,7 +110,7 @@ const output = {
   source: "core/v1.0/hub-manifest.json",
   sourcePluginVersion: manifest.pluginVersion ?? null,
   sourceGeneratedAt: manifest.generatedAt ?? null,
-  generatedAt: new Date().toISOString(),
+  generatedAt: manifest.generatedAt ?? null,
   policy: {
     createsDraftSpecs: false,
     autoApproves: false,
@@ -171,4 +171,3 @@ await writeFile(outputMarkdownPath, `${lines.join("\n")}\n`, "utf8");
 console.log(
   `候選探索完成：${flowCandidates.length} flows（${output.summary.unregisteredFlowCandidates} 未建檔）、${pageCandidates.length} screen families（${output.summary.unregisteredPageFamilyCandidates} 未建檔）。`,
 );
-

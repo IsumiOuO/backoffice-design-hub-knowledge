@@ -3,7 +3,7 @@
   "source": "core/v1.0/hub-manifest.json",
   "sourcePluginVersion": "1.1.29",
   "sourceGeneratedAt": "2026-09-22T08:30:23.335Z",
-  "generatedAt": "2026-09-23T06:19:09.053Z",
+  "generatedAt": "2026-09-22T08:30:23.335Z",
   "policy": {
     "createsDraftSpecs": false,
     "autoApproves": false,
