@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "features": [
+    {
+      "id": "create-event-main-category",
+      "title": "新增事件主類別",
+      "aliases": [
+        "建立事件主類別",
+        "新增主類別",
+        "事件主類別新增"
+      ],
+      "specPath": "specs/create-event-main-category.md",
+      "screens": [
+        {
+          "step": 1,
+          "title": "設定主類別名稱",
+          "keywords": ["名稱", "語系", "翻譯"],
+          "imagePath": "specs/assets/create-event-main-category/step-1.png",
+          "figmaUrl": "https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-2"
+        },
+        {
+          "step": 2,
+          "title": "掛載事件次類別",
+          "keywords": ["掛載", "次類別", "已選擇"],
+          "imagePath": "specs/assets/create-event-main-category/step-2.png",
+          "figmaUrl": "https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-3"
+        },
+        {
+          "step": 3,
+          "title": "選擇發布介面",
+          "keywords": ["發布", "介面", "iframe", "widget"],
+          "imagePath": "specs/assets/create-event-main-category/step-3.png",
+          "figmaUrl": "https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-4"
+        },
+        {
+          "step": 4,
+          "title": "設定與上傳圖片",
+          "keywords": ["圖片", "上傳", "圖片列表"],
+          "imagePath": "specs/assets/create-event-main-category/step-4.png",
+          "figmaUrl": "https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-5"
+        }
+      ]
+    }
+  ]
+}

@@ -8,14 +8,39 @@
 
 用來建立新的事件主類別，依序設定名稱、掛載的事件次類別、發布介面與圖片。
 
-## 畫面連結
+## 畫面與簡單說明
 
-| 步驟 | 畫面用途 | Figma |
-|---:|---|---|
-| 1 | 設定主類別名稱 | [開啟畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138) |
-| 2 | 選擇要掛載的事件次類別 | [開啟畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261303) |
-| 3 | 選擇發布介面 | [開啟畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261899) |
-| 4 | 設定與上傳圖片 | [開啟上傳畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261451)／[開啟圖片列表](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261729) |
+### Step 1：設定主類別名稱
+
+[![新增事件主類別 Step 1](assets/create-event-main-category/step-1.png)](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-2)
+
+- 輸入事件主類別名稱。
+- 畫面目前顯示英文、繁體中文與阿拉伯語系的內容區。
+- [在 Figma 開啟完整畫面](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-2)
+
+### Step 2：掛載事件次類別
+
+[![新增事件主類別 Step 2](assets/create-event-main-category/step-2.png)](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-3)
+
+- 選擇要掛載到這個主類別的事件次類別。
+- 畫面中的「已選擇：6」與六個次類別為示意狀態，不代表固定數量或上限。
+- [在 Figma 開啟完整畫面](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-3)
+
+### Step 3：選擇發布介面
+
+[![新增事件主類別 Step 3](assets/create-event-main-category/step-3.png)](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-4)
+
+- 選擇要發布的介面，例如 iframe 或 Widget。
+- 畫面標示為可複選；是否可以完全不選仍待確認。
+- [在 Figma 開啟完整畫面](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-4)
+
+### Step 4：設定與上傳圖片
+
+[![新增事件主類別 Step 4](assets/create-event-main-category/step-4.png)](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-5)
+
+- 先設定圖片類型、顯示模式與預計發布介面，再上傳圖片。
+- 圖片格式、尺寸、容量與數量限制仍待確認。
+- [在 Figma 開啟完整畫面](https://www.figma.com/design/uiARlATOCfJ7mEiQHLZC9o/Backoffice-Design-Hub%EF%BD%9CAI-Sandbox%EF%BD%9Cv1.0?node-id=76-5)
 
 ## 操作流程
 
