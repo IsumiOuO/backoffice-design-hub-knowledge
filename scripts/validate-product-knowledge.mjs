@@ -16,6 +16,12 @@ const openQuestionsText = await readFile(openQuestionsPath, "utf8");
 const definedOpenQuestionIds = new Set(
   [...openQuestionsText.matchAll(/^## (PQ-\d+)\b/gm)].map((match) => match[1]),
 );
+const pageIds = new Set(
+  (Array.isArray(catalog.pages) ? catalog.pages : []).map((item) => item.pageId),
+);
+const flowIds = new Set(
+  (Array.isArray(catalog.flows) ? catalog.flows : []).map((item) => item.flowId),
+);
 
 if (catalog.schemaVersion !== 1) errors.push("schemaVersion 必須是 1");
 if (!Array.isArray(catalog.pages)) errors.push("pages 必須是陣列");
@@ -81,6 +87,47 @@ for (const [kind, idField, item] of entries) {
       errors.push(`${claimLabel} 指向不存在的 Open Question：${claim.openQuestionId}`);
     }
   }
+}
+
+for (const page of Array.isArray(catalog.pages) ? catalog.pages : []) {
+  for (const flowId of Array.isArray(page.relatedFlowIds) ? page.relatedFlowIds : []) {
+    if (!flowIds.has(flowId)) {
+      errors.push(`page:${page.pageId} 指向不存在的 relatedFlowId：${flowId}`);
+    }
+  }
+}
+
+for (const flow of Array.isArray(catalog.flows) ? catalog.flows : []) {
+  for (const pageId of Array.isArray(flow.relatedPageIds) ? flow.relatedPageIds : []) {
+    if (!pageIds.has(pageId)) {
+      errors.push(`flow:${flow.flowId} 指向不存在的 relatedPageId：${pageId}`);
+    }
+  }
+}
+
+const openQuestionStatuses = [...openQuestionsText.matchAll(/^- 狀態：`(open|answered|rejected)`$/gm)].map(
+  (match) => match[1],
+);
+const expectedQuestionCounts = {
+  open: Number(openQuestionsText.match(/^- Open: (\d+)$/m)?.[1]),
+  answered: Number(openQuestionsText.match(/^- Answered: (\d+)$/m)?.[1]),
+  rejected: Number(openQuestionsText.match(/^- Rejected: (\d+)$/m)?.[1]),
+};
+
+for (const status of ["open", "answered", "rejected"]) {
+  const actual = openQuestionStatuses.filter((item) => item === status).length;
+  const expected = expectedQuestionCounts[status];
+  if (!Number.isFinite(expected)) {
+    errors.push(`open-questions.md 缺少 ${status} 統計`);
+  } else if (expected !== actual) {
+    errors.push(`open-questions.md 的 ${status} 統計為 ${expected}，實際為 ${actual}`);
+  }
+}
+
+if (definedOpenQuestionIds.size !== openQuestionStatuses.length) {
+  errors.push(
+    `open-questions.md 有 ${definedOpenQuestionIds.size} 個問題 ID，但只有 ${openQuestionStatuses.length} 個問題狀態`,
+  );
 }
 
 if (errors.length > 0) {
