@@ -42,6 +42,29 @@ node scripts/generate-flow-draft.mjs --candidate edit-event-main-category-flow
 
 草稿不會自動修改 `page-catalog.json`、`open-questions.md` 或 `review-queue.md`。只有 AI 完成內容檢查並取得人工確認後，才可將草稿升級到正式 Product Knowledge。
 
+## 批次產生簡版規格
+
+先預覽尚未進入簡版查詢的候選：
+
+```sh
+node scripts/generate-spec-batch.mjs
+```
+
+確認數量後建立全部草稿與截圖任務：
+
+```sh
+node scripts/generate-spec-batch.mjs --write
+```
+
+輸出位於 `product/v1.0/generated/batch-specs/`，包含：
+
+- `README.md`：給人查看的批次摘要與最簡 Review 流程。
+- `drafts/*.md`：白話規格草稿。
+- `screenshot-queue.json`：給 Codex 批次擷取正式索引畫面的任務清單。
+- `manifest.json`：本次產生結果與安全政策。
+
+預設只處理尚未加入 `specs/query-index.json` 的候選；若要重新檢查既有功能，可加上 `--include-existing`。工具永遠不會覆蓋正式 `specs/`、修改 Figma 或自動核准內容。
+
 ## Bot 可回答範圍
 
 - 一般模式：只可直接引用 `confirmed` 與 `observed`。

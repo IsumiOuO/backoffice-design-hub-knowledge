@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "source": "core/v1.0/hub-manifest.json",
+  "sourcePluginVersion": "1.1.29",
+  "sourceGeneratedAt": "2026-09-22T08:30:23.335Z",
+  "mode": "write",
+  "policy": {
+    "overwritesReviewedSpecs": false,
+    "writesFigma": false,
+    "autoApproves": false,
+    "note": "批次輸出只建立 AI 草稿、截圖任務與 Review 清單；正式 specs 與 query-index 仍需人工確認後才可更新。"
+  },
+  "summary": {
+    "assetsScanned": 552,
+    "candidatesFound": 6,
+    "alreadyQueryable": 4,
+    "selectedCandidates": 2,
+    "selectedAssets": 9,
+    "screenshotJobs": 9,
+    "screenshotsAlreadyAvailable": 0,
+    "screenshotsPending": 9
+  },
+  "candidates": [
+    {
+      "candidateId": "event-main-category-image-viewer",
+      "baseId": "event-main-category-image-viewer",
+      "type": "screen-family",
+      "title": "新增事件主類別／圖片檢視",
+      "module": "資料庫管理",
+      "assetCount": 3,
+      "catalogued": false,
+      "queryable": false,
+      "draftPath": "product/v1.0/generated/batch-specs/drafts/event-main-category-image-viewer.md",
+      "screenshotJobIds": [
+        "event-main-category-image-viewer:event-main-category-image-viewer-desktop-image-viewer-modal-open:direct",
+        "event-main-category-image-viewer:event-main-category-image-viewer-tablet-image-viewer-modal-open:direct",
+        "event-main-category-image-viewer:event-main-category-image-viewer-mobile-image-viewer-modal-open:direct"
+      ]
+    },
+    {
+      "candidateId": "image-path-image-viewer",
+      "baseId": "image-path-image-viewer",
+      "type": "screen-family",
+      "title": "圖片路徑管理／圖片檢視",
+      "module": "資料庫管理",
+      "assetCount": 6,
+      "catalogued": false,
+      "queryable": false,
+      "draftPath": "product/v1.0/generated/batch-specs/drafts/image-path-image-viewer.md",
+      "screenshotJobIds": [
+        "image-path-image-viewer:image-path-image-viewer-desktop-dark-image-view-modal-open:direct",
+        "image-path-image-viewer:image-path-image-viewer-desktop-light-image-view-modal-open:direct",
+        "image-path-image-viewer:image-path-image-viewer-tablet-dark-image-view-modal-open:direct",
+        "image-path-image-viewer:image-path-image-viewer-tablet-light-image-view-modal-open:direct",
+        "image-path-image-viewer:image-path-image-viewer-mobile-dark-image-view-modal-open:direct",
+        "image-path-image-viewer:image-path-image-viewer-mobile-light-image-view-modal-open:direct"
+      ]
+    }
+  ]
+}
