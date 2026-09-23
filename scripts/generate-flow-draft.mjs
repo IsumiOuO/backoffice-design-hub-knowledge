@@ -32,6 +32,12 @@ function inferTitleZh(assets) {
     const match = (asset.functionSummary ?? "").match(/^封裝(.+?)第\s*\d+\s*步/);
     if (match) return `${match[1]}流程`;
   }
+  const name = assets[0]?.displayNameZh ?? "";
+  const stripped = name
+    .replace(/\s+Step\s+\d+.*$/i, "")
+    .replace(/\s*第\s*\d+\s*步.*$/, "")
+    .trim();
+  if (stripped) return `${stripped}流程`;
   return `${baseId} 流程`;
 }
 
@@ -171,4 +177,3 @@ await writeFile(outputMarkdownPath, `${lines.join("\n")}\n`, "utf8");
 console.log(
   `Flow 草稿已產生：${candidateId}（${candidate.assets.length} assets、${draft.claims.length} claims、${unknownQuestions.length} unknown questions）。`,
 );
-

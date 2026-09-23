@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "knowledgeType": "flow-draft",
+  "candidateId": "single-parameter-update-flow",
+  "baseId": "single-parameter-update",
+  "titleZh": "單一參數更新流程",
+  "titleEn": "Single Parameter Update Flow",
+  "moduleZh": [
+    "事件設置"
+  ],
+  "pageTypes": [
+    "List"
+  ],
+  "confidence": "high",
+  "source": "product/v1.0/generated/draft-candidates.json",
+  "sourceGeneratedAt": "2026-09-22T08:30:23.335Z",
+  "reviewStatus": "unreviewed",
+  "autoPromote": false,
+  "stepNumbers": [
+    1,
+    2
+  ],
+  "assets": [
+    {
+      "canonicalId": "single-parameter-update-step-1",
+      "canonicalFamilyId": "single-parameter-update-step-1",
+      "stepIndex": 1,
+      "substate": "",
+      "displayNameZh": "單一參數更新 Step 1",
+      "displayNameEn": "Single Parameter Update Step 1",
+      "moduleZh": "事件設置",
+      "moduleEn": "Event Settings",
+      "pageType": "List",
+      "functionSummary": "單一事件參數更新的編輯步驟，提供投分參數設定與 PC&Tablet/Mobile variants。",
+      "nodeId": "121:294670",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670",
+      "componentKey": "",
+      "componentSetKey": "9ea0c1c7eb9a45e384000a2841a96a5bf7abd489",
+      "componentProperties": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        }
+      }
+    },
+    {
+      "canonicalId": "single-parameter-update-step-2",
+      "canonicalFamilyId": "single-parameter-update-step-2",
+      "stepIndex": 2,
+      "substate": "",
+      "displayNameZh": "單一參數更新 Step 2",
+      "displayNameEn": "Single Parameter Update Step 2",
+      "moduleZh": "事件設置",
+      "moduleEn": "Event Settings",
+      "pageType": "List",
+      "functionSummary": "單一事件參數更新的確認步驟，顯示更新後參數並支援 PC&Tablet/Mobile。",
+      "nodeId": "121:294469",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469",
+      "componentKey": "",
+      "componentSetKey": "a488648b9db2d876de59859e39bd439973cf6121",
+      "componentProperties": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        }
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "single-parameter-update-step-1-indexed-purpose",
+      "statement": "單一事件參數更新的編輯步驟，提供投分參數設定與 PC&Tablet/Mobile variants。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "single-parameter-update-step-1",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670",
+          "note": "Node 121:294670"
+        }
+      ]
+    },
+    {
+      "id": "single-parameter-update-step-2-indexed-purpose",
+      "statement": "單一事件參數更新的確認步驟，顯示更新後參數並支援 PC&Tablet/Mobile。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "single-parameter-update-step-2",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469",
+          "note": "Node 121:294469"
+        }
+      ]
+    },
+    {
+      "id": "single-parameter-update-ordered-flow-candidate",
+      "statement": "Step 1、2 可能構成同一個循序且互斥呈現的流程。",
+      "status": "inferred",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "single-parameter-update-step-1",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670"
+        },
+        {
+          "type": "canonical-id",
+          "ref": "single-parameter-update-step-2",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469"
+        }
+      ],
+      "rationale": "canonicalId、顯示名稱與 functionSummary 使用連續 Step 命名；仍需人工確認流程分組與實際導覽行為。"
+    }
+  ],
+  "unknownQuestions": [
+    {
+      "key": "primary-role",
+      "question": "哪些角色可以使用此流程？",
+      "reason": "Figma 與 Core 索引沒有角色／權限證據。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    },
+    {
+      "key": "entry-and-permission",
+      "question": "流程從哪個頁面／操作進入，需要哪些前置條件與權限？",
+      "reason": "畫面結構不足以證明正式導覽與權限規則。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    },
+    {
+      "key": "step-validation",
+      "question": "各 Step 的必填、格式、數量與 error Variant 觸發條件為何？",
+      "reason": "索引只能證明視覺 Variant 存在，不能證明業務驗證規則。",
+      "suggestedOwners": [
+        "產品",
+        "開發",
+        "QA"
+      ]
+    },
+    {
+      "key": "data-retention",
+      "question": "前後切換步驟、關閉或取消時，已修改資料如何保存或還原？",
+      "reason": "靜態 Figma 與元件 metadata 無法證明狀態保存行為。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    },
+    {
+      "key": "submit-result",
+      "question": "送出後修改哪些資料、何時生效、成功後導向何處？",
+      "reason": "現有索引沒有後端副作用、同步與成功導向證據。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    }
+  ]
+}
