@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "knowledgeType": "flow-draft",
+  "candidateId": "edit-event-main-category-flow",
+  "baseId": "edit-event-main-category",
+  "titleZh": "編輯事件主類別流程",
+  "titleEn": "Edit Main Category Flow",
+  "moduleZh": [
+    "資料庫管理"
+  ],
+  "pageTypes": [
+    "Create"
+  ],
+  "confidence": "high",
+  "source": "product/v1.0/generated/draft-candidates.json",
+  "sourceGeneratedAt": "2026-09-22T08:30:23.335Z",
+  "reviewStatus": "unreviewed",
+  "autoPromote": false,
+  "stepNumbers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "assets": [
+    {
+      "canonicalId": "edit-event-main-category-step-1",
+      "canonicalFamilyId": "edit-event-main-category-step-1",
+      "stepIndex": 1,
+      "substate": "",
+      "displayNameZh": "編輯主類別第 1 步",
+      "displayNameEn": "Edit Main Category Step 1",
+      "moduleZh": "資料庫管理",
+      "moduleEn": "Database Management",
+      "pageType": "Create",
+      "functionSummary": "封裝編輯事件主類別第 1 步的名稱設定介面，顯示既有資料並依裝置與驗證狀態切換。",
+      "nodeId": "198:262047",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047",
+      "componentKey": "",
+      "componentSetKey": "3283cf4ac885a0b2410ba922bbb619e1236f4126",
+      "componentProperties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        },
+        "input": {
+          "type": "VARIANT",
+          "defaultValue": "enable",
+          "variantOptions": [
+            "error",
+            "enable"
+          ]
+        }
+      }
+    },
+    {
+      "canonicalId": "edit-event-main-category-step-2",
+      "canonicalFamilyId": "edit-event-main-category-step-2",
+      "stepIndex": 2,
+      "substate": "",
+      "displayNameZh": "編輯主類別第 2 步",
+      "displayNameEn": "Edit Main Category Step 2",
+      "moduleZh": "資料庫管理",
+      "moduleEn": "Database Management",
+      "pageType": "Create",
+      "functionSummary": "封裝編輯事件主類別第 2 步的掛載次類別選擇介面，依裝置與表單狀態切換。",
+      "nodeId": "198:262198",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262198",
+      "componentKey": "",
+      "componentSetKey": "6d9c1ba690e4b42c296f6bbfa102238ca481160a",
+      "componentProperties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        },
+        "input": {
+          "type": "VARIANT",
+          "defaultValue": "enable",
+          "variantOptions": [
+            "error",
+            "enable",
+            "default"
+          ]
+        }
+      }
+    },
+    {
+      "canonicalId": "edit-event-main-category-step-3",
+      "canonicalFamilyId": "edit-event-main-category-step-3",
+      "stepIndex": 3,
+      "substate": "",
+      "displayNameZh": "編輯主類別第 3 步",
+      "displayNameEn": "Edit Main Category Step 3",
+      "moduleZh": "資料庫管理",
+      "moduleEn": "Database Management",
+      "pageType": "Create",
+      "functionSummary": "封裝編輯事件主類別第 3 步的發布介面設定，依裝置與 default／enable／error 狀態切換。",
+      "nodeId": "198:262590",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262590",
+      "componentKey": "",
+      "componentSetKey": "e5d0708fb4d272d6d09f409da58b1888a02e95c0",
+      "componentProperties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        },
+        "input": {
+          "type": "VARIANT",
+          "defaultValue": "enable",
+          "variantOptions": [
+            "error",
+            "enable",
+            "default"
+          ]
+        }
+      }
+    },
+    {
+      "canonicalId": "edit-event-main-category-step-4-image-list",
+      "canonicalFamilyId": "edit-event-main-category-step-4-image-list",
+      "stepIndex": 4,
+      "substate": "image-list",
+      "displayNameZh": "編輯主類別第 4 步－圖片列表",
+      "displayNameEn": "Edit Main Category Step 4 - Image List",
+      "moduleZh": "資料庫管理",
+      "moduleEn": "Database Management",
+      "pageType": "Create",
+      "functionSummary": "封裝編輯事件主類別第 4 步的圖片列表介面，呈現既有／已新增圖片並依裝置與驗證狀態切換。",
+      "nodeId": "198:262491",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262491",
+      "componentKey": "",
+      "componentSetKey": "73ec9ec1dfa6340ddcb4da478f20b0cadd1ab2a3",
+      "componentProperties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        },
+        "input": {
+          "type": "VARIANT",
+          "defaultValue": "enable",
+          "variantOptions": [
+            "error",
+            "enable"
+          ]
+        }
+      }
+    },
+    {
+      "canonicalId": "edit-event-main-category-step-4-upload-image",
+      "canonicalFamilyId": "edit-event-main-category-step-4-upload-image",
+      "stepIndex": 4,
+      "substate": "upload-image",
+      "displayNameZh": "編輯主類別第 4 步－上傳圖片",
+      "displayNameEn": "Edit Main Category Step 4 - Upload Image",
+      "moduleZh": "資料庫管理",
+      "moduleEn": "Database Management",
+      "pageType": "Create",
+      "functionSummary": "封裝編輯事件主類別第 4 步的圖片上傳介面，讓管理人員調整既有主類別圖片並處理驗證狀態。",
+      "nodeId": "198:262322",
+      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262322",
+      "componentKey": "",
+      "componentSetKey": "9774eee0effe4e1ec251cbfdc8ac6703aa8ed8e6",
+      "componentProperties": {
+        "device": {
+          "type": "VARIANT",
+          "defaultValue": "PC&Tablet",
+          "variantOptions": [
+            "PC&Tablet",
+            "Mobile"
+          ]
+        },
+        "input": {
+          "type": "VARIANT",
+          "defaultValue": "enable",
+          "variantOptions": [
+            "error",
+            "enable"
+          ]
+        }
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "edit-event-main-category-step-1-indexed-purpose",
+      "statement": "封裝編輯事件主類別第 1 步的名稱設定介面，顯示既有資料並依裝置與驗證狀態切換。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-1",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047",
+          "note": "Node 198:262047"
+        }
+      ]
+    },
+    {
+      "id": "edit-event-main-category-step-2-indexed-purpose",
+      "statement": "封裝編輯事件主類別第 2 步的掛載次類別選擇介面，依裝置與表單狀態切換。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-2",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262198",
+          "note": "Node 198:262198"
+        }
+      ]
+    },
+    {
+      "id": "edit-event-main-category-step-3-indexed-purpose",
+      "statement": "封裝編輯事件主類別第 3 步的發布介面設定，依裝置與 default／enable／error 狀態切換。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-3",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262590",
+          "note": "Node 198:262590"
+        }
+      ]
+    },
+    {
+      "id": "edit-event-main-category-step-4-image-list-indexed-purpose",
+      "statement": "封裝編輯事件主類別第 4 步的圖片列表介面，呈現既有／已新增圖片並依裝置與驗證狀態切換。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-4-image-list",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262491",
+          "note": "Node 198:262491"
+        }
+      ]
+    },
+    {
+      "id": "edit-event-main-category-step-4-upload-image-indexed-purpose",
+      "statement": "封裝編輯事件主類別第 4 步的圖片上傳介面，讓管理人員調整既有主類別圖片並處理驗證狀態。",
+      "status": "observed",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-4-upload-image",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262322",
+          "note": "Node 198:262322"
+        }
+      ]
+    },
+    {
+      "id": "edit-event-main-category-ordered-flow-candidate",
+      "statement": "Step 1、2、3、4 可能構成同一個循序且互斥呈現的流程。",
+      "status": "inferred",
+      "evidence": [
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-1",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047"
+        },
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-2",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262198"
+        },
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-3",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262590"
+        },
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-4-image-list",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262491"
+        },
+        {
+          "type": "canonical-id",
+          "ref": "edit-event-main-category-step-4-upload-image",
+          "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262322"
+        }
+      ],
+      "rationale": "canonicalId、顯示名稱與 functionSummary 使用連續 Step 命名；仍需人工確認流程分組與實際導覽行為。"
+    }
+  ],
+  "unknownQuestions": [
+    {
+      "key": "primary-role",
+      "question": "哪些角色可以使用此流程？",
+      "reason": "Figma 與 Core 索引沒有角色／權限證據。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    },
+    {
+      "key": "entry-and-permission",
+      "question": "流程從哪個頁面／操作進入，需要哪些前置條件與權限？",
+      "reason": "畫面結構不足以證明正式導覽與權限規則。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    },
+    {
+      "key": "step-validation",
+      "question": "各 Step 的必填、格式、數量與 error Variant 觸發條件為何？",
+      "reason": "索引只能證明視覺 Variant 存在，不能證明業務驗證規則。",
+      "suggestedOwners": [
+        "產品",
+        "開發",
+        "QA"
+      ]
+    },
+    {
+      "key": "data-retention",
+      "question": "前後切換步驟、關閉或取消時，已修改資料如何保存或還原？",
+      "reason": "靜態 Figma 與元件 metadata 無法證明狀態保存行為。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    },
+    {
+      "key": "submit-result",
+      "question": "送出後修改哪些資料、何時生效、成功後導向何處？",
+      "reason": "現有索引沒有後端副作用、同步與成功導向證據。",
+      "suggestedOwners": [
+        "產品",
+        "開發"
+      ]
+    }
+  ]
+}

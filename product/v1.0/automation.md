@@ -26,6 +26,22 @@ node scripts/discover-product-knowledge-candidates.mjs
 
 候選探索只會依 canonicalId 的 Step 命名、canonicalFamilyId、Screen 與現有 metadata 分組。它不會建立正式 Page／Flow、不會修改 Catalog，也不會自動核准規格。
 
+## Flow 草稿生成
+
+先執行候選探索，再指定一個候選：
+
+```sh
+node scripts/generate-flow-draft.mjs --candidate edit-event-main-category-flow
+```
+
+輸出位於 `product/v1.0/generated/flow-drafts/`。草稿會自動建立：
+
+- 每個索引資產的 `observed` claim。
+- 一條等待人工確認的流程分組 `inferred` claim。
+- 角色、權限、驗證、資料保存與送出結果等通用 unknown questions。
+
+草稿不會自動修改 `page-catalog.json`、`open-questions.md` 或 `review-queue.md`。只有 AI 完成內容檢查並取得人工確認後，才可將草稿升級到正式 Product Knowledge。
+
 ## Bot 可回答範圍
 
 - 一般模式：只可直接引用 `confirmed` 與 `observed`。
