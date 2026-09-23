@@ -246,7 +246,48 @@ AI／MCP 必須以 Shell Registry 為調用依據。這些元件仍不屬於 Cor
   生成流程。這個容忍度高於 shared-pattern／feature 層元件。
 - 覆寫文字頂替時，必須在生成報告中明確標記「共用層代用」：註明使用的泛用
   Variant 名稱、被頂替的具名需求、以及對應畫面。
+### Instance 內部 Override 的安全邊界
 
+當 Shell 元件的 Published root Variant 無法單獨完成指定畫面狀態時，AI 可以對既有 Instance 進行受控的內部 Override，但必須遵守本節規則。
+
+#### 巢狀 Instance Variant Override
+
+只有同時符合以下條件時，才允許對巢狀 Instance 執行 Variant Override：
+
+1. Shell 根節點與目標巢狀節點均為 `INSTANCE`。
+2. Registry 已提供目標 Asset、Owner Component Set Key、Property 名稱及合法值；或已透過 MCP 對目前 Published Component Set 完成唯讀確認。
+3. 產品需求明確指定應選取或展開的項目。
+4. Override 直接作用於既有巢狀 Instance，並使用其公開的 Component Property。
+5. Override 後，根節點與巢狀節點仍能解析有效的 Main Component 與 Owner Component Set。
+6. 不得 Detach、重畫、疊加替代項目、刪除原始 Instance、修改 Library Master，或自行發明不存在的 Variant 值。
+
+對既有巢狀 Instance 執行合法的 `setProperties()` 不視為 Detach，也不視為建立新元件。
+
+如果無法識別目標巢狀 Instance、Property 名稱或合法 Variant 值，必須停止該項寫入，並將缺口記錄至 `registry/v1.0/shell-review-queue.md`；不得以視覺重畫或額外疊加節點代替。
+
+目前已驗證的 Sidebar Recipe：
+
+- 根 Asset：`shell-sidebar-navigation`
+- 根 Owner Component Set Key：`cf9cb28932a52a9220a359c1981455f7644708bc`
+- 根 Variant：`Property 1=Select`
+- 目標巢狀 Asset：`shell-sidebar-navigation-item`
+- 目標巢狀 Owner Component Set Key：`80e98814e055a0d9249ae1a7a736e9d93d19b94f`
+- 原始值：`Property 1=資料庫管理`
+- Override 值：`Property 1=資料庫管理 - Select`
+- 預期 Main Component Key：`81b6470c9edf1b43690ac0a505508d5cfdf8b5ca`
+- Registry Recipe：`select-database-management`
+
+根 Sidebar 的 `Property 1=Select` 僅表示使用展開式 Sidebar；它不保證內部的「資料庫管理」項目已切換為選取狀態。需要資料庫管理選取／展開視覺時，必須套用上述巢狀 Override Recipe。
+
+#### Instance 內部文字 Override
+
+當 Library Instance 沒有公開所需的 TEXT Property，但產品需求已明確提供文字內容時，可以覆寫 Instance 內既有文字節點，但必須符合以下條件：
+
+1. 根節點保持為 `INSTANCE`。
+2. 不得 Detach 或修改 Library Master。
+3. 只能覆寫需求中明確指定的文字，不得自行補寫產品文案。
+4. Override 後 Main Component Key、Owner Component Set Key 與 Instance 關係必須保持有效。
+5. 生成報告必須列出被覆寫的文字節點及實
 ### 具名 Variant 的正式申請流程
 
 - 同一個具名需求（例如「事件主類別管理」需要自己的 header 類型）在
