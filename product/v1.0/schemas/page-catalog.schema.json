@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/product/v1.0/schemas/page-catalog.schema.json",
+  "title": "Backoffice Product Knowledge Catalog",
+  "type": "object",
+  "required": ["schemaVersion", "catalogVersion", "generatedAt", "pages", "flows"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "catalogVersion": { "type": "string" },
+    "generatedAt": { "type": ["string", "null"], "format": "date-time" },
+    "pages": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/page" }
+    },
+    "flows": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/flow" }
+    }
+  },
+  "$defs": {
+    "status": {
+      "type": "string",
+      "enum": ["confirmed", "observed", "inferred", "unknown", "deprecated"]
+    },
+    "knowledgeStatus": {
+      "type": "string",
+      "enum": ["draft", "partial", "reviewed", "deprecated"]
+    },
+    "reviewStatus": {
+      "type": "string",
+      "enum": ["unreviewed", "needs-review", "approved", "rejected"]
+    },
+    "ref": {
+      "type": "object",
+      "required": ["type", "ref"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["figma-node", "canonical-id", "github", "product-doc", "code", "api", "human-review"]
+        },
+        "ref": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": ["id", "statement", "status", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "statement": { "type": "string", "minLength": 1 },
+        "status": { "$ref": "#/$defs/status" },
+        "evidence": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ref" }
+        },
+        "rationale": { "type": "string" },
+        "reviewer": { "type": "string" },
+        "reviewedAt": { "type": ["string", "null"], "format": "date" },
+        "openQuestionId": { "type": "string" }
+      }
+    },
+    "base": {
+      "type": "object",
+      "required": ["titleZh", "moduleId", "path", "knowledgeStatus", "reviewStatus", "claims"],
+      "properties": {
+        "titleZh": { "type": "string", "minLength": 1 },
+        "titleEn": { "type": "string" },
+        "moduleId": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "knowledgeStatus": { "$ref": "#/$defs/knowledgeStatus" },
+        "reviewStatus": { "$ref": "#/$defs/reviewStatus" },
+        "ownerTeam": { "type": "string" },
+        "lastReviewedAt": { "type": ["string", "null"], "format": "date" },
+        "relatedCanonicalIds": {
+          "type": "array",
+          "items": { "type": "string" },
+          "uniqueItems": true
+        },
+        "claims": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/claim" }
+        }
+      }
+    },
+    "page": {
+      "allOf": [
+        { "$ref": "#/$defs/base" },
+        {
+          "type": "object",
+          "required": ["pageId"],
+          "properties": {
+            "pageId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+            "relatedFlowIds": {
+              "type": "array",
+              "items": { "type": "string" },
+              "uniqueItems": true
+            }
+          }
+        }
+      ]
+    },
+    "flow": {
+      "allOf": [
+        { "$ref": "#/$defs/base" },
+        {
+          "type": "object",
+          "required": ["flowId"],
+          "properties": {
+            "flowId": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+            "relatedPageIds": {
+              "type": "array",
+              "items": { "type": "string" },
+              "uniqueItems": true
+            }
+          }
+        }
+      ]
+    }
+  }
+}

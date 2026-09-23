@@ -1,0 +1,9 @@
+{
+  "$schema": "./schemas/page-catalog.schema.json",
+  "schemaVersion": 1,
+  "catalogVersion": "1.0",
+  "generatedAt": null,
+  "pages": [],
+  "flows": []
+}
+
