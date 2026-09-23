@@ -2,7 +2,7 @@
 
 > AI 產生的 Page／Flow 草稿必須在此排隊。AI 可以新增與更新待審項目，但只有指定 Reviewer 可以核准。
 
-- Needs review: 6
+- Needs review: 7
 - Approved: 0
 - Rejected: 0
 
@@ -96,3 +96,15 @@
 - `unknown`：4
 - 指定 Reviewer：產品／設計／開發／QA
 - 審核紀錄：流程分組與互斥呈現已由使用者確認；角色、權限、欄位定義、驗證、資料保存與送出結果尚待審核。
+
+## PKR-0007 — 批次事件參數更新流程草稿
+
+- 狀態：`needs-review`
+- 文件：`product/v1.0/flows/batch-parameter-update-flow.md`
+- 產生來源：`core/v1.0/hub-manifest.json`、`product/v1.0/generated/draft-candidates.json`
+- `observed`：3
+- `confirmed`：0
+- `inferred`：1
+- `unknown`：9
+- 指定 Reviewer：產品／設計／開發／QA
+- 審核紀錄：流程分組保持 `inferred`；`batch-parameter-update-step-1-2` 的 Step 1／2 結構、角色、權限、欄位契約、驗證、資料保存、API／副作用與成功／失敗結果皆待確認。
