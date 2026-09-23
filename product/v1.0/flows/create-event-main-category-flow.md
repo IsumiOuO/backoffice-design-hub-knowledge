@@ -5,7 +5,7 @@ flowId: create-event-main-category-flow
 titleZh: 新增事件主類別流程
 titleEn: Create Event Main Category Flow
 moduleId: database-management
-knowledgeStatus: draft
+knowledgeStatus: partial
 reviewStatus: needs-review
 ownerTeam: ""
 lastReviewedAt: ""
@@ -17,7 +17,7 @@ relatedPageIds:
 
 ## 流程判定
 
-索引具有連續的 Step 1～4 canonicalId 與 functionSummary，因此 AI 將它們整理為同一個候選流程。此分組目前為 `inferred`，在產品 Owner 核准前不得視為完整產品規格。
+索引具有連續的 Step 1～4 canonicalId 與 functionSummary，因此 AI 將它們整理為同一個流程。2026-09-23 已取得人工確認：Step 1～4 屬於同一個新增流程，且同一時間只呈現一個作用中的 Step。
 
 ## 流程步驟
 
@@ -38,7 +38,7 @@ relatedPageIds:
 | `create-main-category-step-3-purpose` | Step 3 是發布介面設定。 | `observed` |
 | `create-main-category-step-4-purpose` | Step 4 同時具有圖片上傳與圖片列表內容。 | `observed` |
 | `create-main-category-device-and-input-states` | 各步驟具有 PC／Tablet、Mobile 及多種 input state。 | `observed` |
-| `create-main-category-ordered-exclusive-flow` | Step 1～4 應按順序呈現，且每個產品畫面只顯示一個作用中的 Step。 | `inferred` |
+| `create-main-category-ordered-exclusive-flow` | Step 1～4 按順序呈現，且每個產品畫面只顯示一個作用中的 Step。 | `confirmed` |
 
 ## AI 草稿 User Story
 
@@ -78,5 +78,4 @@ relatedPageIds:
 
 - 生成日期：2026-09-23。
 - Review Status：`needs-review`。
-- AI 未將任何 claim 標記為 `confirmed`。
-
+- 流程分組與互斥呈現 Claim 已於 2026-09-23 取得人工確認；其他產品規則仍未確認。

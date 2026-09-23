@@ -31,7 +31,8 @@
 - 文件：`product/v1.0/pages/create-event-main-category.md`
 - 產生來源：`core/v1.0/hub-manifest.json`
 - `observed`：2
-- `inferred`：1
+- `confirmed`：1
+- `inferred`：0
 - `unknown`：3
 - 指定 Reviewer：產品／設計／開發
 - 審核紀錄：尚未審核。
@@ -42,7 +43,8 @@
 - 文件：`product/v1.0/flows/create-event-main-category-flow.md`
 - 產生來源：`core/v1.0/hub-manifest.json`
 - `observed`：5
-- `inferred`：1
+- `confirmed`：1
+- `inferred`：0
 - `unknown`：8
 - 指定 Reviewer：產品／設計／開發／QA
 - 審核紀錄：尚未審核。

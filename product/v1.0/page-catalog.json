@@ -10,7 +10,7 @@
       "titleEn": "Create Event Main Category",
       "moduleId": "database-management",
       "path": "product/v1.0/pages/create-event-main-category.md",
-      "knowledgeStatus": "draft",
+      "knowledgeStatus": "partial",
       "reviewStatus": "needs-review",
       "ownerTeam": "",
       "lastReviewedAt": null,
@@ -42,14 +42,16 @@
         {
           "id": "create-event-main-category-uses-step-flow",
           "statement": "此頁面應由 Step 1～4 組成單一新增流程。",
-          "status": "inferred",
+          "status": "confirmed",
           "evidence": [
             { "type": "canonical-id", "ref": "create-event-main-category-step-1" },
             { "type": "canonical-id", "ref": "create-event-main-category-step-2" },
             { "type": "canonical-id", "ref": "create-event-main-category-step-3" },
             { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image" }
           ],
-          "rationale": "canonicalId、nodeName 與 functionSummary 使用連續 Step 命名，顯示為同一新增操作的階段。"
+          "rationale": "canonicalId、nodeName 與 functionSummary 使用連續 Step 命名，顯示為同一新增操作的階段。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
         },
         {
           "id": "create-event-main-category-primary-role",
@@ -82,7 +84,7 @@
       "titleEn": "Create Event Main Category Flow",
       "moduleId": "database-management",
       "path": "product/v1.0/flows/create-event-main-category-flow.md",
-      "knowledgeStatus": "draft",
+      "knowledgeStatus": "partial",
       "reviewStatus": "needs-review",
       "ownerTeam": "",
       "lastReviewedAt": null,
@@ -134,15 +136,18 @@
         {
           "id": "create-main-category-ordered-exclusive-flow",
           "statement": "Step 1～4 應按順序呈現，且每個產品畫面只顯示一個作用中的 Step。",
-          "status": "inferred",
+          "status": "confirmed",
           "evidence": [
             { "type": "canonical-id", "ref": "create-event-main-category-step-1" },
             { "type": "canonical-id", "ref": "create-event-main-category-step-2" },
             { "type": "canonical-id", "ref": "create-event-main-category-step-3" },
             { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image" },
-            { "type": "github", "ref": "policies/v1.0/ai-generation-rules.md", "note": "流程型元件與互斥畫面狀態規則" }
+            { "type": "github", "ref": "policies/v1.0/ai-generation-rules.md", "note": "流程型元件與互斥畫面狀態規則" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認 Step 1～4 屬於同一流程，且同一時間只呈現一個作用中的 Step。" }
           ],
-          "rationale": "連續 Step 命名與既有 AI 生成規則共同支持互斥、循序流程判定；仍需產品 Owner 確認實際導覽行為。"
+          "rationale": "連續 Step 命名與既有 AI 生成規則支持互斥、循序流程判定，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
         },
         {
           "id": "create-main-category-step-2-optionality",

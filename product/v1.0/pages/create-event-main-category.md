@@ -5,7 +5,7 @@ pageId: create-event-main-category
 titleZh: 新增事件主類別
 titleEn: Create Event Main Category
 moduleId: database-management
-knowledgeStatus: draft
+knowledgeStatus: partial
 reviewStatus: needs-review
 ownerTeam: ""
 lastReviewedAt: ""
@@ -27,7 +27,7 @@ relatedFlowIds:
 |---|---|---|---|
 | `create-event-main-category-module` | 此頁面相關 Core 元件屬於資料庫管理模組，Page Type 為 Create。 | `observed` | `create-event-main-category-step-1`～`step-4-*` |
 | `create-event-main-category-responsive` | 相關 Step 元件提供 PC／Tablet 與 Mobile 版型。 | `observed` | 各 Component Set 的 `device` Variant |
-| `create-event-main-category-uses-step-flow` | 此頁面應由 Step 1～4 組成單一新增流程。 | `inferred` | canonicalId、nodeName 與 functionSummary 的連續 Step 命名 |
+| `create-event-main-category-uses-step-flow` | 此頁面由 Step 1～4 組成單一新增流程。 | `confirmed` | canonicalId、nodeName、functionSummary 與 2026-09-23 人工確認 |
 | `create-event-main-category-primary-role` | 此頁面的主要使用角色尚未確認。 | `unknown` | `PQ-0001` |
 | `create-event-main-category-entry-permission` | 此頁面的進入方式與權限條件尚未確認。 | `unknown` | `PQ-0002` |
 | `create-event-main-category-success-destination` | 新增成功後的導向與顯示結果尚未確認。 | `unknown` | `PQ-0003` |
@@ -58,5 +58,5 @@ relatedFlowIds:
 
 - 生成方式：由 `core/v1.0/hub-manifest.json` 自動整理。
 - 生成日期：2026-09-23。
-- 所有內容尚未經產品 Owner 核准。
-
+- Step 1～4 的流程分組與互斥呈現方式已於 2026-09-23 取得人工確認。
+- 角色、權限、驗證與完成後系統行為仍未經產品 Owner 核准。
