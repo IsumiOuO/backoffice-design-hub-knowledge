@@ -2,7 +2,7 @@
 
 > AI 產生的 Page／Flow 草稿必須在此排隊。AI 可以新增與更新待審項目，但只有指定 Reviewer 可以核准。
 
-- Needs review: 0
+- Needs review: 2
 - Approved: 0
 - Rejected: 0
 
@@ -25,3 +25,24 @@
 - 指定 Reviewer
 - 審核紀錄
 
+## PKR-0001 — 新增事件主類別頁面草稿
+
+- 狀態：`needs-review`
+- 文件：`product/v1.0/pages/create-event-main-category.md`
+- 產生來源：`core/v1.0/hub-manifest.json`
+- `observed`：2
+- `inferred`：1
+- `unknown`：3
+- 指定 Reviewer：產品／設計／開發
+- 審核紀錄：尚未審核。
+
+## PKR-0002 — 新增事件主類別流程草稿
+
+- 狀態：`needs-review`
+- 文件：`product/v1.0/flows/create-event-main-category-flow.md`
+- 產生來源：`core/v1.0/hub-manifest.json`
+- `observed`：5
+- `inferred`：1
+- `unknown`：8
+- 指定 Reviewer：產品／設計／開發／QA
+- 審核紀錄：尚未審核。

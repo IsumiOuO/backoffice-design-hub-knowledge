@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 
 const root = resolve(import.meta.dirname, "..");
 const catalogPath = resolve(root, "product/v1.0/page-catalog.json");
+const openQuestionsPath = resolve(root, "product/v1.0/open-questions.md");
 const validKnowledgeStatuses = new Set(["draft", "partial", "reviewed", "deprecated"]);
 const validReviewStatuses = new Set(["unreviewed", "needs-review", "approved", "rejected"]);
 const validClaimStatuses = new Set(["confirmed", "observed", "inferred", "unknown", "deprecated"]);
@@ -11,6 +12,10 @@ const stableIdPattern = /^[a-z0-9][a-z0-9-]*$/;
 
 const errors = [];
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
+const openQuestionsText = await readFile(openQuestionsPath, "utf8");
+const definedOpenQuestionIds = new Set(
+  [...openQuestionsText.matchAll(/^## (PQ-\d+)\b/gm)].map((match) => match[1]),
+);
 
 if (catalog.schemaVersion !== 1) errors.push("schemaVersion 必須是 1");
 if (!Array.isArray(catalog.pages)) errors.push("pages 必須是陣列");
@@ -68,6 +73,13 @@ for (const [kind, idField, item] of entries) {
     if (claim.status === "unknown" && !claim.openQuestionId) {
       errors.push(`${claimLabel} 狀態為 unknown，必須連結 openQuestionId`);
     }
+    if (
+      claim.status === "unknown" &&
+      claim.openQuestionId &&
+      !definedOpenQuestionIds.has(claim.openQuestionId)
+    ) {
+      errors.push(`${claimLabel} 指向不存在的 Open Question：${claim.openQuestionId}`);
+    }
   }
 }
 
@@ -78,4 +90,3 @@ if (errors.length > 0) {
 } else {
   console.log(`Product Knowledge 驗證通過：${catalog.pages.length} pages、${catalog.flows.length} flows、${claimIds.size} claims。`);
 }
-

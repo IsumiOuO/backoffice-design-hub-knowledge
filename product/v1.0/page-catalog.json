@@ -2,8 +2,205 @@
   "$schema": "./schemas/page-catalog.schema.json",
   "schemaVersion": 1,
   "catalogVersion": "1.0",
-  "generatedAt": null,
-  "pages": [],
-  "flows": []
+  "generatedAt": "2026-09-23T00:00:00+08:00",
+  "pages": [
+    {
+      "pageId": "create-event-main-category",
+      "titleZh": "新增事件主類別",
+      "titleEn": "Create Event Main Category",
+      "moduleId": "database-management",
+      "path": "product/v1.0/pages/create-event-main-category.md",
+      "knowledgeStatus": "draft",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedFlowIds": ["create-event-main-category-flow"],
+      "relatedCanonicalIds": [
+        "create-event-main-category-step-1",
+        "create-event-main-category-step-2",
+        "create-event-main-category-step-3",
+        "create-event-main-category-step-4-upload-image",
+        "create-event-main-category-step-4-image-list"
+      ],
+      "claims": [
+        {
+          "id": "create-event-main-category-module",
+          "statement": "此頁面相關 Core 元件屬於資料庫管理模組，Page Type 為 Create。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138" }
+          ]
+        },
+        {
+          "id": "create-event-main-category-responsive",
+          "statement": "相關 Step 元件提供 PC／Tablet 與 Mobile 版型。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1", "note": "device Variant 提供 PC&Tablet 與 Mobile" }
+          ]
+        },
+        {
+          "id": "create-event-main-category-uses-step-flow",
+          "statement": "此頁面應由 Step 1～4 組成單一新增流程。",
+          "status": "inferred",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-2" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-3" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image" }
+          ],
+          "rationale": "canonicalId、nodeName 與 functionSummary 使用連續 Step 命名，顯示為同一新增操作的階段。"
+        },
+        {
+          "id": "create-event-main-category-primary-role",
+          "statement": "此頁面的主要使用角色尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0001"
+        },
+        {
+          "id": "create-event-main-category-entry-permission",
+          "statement": "此頁面的進入方式與權限條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0002"
+        },
+        {
+          "id": "create-event-main-category-success-destination",
+          "statement": "新增成功後的導向與顯示結果尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0003"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flowId": "create-event-main-category-flow",
+      "titleZh": "新增事件主類別流程",
+      "titleEn": "Create Event Main Category Flow",
+      "moduleId": "database-management",
+      "path": "product/v1.0/flows/create-event-main-category-flow.md",
+      "knowledgeStatus": "draft",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedPageIds": ["create-event-main-category"],
+      "relatedCanonicalIds": [
+        "create-event-main-category-step-1",
+        "create-event-main-category-step-2",
+        "create-event-main-category-step-3",
+        "create-event-main-category-step-4-upload-image",
+        "create-event-main-category-step-4-image-list"
+      ],
+      "claims": [
+        {
+          "id": "create-main-category-step-1-purpose",
+          "statement": "Step 1 是事件主類別名稱設定介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "create-event-main-category-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138" }]
+        },
+        {
+          "id": "create-main-category-step-2-purpose",
+          "statement": "Step 2 是掛載事件次類別的選擇介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "create-event-main-category-step-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261303" }]
+        },
+        {
+          "id": "create-main-category-step-3-purpose",
+          "statement": "Step 3 是發布介面設定。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "create-event-main-category-step-3", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261899" }]
+        },
+        {
+          "id": "create-main-category-step-4-purpose",
+          "statement": "Step 4 同時具有圖片上傳與圖片列表內容。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261451" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-image-list", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261729" }
+          ]
+        },
+        {
+          "id": "create-main-category-device-and-input-states",
+          "statement": "各步驟具有 PC／Tablet、Mobile 及多種 input state。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1", "note": "device=PC&Tablet/Mobile；input=enable/error" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image", "note": "device=PC&Tablet/Mobile；input=default/error/filled" }
+          ]
+        },
+        {
+          "id": "create-main-category-ordered-exclusive-flow",
+          "statement": "Step 1～4 應按順序呈現，且每個產品畫面只顯示一個作用中的 Step。",
+          "status": "inferred",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-2" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-3" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image" },
+            { "type": "github", "ref": "policies/v1.0/ai-generation-rules.md", "note": "流程型元件與互斥畫面狀態規則" }
+          ],
+          "rationale": "連續 Step 命名與既有 AI 生成規則共同支持互斥、循序流程判定；仍需產品 Owner 確認實際導覽行為。"
+        },
+        {
+          "id": "create-main-category-step-2-optionality",
+          "statement": "Step 2 是否可略過及選擇數量限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0004"
+        },
+        {
+          "id": "create-main-category-step-3-zero-selection",
+          "statement": "Step 3 是否允許所有發布介面都不選尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0005"
+        },
+        {
+          "id": "create-main-category-step-4-image-rules",
+          "statement": "Step 4 的圖片必填、格式、尺寸、容量與數量限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0006"
+        },
+        {
+          "id": "create-main-category-back-data-retention",
+          "statement": "返回前一步時是否保留資料尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0007"
+        },
+        {
+          "id": "create-main-category-close-cancel-behavior",
+          "statement": "關閉、取消或清空重填時的確認與資料處理尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0008"
+        },
+        {
+          "id": "create-main-category-submit-result",
+          "statement": "新增送出後的資料副作用、生效時間與導向尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0009"
+        },
+        {
+          "id": "create-main-category-enabled-status-placement",
+          "statement": "enabled-status-field 是否屬於此流程及所在步驟尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0010"
+        },
+        {
+          "id": "create-main-category-error-trigger-rules",
+          "statement": "各步驟 error Variant 的實際驗證觸發條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0011"
+        }
+      ]
+    }
+  ]
 }
-
