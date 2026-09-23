@@ -168,6 +168,74 @@
           "openQuestionId": "PQ-0022"
         }
       ]
+    },
+    {
+      "pageId": "single-parameter-update",
+      "titleZh": "單一事件參數更新",
+      "titleEn": "Single Parameter Update",
+      "moduleId": "event-settings",
+      "path": "product/v1.0/pages/single-parameter-update.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedFlowIds": ["single-parameter-update-flow"],
+      "relatedCanonicalIds": [
+        "single-parameter-update-step-1",
+        "single-parameter-update-step-2"
+      ],
+      "claims": [
+        {
+          "id": "single-parameter-update-module",
+          "statement": "此頁面相關 Core 元件屬於事件設置模組，Page Type 為 List。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670" }
+          ]
+        },
+        {
+          "id": "single-parameter-update-responsive",
+          "statement": "相關 Step 元件提供 PC／Tablet 與 Mobile 版型。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1", "note": "Property 1 Variant 提供 PC&Tablet 與 Mobile" }
+          ]
+        },
+        {
+          "id": "single-parameter-update-uses-step-flow",
+          "statement": "此頁面由 Step 1～2 組成單一循序更新流程，且一次只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1" },
+            { "type": "canonical-id", "ref": "single-parameter-update-step-2" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認兩個 Step 屬於同一流程，且一次只顯示一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名形成候選流程，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "single-parameter-update-primary-role",
+          "statement": "此頁面的主要使用角色尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0023"
+        },
+        {
+          "id": "single-parameter-update-entry-permission",
+          "statement": "此頁面的進入方式、可更新範圍與權限條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0024"
+        },
+        {
+          "id": "single-parameter-update-success-destination",
+          "statement": "更新成功後的導向與顯示結果尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0025"
+        }
+      ]
     }
   ],
   "flows": [
@@ -425,6 +493,77 @@
           "status": "unknown",
           "evidence": [],
           "openQuestionId": "PQ-0021"
+        }
+      ]
+    },
+    {
+      "flowId": "single-parameter-update-flow",
+      "titleZh": "單一事件參數更新流程",
+      "titleEn": "Single Parameter Update Flow",
+      "moduleId": "event-settings",
+      "path": "product/v1.0/flows/single-parameter-update-flow.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedPageIds": ["single-parameter-update"],
+      "relatedCanonicalIds": [
+        "single-parameter-update-step-1",
+        "single-parameter-update-step-2"
+      ],
+      "claims": [
+        {
+          "id": "single-parameter-update-step-1-purpose",
+          "statement": "Step 1 是單一事件參數更新的編輯步驟，索引摘要記載為投分參數設定。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "single-parameter-update-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670" }]
+        },
+        {
+          "id": "single-parameter-update-step-2-purpose",
+          "statement": "Step 2 是顯示更新後參數的確認步驟。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "single-parameter-update-step-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469" }]
+        },
+        {
+          "id": "single-parameter-update-ordered-exclusive-flow",
+          "statement": "Step 1～2 按順序呈現，且一次只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1" },
+            { "type": "canonical-id", "ref": "single-parameter-update-step-2" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認兩個 Step 屬於同一流程，且一次只顯示一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名形成候選流程，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "single-parameter-update-term-definition",
+          "statement": "投分參數的正式定義、欄位與允許值尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0026"
+        },
+        {
+          "id": "single-parameter-update-validation-rules",
+          "statement": "Step 1 的必填、格式、範圍與錯誤觸發條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0027"
+        },
+        {
+          "id": "single-parameter-update-interruption-behavior",
+          "statement": "返回、關閉或取消時的資料保存、還原與確認行為尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0028"
+        },
+        {
+          "id": "single-parameter-update-submit-result",
+          "statement": "確認送出後的資料副作用、生效時間、版本與併發限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0029"
         }
       ]
     }
