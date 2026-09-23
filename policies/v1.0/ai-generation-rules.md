@@ -287,7 +287,22 @@ AI／MCP 必須以 Shell Registry 為調用依據。這些元件仍不屬於 Cor
 2. 不得 Detach 或修改 Library Master。
 3. 只能覆寫需求中明確指定的文字，不得自行補寫產品文案。
 4. Override 後 Main Component Key、Owner Component Set Key 與 Instance 關係必須保持有效。
-5. 生成報告必須列出被覆寫的文字節點及實
+5. 生成報告必須列出被覆寫的文字節點及實際文字。
+
+Breadcrumb 可依此規則覆寫各段路徑文字；若沒有公開文字 Property，不應因此 Detach、重畫 Breadcrumb，或將需求誤判為無法生成。
+
+#### 生成後驗證
+
+使用任何 Instance 內部 Override 後，生成報告至少必須確認：
+
+- 根 Instance Node ID、Main Component Key、Owner Component Set Key 與實際 Variant。
+- 被覆寫的巢狀 Instance 或文字節點 ID。
+- 巢狀 Instance 的 Main Component Key、Owner Component Set Key 與實際 Variant。
+- 根節點與目標節點仍為 Library Instance。
+- Frame 內沒有新增本地 `COMPONENT` 或 `COMPONENT_SET`。
+- Detach 數量為 `0`。
+- Library Master 修改數量為 `0`。
+
 ### 具名 Variant 的正式申請流程
 
 - 同一個具名需求（例如「事件主類別管理」需要自己的 header 類型）在
