@@ -28,74 +28,76 @@
     ]
   },
   "components": [
+{
+  "assetId": "shell-sidebar-navigation",
+  "figmaName": "navigate--開關--system-backend",
+  "displayNameZh": "系統後台側欄導覽",
+  "displayNameEn": "System Backoffice Sidebar Navigation",
+  "role": "sidebar-shell",
+  "figmaType": "COMPONENT_SET",
+  "componentSetKey": "cf9cb28932a52a9220a359c1981455f7644708bc",
+  "aiUsage": "allowed",
+  "variantProperties": {
+    "Property 1": {
+      "defaultValue": "Default",
+      "options": [
+        "Default",
+        "Select"
+      ]
+    }
+  },
+  "textProperties": {
+    "Title#8169:2": "側欄區塊標題"
+  },
+  "nestedOverrideRecipes": [
     {
-      "assetId": "shell-top-navigation",
-      "figmaName": "navigate",
-      "displayNameZh": "後台頂部導覽列",
-      "displayNameEn": "Backoffice Top Navigation",
-      "role": "page-shell",
-      "figmaType": "COMPONENT_SET",
-      "componentSetKey": "6eab64d18c2f60462e27eee977d2fadde780c713",
-      "aiUsage": "allowed",
-      "variantProperties": {
-        "Property 1": {
-          "defaultValue": "Default",
-          "options": [
-            "Default"
-          ]
+      "id": "select-database-management",
+      "purpose": "顯示資料庫管理選取與展開狀態",
+      "when": {
+        "rootVariant": {
+          "Property 1": "Select"
+        },
+        "selectedNavigationItem": "資料庫管理"
+      },
+      "target": {
+        "assetId": "shell-sidebar-navigation-item",
+        "componentSetKey": "80e98814e055a0d9249ae1a7a736e9d93d19b94f",
+        "currentMainComponentKey": "29d15a1d1ac9319ac6e8d6ff18eb3fd494a71101",
+        "currentVariant": {
+          "Property 1": "資料庫管理"
         }
       },
-      "textProperties": {
-        "title#8227:0": "後台產品名稱"
-      },
-      "booleanProperties": {
-        "Show Ghost Button#8227:1": "顯示第一個右側操作",
-        "Show Ghost Button 2#8227:2": "顯示第二個右側操作"
-      },
-      "useWhen": "完整後台桌機畫面的頂部全域導覽列"
-    },
-    {
-      "assetId": "shell-user-information",
-      "figmaName": "user-information--system-backend",
-      "displayNameZh": "系統後台使用者資訊",
-      "displayNameEn": "System Backoffice User Information",
-      "role": "sidebar-shell",
-      "figmaType": "COMPONENT",
-      "componentKey": "7362f091d676a2559da83449d93402113be85837",
-      "aiUsage": "allowed",
-      "textProperties": {
-        "name#8189:0": "使用者名稱",
-        "mail#8189:1": "帳號或信箱",
-        "帳號類別#8189:2": "帳號類別"
-      },
-      "instanceSwapProperties": {
-        "icon#8189:3": "使用者圖像"
-      },
-      "useWhen": "系統後台側欄頂部的登入者資訊"
-    },
-    {
-      "assetId": "shell-sidebar-navigation",
-      "figmaName": "navigate--開關--system-backend",
-      "displayNameZh": "系統後台側欄導覽",
-      "displayNameEn": "System Backoffice Sidebar Navigation",
-      "role": "sidebar-shell",
-      "figmaType": "COMPONENT_SET",
-      "componentSetKey": "cf9cb28932a52a9220a359c1981455f7644708bc",
-      "aiUsage": "allowed",
-      "variantProperties": {
-        "Property 1": {
-          "defaultValue": "Default",
-          "options": [
-            "Default",
-            "Select"
-          ]
+      "action": {
+        "method": "setProperties",
+        "properties": {
+          "Property 1": "資料庫管理 - Select"
         }
       },
-      "textProperties": {
-        "Title#8169:2": "側欄區塊標題"
+      "expectedResult": {
+        "mainComponentKey": "81b6470c9edf1b43690ac0a505508d5cfdf8b5ca",
+        "componentSetKey": "80e98814e055a0d9249ae1a7a736e9d93d19b94f",
+        "variant": {
+          "Property 1": "資料庫管理 - Select"
+        }
       },
-      "useWhen": "完整系統後台畫面的主要側欄導覽；Select 代表展開或選取狀態"
-    },
+      "constraints": [
+        "根 Sidebar 與巢狀項目都必須保持 INSTANCE",
+        "不得 Detach",
+        "不得另外疊加獨立 nav-item",
+        "不得修改 Library Master",
+        "找不到指定 Owner Key、Property 或合法值時必須停止並回報"
+      ],
+      "verifiedAt": "2026-09-23",
+      "reviewQueueItem": "SH-002"
+    }
+  ],
+  "notes": [
+    "根 Sidebar 的 Property 1=Select 只代表完整 Sidebar 容器狀態，不保證巢狀具名項目同步切換成 Select。",
+    "資料庫管理畫面必須依 select-database-management recipe 對既有巢狀 Instance 執行 Variant Property Override。",
+    "這是 Instance Override，不是 Detach、重畫或修改 Library。"
+  ],
+  "useWhen": "完整系統後台畫面的主要側欄導覽；Select 代表容器選取或展開狀態，具名項目選取需依 nestedOverrideRecipes 設定"
+},
     {
       "assetId": "shell-sidebar-navigation-item",
       "figmaName": "navigate--list-item--system-backend",
@@ -127,11 +129,7 @@
             "商戶服務",
             "商戶服務 - Select",
             "圖片管理",
-            "圖片管理 - Select",
-            "報表查詢",
-            "報表查詢 - Select",
-            "帳號管理",
-            "帳號管理 - Select"
+            "圖片管理 - Select"
           ]
         }
       },
