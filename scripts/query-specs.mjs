@@ -54,7 +54,18 @@ const feature = matched.feature;
 const specFile = path.join(repositoryRoot, feature.specPath);
 const markdown = fs.readFileSync(specFile, "utf8");
 const numberedStep = query.match(/(?:step|步驟)\s*([1-9])/i)?.[1];
-let screen = numberedStep ? feature.screens.find((item) => item.step === Number(numberedStep)) : undefined;
+let screen;
+
+if (numberedStep) {
+  const stepScreens = feature.screens.filter((item) => item.step === Number(numberedStep));
+  const rankedStepScreens = stepScreens
+    .map((item) => ({
+      item,
+      score: item.keywords.filter((keyword) => query.toLowerCase().includes(keyword.toLowerCase())).length
+    }))
+    .sort((a, b) => b.score - a.score);
+  screen = rankedStepScreens[0]?.item;
+}
 
 if (!screen) {
   const rankedScreens = feature.screens
@@ -66,8 +77,8 @@ if (!screen) {
   screen = rankedScreens[0]?.score > 0 ? rankedScreens[0].item : undefined;
 }
 
-const asksFlow = /(流程|步驟|怎麼做|如何新增)/.test(query) && !numberedStep;
-const asksUnknownRule = !asksFlow && /(可不可以|可以|可否|能不能|能否|完全不選|是否|必填|上限|限制|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向)/.test(query);
+const asksFlow = /(流程|步驟|怎麼做|如何新增|如何編輯|如何更新|如何批次)/.test(query) && !numberedStep;
+const asksUnknownRule = !asksFlow && /(可不可以|可以|可否|能不能|能否|完全不選|是否|必填|上限|限制|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向|取消|關閉|錯誤|刪除|失敗)/.test(query);
 const sectionName = asksUnknownRule ? "待確認" : asksFlow ? "操作流程" : "功能說明";
 let answer = cleanMarkdown(extractSection(markdown, `## ${sectionName}`, /\n## /));
 
