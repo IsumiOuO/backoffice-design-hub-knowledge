@@ -1,4 +1,5 @@
 .env
 .DS_Store
 bot/logs/*.jsonl
+bot/data/user-preferences.json
 tmp/pdfs/
