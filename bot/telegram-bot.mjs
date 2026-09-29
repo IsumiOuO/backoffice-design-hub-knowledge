@@ -34,6 +34,8 @@ if (!setupMode && allowedUserIds.size === 0) {
 }
 
 const apiBase = `https://api.telegram.org/bot${token}`;
+const githubBaseUrl = (process.env.KNOWLEDGE_GITHUB_BASE_URL
+  ?? "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main").replace(/\/$/, "");
 let offset = 0;
 
 console.log(setupMode
@@ -98,7 +100,7 @@ async function handleMessage(message) {
     result.answer,
     "",
     `Figma：${result.screen.figmaUrl}`,
-    `來源：${result.specPath}`,
+    `來源：${githubBaseUrl}/${result.specPath}`,
     result.statusNote,
   ].join("\n");
   const imagePath = path.join(repositoryRoot, result.screen.imagePath);
