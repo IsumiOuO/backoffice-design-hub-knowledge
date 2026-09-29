@@ -3,11 +3,15 @@ import { appendFile, mkdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
+import { loadSpecStatus, querySpecProgress } from "../scripts/query-spec-progress.mjs";
 
 const execFileAsync = promisify(execFile);
 const repositoryRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const queryScript = path.join(repositoryRoot, "scripts/query-specs.mjs");
 const queryIndex = JSON.parse(await readFile(path.join(repositoryRoot, "specs/query-index.json"), "utf8"));
+const specStatus = await loadSpecStatus(path.join(repositoryRoot, "specs/spec-status.json"));
+const githubBaseUrl = (process.env.KNOWLEDGE_GITHUB_BASE_URL
+  ?? "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main").replace(/\/$/, "");
 
 if (process.argv.includes("--self-test")) {
   await runSelfTest();
@@ -34,8 +38,6 @@ if (!setupMode && allowedUserIds.size === 0) {
 }
 
 const apiBase = `https://api.telegram.org/bot${token}`;
-const githubBaseUrl = (process.env.KNOWLEDGE_GITHUB_BASE_URL
-  ?? "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main").replace(/\/$/, "");
 const queryLogEnabled = process.env.BOT_QUERY_LOG_ENABLED !== "false";
 const queryLogPath = path.resolve(
   repositoryRoot,
@@ -86,12 +88,20 @@ async function handleMessage(message) {
       "這是後台設計與產品智庫測試 Bot。",
       "直接輸入功能問題，我會回傳白話答案、對應畫面與 Figma 連結。",
       "輸入 /list 可查看目前支援的功能。",
+      "輸入 /progress 可查看全部規格進度。",
+      "輸入 /todo、/waiting、/next 或 /module 資料庫管理可追蹤後續工作。",
     ].join("\n"));
     return;
   }
 
   if (text === "/list") {
     await sendMessage(chatId, `目前可查詢：\n${queryIndex.features.map((feature) => `• ${feature.title}`).join("\n")}`);
+    return;
+  }
+
+  const progressResult = querySpecProgress(text, specStatus, { githubBaseUrl });
+  if (progressResult.handled) {
+    await sendMessage(chatId, progressResult.text);
     return;
   }
 
@@ -201,5 +211,20 @@ async function runSelfTest() {
     await readFile(imagePath);
     console.log(`通過：${question} → ${result.screen.label}`);
   }
-  console.log(`Bot 自我測試通過：${cases.length} 個問題、${queryIndex.features.length} 個可查詢功能。`);
+  const progressCases = [
+    { question: "/progress", includes: "規格候選：53 份" },
+    { question: "/todo", includes: "尚未可查詢：47 份" },
+    { question: "/waiting", includes: "共 59 項待確認" },
+    { question: "/next", includes: "新增事件主類別" },
+    { question: "/module 資料庫管理", includes: "規格候選：15 份" },
+    { question: "目前全部完成多少", includes: "已可供查詢：6 份" },
+  ];
+  for (const { question, includes } of progressCases) {
+    const result = querySpecProgress(question, specStatus, { githubBaseUrl });
+    if (!result.handled || !result.text.includes(includes)) {
+      throw new Error(`進度查詢失敗，預期包含「${includes}」：${question}`);
+    }
+    console.log(`通過：${question}`);
+  }
+  console.log(`Bot 自我測試通過：${cases.length} 個規格問題、${progressCases.length} 個進度查詢、${queryIndex.features.length} 個可查詢功能。`);
 }
