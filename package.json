@@ -8,6 +8,9 @@
     "bot:report": "node --env-file=.env scripts/analyze-bot-query-log.mjs",
     "knowledge:validate": "node scripts/validate-product-knowledge.mjs",
     "knowledge:work-queue": "node scripts/generate-spec-work-queue.mjs",
-    "knowledge:review-packets": "node scripts/generate-ai-review-packets.mjs"
+    "knowledge:review-packets": "node scripts/generate-ai-review-packets.mjs",
+    "knowledge:tracker": "node scripts/generate-spec-master-tracker.mjs",
+    "knowledge:tracker:check": "node scripts/generate-spec-master-tracker.mjs --check",
+    "knowledge:progress": "node scripts/query-spec-progress.mjs /progress"
   }
 }

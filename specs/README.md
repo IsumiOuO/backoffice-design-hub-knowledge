@@ -2,6 +2,8 @@
 
 這裡是給規劃、前端、後端、QA 與其他查詢者使用的入口。
 
+要查看整個後台還有多少規格、各模組進度與下一步，請先看 [`全後台規格總表`](SPEC-MASTER-TRACKER.md)。
+
 每份文件只回答五件事：
 
 1. 這個功能做什麼。
@@ -57,6 +59,14 @@ node scripts/query-specs.mjs "QA 可以先測新增事件主類別的哪些內�
 - 不確定：保留在「待確認」，不要猜答案。
 
 AI 與維護工具會負責同步內部索引、詳細資料與驗證結果。
+
+總表狀態由 [`spec-status.json`](spec-status.json) 管理。修改狀態後執行：
+
+```sh
+npm run knowledge:tracker
+```
+
+這會重新產生人可以閱讀的總表；不會自行新增產品規則。
 
 忘記哪些內容已完成或還要補時，請查看 [`AI 規格工作清單`](AI-SPEC-WORK-QUEUE.md)。要交給普通對話 AI 整理草稿時，使用 [`普通對話 AI 整理流程`](ORDINARY-AI-WORKFLOW.md)。
 
