@@ -5,8 +5,20 @@ import { fileURLToPath } from "node:url";
 const repositoryRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const indexPath = path.join(repositoryRoot, "specs/query-index.json");
 const index = JSON.parse(fs.readFileSync(indexPath, "utf8"));
-const query = process.argv.slice(2).filter((value) => value !== "--json").join(" ").trim();
+const audienceArgument = process.argv.find((value) => value.startsWith("--audience="));
+const forcedAudienceKey = audienceArgument?.slice("--audience=".length);
+const query = process.argv.slice(2)
+  .filter((value) => value !== "--json" && !value.startsWith("--audience="))
+  .join(" ")
+  .trim();
 const jsonOutput = process.argv.includes("--json");
+const audienceDefinitions = {
+  planning: { key: "planning", labels: ["規劃", "產品"] },
+  frontend: { key: "frontend", labels: ["前端"] },
+  backend: { key: "backend", labels: ["後端"] },
+  design: { key: "design", labels: ["美術", "設計"] },
+  qa: { key: "qa", labels: ["QA"] },
+};
 
 if (!query) {
   console.error('請輸入問題，例如：node scripts/query-specs.mjs "新增事件主類別 Step 2 做什麼"');
@@ -44,10 +56,12 @@ function screenLabel(screen) {
 }
 
 function detectAudience(question) {
-  if (/(規劃|產品|pm)/i.test(question)) return { key: "planning", labels: ["規劃", "產品"] };
-  if (/(前端|frontend|front-end)/i.test(question)) return { key: "frontend", labels: ["前端"] };
-  if (/(後端|backend|back-end)/i.test(question)) return { key: "backend", labels: ["後端"] };
-  if (/(qa|測試|品保)/i.test(question)) return { key: "qa", labels: ["QA"] };
+  if (forcedAudienceKey && audienceDefinitions[forcedAudienceKey]) return audienceDefinitions[forcedAudienceKey];
+  if (/(規劃|產品|pm)/i.test(question)) return audienceDefinitions.planning;
+  if (/(前端|frontend|front-end)/i.test(question)) return audienceDefinitions.frontend;
+  if (/(後端|backend|back-end)/i.test(question)) return audienceDefinitions.backend;
+  if (/(美術|視覺設計|設計師)/i.test(question)) return audienceDefinitions.design;
+  if (/(qa|測試|品保)/i.test(question)) return audienceDefinitions.qa;
   return undefined;
 }
 
@@ -128,9 +142,11 @@ const asksUnknownRule = !asksFlow && (
   || /可以.+[嗎?？]/.test(query)
 );
 const sectionName = asksUnknownRule ? "待確認" : asksFlow ? "操作流程" : "功能說明";
-let answer = audience && !asksUnknownRule && !asksFlow
+const audienceAnswer = audience && !asksUnknownRule && !asksFlow
   ? extractAudienceAnswer(markdown, audience)
-  : cleanMarkdown(extractSection(markdown, `## ${sectionName}`, /\n## /));
+  : "";
+let answer = audienceAnswer
+  || cleanMarkdown(extractSection(markdown, `## ${sectionName}`, /\n## /));
 
 if (screen) {
   const stepSection = extractSection(markdown, `### ${screenHeading(screen)}`, /\n### |\n## /);
@@ -180,10 +196,13 @@ const result = {
   feature: feature.title,
   answer,
   audience: audience?.key,
+  audienceAvailable: audience ? Boolean(audienceAnswer) : undefined,
   statusNote: asksUnknownRule
     ? "回答取自「待確認」，不可當成已定案規則。"
-    : audience && !asksFlow
+    : audienceAnswer && !asksFlow
       ? "回答取自規格中的「各單位可以先使用的資訊」。"
+      : audience && !asksFlow
+        ? "目前沒有這個角色的專屬摘要，先提供已登錄的共用規格；不可自行推測缺少的規則。"
       : "回答取自已登錄的簡版規格。",
   screen: {
     step: selectedScreen.step,

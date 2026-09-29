@@ -1,5 +1,5 @@
 import { execFile } from "node:child_process";
-import { appendFile, mkdir, readFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
@@ -20,10 +20,12 @@ const botCommands = [
   { command: "waiting", description: "查看待確認的產品問題" },
   { command: "next", description: "查看下一份建議處理規格" },
   { command: "module", description: "依模組查看規格進度" },
+  { command: "role", description: "選擇或切換回答角色" },
   { command: "help", description: "查看使用說明" },
   { command: "whoami", description: "查看自己的 Telegram ID" },
 ];
 const shortcutCommands = new Map([
+  ["👤 我的角色", "/role"],
   ["📚 可查詢功能", "/list"],
   ["📊 整體進度", "/progress"],
   ["🧭 下一份", "/next"],
@@ -31,6 +33,85 @@ const shortcutCommands = new Map([
   ["🗂 模組分類", "/module"],
   ["❓ 使用說明", "/help"],
 ]);
+const roles = {
+  general: {
+    label: "綜合資訊",
+    icon: "👥",
+    audience: undefined,
+    description: "提供功能用途、操作流程、畫面與待確認規則。",
+    topics: [
+      { key: "summary", label: "🎯 功能用途", query: "功能用途" },
+      { key: "flow", label: "🔁 操作流程", query: "操作流程怎麼做" },
+      { key: "screens", label: "🖼 畫面內容", query: "有哪些畫面內容" },
+      { key: "unknown", label: "⚠️ 待確認規則", query: "有哪些待確認限制" },
+    ],
+  },
+  frontend: {
+    label: "前端",
+    icon: "💻",
+    audience: "frontend",
+    description: "優先顯示畫面狀態、操作流程、裝置差異與前端待確認規則。",
+    topics: [
+      { key: "screens", label: "🖼 畫面與狀態", query: "有哪些畫面與狀態" },
+      { key: "flow", label: "🔁 操作流程", query: "操作流程怎麼做" },
+      { key: "responsive", label: "📱 裝置差異", query: "手機平板電腦畫面差異" },
+      { key: "unknown", label: "⚠️ 前端待確認", query: "有哪些前端待確認限制" },
+    ],
+  },
+  backend: {
+    label: "後端",
+    icon: "🗄️",
+    audience: "backend",
+    description: "優先顯示資料內容、驗證、保存生效與後端待確認規則。",
+    topics: [
+      { key: "data", label: "📦 所需資料", query: "需要處理哪些資料" },
+      { key: "validation", label: "✅ 驗證規則", query: "有哪些必填與驗證規則" },
+      { key: "save", label: "💾 保存與生效", query: "保存與生效規則" },
+      { key: "unknown", label: "⚠️ 後端待確認", query: "有哪些後端待確認限制" },
+    ],
+  },
+  design: {
+    label: "美術設計",
+    icon: "🎨",
+    audience: "design",
+    description: "優先顯示相關畫面、素材、多裝置、多語系與設計待確認規則。",
+    topics: [
+      { key: "assets", label: "🖼 圖片與素材", query: "圖片素材畫面" },
+      { key: "responsive", label: "📐 裝置與比例", query: "手機平板電腦圖片尺寸比例" },
+      { key: "localization", label: "🌐 多語系呈現", query: "多語系文字畫面" },
+      { key: "unknown", label: "⚠️ 設計待確認", query: "有哪些設計素材待確認限制" },
+    ],
+  },
+  planning: {
+    label: "規劃／營運",
+    icon: "📋",
+    audience: "planning",
+    description: "優先顯示功能目的、流程、產品規則與待決策問題。",
+    topics: [
+      { key: "summary", label: "🎯 功能用途", query: "功能用途" },
+      { key: "flow", label: "🔁 完整流程", query: "完整操作流程怎麼做" },
+      { key: "rules", label: "📏 產品規則", query: "目前有哪些產品規則" },
+      { key: "unknown", label: "❓ 待決策問題", query: "有哪些產品待確認限制" },
+    ],
+  },
+  qa: {
+    label: "QA",
+    icon: "🧪",
+    audience: "qa",
+    description: "優先顯示可驗收項目、測試路徑、錯誤狀態與待確認條件。",
+    topics: [
+      { key: "acceptance", label: "✅ 可驗收項目", query: "QA 可以測什麼" },
+      { key: "flow", label: "🛤 測試路徑", query: "操作流程怎麼做" },
+      { key: "errors", label: "❌ 錯誤狀態", query: "錯誤失敗如何處理" },
+      { key: "boundary", label: "📏 邊界條件", query: "有哪些上限下限與限制" },
+    ],
+  },
+};
+const userPreferencesPath = path.resolve(
+  repositoryRoot,
+  process.env.BOT_USER_PREFERENCES_PATH ?? "bot/data/user-preferences.json",
+);
+const userPreferences = await loadUserPreferences();
 
 if (process.argv.includes("--self-test")) {
   await runSelfTest();
@@ -109,12 +190,26 @@ async function handleMessage(message) {
   }
 
   if (/^\/(start|help)(?:@\w+)?$/i.test(text)) {
+    const roleKey = selectedRoleKey(userId);
     await sendMessage(chatId, [
       "這是後台設計與產品智庫測試 Bot。",
       "直接輸入功能問題，我會回傳白話答案、對應畫面與 Figma 連結。",
+      roleKey
+        ? `目前回答角色：${roleTitle(roleKey)}。`
+        : "請先選擇角色，Bot 會依角色調整回答重點。",
       "可以使用下方快捷按鈕，或輸入 / 開啟完整指令清單。",
       "選擇「模組分類」可查看各模組規格與進度。",
     ].join("\n"), { replyMarkup: mainKeyboard() });
+    if (roleKey) {
+      await sendRoleDashboard(chatId, roleKey);
+    } else {
+      await sendRoleSelection(chatId);
+    }
+    return;
+  }
+
+  if (/^\/role(?:@\w+)?$/i.test(text)) {
+    await sendRoleSelection(chatId, selectedRoleKey(userId));
     return;
   }
 
@@ -136,7 +231,7 @@ async function handleMessage(message) {
     return;
   }
 
-  await sendKnowledgeAnswer(chatId, text);
+  await sendKnowledgeAnswer(chatId, text, selectedRoleKey(userId) ?? "general");
 }
 
 async function handleCallbackQuery(callback) {
@@ -147,6 +242,57 @@ async function handleCallbackQuery(callback) {
   if (!chatId) return;
   if (setupMode || !allowedUserIds.has(userId)) {
     await sendMessage(chatId, "你目前無法使用這個查詢選項。");
+    return;
+  }
+
+  if (data === "role-menu") {
+    await sendRoleSelection(chatId, selectedRoleKey(userId));
+    return;
+  }
+
+  if (data.startsWith("role:")) {
+    const roleKey = data.slice("role:".length);
+    if (!roles[roleKey]) {
+      await sendMessage(chatId, "這個角色目前不存在。");
+      return;
+    }
+    await saveUserRole(userId, roleKey);
+    await sendMessage(chatId, `已切換為 ${roleTitle(roleKey)}。\n${roles[roleKey].description}`);
+    await sendRoleDashboard(chatId, roleKey);
+    return;
+  }
+
+  if (data === "feature-menu") {
+    await sendMessage(chatId, `目前以 ${roleTitle(selectedRoleKey(userId) ?? "general")} 回答。請選擇功能：`, {
+      replyMarkup: featureKeyboard(),
+    });
+    return;
+  }
+
+  if (data.startsWith("topic:")) {
+    const topicKey = data.slice("topic:".length);
+    const roleKey = selectedRoleKey(userId) ?? "general";
+    const topic = roles[roleKey].topics.find((item) => item.key === topicKey);
+    if (!topic) {
+      await sendMessage(chatId, "這個角色目前沒有這個查詢項目。");
+      return;
+    }
+    await sendMessage(chatId, `${roleTitle(roleKey)}｜${topic.label}\n請選擇要查詢的功能：`, {
+      replyMarkup: featureTopicKeyboard(topicKey),
+    });
+    return;
+  }
+
+  if (data.startsWith("ask:")) {
+    const [, topicKey, featureId] = data.split(":");
+    const roleKey = selectedRoleKey(userId) ?? "general";
+    const topic = roles[roleKey].topics.find((item) => item.key === topicKey);
+    const feature = queryIndex.features.find((item) => item.id === featureId);
+    if (!topic || !feature) {
+      await sendMessage(chatId, "這個查詢項目目前無法使用，請重新選擇。");
+      return;
+    }
+    await sendKnowledgeAnswer(chatId, `${feature.title} ${topic.query}`, roleKey);
     return;
   }
 
@@ -164,21 +310,24 @@ async function handleCallbackQuery(callback) {
       await sendMessage(chatId, "這個功能目前不在查詢索引中。");
       return;
     }
-    await sendKnowledgeAnswer(chatId, feature.title);
+    await sendKnowledgeAnswer(chatId, feature.title, selectedRoleKey(userId) ?? "general");
   }
 }
 
-async function sendKnowledgeAnswer(chatId, text) {
-  const result = await queryKnowledge(text);
-  await recordQuery(text, result);
+async function sendKnowledgeAnswer(chatId, text, roleKey = "general") {
+  const role = roles[roleKey] ?? roles.general;
+  const result = await queryKnowledge(text, role.audience);
+  await recordQuery(text, result, roleKey);
   if (!result.matched) {
-    await sendMessage(chatId, `${result.answer}\n\n目前可查詢：\n${result.availableFeatures.map((title) => `• ${title}`).join("\n")}`, {
+    await sendMessage(chatId, `回答視角：${roleTitle(roleKey)}\n${result.answer}\n\n目前可查詢：\n${result.availableFeatures.map((title) => `• ${title}`).join("\n")}`, {
       replyMarkup: featureKeyboard(),
     });
     return;
   }
 
   const caption = [
+    `回答視角：${roleTitle(roleKey)}`,
+    "",
     result.answer,
     "",
     `Figma：${result.screen.figmaUrl}`,
@@ -195,7 +344,7 @@ async function sendKnowledgeAnswer(chatId, text) {
   }
 }
 
-async function recordQuery(question, result) {
+async function recordQuery(question, result, roleKey = "general") {
   if (!queryLogEnabled) return;
   const status = !result.matched
     ? "not-found"
@@ -205,6 +354,7 @@ async function recordQuery(question, result) {
   const record = {
     timestamp: new Date().toISOString(),
     question,
+    role: roleKey,
     status,
     feature: result.feature ?? null,
     audience: result.audience ?? null,
@@ -219,9 +369,11 @@ async function recordQuery(question, result) {
   }
 }
 
-async function queryKnowledge(question) {
+async function queryKnowledge(question, audience) {
   try {
-    const { stdout } = await execFileAsync(process.execPath, [queryScript, question, "--json"], {
+    const args = [queryScript, question, "--json"];
+    if (audience) args.push(`--audience=${audience}`);
+    const { stdout } = await execFileAsync(process.execPath, args, {
       cwd: repositoryRoot,
       maxBuffer: 1024 * 1024,
     });
@@ -258,16 +410,87 @@ function normalizeShortcut(text) {
   return shortcutCommands.get(text) ?? text;
 }
 
+function selectedRoleKey(userId) {
+  const roleKey = userPreferences.users[userId]?.role;
+  return roles[roleKey] ? roleKey : undefined;
+}
+
+function roleTitle(roleKey) {
+  const role = roles[roleKey] ?? roles.general;
+  return `${role.icon} ${role.label}`;
+}
+
+async function loadUserPreferences() {
+  try {
+    const parsed = JSON.parse(await readFile(userPreferencesPath, "utf8"));
+    return {
+      schemaVersion: 1,
+      users: parsed.users && typeof parsed.users === "object" ? parsed.users : {},
+    };
+  } catch (error) {
+    if (error.code !== "ENOENT") console.error(`讀取角色偏好失敗，將使用預設值：${error.message}`);
+    return { schemaVersion: 1, users: {} };
+  }
+}
+
+async function saveUserRole(userId, roleKey) {
+  userPreferences.users[userId] = {
+    role: roleKey,
+    updatedAt: new Date().toISOString(),
+  };
+  await mkdir(path.dirname(userPreferencesPath), { recursive: true });
+  await writeFile(userPreferencesPath, `${JSON.stringify(userPreferences, null, 2)}\n`, "utf8");
+}
+
+async function sendRoleSelection(chatId, currentRoleKey) {
+  const current = currentRoleKey ? `\n目前角色：${roleTitle(currentRoleKey)}` : "";
+  await sendMessage(chatId, `請選擇希望 Bot 使用的回答角色。這只影響回答重點，不是權限限制。${current}`, {
+    replyMarkup: roleKeyboard(currentRoleKey),
+  });
+}
+
+async function sendRoleDashboard(chatId, roleKey) {
+  const role = roles[roleKey] ?? roles.general;
+  await sendMessage(chatId, `${roleTitle(roleKey)}查詢入口\n${role.description}\n\n請選擇查詢方式，或直接輸入問題：`, {
+    replyMarkup: roleDashboardKeyboard(roleKey),
+  });
+}
+
 function mainKeyboard() {
   return {
     keyboard: [
-      [{ text: "📚 可查詢功能" }, { text: "📊 整體進度" }],
-      [{ text: "🧭 下一份" }, { text: "⏳ 待確認" }],
-      [{ text: "🗂 模組分類" }, { text: "❓ 使用說明" }],
+      [{ text: "👤 我的角色" }, { text: "📚 可查詢功能" }],
+      [{ text: "📊 整體進度" }, { text: "🧭 下一份" }],
+      [{ text: "⏳ 待確認" }, { text: "🗂 模組分類" }],
+      [{ text: "❓ 使用說明" }],
     ],
     resize_keyboard: true,
     is_persistent: true,
     input_field_placeholder: "選擇快捷按鈕，或直接輸入問題",
+  };
+}
+
+function roleKeyboard(currentRoleKey) {
+  const buttons = Object.entries(roles).map(([key, role]) => ({
+    text: `${key === currentRoleKey ? "✓ " : ""}${role.icon} ${role.label}`,
+    callback_data: `role:${key}`,
+  }));
+  return { inline_keyboard: rowsOf(buttons, 2) };
+}
+
+function roleDashboardKeyboard(roleKey) {
+  const role = roles[roleKey] ?? roles.general;
+  return {
+    inline_keyboard: [
+      ...rowsOf(
+        role.topics.map((topic) => ({ text: topic.label, callback_data: `topic:${topic.key}` })),
+        2,
+      ),
+      [
+        { text: "📚 可查詢功能", callback_data: "feature-menu" },
+        { text: "🔄 切換角色", callback_data: "role-menu" },
+      ],
+    ],
   };
 }
 
@@ -277,6 +500,21 @@ function featureKeyboard() {
       queryIndex.features.map((feature) => ({ text: feature.title, callback_data: `feature:${feature.id}` })),
       1,
     ),
+  };
+}
+
+function featureTopicKeyboard(topicKey) {
+  return {
+    inline_keyboard: [
+      ...rowsOf(
+        queryIndex.features.map((feature) => ({
+          text: feature.title,
+          callback_data: `ask:${topicKey}:${feature.id}`,
+        })),
+        1,
+      ),
+      [{ text: "⬅️ 返回角色選單", callback_data: "role-menu" }],
+    ],
   };
 }
 
@@ -335,6 +573,19 @@ async function runSelfTest() {
     await readFile(imagePath);
     console.log(`通過：${question} → ${result.screen.label}`);
   }
+  const roleCases = [
+    { roleKey: "frontend", question: "新增事件主類別", includes: "4 個步驟" },
+    { roleKey: "backend", question: "新增事件主類別", includes: "名稱、次類別、發布介面與圖片" },
+    { roleKey: "planning", question: "新增事件主類別", includes: "新的事件主類別" },
+    { roleKey: "qa", question: "新增事件主類別", includes: "步驟順序" },
+    { roleKey: "design", question: "新增事件主類別", includes: "用來建立新的事件主類別" },
+  ];
+  for (const { roleKey, question, includes } of roleCases) {
+    const result = await queryKnowledge(question, roles[roleKey].audience);
+    if (!result.answer.includes(includes)) throw new Error(`${roleTitle(roleKey)}回答缺少「${includes}」`);
+    if (result.audience !== roles[roleKey].audience) throw new Error(`${roleTitle(roleKey)}角色套用失敗`);
+    console.log(`通過：${roleTitle(roleKey)}角色回答`);
+  }
   const progressCases = [
     { question: "/progress", includes: "規格候選：53 份" },
     { question: "/todo", includes: "尚未可查詢：47 份" },
@@ -351,6 +602,7 @@ async function runSelfTest() {
     console.log(`通過：${question}`);
   }
   const shortcutCases = [
+    ["👤 我的角色", "/role"],
     ["📚 可查詢功能", "/list"],
     ["📊 整體進度", "/progress"],
     ["🗂 模組分類", "/module"],
@@ -358,9 +610,20 @@ async function runSelfTest() {
   for (const [label, command] of shortcutCases) {
     if (normalizeShortcut(label) !== command) throw new Error(`快捷按鈕沒有對應到 ${command}：${label}`);
   }
-  if (mainKeyboard().keyboard.flat().length !== 6) throw new Error("主快捷鍵盤應有 6 個按鈕");
+  if (mainKeyboard().keyboard.flat().length !== 7) throw new Error("主快捷鍵盤應有 7 個按鈕");
+  if (roleKeyboard().inline_keyboard.flat().length !== Object.keys(roles).length) throw new Error("角色按鈕數量錯誤");
+  for (const [roleKey, role] of Object.entries(roles)) {
+    if (roleDashboardKeyboard(roleKey).inline_keyboard.flat().length !== role.topics.length + 2) {
+      throw new Error(`${roleTitle(roleKey)}查詢按鈕數量錯誤`);
+    }
+    for (const topic of role.topics) {
+      const buttons = featureTopicKeyboard(topic.key).inline_keyboard.flat();
+      if (buttons.length !== queryIndex.features.length + 1) throw new Error(`${roleTitle(roleKey)}功能查詢按鈕數量錯誤`);
+      if (buttons.some((button) => button.callback_data.length > 64)) throw new Error("Telegram callback_data 超過 64 bytes");
+    }
+  }
   if (featureKeyboard().inline_keyboard.flat().length !== queryIndex.features.length) throw new Error("功能分類按鈕數量錯誤");
   if (moduleKeyboard().inline_keyboard.flat().length !== new Set(specStatus.items.map((item) => item.module)).size) throw new Error("模組分類按鈕數量錯誤");
-  if (botCommands.length !== 9) throw new Error("Telegram 指令清單數量錯誤");
-  console.log(`Bot 自我測試通過：${cases.length} 個規格問題、${progressCases.length} 個進度查詢、6 個快捷按鈕、${queryIndex.features.length} 個功能分類。`);
+  if (botCommands.length !== 10) throw new Error("Telegram 指令清單數量錯誤");
+  console.log(`Bot 自我測試通過：${cases.length} 個規格問題、${roleCases.length} 個角色回答、${progressCases.length} 個進度查詢、${Object.keys(roles).length} 個角色。`);
 }
