@@ -31,4 +31,6 @@ npm run bot:self-test
 
 Bot 也能使用 `/progress`、`/todo`、`/waiting`、`/next` 與 `/module 資料庫管理` 讀取規格總表進度。這些固定查詢不使用 Gemini。
 
+Telegram 對話內會顯示固定快捷按鈕、`/` 指令清單，以及可點選的功能與模組分類，不需要使用者記住指令。
+
 `product/v1.0/`、`core/v1.0/` 等目錄是 AI 與維護工具使用的詳細資料；一般使用者不需要閱讀。
