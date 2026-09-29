@@ -16,19 +16,22 @@
 
 - 畫面用途：在桌機版事件主類別管理列表上開啟圖片檢視層，讓管理人員查看圖片細節並透過滑桿、快捷比例或滾輪調整縮放。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280336)
-- 截圖：待產生 → `specs/assets/event-main-category-image-viewer/desktop-variables-image-viewer-modal-open.png`
+[![新增事件主類別](../../../../../specs/assets/event-main-category-image-viewer/desktop-variables-image-viewer-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280336)
+- 截圖：`specs/assets/event-main-category-image-viewer/desktop-variables-image-viewer-modal-open.png`
 
 ### 平板／圖片檢視開啟：新增事件主類別
 
 - 畫面用途：在平板版事件主類別管理中開啟圖片檢視層，讓管理人員查看圖片並使用縮放控制調整檢視比例。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280374)
-- 截圖：待產生 → `specs/assets/event-main-category-image-viewer/tablet-variables-image-viewer-modal-open.png`
+[![新增事件主類別](../../../../../specs/assets/event-main-category-image-viewer/tablet-variables-image-viewer-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280374)
+- 截圖：`specs/assets/event-main-category-image-viewer/tablet-variables-image-viewer-modal-open.png`
 
 ### 手機／圖片檢視開啟：新增事件主類別
 
 - 畫面用途：在手機版事件主類別管理中開啟圖片檢視層，讓管理人員以適合窄螢幕的方式查看圖片，並可用雙指或縮放控制調整比例。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280400)
-- 截圖：待產生 → `specs/assets/event-main-category-image-viewer/mobile-variables-image-viewer-modal-open.png`
+[![新增事件主類別](../../../../../specs/assets/event-main-category-image-viewer/mobile-variables-image-viewer-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280400)
+- 截圖：`specs/assets/event-main-category-image-viewer/mobile-variables-image-viewer-modal-open.png`
 
 ## 可以先確認的內容
 

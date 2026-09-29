@@ -12,6 +12,7 @@ const draftsRoot = path.join(outputRoot, "drafts");
 const args = process.argv.slice(2);
 const write = args.includes("--write");
 const includeExisting = args.includes("--include-existing");
+const requireComplete = args.includes("--require-complete");
 const candidateIndex = args.indexOf("--candidate");
 const requestedCandidate = candidateIndex >= 0 ? args[candidateIndex + 1] : "";
 
@@ -19,11 +20,13 @@ if (args.includes("--help")) {
   console.log(`用法：
   node scripts/generate-spec-batch.mjs
   node scripts/generate-spec-batch.mjs --write
+  node scripts/generate-spec-batch.mjs --write --require-complete
   node scripts/generate-spec-batch.mjs --write --candidate <candidate-id>
   node scripts/generate-spec-batch.mjs --write --include-existing
 
 預設只預覽尚未進入簡版查詢的候選，不會寫入檔案。
 --write             產生草稿、截圖任務與 Review 清單。
+--require-complete  若仍有待處理截圖，以非零狀態結束，供自動化驗證。
 --candidate         只處理指定候選。
 --include-existing  連已經可查詢的功能也一併產生草稿；仍不覆蓋正式規格。`);
   process.exit(0);
@@ -36,6 +39,7 @@ const [manifest, catalog, queryIndex] = await Promise.all([
 ]);
 
 const assets = Array.isArray(manifest.assets) ? manifest.assets : [];
+const figmaFileKey = extractFigmaFileKey(assets.find((asset) => asset.figmaUrl)?.figmaUrl);
 const queryFeatures = Array.isArray(queryIndex.features) ? queryIndex.features : [];
 const queryFeatureIds = new Set(queryFeatures.map((feature) => feature.id));
 const queryScreens = queryFeatures.flatMap((feature) => feature.screens ?? []);
@@ -84,6 +88,7 @@ const report = {
   source: "core/v1.0/hub-manifest.json",
   sourcePluginVersion: manifest.pluginVersion ?? null,
   sourceGeneratedAt: manifest.generatedAt ?? null,
+  figmaFileKey,
   mode: write ? "write" : "preview",
   policy: {
     overwritesReviewedSpecs: false,
@@ -127,6 +132,7 @@ if (write) {
     writeFile(path.join(outputRoot, "screenshot-queue.json"), `${JSON.stringify({
       schemaVersion: 1,
       sourceGeneratedAt: manifest.generatedAt ?? null,
+      figmaFileKey,
       jobs: screenshotJobs,
     }, null, 2)}\n`, "utf8"),
     writeFile(path.join(outputRoot, "README.md"), renderBatchReadme(report), "utf8"),
@@ -134,6 +140,7 @@ if (write) {
 }
 
 console.log(renderConsoleSummary(report));
+if (requireComplete && report.summary.screenshotsPending > 0) process.exitCode = 2;
 
 async function readJson(filePath) {
   return JSON.parse(await readFile(filePath, "utf8"));
@@ -212,6 +219,7 @@ async function buildScreenshotJobs(candidate, indexedScreens) {
         title: asset.displayNameZh || candidate.title,
         sourceType: asset.kind === "screen" ? "figma-node" : "component-set-variant",
         sourceNodeId: asset.nodeId,
+        figmaFileKey: extractFigmaFileKey(asset.figmaUrl),
         figmaUrl: asset.figmaUrl,
         variantProperties,
         outputPath: existing?.imagePath ?? outputPath,
@@ -360,6 +368,7 @@ function renderBatchReadme(report) {
     "## 截圖任務",
     "",
     "機器可讀清單位於 [`screenshot-queue.json`](screenshot-queue.json)。Codex 可依清單批次從正式索引設計稿匯出畫面。",
+    "普通 AI 的固定操作方式請看 [`AI 批次執行手冊`](../../AI-BATCH-RUNBOOK.md)。",
     "",
   ].join("\n");
 }
@@ -443,6 +452,10 @@ function slug(value) {
     .toLowerCase()
     .replace(/[^a-z0-9\u4e00-\u9fff]+/g, "-")
     .replace(/^-|-$/g, "") || "default";
+}
+
+function extractFigmaFileKey(url) {
+  return String(url ?? "").match(/figma\.com\/design\/([^/?#]+)/)?.[1] ?? "";
 }
 
 async function fileExists(filePath) {

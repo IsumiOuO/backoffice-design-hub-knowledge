@@ -16,37 +16,43 @@
 
 - 畫面用途：從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247127)
-- 截圖：待產生 → `specs/assets/image-path-image-viewer/desktop-dark-image-view-modal-open.png`
+[![圖片路徑管理](../../../../../specs/assets/image-path-image-viewer/desktop-dark-image-view-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247127)
+- 截圖：`specs/assets/image-path-image-viewer/desktop-dark-image-view-modal-open.png`
 
 ### 桌機／圖片檢視開啟：圖片路徑管理
 
 - 畫面用途：從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246937)
-- 截圖：待產生 → `specs/assets/image-path-image-viewer/desktop-light-image-view-modal-open.png`
+[![圖片路徑管理](../../../../../specs/assets/image-path-image-viewer/desktop-light-image-view-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246937)
+- 截圖：`specs/assets/image-path-image-viewer/desktop-light-image-view-modal-open.png`
 
 ### 平板／圖片檢視開啟：圖片路徑管理
 
 - 畫面用途：從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247193)
-- 截圖：待產生 → `specs/assets/image-path-image-viewer/tablet-dark-image-view-modal-open.png`
+[![圖片路徑管理](../../../../../specs/assets/image-path-image-viewer/tablet-dark-image-view-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247193)
+- 截圖：`specs/assets/image-path-image-viewer/tablet-dark-image-view-modal-open.png`
 
 ### 平板／圖片檢視開啟：圖片路徑管理
 
 - 畫面用途：從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247003)
-- 截圖：待產生 → `specs/assets/image-path-image-viewer/tablet-light-image-view-modal-open.png`
+[![圖片路徑管理](../../../../../specs/assets/image-path-image-viewer/tablet-light-image-view-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247003)
+- 截圖：`specs/assets/image-path-image-viewer/tablet-light-image-view-modal-open.png`
 
 ### 手機／圖片檢視開啟：圖片路徑管理
 
 - 畫面用途：從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247066)
-- 截圖：待產生 → `specs/assets/image-path-image-viewer/mobile-dark-image-view-modal-open.png`
+[![圖片路徑管理](../../../../../specs/assets/image-path-image-viewer/mobile-dark-image-view-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247066)
+- 截圖：`specs/assets/image-path-image-viewer/mobile-dark-image-view-modal-open.png`
 
 ### 手機／圖片檢視開啟：圖片路徑管理
 
 - 畫面用途：從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。
 - Figma：[開啟來源畫面](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246876)
-- 截圖：待產生 → `specs/assets/image-path-image-viewer/mobile-light-image-view-modal-open.png`
+[![圖片路徑管理](../../../../../specs/assets/image-path-image-viewer/mobile-light-image-view-modal-open.png)](https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246876)
+- 截圖：`specs/assets/image-path-image-viewer/mobile-light-image-view-modal-open.png`
 
 ## 可以先確認的內容
 

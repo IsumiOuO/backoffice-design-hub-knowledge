@@ -62,8 +62,11 @@ node scripts/generate-spec-batch.mjs --write
 - `drafts/*.md`：白話規格草稿。
 - `screenshot-queue.json`：給 Codex 批次擷取正式索引畫面的任務清單。
 - `manifest.json`：本次產生結果與安全政策。
+- `../AI-BATCH-RUNBOOK.md`：交給一般 AI／Codex 執行的固定步驟與提示詞。
 
 預設只處理尚未加入 `specs/query-index.json` 的候選；若要重新檢查既有功能，可加上 `--include-existing`。工具永遠不會覆蓋正式 `specs/`、修改 Figma 或自動核准內容。
+
+截圖完成後可使用 `--write --require-complete` 驗證任務是否全部完成；只要仍有一張待處理，命令就會回報失敗，避免 AI 誤以為已完成。
 
 ## Bot 可回答範圍
 
