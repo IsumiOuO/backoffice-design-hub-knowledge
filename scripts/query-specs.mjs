@@ -61,6 +61,21 @@ function extractAudienceAnswer(markdown, audience) {
       return cells[1];
     }
   }
+
+  const lines = section.split("\n");
+  for (let index = 0; index < lines.length; index += 1) {
+    const heading = lines[index].match(/^###\s+(.+)$/)?.[1];
+    if (!heading || !audience.labels.some((label) => heading.toLowerCase().includes(label.toLowerCase()))) {
+      continue;
+    }
+
+    const content = [];
+    for (let contentIndex = index + 1; contentIndex < lines.length; contentIndex += 1) {
+      if (lines[contentIndex].startsWith("### ")) break;
+      content.push(lines[contentIndex]);
+    }
+    return cleanMarkdown(content.join("\n"));
+  }
   return "";
 }
 
@@ -143,7 +158,8 @@ if (screen) {
       .map((term) => term.toLowerCase())
       .filter((term) => !genericScreenTerms.has(term) && queryText.includes(term));
     const relatedPending = pendingLines.filter((line) =>
-      line.includes(`Step ${screen.step}`) || matchingTerms.some((term) => line.toLowerCase().includes(term))
+      (numberedStep && line.includes(`Step ${screen.step}`))
+      || matchingTerms.some((term) => line.toLowerCase().includes(term))
     );
     if (relatedPending.length > 0) {
       answer += `\n待確認：\n${cleanMarkdown(relatedPending.join("\n"))}`;
