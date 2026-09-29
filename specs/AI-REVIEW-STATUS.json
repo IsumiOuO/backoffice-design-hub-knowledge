@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "features": {
+    "create-event-main-category": {
+      "stage": "plain-language-reviewed",
+      "label": "白話整理已人工確認；下一步：缺漏檢查"
+    },
+    "edit-event-main-category": {
+      "stage": "base-spec-only",
+      "label": "已有基礎規格；下一步：普通 AI 白話整理"
+    },
+    "single-parameter-update": {
+      "stage": "base-spec-only",
+      "label": "已有基礎規格；下一步：普通 AI 白話整理"
+    },
+    "batch-parameter-update": {
+      "stage": "base-spec-only",
+      "label": "已有基礎規格；下一步：普通 AI 白話整理"
+    },
+    "event-main-category-image-viewer": {
+      "stage": "base-spec-only",
+      "label": "已有基礎規格；下一步：普通 AI 白話整理"
+    },
+    "image-path-image-viewer": {
+      "stage": "base-spec-only",
+      "label": "已有基礎規格；下一步：普通 AI 白話整理"
+    }
+  }
+}

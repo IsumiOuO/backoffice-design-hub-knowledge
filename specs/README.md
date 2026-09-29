@@ -60,6 +60,8 @@ AI 與維護工具會負責同步內部索引、詳細資料與驗證結果。
 
 忘記哪些內容已完成或還要補時，請查看 [`AI 規格工作清單`](AI-SPEC-WORK-QUEUE.md)。要交給普通對話 AI 整理草稿時，使用 [`普通對話 AI 整理流程`](ORDINARY-AI-WORKFLOW.md)。
 
+如果不想手動下載圖片，可執行 `npm run knowledge:review-packets`，再從 `output/pdf/ai-spec-review-packets/` 取得「一個功能一份」的完整 PDF 規格包。
+
 ## 文件狀態
 
 - **可供查詢**：可以依文件內容回答，但可能仍有待確認事項。

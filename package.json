@@ -7,6 +7,7 @@
     "bot:self-test": "node bot/telegram-bot.mjs --self-test",
     "bot:report": "node --env-file=.env scripts/analyze-bot-query-log.mjs",
     "knowledge:validate": "node scripts/validate-product-knowledge.mjs",
-    "knowledge:work-queue": "node scripts/generate-spec-work-queue.mjs"
+    "knowledge:work-queue": "node scripts/generate-spec-work-queue.mjs",
+    "knowledge:review-packets": "node scripts/generate-ai-review-packets.mjs"
   }
 }
