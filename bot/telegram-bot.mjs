@@ -154,14 +154,19 @@ async function sendPhoto(chatId, imagePath, caption) {
 
 async function runSelfTest() {
   const cases = [
-    "新增事件主類別 Step 2 做什麼",
-    "事件主類別圖片檢視手機版怎麼縮放",
-    "圖片路徑圖片檢視平板暗色版",
-    "圖片路徑圖片檢視手機版旋轉規則是什麼",
+    { question: "新增事件主類別 Step 2 做什麼", includes: "掛載" },
+    { question: "事件主類別圖片檢視手機版怎麼縮放", includes: "窄螢幕" },
+    { question: "圖片路徑圖片檢視平板暗色版", includes: "平板暗色版" },
+    { question: "圖片路徑圖片檢視手機版旋轉規則是什麼", includes: "待確認" },
+    { question: "前端實作新增事件主類別有哪些畫面", includes: "電腦／平板與手機畫面" },
+    { question: "後端處理新增事件主類別需要哪些資料", includes: "名稱、次類別、發布介面與圖片" },
+    { question: "QA 可以先測新增事件主類別的哪些內容", includes: "步驟順序" },
+    { question: "新增事件主類別圖片可以下載嗎？", includes: "目前尚未記錄" },
   ];
-  for (const question of cases) {
+  for (const { question, includes } of cases) {
     const result = await queryKnowledge(question);
     if (!result.matched) throw new Error(`無法查到：${question}`);
+    if (!result.answer.includes(includes)) throw new Error(`回答缺少「${includes}」：${question}`);
     const imagePath = path.join(repositoryRoot, result.screen.imagePath);
     await readFile(imagePath);
     console.log(`通過：${question} → ${result.screen.label}`);

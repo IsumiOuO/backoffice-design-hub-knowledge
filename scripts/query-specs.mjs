@@ -43,6 +43,27 @@ function screenLabel(screen) {
   return screen.label ?? `Step ${screen.step}：${screen.title}`;
 }
 
+function detectAudience(question) {
+  if (/(規劃|產品|pm)/i.test(question)) return { key: "planning", labels: ["規劃", "產品"] };
+  if (/(前端|frontend|front-end)/i.test(question)) return { key: "frontend", labels: ["前端"] };
+  if (/(後端|backend|back-end)/i.test(question)) return { key: "backend", labels: ["後端"] };
+  if (/(qa|測試|品保)/i.test(question)) return { key: "qa", labels: ["QA"] };
+  return undefined;
+}
+
+function extractAudienceAnswer(markdown, audience) {
+  const section = extractSection(markdown, "## 各單位可以先使用的資訊", /\n## /);
+  for (const line of section.split("\n")) {
+    if (!line.trim().startsWith("|")) continue;
+    const cells = line.split("|").map((cell) => cell.trim()).filter(Boolean);
+    if (cells.length < 2) continue;
+    if (audience.labels.some((label) => cells[0].toLowerCase().includes(label.toLowerCase()))) {
+      return cells[1];
+    }
+  }
+  return "";
+}
+
 const rankedFeatures = index.features
   .map((feature) => ({ feature, score: scoreFeature(feature) }))
   .sort((a, b) => b.score - a.score);
@@ -62,6 +83,7 @@ const feature = matched.feature;
 const specFile = path.join(repositoryRoot, feature.specPath);
 const markdown = fs.readFileSync(specFile, "utf8");
 const numberedStep = query.match(/(?:step|步驟)\s*([1-9])/i)?.[1];
+const audience = detectAudience(query);
 let screen;
 
 if (numberedStep) {
@@ -86,9 +108,14 @@ if (!screen) {
 }
 
 const asksFlow = /(流程|步驟|怎麼做|如何新增|如何編輯|如何更新|如何批次)/.test(query) && !numberedStep;
-const asksUnknownRule = !asksFlow && /(可不可以|可以|可否|能不能|能否|完全不選|是否|必填|上限|下限|範圍|幅度|限制|規則|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向|取消|關閉|錯誤|刪除|失敗|下載|原圖|載入|不存在|旋轉)/.test(query);
+const asksUnknownRule = !asksFlow && (
+  /(可不可以|可否|能不能|能否|完全不選|是否|必填|上限|下限|範圍|幅度|限制|規則|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向|取消|關閉|錯誤|刪除|失敗|下載|原圖|載入|不存在|旋轉)/.test(query)
+  || /可以.+[嗎?？]/.test(query)
+);
 const sectionName = asksUnknownRule ? "待確認" : asksFlow ? "操作流程" : "功能說明";
-let answer = cleanMarkdown(extractSection(markdown, `## ${sectionName}`, /\n## /));
+let answer = audience && !asksUnknownRule && !asksFlow
+  ? extractAudienceAnswer(markdown, audience)
+  : cleanMarkdown(extractSection(markdown, `## ${sectionName}`, /\n## /));
 
 if (screen) {
   const stepSection = extractSection(markdown, `### ${screenHeading(screen)}`, /\n### |\n## /);
@@ -120,6 +147,8 @@ if (screen) {
     );
     if (relatedPending.length > 0) {
       answer += `\n待確認：\n${cleanMarkdown(relatedPending.join("\n"))}`;
+    } else {
+      answer += "\n待確認：\n• 這項規則目前尚未記錄，需要產品或相關負責人確認。";
     }
   }
 }
@@ -134,7 +163,12 @@ const result = {
   matched: true,
   feature: feature.title,
   answer,
-  statusNote: asksUnknownRule ? "回答取自「待確認」，不可當成已定案規則。" : "回答取自已登錄的簡版規格。",
+  audience: audience?.key,
+  statusNote: asksUnknownRule
+    ? "回答取自「待確認」，不可當成已定案規則。"
+    : audience && !asksFlow
+      ? "回答取自規格中的「各單位可以先使用的資訊」。"
+      : "回答取自已登錄的簡版規格。",
   screen: {
     step: selectedScreen.step,
     label: screenLabel(selectedScreen),

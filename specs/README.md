@@ -41,6 +41,8 @@ node scripts/query-specs.mjs "編輯事件主類別 Step 4 上傳圖片有什麼
 node scripts/query-specs.mjs "批次事件參數更新 Step 2 未輸入欄位會怎樣" --json
 node scripts/query-specs.mjs "事件主類別圖片檢視手機版怎麼縮放" --json
 node scripts/query-specs.mjs "圖片路徑圖片檢視平板暗色版" --json
+node scripts/query-specs.mjs "前端實作新增事件主類別有哪些畫面" --json
+node scripts/query-specs.mjs "QA 可以先測新增事件主類別的哪些內容" --json
 ```
 
 這是 Telegram Bot 串接前的本地試測；之後 Bot 可以直接使用相同的圖檔與查詢索引。
