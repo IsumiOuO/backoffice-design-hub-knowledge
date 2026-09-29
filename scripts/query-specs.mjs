@@ -137,12 +137,19 @@ if (!screen) {
 }
 
 const asksFlow = /(流程|步驟|怎麼做|如何新增|如何編輯|如何更新|如何批次)/.test(query) && !numberedStep;
-const asksUnknownRule = !asksFlow && (
+const asksConfirmedRule = !asksFlow && /(已確認規則|已定案規則|確定的規則)/.test(query);
+const asksUnknownRule = !asksFlow && !asksConfirmedRule && (
   /(可不可以|可否|能不能|能否|完全不選|是否|必填|上限|下限|範圍|幅度|限制|規則|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向|取消|關閉|錯誤|刪除|失敗|下載|原圖|載入|不存在|旋轉)/.test(query)
   || /可以.+[嗎?？]/.test(query)
 );
-const sectionName = asksUnknownRule ? "待確認" : asksFlow ? "操作流程" : "功能說明";
-const audienceAnswer = audience && !asksUnknownRule && !asksFlow
+const sectionName = asksUnknownRule
+  ? "待確認"
+  : asksConfirmedRule
+    ? "已確認規則"
+    : asksFlow
+      ? "操作流程"
+      : "功能說明";
+const audienceAnswer = audience && !asksUnknownRule && !asksConfirmedRule && !asksFlow
   ? extractAudienceAnswer(markdown, audience)
   : "";
 let answer = audienceAnswer
@@ -199,11 +206,13 @@ const result = {
   audienceAvailable: audience ? Boolean(audienceAnswer) : undefined,
   statusNote: asksUnknownRule
     ? "回答取自「待確認」，不可當成已定案規則。"
-    : audienceAnswer && !asksFlow
-      ? "回答取自規格中的「各單位可以先使用的資訊」。"
-      : audience && !asksFlow
-        ? "目前沒有這個角色的專屬摘要，先提供已登錄的共用規格；不可自行推測缺少的規則。"
-      : "回答取自已登錄的簡版規格。",
+    : asksConfirmedRule
+      ? "回答取自規格中的「已確認規則」。"
+      : audienceAnswer && !asksFlow
+        ? "回答取自規格中的「各單位可以先使用的資訊」。"
+        : audience && !asksFlow
+          ? "目前沒有這個角色的專屬摘要，先提供已登錄的共用規格；不可自行推測缺少的規則。"
+          : "回答取自已登錄的簡版規格。",
   screen: {
     step: selectedScreen.step,
     label: screenLabel(selectedScreen),

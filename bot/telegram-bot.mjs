@@ -90,7 +90,7 @@ const roles = {
     topics: [
       { key: "summary", label: "🎯 功能用途", query: "功能用途" },
       { key: "flow", label: "🔁 完整流程", query: "完整操作流程怎麼做" },
-      { key: "rules", label: "📏 產品規則", query: "目前有哪些產品規則" },
+      { key: "rules", label: "📏 已確認規則", query: "目前有哪些已確認規則" },
       { key: "unknown", label: "❓ 待決策問題", query: "有哪些產品待確認限制" },
     ],
   },
@@ -577,6 +577,7 @@ async function runSelfTest() {
     { roleKey: "frontend", question: "新增事件主類別", includes: "4 個步驟" },
     { roleKey: "backend", question: "新增事件主類別", includes: "名稱、次類別、發布介面與圖片" },
     { roleKey: "planning", question: "新增事件主類別", includes: "新的事件主類別" },
+    { roleKey: "planning", question: "新增事件主類別 已確認規則", includes: "同一個「新增事件主類別」流程" },
     { roleKey: "qa", question: "新增事件主類別", includes: "步驟順序" },
     { roleKey: "design", question: "新增事件主類別", includes: "用來建立新的事件主類別" },
   ];
