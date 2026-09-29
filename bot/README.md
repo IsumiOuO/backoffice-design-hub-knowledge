@@ -38,6 +38,24 @@
 npm run bot:self-test
 ```
 
+## 本機測試紀錄
+
+正式查詢會預設記錄在 `bot/logs/query-log.jsonl`，只包含：
+
+- 問題文字。
+- 是否回答正常、規格待確認或找不到功能。
+- 配對到的功能、角色、規格與畫面。
+
+不會記錄 Bot Token、Telegram User ID 或 Chat ID。紀錄檔已被 Git 忽略，不會上傳 GitHub。若不希望留下紀錄，可在 `.env` 設定 `BOT_QUERY_LOG_ENABLED=false`。
+
+查看摘要：
+
+```sh
+npm run bot:report
+```
+
+摘要會分成「回答正常」、「建議補規格」與「建議改善搜尋」三類。
+
 ## Gemini 的位置
 
 第一版先不接 Gemini。等查詢結果與圖片都確認正確後，再讓 Gemini只負責整理語句；規格答案、圖片與「待確認」狀態仍必須由正式索引提供。

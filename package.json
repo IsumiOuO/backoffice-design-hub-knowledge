@@ -5,6 +5,7 @@
   "scripts": {
     "bot": "node --env-file=.env bot/telegram-bot.mjs",
     "bot:self-test": "node bot/telegram-bot.mjs --self-test",
+    "bot:report": "node --env-file=.env scripts/analyze-bot-query-log.mjs",
     "knowledge:validate": "node scripts/validate-product-knowledge.mjs"
   }
 }
