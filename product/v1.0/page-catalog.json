@@ -1,0 +1,687 @@
+{
+  "$schema": "./schemas/page-catalog.schema.json",
+  "schemaVersion": 1,
+  "catalogVersion": "1.0",
+  "generatedAt": "2026-09-23T00:00:00+08:00",
+  "pages": [
+    {
+      "pageId": "create-event-main-category",
+      "titleZh": "新增事件主類別",
+      "titleEn": "Create Event Main Category",
+      "moduleId": "database-management",
+      "path": "product/v1.0/pages/create-event-main-category.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedFlowIds": ["create-event-main-category-flow"],
+      "relatedCanonicalIds": [
+        "create-event-main-category-step-1",
+        "create-event-main-category-step-2",
+        "create-event-main-category-step-3",
+        "create-event-main-category-step-4-upload-image",
+        "create-event-main-category-step-4-image-list"
+      ],
+      "claims": [
+        {
+          "id": "create-event-main-category-module",
+          "statement": "此頁面相關 Core 元件屬於資料庫管理模組，Page Type 為 Create。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138" }
+          ]
+        },
+        {
+          "id": "create-event-main-category-responsive",
+          "statement": "相關 Step 元件提供 PC／Tablet 與 Mobile 版型。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1", "note": "device Variant 提供 PC&Tablet 與 Mobile" }
+          ]
+        },
+        {
+          "id": "create-event-main-category-uses-step-flow",
+          "statement": "此頁面應由 Step 1～4 組成單一新增流程。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-2" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-3" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image" }
+          ],
+          "rationale": "canonicalId、nodeName 與 functionSummary 使用連續 Step 命名，顯示為同一新增操作的階段。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "create-event-main-category-primary-role",
+          "statement": "此頁面的主要使用角色尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0001"
+        },
+        {
+          "id": "create-event-main-category-entry-permission",
+          "statement": "此頁面的進入方式與權限條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0002"
+        },
+        {
+          "id": "create-event-main-category-success-destination",
+          "statement": "新增成功後的導向與顯示結果尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0003"
+        }
+      ]
+    },
+    {
+      "pageId": "edit-event-main-category",
+      "titleZh": "編輯事件主類別",
+      "titleEn": "Edit Event Main Category",
+      "moduleId": "database-management",
+      "path": "product/v1.0/pages/edit-event-main-category.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedFlowIds": ["edit-event-main-category-flow"],
+      "relatedCanonicalIds": [
+        "edit-event-main-category-step-1",
+        "edit-event-main-category-step-2",
+        "edit-event-main-category-step-3",
+        "edit-event-main-category-step-4-image-list",
+        "edit-event-main-category-step-4-upload-image"
+      ],
+      "claims": [
+        {
+          "id": "edit-event-main-category-module",
+          "statement": "此頁面相關 Core 元件屬於資料庫管理模組。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047" }
+          ]
+        },
+        {
+          "id": "edit-event-main-category-responsive",
+          "statement": "相關 Step 元件提供 PC／Tablet 與 Mobile 版型。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-1", "note": "device Variant 提供 PC&Tablet 與 Mobile" }
+          ]
+        },
+        {
+          "id": "edit-event-main-category-uses-step-flow",
+          "statement": "此頁面由 Step 1～4 組成單一編輯流程，且一次只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-1" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-2" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-3" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-4-upload-image" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認四個 Step 屬於同一編輯流程，且一次只顯示一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名形成候選流程，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "edit-event-main-category-step-4-substates",
+          "statement": "Step 4 的圖片列表與上傳圖片是同一步驟的兩種畫面狀態。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-4-image-list" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-4-upload-image" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認圖片列表與上傳圖片為 Step 4 內的兩種狀態。" }
+          ],
+          "rationale": "兩個 canonicalId 均標示 Step 4，且已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "edit-event-main-category-primary-role",
+          "statement": "此頁面的主要使用角色尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0012"
+        },
+        {
+          "id": "edit-event-main-category-entry-permission",
+          "statement": "此頁面的進入方式與權限條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0013"
+        },
+        {
+          "id": "edit-event-main-category-success-destination",
+          "statement": "編輯成功後的導向與顯示結果尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0014"
+        },
+        {
+          "id": "edit-event-main-category-source-page-type",
+          "statement": "來源索引的 pageType=Create 是否應修正為編輯類型尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0022"
+        }
+      ]
+    },
+    {
+      "pageId": "single-parameter-update",
+      "titleZh": "單一事件參數更新",
+      "titleEn": "Single Parameter Update",
+      "moduleId": "event-settings",
+      "path": "product/v1.0/pages/single-parameter-update.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedFlowIds": ["single-parameter-update-flow"],
+      "relatedCanonicalIds": [
+        "single-parameter-update-step-1",
+        "single-parameter-update-step-2"
+      ],
+      "claims": [
+        {
+          "id": "single-parameter-update-module",
+          "statement": "此頁面相關 Core 元件屬於事件設置模組，Page Type 為 List。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670" }
+          ]
+        },
+        {
+          "id": "single-parameter-update-responsive",
+          "statement": "相關 Step 元件提供 PC／Tablet 與 Mobile 版型。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1", "note": "Property 1 Variant 提供 PC&Tablet 與 Mobile" }
+          ]
+        },
+        {
+          "id": "single-parameter-update-uses-step-flow",
+          "statement": "此頁面由 Step 1～2 組成單一循序更新流程，且一次只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1" },
+            { "type": "canonical-id", "ref": "single-parameter-update-step-2" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認兩個 Step 屬於同一流程，且一次只顯示一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名形成候選流程，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "single-parameter-update-primary-role",
+          "statement": "此頁面的主要使用角色尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0023"
+        },
+        {
+          "id": "single-parameter-update-entry-permission",
+          "statement": "此頁面的進入方式、可更新範圍與權限條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0024"
+        },
+        {
+          "id": "single-parameter-update-success-destination",
+          "statement": "更新成功後的導向與顯示結果尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0025"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flowId": "create-event-main-category-flow",
+      "titleZh": "新增事件主類別流程",
+      "titleEn": "Create Event Main Category Flow",
+      "moduleId": "database-management",
+      "path": "product/v1.0/flows/create-event-main-category-flow.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedPageIds": ["create-event-main-category"],
+      "relatedCanonicalIds": [
+        "create-event-main-category-step-1",
+        "create-event-main-category-step-2",
+        "create-event-main-category-step-3",
+        "create-event-main-category-step-4-upload-image",
+        "create-event-main-category-step-4-image-list"
+      ],
+      "claims": [
+        {
+          "id": "create-main-category-step-1-purpose",
+          "statement": "Step 1 是事件主類別名稱設定介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "create-event-main-category-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138" }]
+        },
+        {
+          "id": "create-main-category-step-2-purpose",
+          "statement": "Step 2 是掛載事件次類別的選擇介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "create-event-main-category-step-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261303" }]
+        },
+        {
+          "id": "create-main-category-step-3-purpose",
+          "statement": "Step 3 是發布介面設定。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "create-event-main-category-step-3", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261899" }]
+        },
+        {
+          "id": "create-main-category-step-4-purpose",
+          "statement": "Step 4 同時具有圖片上傳與圖片列表內容。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261451" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-image-list", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261729" }
+          ]
+        },
+        {
+          "id": "create-main-category-device-and-input-states",
+          "statement": "各步驟具有 PC／Tablet、Mobile 及多種 input state。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1", "note": "device=PC&Tablet/Mobile；input=enable/error" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image", "note": "device=PC&Tablet/Mobile；input=default/error/filled" }
+          ]
+        },
+        {
+          "id": "create-main-category-ordered-exclusive-flow",
+          "statement": "Step 1～4 應按順序呈現，且每個產品畫面只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "create-event-main-category-step-1" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-2" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-3" },
+            { "type": "canonical-id", "ref": "create-event-main-category-step-4-upload-image" },
+            { "type": "github", "ref": "policies/v1.0/ai-generation-rules.md", "note": "流程型元件與互斥畫面狀態規則" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認 Step 1～4 屬於同一流程，且同一時間只呈現一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名與既有 AI 生成規則支持互斥、循序流程判定，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "create-main-category-step-2-optionality",
+          "statement": "Step 2 是否可略過及選擇數量限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0004"
+        },
+        {
+          "id": "create-main-category-step-3-zero-selection",
+          "statement": "Step 3 是否允許所有發布介面都不選尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0005"
+        },
+        {
+          "id": "create-main-category-step-4-image-rules",
+          "statement": "Step 4 的圖片必填、格式、尺寸、容量與數量限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0006"
+        },
+        {
+          "id": "create-main-category-back-data-retention",
+          "statement": "返回前一步時是否保留資料尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0007"
+        },
+        {
+          "id": "create-main-category-close-cancel-behavior",
+          "statement": "關閉、取消或清空重填時的確認與資料處理尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0008"
+        },
+        {
+          "id": "create-main-category-submit-result",
+          "statement": "新增送出後的資料副作用、生效時間與導向尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0009"
+        },
+        {
+          "id": "create-main-category-enabled-status-placement",
+          "statement": "enabled-status-field 是否屬於此流程及所在步驟尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0010"
+        },
+        {
+          "id": "create-main-category-error-trigger-rules",
+          "statement": "各步驟 error Variant 的實際驗證觸發條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0011"
+        }
+      ]
+    },
+    {
+      "flowId": "edit-event-main-category-flow",
+      "titleZh": "編輯事件主類別流程",
+      "titleEn": "Edit Event Main Category Flow",
+      "moduleId": "database-management",
+      "path": "product/v1.0/flows/edit-event-main-category-flow.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedPageIds": ["edit-event-main-category"],
+      "relatedCanonicalIds": [
+        "edit-event-main-category-step-1",
+        "edit-event-main-category-step-2",
+        "edit-event-main-category-step-3",
+        "edit-event-main-category-step-4-image-list",
+        "edit-event-main-category-step-4-upload-image"
+      ],
+      "claims": [
+        {
+          "id": "edit-main-category-step-1-purpose",
+          "statement": "Step 1 顯示既有資料並提供事件主類別名稱設定。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "edit-event-main-category-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047" }]
+        },
+        {
+          "id": "edit-main-category-step-2-purpose",
+          "statement": "Step 2 是掛載事件次類別的選擇介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "edit-event-main-category-step-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262198" }]
+        },
+        {
+          "id": "edit-main-category-step-3-purpose",
+          "statement": "Step 3 是發布介面設定。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "edit-event-main-category-step-3", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262590" }]
+        },
+        {
+          "id": "edit-main-category-step-4-image-list-purpose",
+          "statement": "Step 4 具有呈現既有／已新增圖片的列表介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "edit-event-main-category-step-4-image-list", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262491" }]
+        },
+        {
+          "id": "edit-main-category-step-4-upload-purpose",
+          "statement": "Step 4 具有調整既有主類別圖片的上傳介面。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "edit-event-main-category-step-4-upload-image", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262322" }]
+        },
+        {
+          "id": "edit-main-category-ordered-exclusive-flow",
+          "statement": "Step 1～4 按順序呈現，且一次只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-1" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-2" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-3" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-4-upload-image" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認四個 Step 屬於同一流程，且一次只顯示一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名形成候選流程，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "edit-main-category-step-4-two-states",
+          "statement": "圖片列表與上傳圖片是 Step 4 內的兩種畫面狀態。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-4-image-list" },
+            { "type": "canonical-id", "ref": "edit-event-main-category-step-4-upload-image" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認兩個畫面是 Step 4 內的不同狀態。" }
+          ],
+          "rationale": "兩個 canonicalId 均標示 Step 4，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "edit-main-category-step-2-optionality",
+          "statement": "Step 2 是否可清空掛載及選擇數量限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0015"
+        },
+        {
+          "id": "edit-main-category-step-3-zero-selection",
+          "statement": "Step 3 是否允許所有發布介面都不選尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0016"
+        },
+        {
+          "id": "edit-main-category-step-4-image-rules",
+          "statement": "Step 4 的圖片要求與刪除既有圖片規則尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0017"
+        },
+        {
+          "id": "edit-main-category-back-data-retention",
+          "statement": "返回前一步時是否保留已修改資料尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0018"
+        },
+        {
+          "id": "edit-main-category-close-cancel-behavior",
+          "statement": "關閉、取消或清空重填時的確認與資料還原尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0019"
+        },
+        {
+          "id": "edit-main-category-submit-result",
+          "statement": "編輯送出後的資料副作用、生效時間與同步行為尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0020"
+        },
+        {
+          "id": "edit-main-category-error-trigger-rules",
+          "statement": "各步驟 error Variant 的實際驗證觸發條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0021"
+        }
+      ]
+    },
+    {
+      "flowId": "single-parameter-update-flow",
+      "titleZh": "單一事件參數更新流程",
+      "titleEn": "Single Parameter Update Flow",
+      "moduleId": "event-settings",
+      "path": "product/v1.0/flows/single-parameter-update-flow.md",
+      "knowledgeStatus": "partial",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedPageIds": ["single-parameter-update"],
+      "relatedCanonicalIds": [
+        "single-parameter-update-step-1",
+        "single-parameter-update-step-2"
+      ],
+      "claims": [
+        {
+          "id": "single-parameter-update-step-1-purpose",
+          "statement": "Step 1 是單一事件參數更新的編輯步驟，索引摘要記載為投分參數設定。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "single-parameter-update-step-1", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670" }]
+        },
+        {
+          "id": "single-parameter-update-step-2-purpose",
+          "statement": "Step 2 是顯示更新後參數的確認步驟。",
+          "status": "observed",
+          "evidence": [{ "type": "canonical-id", "ref": "single-parameter-update-step-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469" }]
+        },
+        {
+          "id": "single-parameter-update-ordered-exclusive-flow",
+          "statement": "Step 1～2 按順序呈現，且一次只顯示一個作用中的 Step。",
+          "status": "confirmed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "single-parameter-update-step-1" },
+            { "type": "canonical-id", "ref": "single-parameter-update-step-2" },
+            { "type": "human-review", "ref": "Codex task confirmation", "note": "使用者確認兩個 Step 屬於同一流程，且一次只顯示一個作用中的 Step。" }
+          ],
+          "rationale": "連續 Step 命名形成候選流程，並已取得使用者人工確認。",
+          "reviewer": "User confirmation in Codex task",
+          "reviewedAt": "2026-09-23"
+        },
+        {
+          "id": "single-parameter-update-term-definition",
+          "statement": "投分參數的正式定義、欄位與允許值尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0026"
+        },
+        {
+          "id": "single-parameter-update-validation-rules",
+          "statement": "Step 1 的必填、格式、範圍與錯誤觸發條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0027"
+        },
+        {
+          "id": "single-parameter-update-interruption-behavior",
+          "statement": "返回、關閉或取消時的資料保存、還原與確認行為尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0028"
+        },
+        {
+          "id": "single-parameter-update-submit-result",
+          "statement": "確認送出後的資料副作用、生效時間、版本與併發限制尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0029"
+        }
+      ]
+    },
+    {
+      "flowId": "batch-parameter-update-flow",
+      "titleZh": "批次參數更新流程",
+      "titleEn": "Batch Parameter Update Flow",
+      "moduleId": "event-settings",
+      "path": "product/v1.0/flows/batch-parameter-update-flow.md",
+      "knowledgeStatus": "draft",
+      "reviewStatus": "needs-review",
+      "ownerTeam": "",
+      "lastReviewedAt": null,
+      "relatedPageIds": [],
+      "relatedCanonicalIds": [
+        "batch-parameter-update-step-1-2",
+        "batch-parameter-update-step-3"
+      ],
+      "claims": [
+        {
+          "id": "batch-parameter-update-indexed-module",
+          "statement": "兩個相關 Core 資產都位於事件設置模組，來源 Page Type 為 List。",
+          "status": "observed",
+          "evidence": [
+            { "type": "canonical-id", "ref": "batch-parameter-update-step-1-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294348", "note": "module=事件設置；pageType=List" },
+            { "type": "canonical-id", "ref": "batch-parameter-update-step-3", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293817", "note": "module=事件設置；pageType=List" }
+          ]
+        },
+        {
+          "id": "batch-parameter-update-step-1-2-purpose",
+          "statement": "batch-parameter-update-step-1-2 的索引摘要描述批次更新中的「已選擇事件」與「更改事件參數」兩個內容，並提供 PC&Tablet／Mobile 與兩個 tab Variant。",
+          "status": "observed",
+          "evidence": [
+            { "type": "figma-node", "ref": "121:294348", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294348", "note": "canonicalId=batch-parameter-update-step-1-2；tab=已選擇事件/更改事件參數" }
+          ]
+        },
+        {
+          "id": "batch-parameter-update-step-3-purpose",
+          "statement": "batch-parameter-update-step-3 的索引摘要描述批次更新流程的確認／執行內容，並提供 PC&Tablet／Mobile Variant。",
+          "status": "observed",
+          "evidence": [
+            { "type": "figma-node", "ref": "121:293817", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293817", "note": "canonicalId=batch-parameter-update-step-3" }
+          ]
+        },
+        {
+          "id": "batch-parameter-update-flow-grouping",
+          "statement": "batch-parameter-update-step-1-2 與 batch-parameter-update-step-3 可能屬於同一個批次參數更新流程。",
+          "status": "inferred",
+          "evidence": [
+            { "type": "canonical-id", "ref": "batch-parameter-update-step-1-2", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294348" },
+            { "type": "canonical-id", "ref": "batch-parameter-update-step-3", "url": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293817" }
+          ],
+          "rationale": "兩個 canonicalId 共用 batch-parameter-update 前綴，顯示名稱與 functionSummary 都描述批次參數更新階段；但 step-1-2 將兩個標號編入同一 canonicalId，候選探索結果為 Step 1、3 且不連續，因此流程分組與實際步驟順序仍需人工確認。"
+        },
+        {
+          "id": "batch-parameter-update-primary-role",
+          "statement": "此流程的主要使用角色尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0030"
+        },
+        {
+          "id": "batch-parameter-update-entry-permission",
+          "statement": "此流程的進入方式、可操作資料範圍、前置條件與權限尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0031"
+        },
+        {
+          "id": "batch-parameter-update-step-model",
+          "statement": "step-1-2 是否代表兩個循序 Step、同一步驟的兩個 Tab，或其他流程結構尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0032"
+        },
+        {
+          "id": "batch-parameter-update-field-contract",
+          "statement": "此流程可修改的參數欄位、資料型別與允許值尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0033"
+        },
+        {
+          "id": "batch-parameter-update-validation-rules",
+          "statement": "此流程的必填、格式、範圍、數量限制與錯誤觸發條件尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0034"
+        },
+        {
+          "id": "batch-parameter-update-data-retention",
+          "statement": "前後切換流程內容時，已選事件與已修改參數如何保存尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0035"
+        },
+        {
+          "id": "batch-parameter-update-interruption-behavior",
+          "statement": "返回、關閉、取消或中斷時的確認、保存與還原行為尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0036"
+        },
+        {
+          "id": "batch-parameter-update-api-side-effects",
+          "statement": "執行批次更新時涉及的 API、資料寫入、生效時間、同步及其他系統副作用尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0037"
+        },
+        {
+          "id": "batch-parameter-update-result-handling",
+          "statement": "成功與失敗後的導向、回饋、錯誤處理與部分失敗策略尚未確認。",
+          "status": "unknown",
+          "evidence": [],
+          "openQuestionId": "PQ-0038"
+        }
+      ]
+    }
+  ]
+}

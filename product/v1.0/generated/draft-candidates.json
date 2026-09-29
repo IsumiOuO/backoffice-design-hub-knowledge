@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 1,
+  "source": "core/v1.0/hub-manifest.json",
+  "sourcePluginVersion": "1.1.29",
+  "sourceGeneratedAt": "2026-09-22T08:30:23.335Z",
+  "generatedAt": "2026-09-22T08:30:23.335Z",
+  "policy": {
+    "createsDraftSpecs": false,
+    "autoApproves": false,
+    "note": "本檔案只列出候選群組；候選必須經 AI 草稿生成與人工審核後才能加入 page-catalog.json。"
+  },
+  "summary": {
+    "assetsScanned": 552,
+    "flowCandidates": 4,
+    "unregisteredFlowCandidates": 3,
+    "pageFamilyCandidates": 2,
+    "unregisteredPageFamilyCandidates": 2
+  },
+  "flowCandidates": [
+    {
+      "candidateId": "batch-parameter-update-flow",
+      "baseId": "batch-parameter-update",
+      "candidateType": "flow",
+      "confidence": "medium",
+      "registered": false,
+      "moduleZh": [
+        "事件設置"
+      ],
+      "pageTypes": [
+        "List"
+      ],
+      "stepNumbers": [
+        1,
+        3
+      ],
+      "consecutive": false,
+      "assetCount": 2,
+      "assets": [
+        {
+          "canonicalId": "batch-parameter-update-step-1-2",
+          "canonicalFamilyId": "batch-parameter-update-step-1-2",
+          "stepIndex": 1,
+          "substate": "2",
+          "displayNameZh": "批次參數更新 Step 1/2",
+          "displayNameEn": "Batch Parameter Update Step 1 and 2",
+          "moduleZh": "事件設置",
+          "moduleEn": "Event Settings",
+          "pageType": "List",
+          "functionSummary": "批次更新流程的已選擇事件與更改事件參數兩個步驟，涵蓋 PC&Tablet 與 Mobile。",
+          "nodeId": "121:294348",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294348",
+          "componentKey": "",
+          "componentSetKey": "b8d7a30b215669e0b6155d9faa4bf35630346a98",
+          "componentProperties": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "tab": {
+              "type": "VARIANT",
+              "defaultValue": "已選擇事件",
+              "variantOptions": [
+                "已選擇事件",
+                "更改事件參數"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "batch-parameter-update-step-3",
+          "canonicalFamilyId": "batch-parameter-update-step-3",
+          "stepIndex": 3,
+          "substate": "",
+          "displayNameZh": "批次參數更新 Step 3",
+          "displayNameEn": "Batch Parameter Update Step 3",
+          "moduleZh": "事件設置",
+          "moduleEn": "Event Settings",
+          "pageType": "List",
+          "functionSummary": "批次更新流程的確認/執行步驟內容，提供 PC&Tablet 與 Mobile variants。",
+          "nodeId": "121:293817",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293817",
+          "componentKey": "",
+          "componentSetKey": "1967352f47002fb6e8e0cd13125eb00b01e98597",
+          "componentProperties": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "create-event-main-category-flow",
+      "baseId": "create-event-main-category",
+      "candidateType": "flow",
+      "confidence": "high",
+      "registered": true,
+      "moduleZh": [
+        "資料庫管理"
+      ],
+      "pageTypes": [
+        "Create"
+      ],
+      "stepNumbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "consecutive": true,
+      "assetCount": 5,
+      "assets": [
+        {
+          "canonicalId": "create-event-main-category-step-1",
+          "canonicalFamilyId": "create-event-main-category-step-1",
+          "stepIndex": 1,
+          "substate": "",
+          "displayNameZh": "新增主類別第 1 步",
+          "displayNameEn": "Create Main Category Step 1",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝新增事件主類別第 1 步的名稱設定介面，依裝置切換版型並處理正常與錯誤輸入狀態。",
+          "nodeId": "198:261138",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261138",
+          "componentKey": "",
+          "componentSetKey": "4a146c997256d30181625237900032cca9d26201",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "create-event-main-category-step-2",
+          "canonicalFamilyId": "create-event-main-category-step-2",
+          "stepIndex": 2,
+          "substate": "",
+          "displayNameZh": "新增主類別第 2 步",
+          "displayNameEn": "Create Main Category Step 2",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝新增事件主類別第 2 步的掛載次類別選擇介面，依裝置與表單狀態切換呈現。",
+          "nodeId": "198:261303",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261303",
+          "componentKey": "",
+          "componentSetKey": "68ea2952839e2b92cfb9653acef65ab8e6cf62ff",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable",
+                "default"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "create-event-main-category-step-3",
+          "canonicalFamilyId": "create-event-main-category-step-3",
+          "stepIndex": 3,
+          "substate": "",
+          "displayNameZh": "新增主類別第 3 步",
+          "displayNameEn": "Create Main Category Step 3",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝新增事件主類別第 3 步的發布介面設定，依裝置與 default／enable／error 狀態切換。",
+          "nodeId": "198:261899",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261899",
+          "componentKey": "",
+          "componentSetKey": "9480969cdac248aea20f356915a27824794991be",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable",
+                "default"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "create-event-main-category-step-4-image-list",
+          "canonicalFamilyId": "create-event-main-category-step-4-image-list",
+          "stepIndex": 4,
+          "substate": "image-list",
+          "displayNameZh": "新增主類別第 4 步－圖片列表",
+          "displayNameEn": "Create Main Category Step 4 - Image List",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝新增事件主類別第 4 步的圖片列表介面，顯示可用／已加入圖片並處理不同裝置與表單狀態。",
+          "nodeId": "198:261729",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261729",
+          "componentKey": "",
+          "componentSetKey": "87933b7b4f62b83bccc470c581272813a4ee3666",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "default",
+              "variantOptions": [
+                "error",
+                "default",
+                "filled"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "create-event-main-category-step-4-upload-image",
+          "canonicalFamilyId": "create-event-main-category-step-4-upload-image",
+          "stepIndex": 4,
+          "substate": "upload-image",
+          "displayNameZh": "新增主類別第 4 步－上傳圖片",
+          "displayNameEn": "Create Main Category Step 4 - Upload Image",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝新增事件主類別第 4 步的圖片上傳介面，依裝置與未填、錯誤、已填內容狀態切換。",
+          "nodeId": "198:261451",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-261451",
+          "componentKey": "",
+          "componentSetKey": "c10897037ee12cacda6d78aaaab8bceb15c347e1",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "default",
+              "variantOptions": [
+                "error",
+                "default",
+                "filled"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "edit-event-main-category-flow",
+      "baseId": "edit-event-main-category",
+      "candidateType": "flow",
+      "confidence": "high",
+      "registered": false,
+      "moduleZh": [
+        "資料庫管理"
+      ],
+      "pageTypes": [
+        "Create"
+      ],
+      "stepNumbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "consecutive": true,
+      "assetCount": 5,
+      "assets": [
+        {
+          "canonicalId": "edit-event-main-category-step-1",
+          "canonicalFamilyId": "edit-event-main-category-step-1",
+          "stepIndex": 1,
+          "substate": "",
+          "displayNameZh": "編輯主類別第 1 步",
+          "displayNameEn": "Edit Main Category Step 1",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝編輯事件主類別第 1 步的名稱設定介面，顯示既有資料並依裝置與驗證狀態切換。",
+          "nodeId": "198:262047",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262047",
+          "componentKey": "",
+          "componentSetKey": "3283cf4ac885a0b2410ba922bbb619e1236f4126",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "edit-event-main-category-step-2",
+          "canonicalFamilyId": "edit-event-main-category-step-2",
+          "stepIndex": 2,
+          "substate": "",
+          "displayNameZh": "編輯主類別第 2 步",
+          "displayNameEn": "Edit Main Category Step 2",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝編輯事件主類別第 2 步的掛載次類別選擇介面，依裝置與表單狀態切換。",
+          "nodeId": "198:262198",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262198",
+          "componentKey": "",
+          "componentSetKey": "6d9c1ba690e4b42c296f6bbfa102238ca481160a",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable",
+                "default"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "edit-event-main-category-step-3",
+          "canonicalFamilyId": "edit-event-main-category-step-3",
+          "stepIndex": 3,
+          "substate": "",
+          "displayNameZh": "編輯主類別第 3 步",
+          "displayNameEn": "Edit Main Category Step 3",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝編輯事件主類別第 3 步的發布介面設定，依裝置與 default／enable／error 狀態切換。",
+          "nodeId": "198:262590",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262590",
+          "componentKey": "",
+          "componentSetKey": "e5d0708fb4d272d6d09f409da58b1888a02e95c0",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable",
+                "default"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "edit-event-main-category-step-4-image-list",
+          "canonicalFamilyId": "edit-event-main-category-step-4-image-list",
+          "stepIndex": 4,
+          "substate": "image-list",
+          "displayNameZh": "編輯主類別第 4 步－圖片列表",
+          "displayNameEn": "Edit Main Category Step 4 - Image List",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝編輯事件主類別第 4 步的圖片列表介面，呈現既有／已新增圖片並依裝置與驗證狀態切換。",
+          "nodeId": "198:262491",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262491",
+          "componentKey": "",
+          "componentSetKey": "73ec9ec1dfa6340ddcb4da478f20b0cadd1ab2a3",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "edit-event-main-category-step-4-upload-image",
+          "canonicalFamilyId": "edit-event-main-category-step-4-upload-image",
+          "stepIndex": 4,
+          "substate": "upload-image",
+          "displayNameZh": "編輯主類別第 4 步－上傳圖片",
+          "displayNameEn": "Edit Main Category Step 4 - Upload Image",
+          "moduleZh": "資料庫管理",
+          "moduleEn": "Database Management",
+          "pageType": "Create",
+          "functionSummary": "封裝編輯事件主類別第 4 步的圖片上傳介面，讓管理人員調整既有主類別圖片並處理驗證狀態。",
+          "nodeId": "198:262322",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-262322",
+          "componentKey": "",
+          "componentSetKey": "9774eee0effe4e1ec251cbfdc8ac6703aa8ed8e6",
+          "componentProperties": {
+            "device": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            },
+            "input": {
+              "type": "VARIANT",
+              "defaultValue": "enable",
+              "variantOptions": [
+                "error",
+                "enable"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "candidateId": "single-parameter-update-flow",
+      "baseId": "single-parameter-update",
+      "candidateType": "flow",
+      "confidence": "high",
+      "registered": false,
+      "moduleZh": [
+        "事件設置"
+      ],
+      "pageTypes": [
+        "List"
+      ],
+      "stepNumbers": [
+        1,
+        2
+      ],
+      "consecutive": true,
+      "assetCount": 2,
+      "assets": [
+        {
+          "canonicalId": "single-parameter-update-step-1",
+          "canonicalFamilyId": "single-parameter-update-step-1",
+          "stepIndex": 1,
+          "substate": "",
+          "displayNameZh": "單一參數更新 Step 1",
+          "displayNameEn": "Single Parameter Update Step 1",
+          "moduleZh": "事件設置",
+          "moduleEn": "Event Settings",
+          "pageType": "List",
+          "functionSummary": "單一事件參數更新的編輯步驟，提供投分參數設定與 PC&Tablet/Mobile variants。",
+          "nodeId": "121:294670",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294670",
+          "componentKey": "",
+          "componentSetKey": "9ea0c1c7eb9a45e384000a2841a96a5bf7abd489",
+          "componentProperties": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            }
+          }
+        },
+        {
+          "canonicalId": "single-parameter-update-step-2",
+          "canonicalFamilyId": "single-parameter-update-step-2",
+          "stepIndex": 2,
+          "substate": "",
+          "displayNameZh": "單一參數更新 Step 2",
+          "displayNameEn": "Single Parameter Update Step 2",
+          "moduleZh": "事件設置",
+          "moduleEn": "Event Settings",
+          "pageType": "List",
+          "functionSummary": "單一事件參數更新的確認步驟，顯示更新後參數並支援 PC&Tablet/Mobile。",
+          "nodeId": "121:294469",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-294469",
+          "componentKey": "",
+          "componentSetKey": "a488648b9db2d876de59859e39bd439973cf6121",
+          "componentProperties": {
+            "Property 1": {
+              "type": "VARIANT",
+              "defaultValue": "PC&Tablet",
+              "variantOptions": [
+                "PC&Tablet",
+                "Mobile"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "pageCandidates": [
+    {
+      "candidateId": "event-main-category-image-viewer",
+      "candidateType": "page-family",
+      "confidence": "medium",
+      "registered": false,
+      "assetCount": 3,
+      "moduleZh": [
+        "資料庫管理"
+      ],
+      "pageTypes": [
+        "List"
+      ],
+      "assets": [
+        {
+          "canonicalId": "event-main-category-image-viewer-desktop-image-viewer-modal-open",
+          "displayNameZh": "新增事件主類別",
+          "displayNameEn": "Create Event Main Category",
+          "moduleZh": "資料庫管理",
+          "pageType": "List",
+          "viewport": "desktop",
+          "state": "image-viewer-modal-open",
+          "functionSummary": "在桌機版事件主類別管理列表上開啟圖片檢視層，讓管理人員查看圖片細節並透過滑桿、快捷比例或滾輪調整縮放。",
+          "nodeId": "198:280336",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280336"
+        },
+        {
+          "canonicalId": "event-main-category-image-viewer-mobile-image-viewer-modal-open",
+          "displayNameZh": "新增事件主類別",
+          "displayNameEn": "Create Event Main Category",
+          "moduleZh": "資料庫管理",
+          "pageType": "List",
+          "viewport": "mobile",
+          "state": "image-viewer-modal-open",
+          "functionSummary": "在手機版事件主類別管理中開啟圖片檢視層，讓管理人員以適合窄螢幕的方式查看圖片，並可用雙指或縮放控制調整比例。",
+          "nodeId": "198:280400",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280400"
+        },
+        {
+          "canonicalId": "event-main-category-image-viewer-tablet-image-viewer-modal-open",
+          "displayNameZh": "新增事件主類別",
+          "displayNameEn": "Create Event Main Category",
+          "moduleZh": "資料庫管理",
+          "pageType": "List",
+          "viewport": "tablet",
+          "state": "image-viewer-modal-open",
+          "functionSummary": "在平板版事件主類別管理中開啟圖片檢視層，讓管理人員查看圖片並使用縮放控制調整檢視比例。",
+          "nodeId": "198:280374",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280374"
+        }
+      ]
+    },
+    {
+      "candidateId": "image-path-image-viewer",
+      "candidateType": "page-family",
+      "confidence": "medium",
+      "registered": false,
+      "assetCount": 6,
+      "moduleZh": [
+        "資料庫管理"
+      ],
+      "pageTypes": [
+        "Create"
+      ],
+      "assets": [
+        {
+          "canonicalId": "image-path-image-viewer-desktop-dark-image-view-modal-open",
+          "displayNameZh": "圖片路徑管理",
+          "displayNameEn": "Image Path Management",
+          "moduleZh": "資料庫管理",
+          "pageType": "Create",
+          "viewport": "desktop",
+          "state": "image-view-modal-open",
+          "functionSummary": "從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。",
+          "nodeId": "190:247127",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247127"
+        },
+        {
+          "canonicalId": "image-path-image-viewer-desktop-light-image-view-modal-open",
+          "displayNameZh": "圖片路徑管理",
+          "displayNameEn": "Image Path Management",
+          "moduleZh": "資料庫管理",
+          "pageType": "Create",
+          "viewport": "desktop",
+          "state": "image-view-modal-open",
+          "functionSummary": "從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。",
+          "nodeId": "190:246937",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246937"
+        },
+        {
+          "canonicalId": "image-path-image-viewer-mobile-dark-image-view-modal-open",
+          "displayNameZh": "圖片路徑管理",
+          "displayNameEn": "Image Path Management",
+          "moduleZh": "資料庫管理",
+          "pageType": "Create",
+          "viewport": "mobile",
+          "state": "image-view-modal-open",
+          "functionSummary": "從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。",
+          "nodeId": "190:247066",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247066"
+        },
+        {
+          "canonicalId": "image-path-image-viewer-mobile-light-image-view-modal-open",
+          "displayNameZh": "圖片路徑管理",
+          "displayNameEn": "Image Path Management",
+          "moduleZh": "資料庫管理",
+          "pageType": "Create",
+          "viewport": "mobile",
+          "state": "image-view-modal-open",
+          "functionSummary": "從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。",
+          "nodeId": "190:246876",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246876"
+        },
+        {
+          "canonicalId": "image-path-image-viewer-tablet-dark-image-view-modal-open",
+          "displayNameZh": "圖片路徑管理",
+          "displayNameEn": "Image Path Management",
+          "moduleZh": "資料庫管理",
+          "pageType": "Create",
+          "viewport": "tablet",
+          "state": "image-view-modal-open",
+          "functionSummary": "從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。",
+          "nodeId": "190:247193",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247193"
+        },
+        {
+          "canonicalId": "image-path-image-viewer-tablet-light-image-view-modal-open",
+          "displayNameZh": "圖片路徑管理",
+          "displayNameEn": "Image Path Management",
+          "moduleZh": "資料庫管理",
+          "pageType": "Create",
+          "viewport": "tablet",
+          "state": "image-view-modal-open",
+          "functionSummary": "從新增／編輯圖片路徑開啟的圖片檢視器，以 modal／覆蓋層顯示大圖，並提供縮放控制；手機版支援以直向畫面檢視旋轉後的大圖。",
+          "nodeId": "190:247003",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247003"
+        }
+      ]
+    }
+  ]
+}
