@@ -1,5 +1,5 @@
 import { execFile } from "node:child_process";
-import { readFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
@@ -36,6 +36,11 @@ if (!setupMode && allowedUserIds.size === 0) {
 const apiBase = `https://api.telegram.org/bot${token}`;
 const githubBaseUrl = (process.env.KNOWLEDGE_GITHUB_BASE_URL
   ?? "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main").replace(/\/$/, "");
+const queryLogEnabled = process.env.BOT_QUERY_LOG_ENABLED !== "false";
+const queryLogPath = path.resolve(
+  repositoryRoot,
+  process.env.BOT_QUERY_LOG_PATH ?? "bot/logs/query-log.jsonl",
+);
 let offset = 0;
 
 console.log(setupMode
@@ -91,6 +96,7 @@ async function handleMessage(message) {
   }
 
   const result = await queryKnowledge(text);
+  await recordQuery(text, result);
   if (!result.matched) {
     await sendMessage(chatId, `${result.answer}\n\n目前可查詢：\n${result.availableFeatures.map((title) => `• ${title}`).join("\n")}`);
     return;
@@ -110,6 +116,30 @@ async function handleMessage(message) {
   } catch (error) {
     console.error(`圖片傳送失敗，改傳文字：${error.message}`);
     await sendMessage(chatId, caption);
+  }
+}
+
+async function recordQuery(question, result) {
+  if (!queryLogEnabled) return;
+  const status = !result.matched
+    ? "not-found"
+    : result.statusNote?.includes("待確認")
+      ? "needs-confirmation"
+      : "answered";
+  const record = {
+    timestamp: new Date().toISOString(),
+    question,
+    status,
+    feature: result.feature ?? null,
+    audience: result.audience ?? null,
+    specPath: result.specPath ?? null,
+    screenLabel: result.screen?.label ?? null,
+  };
+  try {
+    await mkdir(path.dirname(queryLogPath), { recursive: true });
+    await appendFile(queryLogPath, `${JSON.stringify(record)}\n`, "utf8");
+  } catch (error) {
+    console.error(`本機查詢紀錄失敗，但不影響回答：${error.message}`);
   }
 }
 
