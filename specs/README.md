@@ -20,6 +20,8 @@
 | [編輯事件主類別](edit-event-main-category.md) | 四步驟流程、圖片列表／上傳狀態 | 權限、資料保存、圖片規則、送出結果 |
 | [單一事件參數更新](single-parameter-update.md) | 編輯與確認兩步驟流程 | 投分參數定義、驗證、權限、送出結果 |
 | [批次事件參數更新](batch-parameter-update.md) | 三階段畫面、事件清單、參數修改、差異確認 | 權限、欄位規則、資料保存、執行結果 |
+| [事件主類別圖片檢視](event-main-category-image-viewer.md) | 桌機、平板、手機畫面與縮放操作 | 權限、縮放邊界、載入失敗處理 |
+| [圖片路徑圖片檢視](image-path-image-viewer.md) | 三種裝置與亮色、暗色主題 | 權限、縮放邊界、手機圖片方向、載入失敗處理 |
 
 ## 怎麼查
 
@@ -31,12 +33,14 @@
 
 ## 圖文查詢試測
 
-目前四個功能都可測試圖文查詢。結果會包含簡短答案、對應截圖、Figma 連結與規格來源；遇到未定規則時會明確標示待確認，不會自行補答案。
+目前六個功能都可測試圖文查詢。結果會包含簡短答案、對應截圖、Figma 連結與規格來源；遇到未定規則時會明確標示待確認，不會自行補答案。
 
 ```bash
 node scripts/query-specs.mjs "新增事件主類別 Step 2 做什麼"
 node scripts/query-specs.mjs "編輯事件主類別 Step 4 上傳圖片有什麼限制" --json
 node scripts/query-specs.mjs "批次事件參數更新 Step 2 未輸入欄位會怎樣" --json
+node scripts/query-specs.mjs "事件主類別圖片檢視手機版怎麼縮放" --json
+node scripts/query-specs.mjs "圖片路徑圖片檢視平板暗色版" --json
 ```
 
 這是 Telegram Bot 串接前的本地試測；之後 Bot 可以直接使用相同的圖檔與查詢索引。
@@ -58,4 +62,4 @@ AI 與維護工具會負責同步內部索引、詳細資料與驗證結果。
 - **待補充**：只有畫面線索，尚不足以說明完整功能。
 - **已停用**：不應再作為現行功能依據。
 
-目前四份文件皆為「可供查詢」。
+目前六份文件皆為「可供查詢」。

@@ -35,6 +35,14 @@ function scoreFeature(feature) {
   return Math.max(...names.map((name) => (normalizedQuery.includes(name.toLowerCase()) ? name.length : 0)));
 }
 
+function screenHeading(screen) {
+  return screen.heading ?? `Step ${screen.step}：${screen.title}`;
+}
+
+function screenLabel(screen) {
+  return screen.label ?? `Step ${screen.step}：${screen.title}`;
+}
+
 const rankedFeatures = index.features
   .map((feature) => ({ feature, score: scoreFeature(feature) }))
   .sort((a, b) => b.score - a.score);
@@ -78,24 +86,37 @@ if (!screen) {
 }
 
 const asksFlow = /(流程|步驟|怎麼做|如何新增|如何編輯|如何更新|如何批次)/.test(query) && !numberedStep;
-const asksUnknownRule = !asksFlow && /(可不可以|可以|可否|能不能|能否|完全不選|是否|必填|上限|限制|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向|取消|關閉|錯誤|刪除|失敗)/.test(query);
+const asksUnknownRule = !asksFlow && /(可不可以|可以|可否|能不能|能否|完全不選|是否|必填|上限|下限|範圍|幅度|限制|規則|權限|角色|格式|尺寸|容量|幾個|保留|生效|導向|取消|關閉|錯誤|刪除|失敗|下載|原圖|載入|不存在|旋轉)/.test(query);
 const sectionName = asksUnknownRule ? "待確認" : asksFlow ? "操作流程" : "功能說明";
 let answer = cleanMarkdown(extractSection(markdown, `## ${sectionName}`, /\n## /));
 
 if (screen) {
-  const stepSection = extractSection(markdown, `### Step ${screen.step}：${screen.title}`, /\n### Step |\n## /);
+  const stepSection = extractSection(markdown, `### ${screenHeading(screen)}`, /\n### |\n## /);
   const stepBullets = stepSection
     .split("\n")
     .filter((line) => line.startsWith("- ") && !line.includes("在 Figma 開啟"))
     .join("\n");
-  answer = `Step ${screen.step}：${screen.title}${stepBullets ? `\n${cleanMarkdown(stepBullets)}` : ""}`;
+  answer = `${screenLabel(screen)}${stepBullets ? `\n${cleanMarkdown(stepBullets)}` : ""}`;
 
   if (asksUnknownRule) {
     const pendingLines = extractSection(markdown, "## 待確認", /\n## /)
       .split("\n")
       .filter((line) => line.startsWith("- "));
+    const queryText = query.toLowerCase();
+    const genericScreenTerms = new Set([
+      "圖片", "桌機", "電腦", "pc", "平板", "tablet", "手機", "mobile",
+      "窄螢幕", "直向", "暗色", "dark", "亮色", "light"
+    ]);
+    const ruleTerms = [
+      "縮放", "必填", "範圍", "幅度", "限制", "權限", "角色", "格式", "尺寸", "容量",
+      "保留", "生效", "導向", "取消", "關閉", "錯誤", "刪除", "失敗", "下載", "原圖",
+      "載入", "不存在", "旋轉"
+    ];
+    const matchingTerms = [...screen.keywords, ...ruleTerms]
+      .map((term) => term.toLowerCase())
+      .filter((term) => !genericScreenTerms.has(term) && queryText.includes(term));
     const relatedPending = pendingLines.filter((line) =>
-      line.includes(`Step ${screen.step}`) || screen.keywords.some((keyword) => line.toLowerCase().includes(keyword.toLowerCase()))
+      line.includes(`Step ${screen.step}`) || matchingTerms.some((term) => line.toLowerCase().includes(term))
     );
     if (relatedPending.length > 0) {
       answer += `\n待確認：\n${cleanMarkdown(relatedPending.join("\n"))}`;
@@ -116,6 +137,7 @@ const result = {
   statusNote: asksUnknownRule ? "回答取自「待確認」，不可當成已定案規則。" : "回答取自已登錄的簡版規格。",
   screen: {
     step: selectedScreen.step,
+    label: screenLabel(selectedScreen),
     title: selectedScreen.title,
     imagePath: selectedScreen.imagePath,
     imageExists: fs.existsSync(imageAbsolutePath),

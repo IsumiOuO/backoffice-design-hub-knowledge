@@ -9,8 +9,8 @@
 
 | 草稿 | 類型 | 索引資產 | 截圖任務 | 狀態 |
 |---|---|---:|---:|---|
-| [新增事件主類別／圖片檢視](drafts/event-main-category-image-viewer.md) | screen-family | 3 | 3 | 待檢閱 |
-| [圖片路徑管理／圖片檢視](drafts/image-path-image-viewer.md) | screen-family | 6 | 6 | 待檢閱 |
+| [新增事件主類別／圖片檢視](drafts/event-main-category-image-viewer.md) | screen-family | 3 | 3 | 已檢閱並正式化 |
+| [圖片路徑管理／圖片檢視](drafts/image-path-image-viewer.md) | screen-family | 6 | 6 | 已檢閱並正式化 |
 
 ## 最簡 Review 流程
 

@@ -144,6 +144,103 @@
           "imageSource": { "type": "indexed-component-variant", "componentSetNodeId": "121:293817", "nodeId": "121:293818", "variantProperties": { "Property 1": "PC&Tablet" } }
         }
       ]
+    },
+    {
+      "id": "event-main-category-image-viewer",
+      "title": "事件主類別圖片檢視",
+      "aliases": ["事件主類別看圖", "事件主類別圖片放大", "新增事件主類別圖片檢視"],
+      "specPath": "specs/event-main-category-image-viewer.md",
+      "screens": [
+        {
+          "title": "桌機版",
+          "heading": "桌機版",
+          "label": "桌機版：事件主類別圖片檢視",
+          "keywords": ["桌機", "電腦", "PC", "縮放", "圖片"],
+          "imagePath": "specs/assets/event-main-category-image-viewer/desktop-variables-image-viewer-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280336",
+          "imageSource": { "type": "figma-node", "nodeId": "198:280336" }
+        },
+        {
+          "title": "平板版",
+          "heading": "平板版",
+          "label": "平板版：事件主類別圖片檢視",
+          "keywords": ["平板", "Tablet", "縮放", "圖片"],
+          "imagePath": "specs/assets/event-main-category-image-viewer/tablet-variables-image-viewer-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280374",
+          "imageSource": { "type": "figma-node", "nodeId": "198:280374" }
+        },
+        {
+          "title": "手機版",
+          "heading": "手機版",
+          "label": "手機版：事件主類別圖片檢視",
+          "keywords": ["手機", "Mobile", "窄螢幕", "縮放", "圖片"],
+          "imagePath": "specs/assets/event-main-category-image-viewer/mobile-variables-image-viewer-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=198-280400",
+          "imageSource": { "type": "figma-node", "nodeId": "198:280400" }
+        }
+      ]
+    },
+    {
+      "id": "image-path-image-viewer",
+      "title": "圖片路徑圖片檢視",
+      "aliases": ["圖片路徑看圖", "圖片路徑圖片放大", "圖片路徑檢視器"],
+      "specPath": "specs/image-path-image-viewer.md",
+      "screens": [
+        {
+          "title": "桌機暗色版",
+          "heading": "桌機暗色版",
+          "label": "桌機暗色版：圖片路徑圖片檢視",
+          "keywords": ["桌機", "電腦", "PC", "暗色", "Dark", "縮放"],
+          "imagePath": "specs/assets/image-path-image-viewer/desktop-dark-image-view-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247127",
+          "imageSource": { "type": "figma-node", "nodeId": "190:247127" }
+        },
+        {
+          "title": "桌機亮色版",
+          "heading": "桌機亮色版",
+          "label": "桌機亮色版：圖片路徑圖片檢視",
+          "keywords": ["桌機", "電腦", "PC", "亮色", "Light", "縮放"],
+          "imagePath": "specs/assets/image-path-image-viewer/desktop-light-image-view-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246937",
+          "imageSource": { "type": "figma-node", "nodeId": "190:246937" }
+        },
+        {
+          "title": "平板暗色版",
+          "heading": "平板暗色版",
+          "label": "平板暗色版：圖片路徑圖片檢視",
+          "keywords": ["平板", "Tablet", "暗色", "Dark", "縮放"],
+          "imagePath": "specs/assets/image-path-image-viewer/tablet-dark-image-view-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247193",
+          "imageSource": { "type": "figma-node", "nodeId": "190:247193" }
+        },
+        {
+          "title": "平板亮色版",
+          "heading": "平板亮色版",
+          "label": "平板亮色版：圖片路徑圖片檢視",
+          "keywords": ["平板", "Tablet", "亮色", "Light", "縮放"],
+          "imagePath": "specs/assets/image-path-image-viewer/tablet-light-image-view-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247003",
+          "imageSource": { "type": "figma-node", "nodeId": "190:247003" }
+        },
+        {
+          "title": "手機暗色版",
+          "heading": "手機暗色版",
+          "label": "手機暗色版：圖片路徑圖片檢視",
+          "keywords": ["手機", "Mobile", "暗色", "Dark", "直向", "旋轉", "縮放"],
+          "imagePath": "specs/assets/image-path-image-viewer/mobile-dark-image-view-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-247066",
+          "imageSource": { "type": "figma-node", "nodeId": "190:247066" }
+        },
+        {
+          "title": "手機亮色版",
+          "heading": "手機亮色版",
+          "label": "手機亮色版：圖片路徑圖片檢視",
+          "keywords": ["手機", "Mobile", "亮色", "Light", "直向", "旋轉", "縮放"],
+          "imagePath": "specs/assets/image-path-image-viewer/mobile-light-image-view-modal-open.png",
+          "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=190-246876",
+          "imageSource": { "type": "figma-node", "nodeId": "190:246876" }
+        }
+      ]
     }
   ]
 }
