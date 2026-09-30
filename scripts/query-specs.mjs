@@ -197,7 +197,16 @@ if (asksUnknownRule && !answer) {
 }
 
 const selectedScreen = screen ?? feature.screens[0];
-const imageAbsolutePath = path.join(repositoryRoot, selectedScreen.imagePath);
+const selectedScreenResult = selectedScreen
+  ? {
+      step: selectedScreen.step,
+      label: screenLabel(selectedScreen),
+      title: selectedScreen.title,
+      imagePath: selectedScreen.imagePath,
+      imageExists: fs.existsSync(path.join(repositoryRoot, selectedScreen.imagePath)),
+      figmaUrl: selectedScreen.figmaUrl
+    }
+  : null;
 const result = {
   matched: true,
   feature: feature.title,
@@ -213,19 +222,15 @@ const result = {
         : audience && !asksFlow
           ? "目前沒有這個角色的專屬摘要，先提供已登錄的共用規格；不可自行推測缺少的規則。"
           : "回答取自已登錄的簡版規格。",
-  screen: {
-    step: selectedScreen.step,
-    label: screenLabel(selectedScreen),
-    title: selectedScreen.title,
-    imagePath: selectedScreen.imagePath,
-    imageExists: fs.existsSync(imageAbsolutePath),
-    figmaUrl: selectedScreen.figmaUrl
-  },
+  screen: selectedScreenResult,
   specPath: feature.specPath
 };
 
 if (jsonOutput) {
   console.log(JSON.stringify(result, null, 2));
 } else {
-  console.log(`${result.answer}\n\n畫面：${result.screen.imagePath}\nFigma：${result.screen.figmaUrl}\n來源：${result.specPath}\n${result.statusNote}`);
+  const visualSource = result.screen
+    ? `畫面：${result.screen.imagePath}\nFigma：${result.screen.figmaUrl}`
+    : "畫面：目前尚未附代表畫面";
+  console.log(`${result.answer}\n\n${visualSource}\n來源：${result.specPath}\n${result.statusNote}`);
 }
