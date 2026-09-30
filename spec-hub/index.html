@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Backoffice Product Knowledge Spec Hub" />
+    <meta name="theme-color" content="#102d55" />
+    <title>Product Knowledge · Spec Hub</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23102d55'/%3E%3Cpath d='M18 15h21l9 9v25H18z' fill='%23fff'/%3E%3Cpath d='M39 15v10h9M25 32h16M25 39h12' fill='none' stroke='%236f91ff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar" aria-label="主要導覽">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg>
+          </span>
+          <span><strong>Product Knowledge</strong><small>Spec Hub</small></span>
+        </div>
+
+        <nav class="nav-list">
+          <button class="nav-item is-active" type="button" data-view="all">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>
+            全部規格 <span id="navAllCount">0</span>
+          </button>
+          <button class="nav-item" type="button" data-view="p1">
+            <svg viewBox="0 0 24 24"><path d="M5 4v16M5 5h11l-2 4 2 4H5"/></svg>
+            P1 優先規格 <span id="navP1Count">0</span>
+          </button>
+          <button class="nav-item" type="button" data-view="questions">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.7 9a2.5 2.5 0 1 1 3.7 2.2c-.9.5-1.4 1-1.4 2M12 17h.01"/></svg>
+            待確認問題 <span id="navQuestionCount">0</span>
+          </button>
+          <button class="nav-item" type="button" data-view="mine">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+            我的規格 <span id="navMineCount">0</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div><i></i> GitHub 是唯一正式資料來源</div>
+          <p>資料由 <code>specs/spec-status.json</code> 自動產生，介面不保存另一份規格。</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <button class="icon-button menu-button" id="menuButton" type="button" aria-label="開啟導覽" aria-expanded="false">
+            <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+          </button>
+          <div>
+            <h1>規格盤點</h1>
+            <p id="viewDescription">從現有索引與規格狀態查看全後台進度</p>
+          </div>
+          <div class="topbar-actions">
+            <span id="baselineLabel">讀取資料中</span>
+            <a class="secondary-button" id="githubButton" href="#" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-3 17.5c.5.1.7-.2.7-.5v-1.7c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.2-1.5-1.2-1.5-.9-.7.1-.7.1-.7 1.1.1 1.6 1.1 1.6 1.1 1 1.6 2.5 1.2 3.1.9.1-.7.4-1.2.7-1.5-2.3-.3-4.7-1.2-4.7-5A3.9 3.9 0 0 1 6.8 8c-.1-.3-.5-1.4.1-2.8 0 0 .9-.3 2.9 1.1a10 10 0 0 1 5.2 0c2-1.4 2.9-1.1 2.9-1.1.6 1.4.2 2.5.1 2.8a3.9 3.9 0 0 1 1 2.7c0 3.9-2.4 4.7-4.7 5 .4.3.7.9.7 1.8V20c0 .3.2.6.7.5A9 9 0 0 0 12 3Z"/></svg>
+              開啟 GitHub
+            </a>
+          </div>
+        </header>
+
+        <section class="dashboard" id="dashboard" aria-label="規格統計"></section>
+
+        <section class="inventory-panel">
+          <div class="panel-heading">
+            <div><h2 id="listTitle">全部規格</h2><p><span id="resultCount">0</span> 筆結果</p></div>
+            <div class="source-note"><span></span><code>specs/spec-status.json</code></div>
+          </div>
+
+          <div class="filters" aria-label="規格篩選">
+            <label class="search-field">
+              <span class="visually-hidden">搜尋規格</span>
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+              <input id="searchInput" type="search" placeholder="搜尋規格名稱、ID 或 canonicalId" autocomplete="off" />
+              <kbd>⌘ K</kbd>
+            </label>
+            <label><span class="visually-hidden">模組</span><select id="moduleFilter"><option value="all">所有模組</option></select></label>
+            <label><span class="visually-hidden">狀態</span><select id="statusFilter"><option value="all">所有狀態</option></select></label>
+            <label><span class="visually-hidden">優先級</span><select id="priorityFilter"><option value="all">所有優先級</option><option value="P1">P1</option><option value="P2">P2</option><option value="P3">P3</option></select></label>
+            <label><span class="visually-hidden">Owner</span><select id="ownerFilter"><option value="all">所有 Owner</option></select></label>
+            <button class="clear-button" id="clearFilters" type="button">清除篩選</button>
+          </div>
+
+          <div class="owner-notice" id="ownerNotice">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 17h.01"/></svg>
+            目前狀態資料還沒有 Owner 欄位，因此先顯示「未指派」；未來在 <code>spec-status.json</code> 加上 owner 即會自動出現。
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>規格名稱</th><th>模組</th><th>狀態</th><th>優先</th><th>Owner</th><th>待確認</th><th>最後更新</th><th><span class="visually-hidden">操作</span></th></tr></thead>
+              <tbody id="specTableBody"></tbody>
+            </table>
+          </div>
+          <div class="mobile-cards" id="mobileCards"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
+            <h3>找不到符合的規格</h3>
+            <p>調整條件，或清除篩選後再試一次。</p>
+            <button class="secondary-button" type="button" data-clear>清除篩選</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="scrim" id="scrim" hidden></div>
+    <aside class="detail-drawer" id="detailDrawer" aria-hidden="true" aria-labelledby="detailTitle">
+      <div class="drawer-header">
+        <div><span id="detailModule">模組</span><h2 id="detailTitle">規格名稱</h2></div>
+        <button class="icon-button" id="closeDrawer" type="button" aria-label="關閉規格詳情"><svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="drawer-body">
+        <div class="detail-badges" id="detailBadges"></div>
+        <dl class="metadata-list">
+          <div><dt>規格 ID</dt><dd id="detailId"></dd></div>
+          <div><dt>Spec 路徑</dt><dd id="detailSpecPath"></dd></div>
+          <div><dt>來源狀態</dt><dd id="detailSourceStatus"></dd></div>
+          <div><dt>Owner</dt><dd id="detailOwner"></dd></div>
+          <div><dt>最後更新</dt><dd id="detailUpdated"></dd></div>
+          <div><dt>下一步</dt><dd id="detailNextAction"></dd></div>
+        </dl>
+
+        <section class="detail-section">
+          <h3>目前 Spec 摘要</h3>
+          <p id="detailSummary"></p>
+        </section>
+        <section class="detail-section">
+          <div class="section-title-row"><h3>對應 canonicalIds</h3><span id="canonicalCount"></span></div>
+          <div class="canonical-list" id="canonicalList"></div>
+        </section>
+        <section class="detail-section">
+          <div class="section-title-row"><h3>待確認問題</h3><span id="questionCount"></span></div>
+          <ul class="question-list" id="questionList"></ul>
+        </section>
+
+        <section class="ai-panel" id="aiPanel" hidden>
+          <div class="ai-heading"><span><svg viewBox="0 0 24 24"><path d="m12 3 1.4 4.6L18 9l-4.6 1.4L12 15l-1.4-4.6L6 9l4.6-1.4zM18.5 15l.7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7z"/></svg></span><div><h3>AI 協助 Prompt</h3><p>複製後貼到普通對話 AI；資料不足時必須保留待確認。</p></div></div>
+          <textarea id="aiPrompt" readonly aria-label="AI 協助 Prompt"></textarea>
+          <button class="copy-button" id="copyPrompt" type="button"><svg viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="11" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>複製 Prompt</button>
+        </section>
+      </div>
+      <div class="drawer-actions">
+        <a class="primary-button" id="editSpecButton" href="#" target="_blank" rel="noreferrer">編輯規格</a>
+        <div><a class="secondary-button" id="viewIndexButton" href="#" target="_blank" rel="noreferrer">查看 Index</a><a class="secondary-button" id="viewHistoryButton" href="#" target="_blank" rel="noreferrer">查看歷史</a><button class="ai-button" id="aiHelpButton" type="button">AI 協助補規格</button></div>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="inventory-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -6,11 +6,14 @@
     "bot": "node --env-file=.env bot/telegram-bot.mjs",
     "bot:self-test": "node bot/telegram-bot.mjs --self-test",
     "bot:report": "node --env-file=.env scripts/analyze-bot-query-log.mjs",
+    "spec-hub": "node scripts/serve-spec-hub.mjs",
     "knowledge:validate": "node scripts/validate-product-knowledge.mjs",
     "knowledge:work-queue": "node scripts/generate-spec-work-queue.mjs",
     "knowledge:review-packets": "node scripts/generate-ai-review-packets.mjs",
     "knowledge:tracker": "node scripts/generate-spec-master-tracker.mjs",
     "knowledge:tracker:check": "node scripts/generate-spec-master-tracker.mjs --check",
+    "knowledge:spec-hub": "node scripts/build-spec-hub-inventory.mjs",
+    "knowledge:spec-hub:check": "node scripts/build-spec-hub-inventory.mjs --check",
     "knowledge:progress": "node scripts/query-spec-progress.mjs /progress"
   }
 }

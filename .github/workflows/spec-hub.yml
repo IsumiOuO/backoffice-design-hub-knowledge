@@ -1,0 +1,65 @@
+name: Spec Hub
+
+on:
+  pull_request:
+    paths:
+      - "specs/**"
+      - "core/v1.0/hub-manifest.json"
+      - "spec-hub/**"
+      - "scripts/build-spec-hub-inventory.mjs"
+      - "scripts/generate-spec-master-tracker.mjs"
+      - "package.json"
+      - ".github/workflows/spec-hub.yml"
+  push:
+    branches: [main]
+    paths:
+      - "specs/**"
+      - "core/v1.0/hub-manifest.json"
+      - "spec-hub/**"
+      - "scripts/build-spec-hub-inventory.mjs"
+      - "scripts/generate-spec-master-tracker.mjs"
+      - "package.json"
+      - ".github/workflows/spec-hub.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run knowledge:validate
+      - run: npm run knowledge:tracker:check
+      - run: npm run knowledge:spec-hub:check
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run knowledge:spec-hub
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: spec-hub
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
