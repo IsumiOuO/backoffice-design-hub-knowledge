@@ -6,8 +6,22 @@ Backoffice Core、Foundation 與 Reference Screens 的設計與產品智庫。
 
 一般查詢者、規劃、前端、後端與 QA 請從以下入口開始：
 
+- [Product Knowledge / Spec Hub](spec-hub/README.md)
 - [簡易功能規格](specs/README.md)
 - [全後台規格總表](specs/SPEC-MASTER-TRACKER.md)
+
+## Product Knowledge / Spec Hub
+
+以後台介面查看 53 個規格候選、模組進度、優先級、待確認問題與正式規格連結：
+
+```sh
+npm run knowledge:spec-hub
+npm run spec-hub
+```
+
+然後開啟 `http://127.0.0.1:4173`。也可以直接雙擊 `spec-hub/index.html`。
+
+Spec Hub 的資料由 `specs/spec-status.json` 與正式規格自動產生，不是另一份人工維護的資料庫。
 
 簡易規格只說明畫面用途、操作流程、已知規則、待確認事項與 Figma 連結，不需要理解 AI、Claim 或索引機制。
 
