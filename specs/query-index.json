@@ -2,6 +2,13 @@
   "schemaVersion": 1,
   "features": [
     {
+      "id": "account-management-list",
+      "title": "帳號管理列表",
+      "aliases": ["系統帳號列表", "後台帳號列表", "帳號管理"],
+      "specPath": "specs/account-management-list.md",
+      "screens": []
+    },
+    {
       "id": "create-event-main-category",
       "title": "新增事件主類別",
       "aliases": ["建立事件主類別", "新增主類別", "事件主類別新增"],

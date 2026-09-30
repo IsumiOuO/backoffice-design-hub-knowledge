@@ -2,7 +2,7 @@ window.SPEC_HUB_INVENTORY = {
   "schemaVersion": 1,
   "repository": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge",
   "branch": "main",
-  "generatedAt": "2026-09-30T06:52:52.300Z",
+  "generatedAt": "2026-09-30T07:40:19.503Z",
   "baselineVersion": "2026-09-29-v1",
   "sourceManifest": "core/v1.0/hub-manifest.json",
   "sourceStatus": "specs/spec-status.json",
@@ -46,7 +46,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -82,7 +82,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -119,7 +119,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -144,26 +144,26 @@ window.SPEC_HUB_INVENTORY = {
       "priority": "P1",
       "complexity": "medium",
       "aiAutomation": "high",
-      "status": "not-started",
-      "statusLabel": "尚未建立規格",
-      "reviewStage": null,
-      "owner": "未指派",
-      "specPath": null,
+      "status": "product-confirmed",
+      "statusLabel": "產品規則已確認",
+      "reviewStage": "product-confirmed",
+      "owner": "IsumiOuO",
+      "specPath": "specs/account-management-list.md",
       "sourceIndex": "core/v1.0/page-index.md",
-      "sourceStatus": "規格候選，尚未建立正式檔案",
-      "documentStatus": "尚未建立",
-      "summary": "尚未建立正式規格。下一步：產生 AI 圖文草稿",
+      "sourceStatus": "已連結正式規格",
+      "documentStatus": "產品規則已確認",
+      "summary": "提供後台管理者查找與管理系統帳號。現有元件資料已能確認列表會顯示帳號基本資料、啟用狀態、雙重驗證狀態、最後登入時間與操作入口，並提供文字搜尋及狀態篩選。",
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
-      "nextAction": "產生 AI 圖文草稿",
-      "isQueryable": false,
+      "updatedAt": "2026-09-30",
+      "nextAction": "補充 API 與 QA 細節後升級為 dev-qa-ready",
+      "isQueryable": true,
       "links": {
-        "spec": null,
-        "edit": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/new/main/specs?filename=account-management-list.md",
+        "spec": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main/specs/account-management-list.md",
+        "edit": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/edit/main/specs/account-management-list.md",
         "index": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main/core/v1.0/page-index.md",
-        "history": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/commits/main/specs/spec-status.json",
+        "history": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/commits/main/specs/account-management-list.md",
         "status": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main/specs/spec-status.json"
       }
     },
@@ -192,7 +192,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -228,7 +228,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -264,7 +264,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -301,7 +301,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -336,7 +336,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -373,7 +373,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -410,7 +410,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -446,7 +446,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -482,7 +482,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -519,7 +519,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -554,7 +554,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -589,7 +589,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -626,7 +626,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -777,7 +777,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -814,7 +814,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -892,7 +892,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -930,7 +930,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "確認新增與編輯是否共用同一規格後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1007,7 +1007,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1045,7 +1045,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1083,7 +1083,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1120,7 +1120,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1158,7 +1158,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1195,7 +1195,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1232,7 +1232,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "確認新增與編輯狀態分組後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1269,7 +1269,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "確認新增與編輯狀態分組後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1305,7 +1305,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1342,7 +1342,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1461,7 +1461,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "確認完整流程步驟後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1497,7 +1497,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1534,7 +1534,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1571,7 +1571,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1608,7 +1608,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1645,7 +1645,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1682,7 +1682,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1718,7 +1718,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1755,7 +1755,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1792,7 +1792,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1829,7 +1829,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1865,7 +1865,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1901,7 +1901,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1937,7 +1937,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1974,7 +1974,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -2010,7 +2010,7 @@ window.SPEC_HUB_INVENTORY = {
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-29",
+      "updatedAt": "2026-09-30",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {

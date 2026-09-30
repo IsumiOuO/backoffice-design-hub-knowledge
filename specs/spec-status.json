@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baselineVersion": "2026-09-29-v1",
-  "updatedAt": "2026-09-29",
+  "updatedAt": "2026-09-30",
   "sourceManifest": "core/v1.0/hub-manifest.json",
   "statusDefinitions": {
     "not-started": "尚未建立規格",
@@ -57,8 +57,13 @@
       "priority": "P1",
       "complexity": "medium",
       "aiAutomation": "high",
-      "status": "not-started",
-      "nextAction": "產生 AI 圖文草稿",
+      "status": "product-confirmed",
+      "reviewStage": "product-confirmed",
+      "owner": "IsumiOuO",
+      "specPath": "specs/account-management-list.md",
+      "screenCount": 0,
+      "openQuestions": 0,
+      "nextAction": "補充 API 與 QA 細節後升級為 dev-qa-ready",
       "canonicalIds": ["account-management-table-header", "account-management-table-row", "account-filter-panel-desktop", "account-search-filter"]
     },
     {
