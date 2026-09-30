@@ -86,7 +86,7 @@
 
           <div class="owner-notice" id="ownerNotice">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 17h.01"/></svg>
-            目前狀態資料還沒有 Owner 欄位，因此先顯示「未指派」；未來在 <code>spec-status.json</code> 加上 owner 即會自動出現。
+            尚未分工的規格會顯示「未指派」；Owner 設為 <code>IsumiOuO</code> 後，就會出現在「我的規格」。
           </div>
 
           <div class="table-wrap">
@@ -98,8 +98,8 @@
           <div class="mobile-cards" id="mobileCards"></div>
           <div class="empty-state" id="emptyState" hidden>
             <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16.5 16.5 4 4"/></svg>
-            <h3>找不到符合的規格</h3>
-            <p>調整條件，或清除篩選後再試一次。</p>
+            <h3>查無資料</h3>
+            <p>請重新設定搜尋條件</p>
             <button class="secondary-button" type="button" data-clear>清除篩選</button>
           </div>
         </section>
@@ -143,10 +143,39 @@
         </section>
       </div>
       <div class="drawer-actions">
-        <a class="primary-button" id="editSpecButton" href="#" target="_blank" rel="noreferrer">編輯規格</a>
+        <button class="primary-button" id="startAuthoringButton" type="button">開始補規格</button>
         <div><a class="secondary-button" id="viewIndexButton" href="#" target="_blank" rel="noreferrer">查看 Index</a><a class="secondary-button" id="viewHistoryButton" href="#" target="_blank" rel="noreferrer">查看歷史</a><button class="ai-button" id="aiHelpButton" type="button">AI 協助補規格</button></div>
       </div>
     </aside>
+
+    <div class="authoring-layer" id="authoringLayer" hidden>
+      <section class="authoring-modal" role="dialog" aria-modal="true" aria-labelledby="authoringTitle">
+        <header class="authoring-header">
+          <div>
+            <span class="authoring-eyebrow">規格草稿工作區</span>
+            <h2 id="authoringTitle">建立規格</h2>
+            <p id="authoringSubtitle">回答簡單問題，產生可提交到 GitHub 的 Markdown。</p>
+          </div>
+          <button class="icon-button" id="closeAuthoring" type="button" aria-label="關閉規格草稿工作區"><svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+        </header>
+
+        <div class="authoring-progress" aria-label="建立規格進度">
+          <div class="authoring-progress-copy"><strong id="authoringStepLabel">基本資料</strong><span id="authoringProgressText">步驟 1 / 3</span></div>
+          <div class="authoring-progress-track"><span id="authoringProgressBar"></span></div>
+        </div>
+
+        <div class="authoring-body" id="authoringBody"></div>
+
+        <footer class="authoring-footer">
+          <p><span></span>草稿只儲存在這個瀏覽器；提交 GitHub 後才是正式規格。</p>
+          <div>
+            <button class="secondary-button" id="authoringBack" type="button">上一步</button>
+            <button class="secondary-button recommendation-button" id="useRecommendation" type="button">採用建議</button>
+            <button class="primary-button" id="authoringNext" type="button">下一步</button>
+          </div>
+        </footer>
+      </section>
+    </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
     <script src="inventory-data.js"></script>
