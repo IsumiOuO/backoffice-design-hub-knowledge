@@ -21,7 +21,7 @@ npm run spec-hub
 
 然後開啟 `http://127.0.0.1:4173`。也可以直接雙擊 `spec-hub/index.html`。
 
-Spec Hub 的資料由 `specs/spec-status.json` 與正式規格自動產生，不是另一份人工維護的資料庫。
+Spec Hub 的資料由 `specs/spec-status.json` 與正式規格自動產生，不是另一份人工維護的資料庫。點選任一規格後，可從「開始補規格」進入引導式草稿工作區，逐題採用建議或填寫自己的答案，再產生可提交到 GitHub 的 Markdown。
 
 簡易規格只說明畫面用途、操作流程、已知規則、待確認事項與 Figma 連結，不需要理解 AI、Claim 或索引機制。
 

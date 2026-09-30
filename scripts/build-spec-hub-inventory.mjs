@@ -25,7 +25,7 @@ const inventory = {
   sourceStatus: "specs/spec-status.json",
   statusDefinitions: statusIndex.statusDefinitions,
   queryableStatuses: [...queryableStatuses],
-  currentUser: null,
+  currentUser: "IsumiOuO",
   specs,
 };
 

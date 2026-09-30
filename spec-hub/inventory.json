@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge",
   "branch": "main",
-  "generatedAt": "2026-09-30T07:40:19.503Z",
+  "generatedAt": "2026-09-30T08:15:03.123Z",
   "baselineVersion": "2026-09-29-v1",
   "sourceManifest": "core/v1.0/hub-manifest.json",
   "sourceStatus": "specs/spec-status.json",
@@ -19,7 +19,7 @@
     "product-confirmed",
     "dev-qa-ready"
   ],
-  "currentUser": null,
+  "currentUser": "IsumiOuO",
   "specs": [
     {
       "id": "forgot-password-reset",
