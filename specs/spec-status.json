@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baselineVersion": "2026-09-29-v1",
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "sourceManifest": "core/v1.0/hub-manifest.json",
   "statusDefinitions": {
     "not-started": "尚未建立規格",
@@ -73,8 +73,13 @@
       "priority": "P1",
       "complexity": "high",
       "aiAutomation": "medium",
-      "status": "not-started",
-      "nextAction": "產生 AI 圖文草稿",
+      "status": "needs-review",
+      "reviewStage": "plain-language-draft",
+      "owner": "IsumiOuO",
+      "specPath": "specs/create-account.md",
+      "screenCount": 0,
+      "openQuestions": 0,
+      "nextAction": "複核畫面證據與連結後升級為 product-confirmed",
       "canonicalIds": ["create-account-information", "account-form-action-button", "account-operation-result"]
     },
     {

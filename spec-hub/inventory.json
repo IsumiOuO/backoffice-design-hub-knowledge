@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge",
   "branch": "main",
-  "generatedAt": "2026-09-30T08:15:03.123Z",
+  "generatedAt": "2026-10-01T07:30:07.529Z",
   "baselineVersion": "2026-09-29-v1",
   "sourceManifest": "core/v1.0/hub-manifest.json",
   "sourceStatus": "specs/spec-status.json",
@@ -46,7 +46,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -82,7 +82,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -119,7 +119,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -180,26 +180,26 @@
       "priority": "P1",
       "complexity": "high",
       "aiAutomation": "medium",
-      "status": "not-started",
-      "statusLabel": "尚未建立規格",
-      "reviewStage": null,
-      "owner": "未指派",
-      "specPath": null,
+      "status": "needs-review",
+      "statusLabel": "等待人工確認",
+      "reviewStage": "plain-language-draft",
+      "owner": "IsumiOuO",
+      "specPath": "specs/create-account.md",
       "sourceIndex": "core/v1.0/page-index.md",
-      "sourceStatus": "規格候選，尚未建立正式檔案",
-      "documentStatus": "尚未建立",
-      "summary": "尚未建立正式規格。下一步：產生 AI 圖文草稿",
+      "sourceStatus": "已連結正式規格",
+      "documentStatus": "等待人工確認",
+      "summary": "讓具備管理權限的後台使用者建立新的系統帳號，並設定基本資料與登入權限。",
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
-      "nextAction": "產生 AI 圖文草稿",
+      "updatedAt": "2026-10-01",
+      "nextAction": "複核畫面證據與連結後升級為 product-confirmed",
       "isQueryable": false,
       "links": {
-        "spec": null,
-        "edit": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/new/main/specs?filename=create-account.md",
+        "spec": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main/specs/create-account.md",
+        "edit": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/edit/main/specs/create-account.md",
         "index": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main/core/v1.0/page-index.md",
-        "history": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/commits/main/specs/spec-status.json",
+        "history": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/commits/main/specs/create-account.md",
         "status": "https://github.com/IsumiOuO/backoffice-design-hub-knowledge/blob/main/specs/spec-status.json"
       }
     },
@@ -228,7 +228,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -264,7 +264,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -301,7 +301,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -336,7 +336,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -373,7 +373,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -410,7 +410,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -446,7 +446,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -482,7 +482,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -519,7 +519,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -554,7 +554,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -589,7 +589,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -626,7 +626,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -777,7 +777,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -814,7 +814,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -892,7 +892,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -930,7 +930,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "確認新增與編輯是否共用同一規格後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1007,7 +1007,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1045,7 +1045,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1083,7 +1083,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1120,7 +1120,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1158,7 +1158,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1195,7 +1195,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1232,7 +1232,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "確認新增與編輯狀態分組後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1269,7 +1269,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "確認新增與編輯狀態分組後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1305,7 +1305,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1342,7 +1342,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1461,7 +1461,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "確認完整流程步驟後產生草稿",
       "isQueryable": false,
       "links": {
@@ -1497,7 +1497,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1534,7 +1534,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1571,7 +1571,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1608,7 +1608,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1645,7 +1645,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1682,7 +1682,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1718,7 +1718,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1755,7 +1755,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1792,7 +1792,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1829,7 +1829,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1865,7 +1865,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1901,7 +1901,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1937,7 +1937,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -1974,7 +1974,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
@@ -2010,7 +2010,7 @@
       "questions": [],
       "openQuestions": 0,
       "screenCount": 0,
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-01",
       "nextAction": "產生 AI 圖文草稿",
       "isQueryable": false,
       "links": {
