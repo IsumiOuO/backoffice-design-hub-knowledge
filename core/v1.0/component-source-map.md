@@ -43,14 +43,14 @@
 | bet-history-action-dialog | bet-history-action-dialog | candidate | approved | 03_共用模式 / Shared Patterns |
 | bet-history-custom-columns-dialog | bet-history-custom-columns-dialog | candidate | approved | 03_共用模式 / Shared Patterns |
 | bet-history-prompt-dialog | bet-history-prompt-dialog | candidate | approved | 03_共用模式 / Shared Patterns |
-| detail-info-content | detail-info-content | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| detail-info-row | detail-info-row | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| account-table-column-header | account-table-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| date-time-value | date-time-value | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| identifier-and-value | identifier-and-value | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| detail-info-content--legacy-20260821 | detail-info-content | deprecated | deprecated | 99_淘汰 / Deprecated |
+| detail-info-row--legacy-20260821 | detail-info-row | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-table-column-header--legacy-20260821 | account-table-column-header | deprecated | deprecated | 99_淘汰 / Deprecated |
+| date-time-value--legacy-20260821 | date-time-value | deprecated | deprecated | 99_淘汰 / Deprecated |
+| identifier-and-value--legacy-20260821 | identifier-and-value | deprecated | deprecated | 99_淘汰 / Deprecated |
 | prediction-card-variant4 | prediction-card-variant4 | local | approved | 03_共用模式 / Shared Patterns |
-| account-table-action-item | account-table-action-item | candidate | approved | 03_共用模式 / Shared Patterns |
-| key-value-text | key-value-text | candidate | approved | 03_共用模式 / Shared Patterns |
+| account-table-action-item--legacy-20260821 | account-table-action-item | deprecated | deprecated | 99_淘汰 / Deprecated |
+| key-value-text--legacy-20260821 | key-value-text | deprecated | deprecated | 99_淘汰 / Deprecated |
 | enabled-status-field | enabled-status-field | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | subcategory-list-title-header | subcategory-list-title-header | candidate | approved | 03_共用模式 / Shared Patterns |
 | subcategory-list-header | subcategory-list-header | candidate | approved | 03_共用模式 / Shared Patterns |
@@ -110,31 +110,31 @@
 | add-text-parameter-dialog | add-text-parameter-dialog | feature | approved | 04_功能元件 / Feature Components |
 | add-date-parameter-dialog | add-date-parameter-dialog | feature | approved | 04_功能元件 / Feature Components |
 | add-boolean-parameter-dialog | add-boolean-parameter-dialog | feature | approved | 04_功能元件 / Feature Components |
-| account-table-actions | account-table-actions | feature | approved | 04_功能元件 / Feature Components |
-| account-management-table-row | account-management-table-row | feature | approved | 04_功能元件 / Feature Components |
-| account-management-table-header | account-management-table-header | feature | approved | 04_功能元件 / Feature Components |
-| account-filter-panel-desktop | account-filter-panel-desktop | feature | approved | 04_功能元件 / Feature Components |
-| account-enabled-status-badge | account-enabled-status-badge | feature | approved | 04_功能元件 / Feature Components |
-| account-status-filter-panel-desktop-tablet | account-status-filter-panel-desktop-tablet | feature | approved | 04_功能元件 / Feature Components |
-| account-status-filter-panel-mobile | account-status-filter-panel-mobile | feature | approved | 04_功能元件 / Feature Components |
-| account-filter-toggle-buttons | account-filter-toggle-buttons | feature | approved | 04_功能元件 / Feature Components |
-| account-search-filter | account-search-filter | feature | approved | 04_功能元件 / Feature Components |
-| account-enabled-status-filter | account-enabled-status-filter | feature | approved | 04_功能元件 / Feature Components |
-| account-info-field | account-info-field | feature | approved | 04_功能元件 / Feature Components |
-| account-status-summary | account-status-summary | feature | approved | 04_功能元件 / Feature Components |
-| account-status-item | account-status-item | feature | approved | 04_功能元件 / Feature Components |
-| account-form-action-button | account-form-action-button | feature | approved | 04_功能元件 / Feature Components |
-| add-account-button | add-account-button | feature | approved | 04_功能元件 / Feature Components |
-| account-details | account-details | feature | approved | 04_功能元件 / Feature Components |
-| account-action-dialog | account-action-dialog | feature | approved | 04_功能元件 / Feature Components |
-| account-overview | account-overview | feature | approved | 04_功能元件 / Feature Components |
-| account-operation-result | account-operation-result | feature | approved | 04_功能元件 / Feature Components |
-| account-status-section | account-status-section | feature | approved | 04_功能元件 / Feature Components |
+| account-table-actions--legacy-20260821 | account-table-actions | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-management-table-row--legacy-20260821 | account-management-table-row | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-management-table-header--legacy-20260821 | account-management-table-header | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-filter-panel-desktop--legacy-20260821 | account-filter-panel-desktop | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-enabled-status-badge--legacy-20260821 | account-enabled-status-badge | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-status-filter-panel-desktop-tablet--legacy-20260821 | account-status-filter-panel-desktop-tablet | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-status-filter-panel-mobile--legacy-20260821 | account-status-filter-panel-mobile | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-filter-toggle-buttons--legacy-20260821 | account-filter-toggle-buttons | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-search-filter--legacy-20260821 | account-search-filter | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-enabled-status-filter--legacy-20260821 | account-enabled-status-filter | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-info-field--legacy-20260821 | account-info-field | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-status-summary--legacy-20260821 | account-status-summary | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-status-item--legacy-20260821 | account-status-item | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-form-action-button--legacy-20260821 | account-form-action-button | deprecated | deprecated | 99_淘汰 / Deprecated |
+| add-account-button--legacy-20260821 | add-account-button | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-details--legacy-20260821 | account-details | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-action-dialog--legacy-20260821 | account-action-dialog | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-overview--legacy-20260821 | account-overview | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-operation-result--legacy-20260821 | account-operation-result | deprecated | deprecated | 99_淘汰 / Deprecated |
+| account-status-section--legacy-20260821 | account-status-section | deprecated | deprecated | 99_淘汰 / Deprecated |
 | authenticator-status-message | authenticator-status-message | feature | approved | 04_功能元件 / Feature Components |
-| delete-account-button | delete-account-button | feature | approved | 04_功能元件 / Feature Components |
-| disable-account-button | disable-account-button | feature | approved | 04_功能元件 / Feature Components |
-| create-account-information | create-account-information | feature | approved | 04_功能元件 / Feature Components |
-| edit-account-information | edit-account-information | feature | approved | 04_功能元件 / Feature Components |
+| delete-account-button--legacy-20260821 | delete-account-button | deprecated | deprecated | 99_淘汰 / Deprecated |
+| disable-account-button--legacy-20260821 | disable-account-button | deprecated | deprecated | 99_淘汰 / Deprecated |
+| create-account-information--legacy-20260821 | create-account-information | deprecated | deprecated | 99_淘汰 / Deprecated |
+| edit-account-information--legacy-20260821 | edit-account-information | deprecated | deprecated | 99_淘汰 / Deprecated |
 | checkbox | checkbox | candidate | approved | 04_功能元件 / Feature Components |
 | edit-parameter-category-button | edit-parameter-category-button | feature | approved | 04_功能元件 / Feature Components |
 | add-parameter-category-button | add-parameter-category-button | feature | approved | 04_功能元件 / Feature Components |
@@ -220,12 +220,12 @@
 | two-factor-authentication-flow-alert | two-factor-authentication-flow-alert | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | two-factor-authentication-setup-content | two-factor-authentication-setup-content | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | two-factor-authentication-verification-code-input | two-factor-authentication-verification-code-input | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| two-factor-authentication | two-factor-authentication | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| two-factor-enabled-status-badge | two-factor-enabled-status-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
+| two-factor-authentication--legacy-20260821 | two-factor-authentication | deprecated | deprecated | 99_淘汰 / Deprecated |
+| two-factor-enabled-status-badge--legacy-20260821 | two-factor-enabled-status-badge | deprecated | deprecated | 99_淘汰 / Deprecated |
 | two-factor-setup-dialog-flow | two-factor-setup-dialog-flow | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| two-factor-status-filter | two-factor-status-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| two-factor-status-summary | two-factor-status-summary | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| two-factor-toggle-button | two-factor-toggle-button | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
+| two-factor-status-filter--legacy-20260821 | two-factor-status-filter | deprecated | deprecated | 99_淘汰 / Deprecated |
+| two-factor-status-summary--legacy-20260821 | two-factor-status-summary | deprecated | deprecated | 99_淘汰 / Deprecated |
+| two-factor-toggle-button--legacy-20260821 | two-factor-toggle-button | deprecated | deprecated | 99_淘汰 / Deprecated |
 | unpublished-event-status-header | unpublished-event-status-header | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | unpublished-main-event-status-header | unpublished-main-event-status-header | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | unpublished-option-event-status-header | unpublished-option-event-status-header | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
@@ -349,7 +349,7 @@
 | remaining-days-wager-end-time | remaining-days-wager-end-time | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | rerun-order-result-dialog | rerun-order-result-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | reselect-event-button | reselect-event-button | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
-| role-group-badge | role-group-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
+| role-group-badge--legacy-20260821 | role-group-badge | deprecated | deprecated | 99_淘汰 / Deprecated |
 | role-group-filter | role-group-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | round-id-filter | round-id-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | rush-hour-parameter-update-step-1 | rush-hour-parameter-update-step-1 | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
@@ -396,7 +396,7 @@
 | language-cell | language-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
 | language-save-status-cell | language-save-status-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
 | listing-status-filter | listing-status-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
-| login-security-policy | login-security-policy | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
+| login-security-policy--legacy-20260821 | login-security-policy | deprecated | deprecated | 99_淘汰 / Deprecated |
 | main-event-action-button | main-event-action-button | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
 | main-event-column-title | main-event-column-title | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
 | main-event-table-header | main-event-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
@@ -556,3 +556,101 @@
 | event-main-category-image-viewer-desktop-image-viewer-modal-open | event-main-category-image-viewer | feature | approved | 05_代表畫面 / Reference Screens |
 | event-main-category-image-viewer-tablet-image-viewer-modal-open | event-main-category-image-viewer | feature | approved | 05_代表畫面 / Reference Screens |
 | event-main-category-image-viewer-mobile-image-viewer-modal-open | event-main-category-image-viewer | feature | approved | 05_代表畫面 / Reference Screens |
+| detail-info-content | detail-info-content | shared-pattern | candidate | 07_候選 / Candidate |
+| detail-info-row | detail-info-row | shared-pattern | candidate | 07_候選 / Candidate |
+| account-table-column-header | account-table-column-header | shared-pattern | candidate | 07_候選 / Candidate |
+| date-time-value | date-time-value | shared-pattern | candidate | 07_候選 / Candidate |
+| identifier-and-value | identifier-and-value | shared-pattern | candidate | 07_候選 / Candidate |
+| account-table-action-item | account-table-action-item | shared-pattern | candidate | 07_候選 / Candidate |
+| account-table-actions | account-table-actions | feature | candidate | 07_候選 / Candidate |
+| account-management-table-row | account-management-table-row | feature | candidate | 07_候選 / Candidate |
+| account-management-table-header | account-management-table-header | feature | candidate | 07_候選 / Candidate |
+| account-filter-panel-desktop | account-filter-panel-desktop | feature | candidate | 07_候選 / Candidate |
+| account-enabled-status-badge | account-enabled-status-badge | feature | candidate | 07_候選 / Candidate |
+| two-factor-enabled-status-badge | two-factor-enabled-status-badge | feature | candidate | 07_候選 / Candidate |
+| role-group-badge | role-group-badge | feature | candidate | 07_候選 / Candidate |
+| platform-provider-cell | platform-provider-cell | feature | candidate | 07_候選 / Candidate |
+| platform-provider-badge | platform-provider-badge | feature | candidate | 07_候選 / Candidate |
+| account-status-filter-panel-desktop-tablet | account-status-filter-panel-desktop-tablet | feature | candidate | 07_候選 / Candidate |
+| account-status-filter-panel-mobile | account-status-filter-panel-mobile | feature | candidate | 07_候選 / Candidate |
+| account-filter-toggle-buttons | account-filter-toggle-buttons | feature | candidate | 07_候選 / Candidate |
+| account-search-filter | account-search-filter | feature | candidate | 07_候選 / Candidate |
+| account-enabled-status-filter | account-enabled-status-filter | feature | candidate | 07_候選 / Candidate |
+| two-factor-status-filter | two-factor-status-filter | feature | candidate | 07_候選 / Candidate |
+| role-filter | role-filter | feature | candidate | 07_候選 / Candidate |
+| account-info-field | account-info-field | feature | candidate | 07_候選 / Candidate |
+| account-status-summary | account-status-summary | feature | candidate | 07_候選 / Candidate |
+| two-factor-status-summary | two-factor-status-summary | feature | candidate | 07_候選 / Candidate |
+| delete-account-button | delete-account-button | feature | candidate | 07_候選 / Candidate |
+| account-status-item | account-status-item | feature | candidate | 07_候選 / Candidate |
+| account-form-action-button | account-form-action-button | feature | candidate | 07_候選 / Candidate |
+| add-account-button | add-account-button | feature | candidate | 07_候選 / Candidate |
+| disable-account-button | disable-account-button | feature | candidate | 07_候選 / Candidate |
+| two-factor-toggle-button | two-factor-toggle-button | feature | candidate | 07_候選 / Candidate |
+| account-details | account-details | feature | candidate | 07_候選 / Candidate |
+| account-action-dialog | account-action-dialog | feature | candidate | 07_候選 / Candidate |
+| account-overview | account-overview | feature | candidate | 07_候選 / Candidate |
+| two-factor-authentication | two-factor-authentication | feature | candidate | 07_候選 / Candidate |
+| login-security-policy | login-security-policy | feature | candidate | 07_候選 / Candidate |
+| qr-code-regenerate-alert | qr-code-regenerate-alert | feature | candidate | 07_候選 / Candidate |
+| account-operation-result | account-operation-result | feature | candidate | 07_候選 / Candidate |
+| create-account-information | create-account-information | feature | candidate | 07_候選 / Candidate |
+| account-role-selection-section | account-role-selection-section | feature | candidate | 07_候選 / Candidate |
+| edit-account-information | edit-account-information | feature | candidate | 07_候選 / Candidate |
+| account-status-section | account-status-section | feature | candidate | 07_候選 / Candidate |
+| update-user-password | update-user-password | feature | candidate | 07_候選 / Candidate |
+| role-page-permission-selector | role-page-permission-selector | feature | candidate | 07_候選 / Candidate |
+| role-permission-settings | role-permission-settings | feature | candidate | 07_候選 / Candidate |
+| create-role-information | create-role-information | feature | candidate | 07_候選 / Candidate |
+| permission-global-toolbar | permission-global-toolbar | feature | candidate | 07_候選 / Candidate |
+| role-save-result | role-save-result | feature | candidate | 07_候選 / Candidate |
+| permission-operation-result | permission-operation-result | feature | candidate | 07_候選 / Candidate |
+| role-delete-result | role-delete-result | feature | candidate | 07_候選 / Candidate |
+| permission-item | permission-item | feature | candidate | 07_候選 / Candidate |
+| permission-enabled-count | permission-enabled-count | feature | candidate | 07_候選 / Candidate |
+| permission-enabled-count-overview | permission-enabled-count-overview | feature | candidate | 07_候選 / Candidate |
+| permission-menu-overview-item | permission-menu-overview-item | feature | candidate | 07_候選 / Candidate |
+| permission-function-page-item | permission-function-page-item | feature | candidate | 07_候選 / Candidate |
+| permission-function-category | permission-function-category | feature | candidate | 07_候選 / Candidate |
+| permission-section-title | permission-section-title | feature | candidate | 07_候選 / Candidate |
+| permission-text-cell | permission-text-cell | feature | candidate | 07_候選 / Candidate |
+| permission-page-hint | permission-page-hint | feature | candidate | 07_候選 / Candidate |
+| permission-menu-item | permission-menu-item | feature | candidate | 07_候選 / Candidate |
+| permission-status-tab-group | permission-status-tab-group | feature | candidate | 07_候選 / Candidate |
+| permission-save-status | permission-save-status | feature | candidate | 07_候選 / Candidate |
+| account-form-action-button--dup-role | account-form-action-button | feature | candidate | 07_候選 / Candidate |
+| permission-settings-tabs | permission-settings-tabs | feature | candidate | 07_候選 / Candidate |
+| role-detail-head | role-detail-head | feature | candidate | 07_候選 / Candidate |
+| permission-enabled-count--dup-role | permission-enabled-count | feature | candidate | 07_候選 / Candidate |
+| permission-enabled-count-overview--dup-role | permission-enabled-count-overview | feature | candidate | 07_候選 / Candidate |
+| permission-function-page-item--dup-role | permission-function-page-item | feature | candidate | 07_候選 / Candidate |
+| permission-menu-item--dup-role | permission-menu-item | feature | candidate | 07_候選 / Candidate |
+| delete-account-button--dup-role | delete-account-button | feature | candidate | 07_候選 / Candidate |
+| overview-time-field | overview-time-field | feature | candidate | 07_候選 / Candidate |
+| edit-role-information | edit-role-information | feature | candidate | 07_候選 / Candidate |
+| role-overview | role-overview | feature | candidate | 07_候選 / Candidate |
+| role-status-section | role-status-section | feature | candidate | 07_候選 / Candidate |
+| role-table-column-header | role-table-column-header | shared-pattern | candidate | 07_候選 / Candidate |
+| date-time-value--dup-role | date-time-value | shared-pattern | candidate | 07_候選 / Candidate |
+| identifier-and-value--dup-role | identifier-and-value | shared-pattern | candidate | 07_候選 / Candidate |
+| account-table-action-item--dup-role | account-table-action-item | shared-pattern | candidate | 07_候選 / Candidate |
+| role-management-table-row | role-management-table-row | feature | candidate | 07_候選 / Candidate |
+| role-management-table-header | role-management-table-header | feature | candidate | 07_候選 / Candidate |
+| add-role-button | add-role-button | feature | candidate | 07_候選 / Candidate |
+| role-permission-summary | role-permission-summary | feature | candidate | 07_候選 / Candidate |
+| permission-overview-content | permission-overview-content | feature | candidate | 07_候選 / Candidate |
+| role-action-dialog | role-action-dialog | feature | candidate | 07_候選 / Candidate |
+| permission-summary-sidebar | permission-summary-sidebar | feature | candidate | 07_候選 / Candidate |
+| role-details | role-details | feature | candidate | 07_候選 / Candidate |
+| role-row-action-dialog | role-row-action-dialog | feature | candidate | 07_候選 / Candidate |
+| edit-account-information--dup-personal | edit-account-information | feature | candidate | 07_候選 / Candidate |
+| update-user-password--dup-personal | update-user-password | feature | candidate | 07_候選 / Candidate |
+| personal-account-overview | personal-account-overview | feature | candidate | 07_候選 / Candidate |
+| two-factor-authentication--dup-personal | two-factor-authentication | feature | candidate | 07_候選 / Candidate |
+| personal-permission-overview | personal-permission-overview | feature | candidate | 07_候選 / Candidate |
+| personal-operation-result | personal-operation-result | feature | candidate | 07_候選 / Candidate |
+| key-value-text | key-value-text | shared-pattern | candidate | 07_候選 / Candidate |
+| account-info-field--dup-internal | account-info-field | feature | candidate | 07_候選 / Candidate |
+| platform-provider-badge--dup-internal | platform-provider-badge | feature | candidate | 07_候選 / Candidate |
+| two-factor-status-summary--dup-internal | two-factor-status-summary | feature | candidate | 07_候選 / Candidate |
+| two-factor-toggle-button--dup-internal | two-factor-toggle-button | feature | candidate | 07_候選 / Candidate |
