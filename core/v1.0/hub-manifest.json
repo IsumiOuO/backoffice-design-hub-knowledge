@@ -2,7 +2,7 @@
   "format": "backoffice-design-hub-manifest",
   "schemaVersion": 2,
   "pluginVersion": "1.1.29",
-  "generatedAt": "2026-11-17T07:51:29.246Z",
+  "generatedAt": "2026-11-17T08:04:02.662Z",
   "fileName": "Figma MCP 核心元件索引 / Core Components Hub",
   "fileKey": "UX9EY190SGnpNiowHlwiUB",
   "fileProfile": {
@@ -12,7 +12,7 @@
     "scopeSummary": "正式核心元件與跨功能共用 Component Family；目前主責 539 個 Family。"
   },
   "summary": {
-    "assets": 650,
+    "assets": 634,
     "modules": 13,
     "families": 583,
     "errors": 0,
@@ -22,9 +22,9 @@
     "mode": "safe-key-index",
     "publishStatusChecked": false,
     "fileKeyAvailable": true,
-    "components": 641,
-    "nativeComponents": 641,
-    "keyedComponents": 641,
+    "components": 625,
+    "nativeComponents": 625,
+    "keyedComponents": 625,
     "publishedComponents": null,
     "callableComponents": null,
     "nonNativeComponents": 0,
@@ -12390,60 +12390,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "date-time-value--dup-role",
-              "nodeId": "298:45811",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "shared-pattern",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:41490"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45811"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "d1da927e71207e9c69f2e22406bd349d6f817ef1",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45811",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "類型": {
-                  "type": "VARIANT",
-                  "defaultValue": "Default",
-                  "variantOptions": [
-                    "Default"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "類型",
-                  "type": "VARIANT",
-                  "defaultValue": "Default",
-                  "variantOptions": [
-                    "Default"
-                  ]
-                }
-              ]
             }
           ],
           "aiUsage": "mixed"
@@ -12725,92 +12671,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "identifier-and-value--dup-role",
-              "nodeId": "298:45826",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "shared-pattern",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:41505"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45826"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "9cd791a5cc5b965233fa7a63e52a8cc0adbb8e9a",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45826",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "類型": {
-                  "type": "VARIANT",
-                  "defaultValue": "編號",
-                  "variantOptions": [
-                    "編號",
-                    "無編號",
-                    "系統編號",
-                    "無系統編號",
-                    "數值",
-                    "無數值",
-                    "盈虧-正",
-                    "盈虧-負",
-                    "無盈虧",
-                    "名稱",
-                    "無名稱",
-                    "Yes",
-                    "No",
-                    "Up",
-                    "Down",
-                    "無方向",
-                    "類型17"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "類型",
-                  "type": "VARIANT",
-                  "defaultValue": "編號",
-                  "variantOptions": [
-                    "編號",
-                    "無編號",
-                    "系統編號",
-                    "無系統編號",
-                    "數值",
-                    "無數值",
-                    "盈虧-正",
-                    "盈虧-負",
-                    "無盈虧",
-                    "名稱",
-                    "無名稱",
-                    "Yes",
-                    "No",
-                    "Up",
-                    "Down",
-                    "無方向",
-                    "類型17"
-                  ]
-                }
-              ]
             }
           ],
           "aiUsage": "mixed"
@@ -12896,60 +12756,6 @@
               "componentSetPublishStatus": "NOT_CHECKED",
               "published": null,
               "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41568",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "類型": {
-                  "type": "VARIANT",
-                  "defaultValue": "編號",
-                  "variantOptions": [
-                    "編號"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "類型",
-                  "type": "VARIANT",
-                  "defaultValue": "編號",
-                  "variantOptions": [
-                    "編號"
-                  ]
-                }
-              ]
-            },
-            {
-              "canonicalId": "account-table-action-item--dup-role",
-              "nodeId": "298:45892",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "List",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "shared-pattern",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:41568"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45892"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "169bdece17a030191c1588542ef201afea243328",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45892",
               "componentPropertyReadMode": "metadata-only",
               "componentProperties": {
                 "類型": {
@@ -14631,66 +14437,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "account-info-field--dup-internal",
-              "nodeId": "298:47386",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-internal",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=相依元件; duplicateOf=298:41745"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:47386"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "78366cb2593411c2ae4d1d90090396e4d46b6c96",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47386",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "類型": {
-                  "type": "VARIANT",
-                  "defaultValue": "通常",
-                  "variantOptions": [
-                    "通常",
-                    "標籤",
-                    "有啟用",
-                    "未啟用"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "類型",
-                  "type": "VARIANT",
-                  "defaultValue": "通常",
-                  "variantOptions": [
-                    "通常",
-                    "標籤",
-                    "有啟用",
-                    "未啟用"
-                  ]
-                }
-              ]
             }
           ],
           "aiUsage": "mixed"
@@ -15034,81 +14780,6 @@
               "componentSetPublishStatus": "NOT_CHECKED",
               "published": null,
               "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41781",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "類型": {
-                  "type": "VARIANT",
-                  "defaultValue": "確認編輯",
-                  "variantOptions": [
-                    "確認編輯",
-                    "確認新增",
-                    "取消"
-                  ]
-                },
-                "狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "default",
-                  "variantOptions": [
-                    "default",
-                    "hover"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "類型",
-                  "type": "VARIANT",
-                  "defaultValue": "確認編輯",
-                  "variantOptions": [
-                    "確認編輯",
-                    "確認新增",
-                    "取消"
-                  ]
-                },
-                {
-                  "name": "狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "default",
-                  "variantOptions": [
-                    "default",
-                    "hover"
-                  ]
-                }
-              ]
-            },
-            {
-              "canonicalId": "account-form-action-button--dup-role",
-              "nodeId": "298:45457",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:41781"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45457"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "75fb66212439cfd84ce3216db25f6dc6f0c2e02d",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45457",
               "componentPropertyReadMode": "metadata-only",
               "componentProperties": {
                 "類型": {
@@ -16125,9 +15796,9 @@
               "componentProperties": {
                 "裝置": {
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -16144,9 +15815,9 @@
                 {
                   "name": "裝置",
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -16331,62 +16002,6 @@
               "componentSetPublishStatus": "NOT_CHECKED",
               "published": null,
               "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41773",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "帳號狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "Default",
-                  "variantOptions": [
-                    "Default",
-                    "Hover"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "帳號狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "Default",
-                  "variantOptions": [
-                    "Default",
-                    "Hover"
-                  ]
-                }
-              ]
-            },
-            {
-              "canonicalId": "delete-account-button--dup-role",
-              "nodeId": "298:45623",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:41773"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45623"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "6432e001c81de3b7d93aa511ec8ce0c3040049c5",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45623",
               "componentPropertyReadMode": "metadata-only",
               "componentProperties": {
                 "帳號狀態": {
@@ -16974,119 +16589,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "edit-account-information--dup-personal",
-              "nodeId": "298:46742",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "responsive",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-personal",
-              "pageType": "Edit",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=個人設定; duplicateOf=298:43145"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:46742"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "7158911b06f6d8f592b235b980cdd8dc030c2d7d",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46742",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "裝置": {
-                  "type": "VARIANT",
-                  "defaultValue": "PC",
-                  "variantOptions": [
-                    "PC",
-                    "Tablet",
-                    "Mobile"
-                  ]
-                },
-                "收合狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                "輸入狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "尚未輸入",
-                  "variantOptions": [
-                    "尚未輸入",
-                    "已輸入",
-                    "必填不可為空",
-                    "兩次輸入的密碼必須相同"
-                  ]
-                },
-                "修改密碼": {
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "裝置",
-                  "type": "VARIANT",
-                  "defaultValue": "PC",
-                  "variantOptions": [
-                    "PC",
-                    "Tablet",
-                    "Mobile"
-                  ]
-                },
-                {
-                  "name": "收合狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                {
-                  "name": "輸入狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "尚未輸入",
-                  "variantOptions": [
-                    "尚未輸入",
-                    "已輸入",
-                    "必填不可為空",
-                    "兩次輸入的密碼必須相同"
-                  ]
-                },
-                {
-                  "name": "修改密碼",
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                }
-              ]
             }
           ],
           "aiUsage": "mixed"
@@ -17367,9 +16869,9 @@
               "componentProperties": {
                 "裝置": {
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -17394,99 +16896,9 @@
                 {
                   "name": "裝置",
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
-                    "Mobile"
-                  ]
-                },
-                {
-                  "name": "收合狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                {
-                  "name": "狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "尚未啟用",
-                  "variantOptions": [
-                    "尚未啟用",
-                    "已啟用"
-                  ]
-                }
-              ]
-            },
-            {
-              "canonicalId": "two-factor-authentication--dup-personal",
-              "nodeId": "298:47058",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "responsive",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-personal",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=個人設定; duplicateOf=298:41960"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:47058"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "105251e70ca4bee64c0ac728d8bc74ce745efc37",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47058",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "裝置": {
-                  "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
-                  "variantOptions": [
-                    "PC＆Tablet",
-                    "Mobile"
-                  ]
-                },
-                "收合狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                "狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "尚未啟用",
-                  "variantOptions": [
-                    "尚未啟用",
-                    "已啟用"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "裝置",
-                  "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
-                  "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -17977,62 +17389,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "two-factor-status-summary--dup-internal",
-              "nodeId": "298:47414",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-internal",
-              "pageType": "Detail",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=相依元件; duplicateOf=298:41768"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:47414"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "9e26209a08687229f031eec42a57b28e61f54309",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47414",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "帳號狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "已啟用",
-                  "variantOptions": [
-                    "已啟用",
-                    "尚未啟用"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "帳號狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "已啟用",
-                  "variantOptions": [
-                    "已啟用",
-                    "尚未啟用"
-                  ]
-                }
-              ]
             }
           ],
           "aiUsage": "mixed"
@@ -18136,60 +17492,6 @@
               "componentSetPublishStatus": "NOT_CHECKED",
               "published": null,
               "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41818",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "類型": {
-                  "type": "VARIANT",
-                  "defaultValue": "重置雙重驗證",
-                  "variantOptions": [
-                    "重置雙重驗證"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "類型",
-                  "type": "VARIANT",
-                  "defaultValue": "重置雙重驗證",
-                  "variantOptions": [
-                    "重置雙重驗證"
-                  ]
-                }
-              ]
-            },
-            {
-              "canonicalId": "two-factor-toggle-button--dup-internal",
-              "nodeId": "298:47419",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-internal",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=相依元件; duplicateOf=298:41818"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:47419"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "df42a26feea7d2de8b1e33c706b4af282022df32",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47419",
               "componentPropertyReadMode": "metadata-only",
               "componentProperties": {
                 "類型": {
@@ -18550,9 +17852,9 @@
               "componentProperties": {
                 "裝置": {
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -18576,9 +17878,9 @@
                 {
                   "name": "裝置",
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -18736,67 +18038,9 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "platform-provider-badge--dup-internal",
-              "nodeId": "298:47404",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-internal",
-              "pageType": "List",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=相依元件; duplicateOf=298:41645"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:47404"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "d226b292d2c1e5c3dc60986769ae6423afac58ff",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47404",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "平台/遊戲商": {
-                  "type": "VARIANT",
-                  "defaultValue": "TH1",
-                  "variantOptions": [
-                    "TH1",
-                    "Botan",
-                    "Hitomarket"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "平台/遊戲商",
-                  "type": "VARIANT",
-                  "defaultValue": "TH1",
-                  "variantOptions": [
-                    "TH1",
-                    "Botan",
-                    "Hitomarket"
-                  ]
-                }
-              ]
             }
           ],
-          "aiUsage": "mixed"
+          "aiUsage": "allowed"
         },
         {
           "canonicalFamilyId": "role-filter",
@@ -19151,103 +18395,9 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "update-user-password--dup-personal",
-              "nodeId": "298:46913",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "responsive",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-personal",
-              "pageType": "Edit",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=個人設定; duplicateOf=298:43345"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:46913"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "6549b01dbc62daa8c22f8fa7a00cc22fb4302672",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46913",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "裝置": {
-                  "type": "VARIANT",
-                  "defaultValue": "PC",
-                  "variantOptions": [
-                    "PC",
-                    "Tablet",
-                    "Mobile"
-                  ]
-                },
-                "收合狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                "輸入狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "尚未輸入",
-                  "variantOptions": [
-                    "尚未輸入",
-                    "已輸入",
-                    "兩次輸入的密碼必須相同"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "裝置",
-                  "type": "VARIANT",
-                  "defaultValue": "PC",
-                  "variantOptions": [
-                    "PC",
-                    "Tablet",
-                    "Mobile"
-                  ]
-                },
-                {
-                  "name": "收合狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                {
-                  "name": "輸入狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "尚未輸入",
-                  "variantOptions": [
-                    "尚未輸入",
-                    "已輸入",
-                    "兩次輸入的密碼必須相同"
-                  ]
-                }
-              ]
             }
           ],
-          "aiUsage": "mixed"
+          "aiUsage": "allowed"
         },
         {
           "canonicalFamilyId": "role-page-permission-selector",
@@ -20195,67 +19345,9 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "permission-enabled-count--dup-role",
-              "nodeId": "298:45540",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:45277"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45540"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "09a7befefbc7ad53ef82e2383e231cefbecbefef",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45540",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "部分啟用",
-                  "variantOptions": [
-                    "部分啟用",
-                    "全部啟用",
-                    "尚未啟用"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "部分啟用",
-                  "variantOptions": [
-                    "部分啟用",
-                    "全部啟用",
-                    "尚未啟用"
-                  ]
-                }
-              ]
             }
           ],
-          "aiUsage": "mixed"
+          "aiUsage": "allowed"
         },
         {
           "canonicalFamilyId": "permission-enabled-count-overview",
@@ -20321,67 +19413,9 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "permission-enabled-count-overview--dup-role",
-              "nodeId": "298:45553",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Detail",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:45290"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45553"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "0f199a957ed1dc4611d8782bde912dbf3ec10bff",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45553",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "部分啟用",
-                  "variantOptions": [
-                    "部分啟用",
-                    "全部啟用",
-                    "尚未啟用"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "部分啟用",
-                  "variantOptions": [
-                    "部分啟用",
-                    "全部啟用",
-                    "尚未啟用"
-                  ]
-                }
-              ]
             }
           ],
-          "aiUsage": "mixed"
+          "aiUsage": "allowed"
         },
         {
           "canonicalFamilyId": "permission-menu-overview-item",
@@ -20549,86 +19583,9 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "permission-function-page-item--dup-role",
-              "nodeId": "298:45569",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:45319"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45569"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "f3f2c2e85a8bcd68e7b7a04c2133d4cb9dfc90b2",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45569",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "啟用狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "尚未啟用",
-                  "variantOptions": [
-                    "尚未啟用",
-                    "部分啟用",
-                    "全部啟用"
-                  ]
-                },
-                "選取狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "尚未選取",
-                  "variantOptions": [
-                    "尚未選取",
-                    "hover",
-                    "已選取"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "啟用狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "尚未啟用",
-                  "variantOptions": [
-                    "尚未啟用",
-                    "部分啟用",
-                    "全部啟用"
-                  ]
-                },
-                {
-                  "name": "選取狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "尚未選取",
-                  "variantOptions": [
-                    "尚未選取",
-                    "hover",
-                    "已選取"
-                  ]
-                }
-              ]
             }
           ],
-          "aiUsage": "mixed"
+          "aiUsage": "allowed"
         },
         {
           "canonicalFamilyId": "permission-function-category",
@@ -20971,82 +19928,9 @@
                   ]
                 }
               ]
-            },
-            {
-              "canonicalId": "permission-menu-item--dup-role",
-              "nodeId": "298:45606",
-              "page": "07_候選 / Candidate",
-              "kind": "component",
-              "role": "component",
-              "viewport": "unknown",
-              "viewportScope": "unconfirmed",
-              "theme": "unknown",
-              "state": "duplicate-role",
-              "pageType": "Other",
-              "variantKey": "unknown|unknown|duplicate",
-              "sourceLayer": "feature",
-              "status": "candidate",
-              "aiUsage": "blocked",
-              "reviewAction": "duplicate",
-              "reviewStatus": "needs-review",
-              "confidence": 0.85,
-              "evidence": [
-                "intake=2026-11-17; section=角色管理; duplicateOf=298:45411"
-              ],
-              "sourceRef": {
-                "fileName": "Core Components Hub",
-                "pageName": "07_候選 / Candidate",
-                "nodeId": "298:45606"
-              },
-              "figmaType": "COMPONENT_SET",
-              "componentKey": "",
-              "componentSetKey": "e7b4585d955d59d3146b7a1738b9863fb0f91f7a",
-              "publishStatus": "NOT_CHECKED",
-              "componentSetPublishStatus": "NOT_CHECKED",
-              "published": null,
-              "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45606",
-              "componentPropertyReadMode": "metadata-only",
-              "componentProperties": {
-                "收合狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                "選取狀態": {
-                  "type": "VARIANT",
-                  "defaultValue": "預設",
-                  "variantOptions": [
-                    "預設",
-                    "hover"
-                  ]
-                }
-              },
-              "variantOptions": [
-                {
-                  "name": "收合狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "關閉",
-                  "variantOptions": [
-                    "關閉",
-                    "開啟"
-                  ]
-                },
-                {
-                  "name": "選取狀態",
-                  "type": "VARIANT",
-                  "defaultValue": "預設",
-                  "variantOptions": [
-                    "預設",
-                    "hover"
-                  ]
-                }
-              ]
             }
           ],
-          "aiUsage": "mixed"
+          "aiUsage": "allowed"
         },
         {
           "canonicalFamilyId": "permission-status-tab-group",
@@ -21668,9 +20552,9 @@
               "componentProperties": {
                 "裝置": {
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -21687,9 +20571,9 @@
                 {
                   "name": "裝置",
                   "type": "VARIANT",
-                  "defaultValue": "PC＆Tablet",
+                  "defaultValue": "PC&Tablet",
                   "variantOptions": [
-                    "PC＆Tablet",
+                    "PC&Tablet",
                     "Mobile"
                   ]
                 },
@@ -22417,7 +21301,7 @@
           "functionId": "role-details",
           "displayNameZh": "角色詳細資訊",
           "displayNameEn": "Role Details",
-          "functionSummary": "角色詳細資訊彈窗內容。注意：裝置屬性含 device3／device4 未命名值，待整理。",
+          "functionSummary": "角色詳細資訊彈窗內容，支援桌機平板版、手機版，以及已啟用／已停用狀態。",
           "variants": [
             {
               "canonicalId": "role-details",
@@ -22459,9 +21343,7 @@
                   "defaultValue": "PC&Tablet",
                   "variantOptions": [
                     "PC&Tablet",
-                    "device3",
-                    "Mobile",
-                    "device4"
+                    "Mobile"
                   ]
                 },
                 "啟用狀態": {
@@ -22480,9 +21362,7 @@
                   "defaultValue": "PC&Tablet",
                   "variantOptions": [
                     "PC&Tablet",
-                    "device3",
-                    "Mobile",
-                    "device4"
+                    "Mobile"
                   ]
                 },
                 {
@@ -106545,7 +105425,7 @@
         "nodeId": "298:41821"
       },
       "aliases": [],
-      "functionSummary": "帳號詳細資訊彈窗內容，支援 PC&Tablet／Mobile 與啟用狀態。",
+      "functionSummary": "帳號詳細資訊彈窗內容，支援桌機平板版、手機版，以及已啟用／已停用狀態。",
       "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。取代舊版 190:225752。",
       "themeStrategy": "manual",
       "themeSupport": "unknown",
@@ -106837,9 +105717,9 @@
       "componentProperties": {
         "裝置": {
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -106864,9 +105744,9 @@
         {
           "name": "裝置",
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -106943,9 +105823,9 @@
       "componentProperties": {
         "裝置": {
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -106969,9 +105849,9 @@
         {
           "name": "裝置",
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -107601,9 +106481,9 @@
       "componentProperties": {
         "裝置": {
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -107620,9 +106500,9 @@
         {
           "name": "裝置",
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -109554,97 +108434,6 @@
     {
       "page": "07_候選 / Candidate",
       "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45457",
-      "nodeName": "_重複/[account-form-action-button] 帳號表單操作按鈕 / Account Form Action Button",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "account-form-action-button--dup-role",
-      "canonicalFamilyId": "account-form-action-button",
-      "functionId": "account-form-action-button",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "帳號表單操作按鈕",
-      "displayNameEn": "Account Form Action Button",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45457",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45457"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41781 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:41781"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "75fb66212439cfd84ce3216db25f6dc6f0c2e02d",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45457",
-      "componentProperties": {
-        "類型": {
-          "type": "VARIANT",
-          "defaultValue": "確認編輯",
-          "variantOptions": [
-            "確認編輯",
-            "確認新增",
-            "取消"
-          ]
-        },
-        "狀態": {
-          "type": "VARIANT",
-          "defaultValue": "default",
-          "variantOptions": [
-            "default",
-            "hover"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "類型",
-          "type": "VARIANT",
-          "defaultValue": "確認編輯",
-          "variantOptions": [
-            "確認編輯",
-            "確認新增",
-            "取消"
-          ]
-        },
-        {
-          "name": "狀態",
-          "type": "VARIANT",
-          "defaultValue": "default",
-          "variantOptions": [
-            "default",
-            "hover"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
       "nodeId": "298:45476",
       "nodeName": "[permission-settings-tabs] 權限設定分頁 / Permission Settings Tabs",
       "schemaVersion": 2,
@@ -109802,408 +108591,6 @@
       "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45533",
       "componentProperties": {},
       "variantOptions": []
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45540",
-      "nodeName": "_重複/[permission-enabled-count] 權限啟用數量 / Permission Enabled Count",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "permission-enabled-count--dup-role",
-      "canonicalFamilyId": "permission-enabled-count",
-      "functionId": "permission-enabled-count",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "權限啟用數量",
-      "displayNameEn": "Permission Enabled Count",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45540",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45540"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:45277 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:45277"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "09a7befefbc7ad53ef82e2383e231cefbecbefef",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45540",
-      "componentProperties": {
-        "狀態": {
-          "type": "VARIANT",
-          "defaultValue": "部分啟用",
-          "variantOptions": [
-            "部分啟用",
-            "全部啟用",
-            "尚未啟用"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "狀態",
-          "type": "VARIANT",
-          "defaultValue": "部分啟用",
-          "variantOptions": [
-            "部分啟用",
-            "全部啟用",
-            "尚未啟用"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45553",
-      "nodeName": "_重複/[permission-enabled-count-overview] 權限啟用數量－權限總覽 / Permission Enabled Count Overview",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "permission-enabled-count-overview--dup-role",
-      "canonicalFamilyId": "permission-enabled-count-overview",
-      "functionId": "permission-enabled-count-overview",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "權限啟用數量－權限總覽",
-      "displayNameEn": "Permission Enabled Count Overview",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Detail",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45553",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45553"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:45290 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:45290"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "0f199a957ed1dc4611d8782bde912dbf3ec10bff",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45553",
-      "componentProperties": {
-        "狀態": {
-          "type": "VARIANT",
-          "defaultValue": "部分啟用",
-          "variantOptions": [
-            "部分啟用",
-            "全部啟用",
-            "尚未啟用"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "狀態",
-          "type": "VARIANT",
-          "defaultValue": "部分啟用",
-          "variantOptions": [
-            "部分啟用",
-            "全部啟用",
-            "尚未啟用"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45569",
-      "nodeName": "_重複/[permission-function-page-item] 權限功能頁面項目 / Permission Function Page Item",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "permission-function-page-item--dup-role",
-      "canonicalFamilyId": "permission-function-page-item",
-      "functionId": "permission-function-page-item",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "權限功能頁面項目",
-      "displayNameEn": "Permission Function Page Item",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45569",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45569"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:45319 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:45319"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "f3f2c2e85a8bcd68e7b7a04c2133d4cb9dfc90b2",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45569",
-      "componentProperties": {
-        "啟用狀態": {
-          "type": "VARIANT",
-          "defaultValue": "尚未啟用",
-          "variantOptions": [
-            "尚未啟用",
-            "部分啟用",
-            "全部啟用"
-          ]
-        },
-        "選取狀態": {
-          "type": "VARIANT",
-          "defaultValue": "尚未選取",
-          "variantOptions": [
-            "尚未選取",
-            "hover",
-            "已選取"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "啟用狀態",
-          "type": "VARIANT",
-          "defaultValue": "尚未啟用",
-          "variantOptions": [
-            "尚未啟用",
-            "部分啟用",
-            "全部啟用"
-          ]
-        },
-        {
-          "name": "選取狀態",
-          "type": "VARIANT",
-          "defaultValue": "尚未選取",
-          "variantOptions": [
-            "尚未選取",
-            "hover",
-            "已選取"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45606",
-      "nodeName": "_重複/[permission-menu-item] 權限選單項目 / Permission Menu Item",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "permission-menu-item--dup-role",
-      "canonicalFamilyId": "permission-menu-item",
-      "functionId": "permission-menu-item",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "權限選單項目",
-      "displayNameEn": "Permission Menu Item",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45606",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45606"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:45411 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:45411"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "e7b4585d955d59d3146b7a1738b9863fb0f91f7a",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45606",
-      "componentProperties": {
-        "收合狀態": {
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        "選取狀態": {
-          "type": "VARIANT",
-          "defaultValue": "預設",
-          "variantOptions": [
-            "預設",
-            "hover"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "收合狀態",
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        {
-          "name": "選取狀態",
-          "type": "VARIANT",
-          "defaultValue": "預設",
-          "variantOptions": [
-            "預設",
-            "hover"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45623",
-      "nodeName": "_重複/[delete-account-button] 刪除帳號按鈕 / Delete Account Button",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "delete-account-button--dup-role",
-      "canonicalFamilyId": "delete-account-button",
-      "functionId": "delete-account-button",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "刪除帳號按鈕",
-      "displayNameEn": "Delete Account Button",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45623",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45623"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41773 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:41773"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "6432e001c81de3b7d93aa511ec8ce0c3040049c5",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45623",
-      "componentProperties": {
-        "帳號狀態": {
-          "type": "VARIANT",
-          "defaultValue": "Default",
-          "variantOptions": [
-            "Default",
-            "Hover"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "帳號狀態",
-          "type": "VARIANT",
-          "defaultValue": "Default",
-          "variantOptions": [
-            "Default",
-            "Hover"
-          ]
-        }
-      ]
     },
     {
       "page": "07_候選 / Candidate",
@@ -110546,9 +108933,9 @@
       "componentProperties": {
         "裝置": {
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -110565,9 +108952,9 @@
         {
           "name": "裝置",
           "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
+          "defaultValue": "PC&Tablet",
           "variantOptions": [
-            "PC＆Tablet",
+            "PC&Tablet",
             "Mobile"
           ]
         },
@@ -110658,248 +109045,6 @@
             "角色創建時間",
             "最後修改時間",
             "操作"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45811",
-      "nodeName": "_重複/[date-time-value] 日期時間 / Date Time Value",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "date-time-value--dup-role",
-      "canonicalFamilyId": "date-time-value",
-      "functionId": "date-time-value",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "日期時間",
-      "displayNameEn": "Date Time Value",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "shared-pattern",
-      "sourceLayer": "shared-pattern",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45811",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45811"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41490 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:41490"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "d1da927e71207e9c69f2e22406bd349d6f817ef1",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45811",
-      "componentProperties": {
-        "類型": {
-          "type": "VARIANT",
-          "defaultValue": "Default",
-          "variantOptions": [
-            "Default"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "類型",
-          "type": "VARIANT",
-          "defaultValue": "Default",
-          "variantOptions": [
-            "Default"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45826",
-      "nodeName": "_重複/[identifier-and-value] 編號與數值 / Identifier and Value",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "identifier-and-value--dup-role",
-      "canonicalFamilyId": "identifier-and-value",
-      "functionId": "identifier-and-value",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "編號與數值",
-      "displayNameEn": "Identifier and Value",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "shared-pattern",
-      "sourceLayer": "shared-pattern",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45826",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45826"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41505 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:41505"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "9cd791a5cc5b965233fa7a63e52a8cc0adbb8e9a",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45826",
-      "componentProperties": {
-        "類型": {
-          "type": "VARIANT",
-          "defaultValue": "編號",
-          "variantOptions": [
-            "編號",
-            "無編號",
-            "系統編號",
-            "無系統編號",
-            "數值",
-            "無數值",
-            "盈虧-正",
-            "盈虧-負",
-            "無盈虧",
-            "名稱",
-            "無名稱",
-            "Yes",
-            "No",
-            "Up",
-            "Down",
-            "無方向",
-            "類型17"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "類型",
-          "type": "VARIANT",
-          "defaultValue": "編號",
-          "variantOptions": [
-            "編號",
-            "無編號",
-            "系統編號",
-            "無系統編號",
-            "數值",
-            "無數值",
-            "盈虧-正",
-            "盈虧-負",
-            "無盈虧",
-            "名稱",
-            "無名稱",
-            "Yes",
-            "No",
-            "Up",
-            "Down",
-            "無方向",
-            "類型17"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "角色管理（來源：Key Screens 🔖v0.1.1-202…）",
-      "nodeId": "298:45892",
-      "nodeName": "_重複/[account-table-action-item] 表格操作項目 / Table Action Item",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "account-table-action-item--dup-role",
-      "canonicalFamilyId": "account-table-action-item",
-      "functionId": "account-table-action-item",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "表格操作項目",
-      "displayNameEn": "Table Action Item",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "List",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-role",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "shared-pattern",
-      "sourceLayer": "shared-pattern",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45892",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:45892"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41568 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=角色管理; duplicateOf=298:41568"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "169bdece17a030191c1588542ef201afea243328",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45892",
-      "componentProperties": {
-        "類型": {
-          "type": "VARIANT",
-          "defaultValue": "編號",
-          "variantOptions": [
-            "編號"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "類型",
-          "type": "VARIANT",
-          "defaultValue": "編號",
-          "variantOptions": [
-            "編號"
           ]
         }
       ]
@@ -111609,7 +109754,7 @@
         "nodeId": "298:46673"
       },
       "aliases": [],
-      "functionSummary": "角色詳細資訊彈窗內容。注意：裝置屬性含 device3／device4 未命名值，待整理。",
+      "functionSummary": "角色詳細資訊彈窗內容，支援桌機平板版、手機版，以及已啟用／已停用狀態。",
       "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
       "themeStrategy": "manual",
       "themeSupport": "unknown",
@@ -111633,9 +109778,7 @@
           "defaultValue": "PC&Tablet",
           "variantOptions": [
             "PC&Tablet",
-            "device3",
-            "Mobile",
-            "device4"
+            "Mobile"
           ]
         },
         "啟用狀態": {
@@ -111654,9 +109797,7 @@
           "defaultValue": "PC&Tablet",
           "variantOptions": [
             "PC&Tablet",
-            "device3",
-            "Mobile",
-            "device4"
+            "Mobile"
           ]
         },
         {
@@ -111738,245 +109879,6 @@
           "variantOptions": [
             "PC&Tablet",
             "Mobile"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "個人設定（來源：Key Screens 🔖v0.1.0-202…）",
-      "nodeId": "298:46742",
-      "nodeName": "_重複/[edit-account-information] 修改帳號資訊 / Edit Account Information",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "edit-account-information--dup-personal",
-      "canonicalFamilyId": "edit-account-information",
-      "functionId": "edit-account-information",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "修改帳號資訊",
-      "displayNameEn": "Edit Account Information",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Edit",
-      "viewport": "responsive",
-      "theme": "unknown",
-      "state": "duplicate-personal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 個人設定 Key Screens 貼入 / 298:46742",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:46742"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:43145 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=個人設定; duplicateOf=298:43145"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "7158911b06f6d8f592b235b980cdd8dc030c2d7d",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46742",
-      "componentProperties": {
-        "裝置": {
-          "type": "VARIANT",
-          "defaultValue": "PC",
-          "variantOptions": [
-            "PC",
-            "Tablet",
-            "Mobile"
-          ]
-        },
-        "收合狀態": {
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        "輸入狀態": {
-          "type": "VARIANT",
-          "defaultValue": "尚未輸入",
-          "variantOptions": [
-            "尚未輸入",
-            "已輸入",
-            "必填不可為空",
-            "兩次輸入的密碼必須相同"
-          ]
-        },
-        "修改密碼": {
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "裝置",
-          "type": "VARIANT",
-          "defaultValue": "PC",
-          "variantOptions": [
-            "PC",
-            "Tablet",
-            "Mobile"
-          ]
-        },
-        {
-          "name": "收合狀態",
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        {
-          "name": "輸入狀態",
-          "type": "VARIANT",
-          "defaultValue": "尚未輸入",
-          "variantOptions": [
-            "尚未輸入",
-            "已輸入",
-            "必填不可為空",
-            "兩次輸入的密碼必須相同"
-          ]
-        },
-        {
-          "name": "修改密碼",
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "個人設定（來源：Key Screens 🔖v0.1.0-202…）",
-      "nodeId": "298:46913",
-      "nodeName": "_重複/[update-user-password] 更新使用者密碼 / Update User Password",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "update-user-password--dup-personal",
-      "canonicalFamilyId": "update-user-password",
-      "functionId": "update-user-password",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "更新使用者密碼",
-      "displayNameEn": "Update User Password",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Edit",
-      "viewport": "responsive",
-      "theme": "unknown",
-      "state": "duplicate-personal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 個人設定 Key Screens 貼入 / 298:46913",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:46913"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:43345 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=個人設定; duplicateOf=298:43345"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "6549b01dbc62daa8c22f8fa7a00cc22fb4302672",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46913",
-      "componentProperties": {
-        "裝置": {
-          "type": "VARIANT",
-          "defaultValue": "PC",
-          "variantOptions": [
-            "PC",
-            "Tablet",
-            "Mobile"
-          ]
-        },
-        "收合狀態": {
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        "輸入狀態": {
-          "type": "VARIANT",
-          "defaultValue": "尚未輸入",
-          "variantOptions": [
-            "尚未輸入",
-            "已輸入",
-            "兩次輸入的密碼必須相同"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "裝置",
-          "type": "VARIANT",
-          "defaultValue": "PC",
-          "variantOptions": [
-            "PC",
-            "Tablet",
-            "Mobile"
-          ]
-        },
-        {
-          "name": "收合狀態",
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        {
-          "name": "輸入狀態",
-          "type": "VARIANT",
-          "defaultValue": "尚未輸入",
-          "variantOptions": [
-            "尚未輸入",
-            "已輸入",
-            "兩次輸入的密碼必須相同"
           ]
         }
       ]
@@ -112078,112 +109980,6 @@
             "無",
             "開啟",
             "關閉"
-          ]
-        },
-        {
-          "name": "狀態",
-          "type": "VARIANT",
-          "defaultValue": "尚未啟用",
-          "variantOptions": [
-            "尚未啟用",
-            "已啟用"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "個人設定（來源：Key Screens 🔖v0.1.0-202…）",
-      "nodeId": "298:47058",
-      "nodeName": "_重複/[two-factor-authentication] 雙重驗證設定 / Two-Factor Authentication",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "two-factor-authentication--dup-personal",
-      "canonicalFamilyId": "two-factor-authentication",
-      "functionId": "two-factor-authentication",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "雙重驗證設定",
-      "displayNameEn": "Two-Factor Authentication",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "responsive",
-      "theme": "unknown",
-      "state": "duplicate-personal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 個人設定 Key Screens 貼入 / 298:47058",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:47058"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41960 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=個人設定; duplicateOf=298:41960"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "105251e70ca4bee64c0ac728d8bc74ce745efc37",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47058",
-      "componentProperties": {
-        "裝置": {
-          "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
-          "variantOptions": [
-            "PC＆Tablet",
-            "Mobile"
-          ]
-        },
-        "收合狀態": {
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
-          ]
-        },
-        "狀態": {
-          "type": "VARIANT",
-          "defaultValue": "尚未啟用",
-          "variantOptions": [
-            "尚未啟用",
-            "已啟用"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "裝置",
-          "type": "VARIANT",
-          "defaultValue": "PC＆Tablet",
-          "variantOptions": [
-            "PC＆Tablet",
-            "Mobile"
-          ]
-        },
-        {
-          "name": "收合狀態",
-          "type": "VARIANT",
-          "defaultValue": "關閉",
-          "variantOptions": [
-            "關閉",
-            "開啟"
           ]
         },
         {
@@ -112484,302 +110280,10 @@
       "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47383",
       "componentProperties": {},
       "variantOptions": []
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "相依元件（被上方元件內部使用）",
-      "nodeId": "298:47386",
-      "nodeName": "_重複/[account-info-field] 帳號資訊欄位 / Account Info Field",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "account-info-field--dup-internal",
-      "canonicalFamilyId": "account-info-field",
-      "functionId": "account-info-field",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "帳號資訊欄位",
-      "displayNameEn": "Account Info Field",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-internal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 相依元件 Key Screens 貼入 / 298:47386",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:47386"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41745 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=相依元件; duplicateOf=298:41745"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "78366cb2593411c2ae4d1d90090396e4d46b6c96",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47386",
-      "componentProperties": {
-        "類型": {
-          "type": "VARIANT",
-          "defaultValue": "通常",
-          "variantOptions": [
-            "通常",
-            "標籤",
-            "有啟用",
-            "未啟用"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "類型",
-          "type": "VARIANT",
-          "defaultValue": "通常",
-          "variantOptions": [
-            "通常",
-            "標籤",
-            "有啟用",
-            "未啟用"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "相依元件（被上方元件內部使用）",
-      "nodeId": "298:47404",
-      "nodeName": "_重複/[platform-provider-badge] 平台／遊戲商標籤 / Platform / Game Provider Badge",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "platform-provider-badge--dup-internal",
-      "canonicalFamilyId": "platform-provider-badge",
-      "functionId": "platform-provider-badge",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "平台／遊戲商標籤",
-      "displayNameEn": "Platform / Game Provider Badge",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "List",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-internal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 相依元件 Key Screens 貼入 / 298:47404",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:47404"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41645 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=相依元件; duplicateOf=298:41645"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "d226b292d2c1e5c3dc60986769ae6423afac58ff",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47404",
-      "componentProperties": {
-        "平台/遊戲商": {
-          "type": "VARIANT",
-          "defaultValue": "TH1",
-          "variantOptions": [
-            "TH1",
-            "Botan",
-            "Hitomarket"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "平台/遊戲商",
-          "type": "VARIANT",
-          "defaultValue": "TH1",
-          "variantOptions": [
-            "TH1",
-            "Botan",
-            "Hitomarket"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "相依元件（被上方元件內部使用）",
-      "nodeId": "298:47414",
-      "nodeName": "_重複/[two-factor-status-summary] 雙重驗證狀態摘要 / 2FA Status Summary",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "two-factor-status-summary--dup-internal",
-      "canonicalFamilyId": "two-factor-status-summary",
-      "functionId": "two-factor-status-summary",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "雙重驗證狀態摘要",
-      "displayNameEn": "2FA Status Summary",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Detail",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-internal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 相依元件 Key Screens 貼入 / 298:47414",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:47414"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41768 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=相依元件; duplicateOf=298:41768"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "9e26209a08687229f031eec42a57b28e61f54309",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47414",
-      "componentProperties": {
-        "帳號狀態": {
-          "type": "VARIANT",
-          "defaultValue": "已啟用",
-          "variantOptions": [
-            "已啟用",
-            "尚未啟用"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "帳號狀態",
-          "type": "VARIANT",
-          "defaultValue": "已啟用",
-          "variantOptions": [
-            "已啟用",
-            "尚未啟用"
-          ]
-        }
-      ]
-    },
-    {
-      "page": "07_候選 / Candidate",
-      "section": "相依元件（被上方元件內部使用）",
-      "nodeId": "298:47419",
-      "nodeName": "_重複/[two-factor-toggle-button] 雙重驗證切換按鈕 / 2FA Reset Button",
-      "schemaVersion": 2,
-      "kind": "component",
-      "role": "component",
-      "canonicalId": "two-factor-toggle-button--dup-internal",
-      "canonicalFamilyId": "two-factor-toggle-button",
-      "functionId": "two-factor-toggle-button",
-      "variantKey": "unknown|unknown|duplicate",
-      "displayNameZh": "雙重驗證切換按鈕",
-      "displayNameEn": "2FA Reset Button",
-      "moduleZh": "系統帳號",
-      "moduleEn": "System Accounts",
-      "pageType": "Other",
-      "viewport": "unknown",
-      "theme": "unknown",
-      "state": "duplicate-internal",
-      "reviewAction": "duplicate",
-      "sourceLayerCandidate": "feature",
-      "sourceLayer": "feature",
-      "status": "candidate",
-      "aiUsage": "blocked",
-      "legacySource": "Hub 07_候選 / 相依元件 Key Screens 貼入 / 298:47419",
-      "sourceRef": {
-        "fileName": "Core Components Hub",
-        "pageName": "07_候選 / Candidate",
-        "nodeId": "298:47419"
-      },
-      "aliases": [],
-      "functionSummary": "與 298:41818 重複的複本，待比對差異後合併或刪除；請勿直接引用。",
-      "aiReviewReason": "2026-11-17 帳號群組 Hub 收錄（Claude 透過 Figma MCP 整理命名與說明）。",
-      "themeStrategy": "manual",
-      "themeSupport": "unknown",
-      "confidence": 0.85,
-      "evidence": [
-        "intake=2026-11-17; section=相依元件; duplicateOf=298:41818"
-      ],
-      "needsHumanReview": true,
-      "reviewStatus": "needs-review",
-      "figmaType": "COMPONENT_SET",
-      "componentKey": "",
-      "componentSetKey": "df42a26feea7d2de8b1e33c706b4af282022df32",
-      "publishStatus": "NOT_CHECKED",
-      "componentSetPublishStatus": "NOT_CHECKED",
-      "publishStatusChecked": false,
-      "published": null,
-      "figmaUrl": "https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47419",
-      "componentProperties": {
-        "類型": {
-          "type": "VARIANT",
-          "defaultValue": "重置雙重驗證",
-          "variantOptions": [
-            "重置雙重驗證"
-          ]
-        }
-      },
-      "variantOptions": [
-        {
-          "name": "類型",
-          "type": "VARIANT",
-          "defaultValue": "重置雙重驗證",
-          "variantOptions": [
-            "重置雙重驗證"
-          ]
-        }
-      ]
     }
   ],
   "audit": {
-    "generatedAt": "2026-11-17T07:51:29.242Z",
+    "generatedAt": "2026-11-17T08:04:02.658Z",
     "errors": [],
     "warnings": [],
     "issues": []
