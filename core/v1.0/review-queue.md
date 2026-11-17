@@ -40,3 +40,20 @@
   - 重新匯出後，`patterns-bundle.md` 的 Evidence 不再包含自由文字形式的 `Figma key=`。
   - `hub-manifest.json` 與正式 `Library Key` 欄位維持不變。
   - AI／MCP 仍可透過 canonicalId 與正式 Library Key 正確調用元件。
+
+### RQ-2026-11-17-01：帳號群組收錄後續整理
+
+- 嚴重度：Medium
+- 狀態：待處理（Hub 發布後執行）
+- 影響範圍：Hub `07_候選 / Candidate` 分區 297:2（帳號管理／角色管理／個人設定 Key Screens 收錄，共 98 個元件）
+- 已完成：
+  - 82 個元件正式命名為 `[canonicalId] 中文 / English`，status: candidate；其中 38 個取代舊版。
+  - 38 個舊版（系統帳號 8/21 版）移到 `99_淘汰 / Deprecated`，manifest canonicalId 改為 `<id>--legacy-20260821`，aiUsage: blocked。
+  - 屬性名稱統一：`Property 1`→狀態、`status`→狀態、`device`→裝置、`type`→分頁／類型。
+- 待處理：
+  1. 16 個 `_重複/` 複本（manifest canonicalId 為 `<id>--dup-role|personal|internal`）：比對差異 → 把內部引用換成正本 → 刪除複本。
+  2. `role-details`（298:46673）：裝置屬性含未命名值 `device3`、`device4`。
+  3. `identifier-and-value` 角色管理複本（298:45826）：含未命名變體值 `類型17`。
+  4. 裝置值全形／半形不一致（`PC＆Tablet` vs `PC&Tablet`），需統一。
+  5. 82 個 candidate 確認後升級為 approved。
+- 詳細對照表：Claude 專案文件 `claude/hub-intake-account-2026-11-17.md`。
