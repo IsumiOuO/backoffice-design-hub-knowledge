@@ -10,7 +10,7 @@
 | parameter-last-updated-filter | parameter-last-updated-filter | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-secondary-category-filter | event-secondary-category-filter | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-primary-category-filter | event-primary-category-filter | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| event-title | event-title | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| event-title--legacy-20261117 | event-title | deprecated | deprecated | 99_淘汰 / Deprecated |
 | event-thumbnail | event-thumbnail | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-info-row | event-info-row | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-data-card | event-data-card | shared-pattern | approved | 03_共用模式 / Shared Patterns |
@@ -29,7 +29,7 @@
 | event-list-tab | event-list-tab | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | mobile-event-list | mobile-event-list | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-wager-filter | event-wager-filter | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| parameter-setting-content | parameter-setting-content | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| parameter-setting-content--legacy-20261117 | parameter-setting-content | deprecated | deprecated | 99_淘汰 / Deprecated |
 | report-detail-content | report-detail-content | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | report-detail-selectable-item | report-detail-selectable-item | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | report-detail-row | report-detail-row | shared-pattern | approved | 03_共用模式 / Shared Patterns |
@@ -56,7 +56,7 @@
 | subcategory-list-header | subcategory-list-header | candidate | approved | 03_共用模式 / Shared Patterns |
 | event-creation-time-filter | event-creation-time-filter | feature | approved | 04_功能元件 / Feature Components |
 | desktop-tablet-filter-panel | desktop-tablet-filter-panel | feature | approved | 04_功能元件 / Feature Components |
-| event-image-cell | event-image-cell | feature | approved | 04_功能元件 / Feature Components |
+| event-image-cell--legacy-20261117 | event-image-cell | deprecated | deprecated | 99_淘汰 / Deprecated |
 | event-created-time-cell | event-created-time-cell | feature | approved | 04_功能元件 / Feature Components |
 | desktop-inventory-display | desktop-inventory-display | feature | approved | 04_功能元件 / Feature Components |
 | desktop-published-event-row | desktop-published-event-row | feature | approved | 04_功能元件 / Feature Components |
@@ -68,8 +68,8 @@
 | ai-suggested-topic-item | ai-suggested-topic-item | feature | approved | 04_功能元件 / Feature Components |
 | ai-suggested-topic-review-dialog | ai-suggested-topic-review-dialog | feature | approved | 04_功能元件 / Feature Components |
 | event-action-group | event-action-group | feature | approved | 04_功能元件 / Feature Components |
-| ai-review-single-result-content | ai-review-single-result-content | feature | approved | 04_功能元件 / Feature Components |
-| ai-wager-option-input | ai-wager-option-input | feature | approved | 04_功能元件 / Feature Components |
+| ai-review-single-result-content--legacy-20261117 | ai-review-single-result-content | deprecated | deprecated | 99_淘汰 / Deprecated |
+| ai-wager-option-input--legacy-20261117 | ai-wager-option-input | deprecated | deprecated | 99_淘汰 / Deprecated |
 | batch-parameter-category-selector | batch-parameter-category-selector | feature | approved | 04_功能元件 / Feature Components |
 | batch-parameter-selector | batch-parameter-selector | feature | approved | 04_功能元件 / Feature Components |
 | batch-parameter-new-value-input | batch-parameter-new-value-input | feature | approved | 04_功能元件 / Feature Components |
@@ -179,9 +179,9 @@
 | send-order-message-dialog | send-order-message-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | send-order-message-info | send-order-message-info | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | settlement-event-action-state | settlement-event-action-state | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| settlement-event-content-layout | settlement-event-content-layout | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
+| settlement-event-content-layout--legacy-20261117 | settlement-event-content-layout | deprecated | deprecated | 99_淘汰 / Deprecated |
 | settlement-event-details | settlement-event-details | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| settlement-event-name | settlement-event-name | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
+| settlement-event-name--legacy-20261117 | settlement-event-name | deprecated | deprecated | 99_淘汰 / Deprecated |
 | settlement-option-name-direction | settlement-option-name-direction | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | settlement-option-result | settlement-option-result | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | settlement-result-selection-section | settlement-result-selection-section | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
@@ -240,9 +240,9 @@
 | volume-value | volume-value | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | wager-option-column-header | wager-option-column-header | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | wager-option-row-title | wager-option-row-title | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| wager-options-section-desktop | wager-options-section-desktop | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
+| wager-options-section-desktop--legacy-20261117 | wager-options-section-desktop | deprecated | deprecated | 99_淘汰 / Deprecated |
 | wager-options-section-mobile | wager-options-section-mobile | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
-| wager-parameter-settings-section | wager-parameter-settings-section | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
+| wager-parameter-settings-section--legacy-20261117 | wager-parameter-settings-section | deprecated | deprecated | 99_淘汰 / Deprecated |
 | wager-parameter-settings | wager-parameter-settings | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | wager-phase-column-header | wager-phase-column-header | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
 | wager-phase-status-row | wager-phase-status-row | feature | approved | 04_功能元件 / Feature Components · 分頁 2 |
@@ -263,7 +263,7 @@
 | multi-option-main-event-collapse | multi-option-main-event-collapse | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | netwin-column-header | netwin-column-header | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | netwin-header-row | netwin-header-row | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
-| netwin-profit-range-settings | netwin-profit-range-settings | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
+| netwin-profit-range-settings--legacy-20261117 | netwin-profit-range-settings | deprecated | deprecated | 99_淘汰 / Deprecated |
 | occupied-inventory-change-editing | occupied-inventory-change-editing | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | occupied-total-inventory | occupied-total-inventory | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | option-direction-indicator | option-direction-indicator | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
@@ -353,7 +353,7 @@
 | role-group-filter | role-group-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | round-id-filter | round-id-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | rush-hour-parameter-update-step-1 | rush-hour-parameter-update-step-1 | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
-| rush-hour-wager-parameter-settings | rush-hour-wager-parameter-settings | candidate | approved | 04_功能元件 / Feature Components · 分頁 3 |
+| rush-hour-wager-parameter-settings--legacy-20261117 | rush-hour-wager-parameter-settings | deprecated | deprecated | 99_淘汰 / Deprecated |
 | secondary-event-category-filter | secondary-event-category-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 3 |
 | force-refund-round-search | force-refund-round-search | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
 | forgot-password-reset-content | forgot-password-reset-content | feature | approved | 04_功能元件 / Feature Components · 分頁 4 |
@@ -538,8 +538,8 @@
 | event-subcategory-table-header-cell | event-subcategory-table-header-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
 | event-subcategory-table-header | event-subcategory-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
 | event-subcategory-table-row | event-subcategory-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
-| event-theme-section-desktop | event-theme-section-desktop | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
-| event-theme-section-mobile | event-theme-section-mobile | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
+| event-theme-section-desktop--legacy-20261117 | event-theme-section-desktop | deprecated | deprecated | 99_淘汰 / Deprecated |
+| event-theme-section-mobile--legacy-20261117 | event-theme-section-mobile | deprecated | deprecated | 99_淘汰 / Deprecated |
 | event-type-badge | event-type-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
 | event-type-filter | event-type-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
 | filter-toggle-button-group | filter-toggle-button-group | feature | approved | 04_功能元件 / Feature Components · 分頁 5 |
@@ -638,3 +638,111 @@
 | personal-permission-overview | personal-permission-overview | feature | candidate | 07_候選 / Candidate |
 | personal-operation-result | personal-operation-result | feature | candidate | 07_候選 / Candidate |
 | key-value-text | key-value-text | shared-pattern | candidate | 07_候選 / Candidate |
+| event-report-column-header | event-report-column-header | shared-pattern | candidate | 07_候選 / Candidate |
+| event-report-l1-table-header | event-report-l1-table-header | feature | candidate | 07_候選 / Candidate |
+| event-report-l1-table-row | event-report-l1-table-row | feature | candidate | 07_候選 / Candidate |
+| event-report-l2-table-header | event-report-l2-table-header | feature | candidate | 07_候選 / Candidate |
+| event-report-l2-table-row | event-report-l2-table-row | feature | candidate | 07_候選 / Candidate |
+| event-report-l3-table-header | event-report-l3-table-header | feature | candidate | 07_候選 / Candidate |
+| event-report-l3-table-row | event-report-l3-table-row | feature | candidate | 07_候選 / Candidate |
+| event-report-l4-table-header | event-report-l4-table-header | feature | candidate | 07_候選 / Candidate |
+| event-report-l4-table-row | event-report-l4-table-row | feature | candidate | 07_候選 / Candidate |
+| report-order-status-cell-desktop | report-order-status-cell-desktop | feature | candidate | 07_候選 / Candidate |
+| platform-reconciliation-report-table-header | platform-reconciliation-report-table-header | feature | candidate | 07_候選 / Candidate |
+| reconciliation-total-fee-column-header | reconciliation-total-fee-column-header | shared-pattern | candidate | 07_候選 / Candidate |
+| reconciliation-provider-revenue-column-header | reconciliation-provider-revenue-column-header | shared-pattern | candidate | 07_候選 / Candidate |
+| report-column-header | report-column-header | shared-pattern | candidate | 07_候選 / Candidate |
+| reconciliation-report-table-header | reconciliation-report-table-header | feature | candidate | 07_候選 / Candidate |
+| reconciliation-report-table-row | reconciliation-report-table-row | feature | candidate | 07_候選 / Candidate |
+| cross-site-compensation-table-header | cross-site-compensation-table-header | feature | candidate | 07_候選 / Candidate |
+| cross-site-compensation-table-row | cross-site-compensation-table-row | feature | candidate | 07_候選 / Candidate |
+| report-identifier-and-value | report-identifier-and-value | shared-pattern | candidate | 07_候選 / Candidate |
+| report-date-time | report-date-time | shared-pattern | candidate | 07_候選 / Candidate |
+| report-single-date-time | report-single-date-time | shared-pattern | candidate | 07_候選 / Candidate |
+| review-info-content | review-info-content | shared-pattern | candidate | 07_候選 / Candidate |
+| review-info-label | review-info-label | shared-pattern | candidate | 07_候選 / Candidate |
+| settlement-rate-table-label-cell | settlement-rate-table-label-cell | feature | candidate | 07_候選 / Candidate |
+| settlement-rate-table-cell | settlement-rate-table-cell | feature | candidate | 07_候選 / Candidate |
+| modification-and-review-info | modification-and-review-info | feature | candidate | 07_候選 / Candidate |
+| modification-review-info-row | modification-review-info-row | feature | candidate | 07_候選 / Candidate |
+| settlement-rate-input-row | settlement-rate-input-row | feature | candidate | 07_候選 / Candidate |
+| review-dialog-data-cell | review-dialog-data-cell | shared-pattern | candidate | 07_候選 / Candidate |
+| review-dialog-data-table | review-dialog-data-table | feature | candidate | 07_候選 / Candidate |
+| reconciliation-action-button | reconciliation-action-button | feature | candidate | 07_候選 / Candidate |
+| reconciliation-review-confirm-dialog | reconciliation-review-confirm-dialog | feature | candidate | 07_候選 / Candidate |
+| reconciliation-review-result-dialog | reconciliation-review-result-dialog | feature | candidate | 07_候選 / Candidate |
+| settlement-rate-edit-dialog | settlement-rate-edit-dialog | feature | candidate | 07_候選 / Candidate |
+| settlement-rate-edit-result-dialog | settlement-rate-edit-result-dialog | feature | candidate | 07_候選 / Candidate |
+| cross-site-compensation-review-confirm-dialog | cross-site-compensation-review-confirm-dialog | feature | candidate | 07_候選 / Candidate |
+| cross-site-compensation-review-notice-dialog | cross-site-compensation-review-notice-dialog | feature | candidate | 07_候選 / Candidate |
+| review-info-label-text | review-info-label-text | shared-pattern | candidate | 07_候選 / Candidate |
+| review-info-amount-text | review-info-amount-text | shared-pattern | candidate | 07_候選 / Candidate |
+| settlement-rate-dialog-head | settlement-rate-dialog-head | feature | candidate | 07_候選 / Candidate |
+| label-value-text-cell | label-value-text-cell | shared-pattern | candidate | 07_候選 / Candidate |
+| event-change-list-content | event-change-list-content | feature | candidate | 07_候選 / Candidate |
+| event-change-function-items | event-change-function-items | feature | candidate | 07_候選 / Candidate |
+| version-control-record | version-control-record | feature | candidate | 07_候選 / Candidate |
+| version-control-record-content | version-control-record-content | feature | candidate | 07_候選 / Candidate |
+| change-action-function-filter-panel-desktop-tablet | change-action-function-filter-panel-desktop-tablet | feature | candidate | 07_候選 / Candidate |
+| change-action-function-filter-panel-mobile | change-action-function-filter-panel-mobile | feature | candidate | 07_候選 / Candidate |
+| version-control-record-button | version-control-record-button | feature | candidate | 07_候選 / Candidate |
+| version-control-version-badge | version-control-version-badge | feature | candidate | 07_候選 / Candidate |
+| event-change-event-type-filter | event-change-event-type-filter | feature | candidate | 07_候選 / Candidate |
+| event-change-sport-type-filter | event-change-sport-type-filter | feature | candidate | 07_候選 / Candidate |
+| event-change-secondary-type-filter | event-change-secondary-type-filter | feature | candidate | 07_候選 / Candidate |
+| change-action-type-filter | change-action-type-filter | feature | candidate | 07_候選 / Candidate |
+| change-function-type-filter | change-function-type-filter | feature | candidate | 07_候選 / Candidate |
+| change-parameter-category-filter | change-parameter-category-filter | feature | candidate | 07_候選 / Candidate |
+| change-parameter-filter | change-parameter-filter | feature | candidate | 07_候選 / Candidate |
+| event-content-category-filter | event-content-category-filter | feature | candidate | 07_候選 / Candidate |
+| event-content-item-filter | event-content-item-filter | feature | candidate | 07_候選 / Candidate |
+| event-category-league-cell | event-category-league-cell | feature | candidate | 07_候選 / Candidate |
+| batch-tracking-code-cell | batch-tracking-code-cell | feature | candidate | 07_候選 / Candidate |
+| last-change-info-cell | last-change-info-cell | feature | candidate | 07_候選 / Candidate |
+| change-function-type-badge | change-function-type-badge | feature | candidate | 07_候選 / Candidate |
+| inventory-total-stock-data | inventory-total-stock-data | feature | candidate | 07_候選 / Candidate |
+| inventory-option-list | inventory-option-list | feature | candidate | 07_候選 / Candidate |
+| inventory-event-overview | inventory-event-overview | feature | candidate | 07_候選 / Candidate |
+| inventory-notification-panel | inventory-notification-panel | feature | candidate | 07_候選 / Candidate |
+| inventory-notification-row | inventory-notification-row | feature | candidate | 07_候選 / Candidate |
+| inventory-price-and-option-count | inventory-price-and-option-count | feature | candidate | 07_候選 / Candidate |
+| last-updated-time | last-updated-time | shared-pattern | candidate | 07_候選 / Candidate |
+| inventory-overview-summary | inventory-overview-summary | feature | candidate | 07_候選 / Candidate |
+| inventory-stock-data-item | inventory-stock-data-item | feature | candidate | 07_候選 / Candidate |
+| inventory-edit-listing-button | inventory-edit-listing-button | feature | candidate | 07_候選 / Candidate |
+| unlisted-event-more-actions-dialog | unlisted-event-more-actions-dialog | feature | candidate | 07_候選 / Candidate |
+| unlisted-event-more-actions-dialog-short | unlisted-event-more-actions-dialog-short | feature | candidate | 07_候選 / Candidate |
+| unlisted-event-more-actions-dialog-short-b | unlisted-event-more-actions-dialog-short-b | feature | candidate | 07_候選 / Candidate |
+| sub-theme-type-badge | sub-theme-type-badge | feature | candidate | 07_候選 / Candidate |
+| force-refund-alert | force-refund-alert | feature | candidate | 07_候選 / Candidate |
+| event-card-review | event-card-review | feature | candidate | 07_候選 / Candidate |
+| create-event-wager-setting-step | create-event-wager-setting-step | feature | candidate | 07_候選 / Candidate |
+| parameter-description-base | parameter-description-base | feature | candidate | 07_候選 / Candidate |
+| parameter-description | parameter-description | feature | candidate | 07_候選 / Candidate |
+| settlement-event-content | settlement-event-content | feature | candidate | 07_候選 / Candidate |
+| settlement-event-preview | settlement-event-preview | feature | candidate | 07_候選 / Candidate |
+| event-operate-cell | event-operate-cell | feature | candidate | 07_候選 / Candidate |
+| ai-event-settlement-button | ai-event-settlement-button | feature | candidate | 07_候選 / Candidate |
+| event-change-data-cell | event-change-data-cell | feature | candidate | 07_候選 / Candidate |
+| change-action-group | change-action-group | feature | candidate | 07_候選 / Candidate |
+| change-content-path | change-content-path | feature | candidate | 07_候選 / Candidate |
+| event-list-row-action-button | event-list-row-action-button | feature | candidate | 07_候選 / Candidate |
+| event-change-detail-row | event-change-detail-row | feature | candidate | 07_候選 / Candidate |
+| parameter-change-row-base | parameter-change-row-base | feature | candidate | 07_候選 / Candidate |
+| parameter-change-row-base-extended | parameter-change-row-base-extended | feature | candidate | 07_候選 / Candidate |
+| summary-card-item | summary-card-item | shared-pattern | candidate | 07_候選 / Candidate |
+| wager-setting-row-title | wager-setting-row-title | feature | candidate | 07_候選 / Candidate |
+| wager-setting-row-title-b | wager-setting-row-title-b | feature | candidate | 07_候選 / Candidate |
+| event-title | event-title | shared-pattern | candidate | 07_候選 / Candidate |
+| settlement-event-content-layout | settlement-event-content-layout | feature | candidate | 07_候選 / Candidate |
+| parameter-setting-content | parameter-setting-content | feature | candidate | 07_候選 / Candidate |
+| wager-parameter-settings-section | wager-parameter-settings-section | feature | candidate | 07_候選 / Candidate |
+| event-image-cell | event-image-cell | shared-pattern | candidate | 07_候選 / Candidate |
+| settlement-event-name | settlement-event-name | feature | candidate | 07_候選 / Candidate |
+| event-theme-section-desktop | event-theme-section-desktop | feature | candidate | 07_候選 / Candidate |
+| wager-options-section-desktop | wager-options-section-desktop | feature | candidate | 07_候選 / Candidate |
+| event-theme-section-mobile | event-theme-section-mobile | feature | candidate | 07_候選 / Candidate |
+| ai-wager-option-input | ai-wager-option-input | feature | candidate | 07_候選 / Candidate |
+| netwin-profit-range-settings | netwin-profit-range-settings | feature | candidate | 07_候選 / Candidate |
+| rush-hour-wager-parameter-settings | rush-hour-wager-parameter-settings | feature | candidate | 07_候選 / Candidate |
+| ai-review-single-result-content | ai-review-single-result-content | feature | candidate | 07_候選 / Candidate |
