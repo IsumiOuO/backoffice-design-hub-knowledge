@@ -556,193 +556,190 @@
 | event-main-category-image-viewer-desktop-image-viewer-modal-open | event-main-category-image-viewer | feature | approved | 05_代表畫面 / Reference Screens |
 | event-main-category-image-viewer-tablet-image-viewer-modal-open | event-main-category-image-viewer | feature | approved | 05_代表畫面 / Reference Screens |
 | event-main-category-image-viewer-mobile-image-viewer-modal-open | event-main-category-image-viewer | feature | approved | 05_代表畫面 / Reference Screens |
-| detail-info-content | detail-info-content | shared-pattern | candidate | 07_候選 / Candidate |
-| detail-info-row | detail-info-row | shared-pattern | candidate | 07_候選 / Candidate |
-| account-table-column-header | account-table-column-header | shared-pattern | candidate | 07_候選 / Candidate |
-| date-time-value | date-time-value | shared-pattern | candidate | 07_候選 / Candidate |
-| identifier-and-value | identifier-and-value | shared-pattern | candidate | 07_候選 / Candidate |
-| account-table-action-item | account-table-action-item | shared-pattern | candidate | 07_候選 / Candidate |
-| account-table-actions | account-table-actions | feature | candidate | 07_候選 / Candidate |
-| account-management-table-row | account-management-table-row | feature | candidate | 07_候選 / Candidate |
-| account-management-table-header | account-management-table-header | feature | candidate | 07_候選 / Candidate |
-| account-filter-panel-desktop | account-filter-panel-desktop | feature | candidate | 07_候選 / Candidate |
-| account-enabled-status-badge | account-enabled-status-badge | feature | candidate | 07_候選 / Candidate |
-| two-factor-enabled-status-badge | two-factor-enabled-status-badge | feature | candidate | 07_候選 / Candidate |
-| role-group-badge | role-group-badge | feature | candidate | 07_候選 / Candidate |
-| platform-provider-cell | platform-provider-cell | feature | candidate | 07_候選 / Candidate |
-| platform-provider-badge | platform-provider-badge | feature | candidate | 07_候選 / Candidate |
-| account-status-filter-panel-desktop-tablet | account-status-filter-panel-desktop-tablet | feature | candidate | 07_候選 / Candidate |
-| account-status-filter-panel-mobile | account-status-filter-panel-mobile | feature | candidate | 07_候選 / Candidate |
-| account-filter-toggle-buttons | account-filter-toggle-buttons | feature | candidate | 07_候選 / Candidate |
-| account-search-filter | account-search-filter | feature | candidate | 07_候選 / Candidate |
-| account-enabled-status-filter | account-enabled-status-filter | feature | candidate | 07_候選 / Candidate |
-| two-factor-status-filter | two-factor-status-filter | feature | candidate | 07_候選 / Candidate |
-| role-filter | role-filter | feature | candidate | 07_候選 / Candidate |
-| account-info-field | account-info-field | feature | candidate | 07_候選 / Candidate |
-| account-status-summary | account-status-summary | feature | candidate | 07_候選 / Candidate |
-| two-factor-status-summary | two-factor-status-summary | feature | candidate | 07_候選 / Candidate |
-| delete-account-button | delete-account-button | feature | candidate | 07_候選 / Candidate |
-| account-status-item | account-status-item | feature | candidate | 07_候選 / Candidate |
-| account-form-action-button | account-form-action-button | feature | candidate | 07_候選 / Candidate |
-| add-account-button | add-account-button | feature | candidate | 07_候選 / Candidate |
-| disable-account-button | disable-account-button | feature | candidate | 07_候選 / Candidate |
-| two-factor-toggle-button | two-factor-toggle-button | feature | candidate | 07_候選 / Candidate |
-| account-details | account-details | feature | candidate | 07_候選 / Candidate |
-| account-action-dialog | account-action-dialog | feature | candidate | 07_候選 / Candidate |
-| account-overview | account-overview | feature | candidate | 07_候選 / Candidate |
-| two-factor-authentication | two-factor-authentication | feature | candidate | 07_候選 / Candidate |
-| login-security-policy | login-security-policy | feature | candidate | 07_候選 / Candidate |
-| qr-code-regenerate-alert | qr-code-regenerate-alert | feature | candidate | 07_候選 / Candidate |
-| account-operation-result | account-operation-result | feature | candidate | 07_候選 / Candidate |
-| create-account-information | create-account-information | feature | candidate | 07_候選 / Candidate |
-| account-role-selection-section | account-role-selection-section | feature | candidate | 07_候選 / Candidate |
-| edit-account-information | edit-account-information | feature | candidate | 07_候選 / Candidate |
-| account-status-section | account-status-section | feature | candidate | 07_候選 / Candidate |
-| update-user-password | update-user-password | feature | candidate | 07_候選 / Candidate |
-| role-page-permission-selector | role-page-permission-selector | feature | candidate | 07_候選 / Candidate |
-| role-permission-settings | role-permission-settings | feature | candidate | 07_候選 / Candidate |
-| create-role-information | create-role-information | feature | candidate | 07_候選 / Candidate |
-| permission-global-toolbar | permission-global-toolbar | feature | candidate | 07_候選 / Candidate |
-| role-save-result | role-save-result | feature | candidate | 07_候選 / Candidate |
-| permission-operation-result | permission-operation-result | feature | candidate | 07_候選 / Candidate |
-| role-delete-result | role-delete-result | feature | candidate | 07_候選 / Candidate |
-| permission-item | permission-item | feature | candidate | 07_候選 / Candidate |
-| permission-enabled-count | permission-enabled-count | feature | candidate | 07_候選 / Candidate |
-| permission-enabled-count-overview | permission-enabled-count-overview | feature | candidate | 07_候選 / Candidate |
-| permission-menu-overview-item | permission-menu-overview-item | feature | candidate | 07_候選 / Candidate |
-| permission-function-page-item | permission-function-page-item | feature | candidate | 07_候選 / Candidate |
-| permission-function-category | permission-function-category | feature | candidate | 07_候選 / Candidate |
-| permission-section-title | permission-section-title | feature | candidate | 07_候選 / Candidate |
-| permission-text-cell | permission-text-cell | feature | candidate | 07_候選 / Candidate |
-| permission-page-hint | permission-page-hint | feature | candidate | 07_候選 / Candidate |
-| permission-menu-item | permission-menu-item | feature | candidate | 07_候選 / Candidate |
-| permission-status-tab-group | permission-status-tab-group | feature | candidate | 07_候選 / Candidate |
-| permission-save-status | permission-save-status | feature | candidate | 07_候選 / Candidate |
-| permission-settings-tabs | permission-settings-tabs | feature | candidate | 07_候選 / Candidate |
-| role-detail-head | role-detail-head | feature | candidate | 07_候選 / Candidate |
-| overview-time-field | overview-time-field | feature | candidate | 07_候選 / Candidate |
-| edit-role-information | edit-role-information | feature | candidate | 07_候選 / Candidate |
-| role-overview | role-overview | feature | candidate | 07_候選 / Candidate |
-| role-status-section | role-status-section | feature | candidate | 07_候選 / Candidate |
-| role-table-column-header | role-table-column-header | shared-pattern | candidate | 07_候選 / Candidate |
-| role-management-table-row | role-management-table-row | feature | candidate | 07_候選 / Candidate |
-| role-management-table-header | role-management-table-header | feature | candidate | 07_候選 / Candidate |
-| add-role-button | add-role-button | feature | candidate | 07_候選 / Candidate |
-| role-permission-summary | role-permission-summary | feature | candidate | 07_候選 / Candidate |
-| permission-overview-content | permission-overview-content | feature | candidate | 07_候選 / Candidate |
-| role-action-dialog | role-action-dialog | feature | candidate | 07_候選 / Candidate |
-| permission-summary-sidebar | permission-summary-sidebar | feature | candidate | 07_候選 / Candidate |
-| role-details | role-details | feature | candidate | 07_候選 / Candidate |
-| role-row-action-dialog | role-row-action-dialog | feature | candidate | 07_候選 / Candidate |
-| personal-account-overview | personal-account-overview | feature | candidate | 07_候選 / Candidate |
-| personal-permission-overview | personal-permission-overview | feature | candidate | 07_候選 / Candidate |
-| personal-operation-result | personal-operation-result | feature | candidate | 07_候選 / Candidate |
-| key-value-text | key-value-text | shared-pattern | candidate | 07_候選 / Candidate |
-| event-report-column-header | event-report-column-header | shared-pattern | candidate | 07_候選 / Candidate |
-| event-report-l1-table-header | event-report-l1-table-header | feature | candidate | 07_候選 / Candidate |
-| event-report-l1-table-row | event-report-l1-table-row | feature | candidate | 07_候選 / Candidate |
-| event-report-l2-table-header | event-report-l2-table-header | feature | candidate | 07_候選 / Candidate |
-| event-report-l2-table-row | event-report-l2-table-row | feature | candidate | 07_候選 / Candidate |
-| event-report-l3-table-header | event-report-l3-table-header | feature | candidate | 07_候選 / Candidate |
-| event-report-l3-table-row | event-report-l3-table-row | feature | candidate | 07_候選 / Candidate |
-| event-report-l4-table-header | event-report-l4-table-header | feature | candidate | 07_候選 / Candidate |
-| event-report-l4-table-row | event-report-l4-table-row | feature | candidate | 07_候選 / Candidate |
-| report-order-status-cell-desktop | report-order-status-cell-desktop | feature | candidate | 07_候選 / Candidate |
-| platform-reconciliation-report-table-header | platform-reconciliation-report-table-header | feature | candidate | 07_候選 / Candidate |
-| reconciliation-total-fee-column-header | reconciliation-total-fee-column-header | shared-pattern | candidate | 07_候選 / Candidate |
-| reconciliation-provider-revenue-column-header | reconciliation-provider-revenue-column-header | shared-pattern | candidate | 07_候選 / Candidate |
-| report-column-header | report-column-header | shared-pattern | candidate | 07_候選 / Candidate |
-| reconciliation-report-table-header | reconciliation-report-table-header | feature | candidate | 07_候選 / Candidate |
-| reconciliation-report-table-row | reconciliation-report-table-row | feature | candidate | 07_候選 / Candidate |
-| cross-site-compensation-table-header | cross-site-compensation-table-header | feature | candidate | 07_候選 / Candidate |
-| cross-site-compensation-table-row | cross-site-compensation-table-row | feature | candidate | 07_候選 / Candidate |
-| report-identifier-and-value | report-identifier-and-value | shared-pattern | candidate | 07_候選 / Candidate |
-| report-date-time | report-date-time | shared-pattern | candidate | 07_候選 / Candidate |
-| report-single-date-time | report-single-date-time | shared-pattern | candidate | 07_候選 / Candidate |
-| review-info-content | review-info-content | shared-pattern | candidate | 07_候選 / Candidate |
-| review-info-label | review-info-label | shared-pattern | candidate | 07_候選 / Candidate |
-| settlement-rate-table-label-cell | settlement-rate-table-label-cell | feature | candidate | 07_候選 / Candidate |
-| settlement-rate-table-cell | settlement-rate-table-cell | feature | candidate | 07_候選 / Candidate |
-| modification-and-review-info | modification-and-review-info | feature | candidate | 07_候選 / Candidate |
-| modification-review-info-row | modification-review-info-row | feature | candidate | 07_候選 / Candidate |
-| settlement-rate-input-row | settlement-rate-input-row | feature | candidate | 07_候選 / Candidate |
-| review-dialog-data-cell | review-dialog-data-cell | shared-pattern | candidate | 07_候選 / Candidate |
-| review-dialog-data-table | review-dialog-data-table | feature | candidate | 07_候選 / Candidate |
-| reconciliation-action-button | reconciliation-action-button | feature | candidate | 07_候選 / Candidate |
-| reconciliation-review-confirm-dialog | reconciliation-review-confirm-dialog | feature | candidate | 07_候選 / Candidate |
-| reconciliation-review-result-dialog | reconciliation-review-result-dialog | feature | candidate | 07_候選 / Candidate |
-| settlement-rate-edit-dialog | settlement-rate-edit-dialog | feature | candidate | 07_候選 / Candidate |
-| settlement-rate-edit-result-dialog | settlement-rate-edit-result-dialog | feature | candidate | 07_候選 / Candidate |
-| cross-site-compensation-review-confirm-dialog | cross-site-compensation-review-confirm-dialog | feature | candidate | 07_候選 / Candidate |
-| cross-site-compensation-review-notice-dialog | cross-site-compensation-review-notice-dialog | feature | candidate | 07_候選 / Candidate |
-| review-info-label-text | review-info-label-text | shared-pattern | candidate | 07_候選 / Candidate |
-| review-info-amount-text | review-info-amount-text | shared-pattern | candidate | 07_候選 / Candidate |
-| settlement-rate-dialog-head | settlement-rate-dialog-head | feature | candidate | 07_候選 / Candidate |
-| label-value-text-cell | label-value-text-cell | shared-pattern | candidate | 07_候選 / Candidate |
-| event-change-list-content | event-change-list-content | feature | candidate | 07_候選 / Candidate |
-| event-change-function-items | event-change-function-items | feature | candidate | 07_候選 / Candidate |
-| version-control-record | version-control-record | feature | candidate | 07_候選 / Candidate |
-| version-control-record-content | version-control-record-content | feature | candidate | 07_候選 / Candidate |
-| change-action-function-filter-panel-desktop-tablet | change-action-function-filter-panel-desktop-tablet | feature | candidate | 07_候選 / Candidate |
-| change-action-function-filter-panel-mobile | change-action-function-filter-panel-mobile | feature | candidate | 07_候選 / Candidate |
-| version-control-record-button | version-control-record-button | feature | candidate | 07_候選 / Candidate |
-| version-control-version-badge | version-control-version-badge | feature | candidate | 07_候選 / Candidate |
-| event-change-event-type-filter | event-change-event-type-filter | feature | candidate | 07_候選 / Candidate |
-| event-change-sport-type-filter | event-change-sport-type-filter | feature | candidate | 07_候選 / Candidate |
-| event-change-secondary-type-filter | event-change-secondary-type-filter | feature | candidate | 07_候選 / Candidate |
-| change-action-type-filter | change-action-type-filter | feature | candidate | 07_候選 / Candidate |
-| change-function-type-filter | change-function-type-filter | feature | candidate | 07_候選 / Candidate |
-| change-parameter-category-filter | change-parameter-category-filter | feature | candidate | 07_候選 / Candidate |
-| change-parameter-filter | change-parameter-filter | feature | candidate | 07_候選 / Candidate |
-| event-content-category-filter | event-content-category-filter | feature | candidate | 07_候選 / Candidate |
-| event-content-item-filter | event-content-item-filter | feature | candidate | 07_候選 / Candidate |
-| event-category-league-cell | event-category-league-cell | feature | candidate | 07_候選 / Candidate |
-| batch-tracking-code-cell | batch-tracking-code-cell | feature | candidate | 07_候選 / Candidate |
-| last-change-info-cell | last-change-info-cell | feature | candidate | 07_候選 / Candidate |
-| change-function-type-badge | change-function-type-badge | feature | candidate | 07_候選 / Candidate |
-| inventory-total-stock-data | inventory-total-stock-data | feature | candidate | 07_候選 / Candidate |
-| inventory-option-list | inventory-option-list | feature | candidate | 07_候選 / Candidate |
-| inventory-event-overview | inventory-event-overview | feature | candidate | 07_候選 / Candidate |
-| inventory-notification-panel | inventory-notification-panel | feature | candidate | 07_候選 / Candidate |
-| inventory-notification-row | inventory-notification-row | feature | candidate | 07_候選 / Candidate |
-| inventory-price-and-option-count | inventory-price-and-option-count | feature | candidate | 07_候選 / Candidate |
-| last-updated-time | last-updated-time | shared-pattern | candidate | 07_候選 / Candidate |
-| inventory-overview-summary | inventory-overview-summary | feature | candidate | 07_候選 / Candidate |
-| inventory-stock-data-item | inventory-stock-data-item | feature | candidate | 07_候選 / Candidate |
-| inventory-edit-listing-button | inventory-edit-listing-button | feature | candidate | 07_候選 / Candidate |
-| unlisted-event-more-actions-dialog | unlisted-event-more-actions-dialog | feature | candidate | 07_候選 / Candidate |
-| unlisted-event-more-actions-dialog-short | unlisted-event-more-actions-dialog-short | feature | candidate | 07_候選 / Candidate |
-| unlisted-event-more-actions-dialog-short-b | unlisted-event-more-actions-dialog-short-b | feature | candidate | 07_候選 / Candidate |
-| sub-theme-type-badge | sub-theme-type-badge | feature | candidate | 07_候選 / Candidate |
-| force-refund-alert | force-refund-alert | feature | candidate | 07_候選 / Candidate |
-| event-card-review | event-card-review | feature | candidate | 07_候選 / Candidate |
-| create-event-wager-setting-step | create-event-wager-setting-step | feature | candidate | 07_候選 / Candidate |
-| parameter-description-base | parameter-description-base | feature | candidate | 07_候選 / Candidate |
-| parameter-description | parameter-description | feature | candidate | 07_候選 / Candidate |
-| settlement-event-content | settlement-event-content | feature | candidate | 07_候選 / Candidate |
-| settlement-event-preview | settlement-event-preview | feature | candidate | 07_候選 / Candidate |
-| event-operate-cell | event-operate-cell | feature | candidate | 07_候選 / Candidate |
-| ai-event-settlement-button | ai-event-settlement-button | feature | candidate | 07_候選 / Candidate |
-| event-change-data-cell | event-change-data-cell | feature | candidate | 07_候選 / Candidate |
-| change-action-group | change-action-group | feature | candidate | 07_候選 / Candidate |
-| change-content-path | change-content-path | feature | candidate | 07_候選 / Candidate |
-| event-list-row-action-button | event-list-row-action-button | feature | candidate | 07_候選 / Candidate |
-| event-change-detail-row | event-change-detail-row | feature | candidate | 07_候選 / Candidate |
-| parameter-change-row-base | parameter-change-row-base | feature | candidate | 07_候選 / Candidate |
-| parameter-change-row-base-extended | parameter-change-row-base-extended | feature | candidate | 07_候選 / Candidate |
-| summary-card-item | summary-card-item | shared-pattern | candidate | 07_候選 / Candidate |
-| wager-setting-row-title | wager-setting-row-title | feature | candidate | 07_候選 / Candidate |
-| wager-setting-row-title-b | wager-setting-row-title-b | feature | candidate | 07_候選 / Candidate |
-| event-title | event-title | shared-pattern | candidate | 07_候選 / Candidate |
-| settlement-event-content-layout | settlement-event-content-layout | feature | candidate | 07_候選 / Candidate |
-| parameter-setting-content | parameter-setting-content | feature | candidate | 07_候選 / Candidate |
-| wager-parameter-settings-section | wager-parameter-settings-section | feature | candidate | 07_候選 / Candidate |
-| event-image-cell | event-image-cell | shared-pattern | candidate | 07_候選 / Candidate |
-| settlement-event-name | settlement-event-name | feature | candidate | 07_候選 / Candidate |
-| event-theme-section-desktop | event-theme-section-desktop | feature | candidate | 07_候選 / Candidate |
-| wager-options-section-desktop | wager-options-section-desktop | feature | candidate | 07_候選 / Candidate |
-| event-theme-section-mobile | event-theme-section-mobile | feature | candidate | 07_候選 / Candidate |
-| ai-wager-option-input | ai-wager-option-input | feature | candidate | 07_候選 / Candidate |
-| netwin-profit-range-settings | netwin-profit-range-settings | feature | candidate | 07_候選 / Candidate |
-| rush-hour-wager-parameter-settings | rush-hour-wager-parameter-settings | feature | candidate | 07_候選 / Candidate |
-| ai-review-single-result-content | ai-review-single-result-content | feature | candidate | 07_候選 / Candidate |
+| detail-info-content | detail-info-content | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| detail-info-row | detail-info-row | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| account-table-column-header | account-table-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| date-time-value | date-time-value | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| identifier-and-value | identifier-and-value | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| account-table-action-item | account-table-action-item | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| account-table-actions | account-table-actions | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-management-table-row | account-management-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-management-table-header | account-management-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-filter-panel-desktop | account-filter-panel-desktop | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-enabled-status-badge | account-enabled-status-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| two-factor-enabled-status-badge | two-factor-enabled-status-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-group-badge | role-group-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| platform-provider-cell | platform-provider-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| platform-provider-badge | platform-provider-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-status-filter-panel-desktop-tablet | account-status-filter-panel-desktop-tablet | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-status-filter-panel-mobile | account-status-filter-panel-mobile | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-filter-toggle-buttons | account-filter-toggle-buttons | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-search-filter | account-search-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-enabled-status-filter | account-enabled-status-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| two-factor-status-filter | two-factor-status-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-filter | role-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-info-field | account-info-field | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-status-summary | account-status-summary | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| two-factor-status-summary | two-factor-status-summary | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| delete-account-button | delete-account-button | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-status-item | account-status-item | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-form-action-button | account-form-action-button | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| add-account-button | add-account-button | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| disable-account-button | disable-account-button | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| two-factor-toggle-button | two-factor-toggle-button | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-details | account-details | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-action-dialog | account-action-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-overview | account-overview | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| two-factor-authentication | two-factor-authentication | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| login-security-policy | login-security-policy | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| qr-code-regenerate-alert | qr-code-regenerate-alert | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-operation-result | account-operation-result | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| create-account-information | create-account-information | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-role-selection-section | account-role-selection-section | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| edit-account-information | edit-account-information | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| account-status-section | account-status-section | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| update-user-password | update-user-password | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-page-permission-selector | role-page-permission-selector | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-permission-settings | role-permission-settings | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| create-role-information | create-role-information | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-global-toolbar | permission-global-toolbar | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-save-result | role-save-result | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-operation-result | permission-operation-result | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-delete-result | role-delete-result | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-item | permission-item | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-enabled-count | permission-enabled-count | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-enabled-count-overview | permission-enabled-count-overview | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-menu-overview-item | permission-menu-overview-item | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-function-page-item | permission-function-page-item | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-function-category | permission-function-category | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-section-title | permission-section-title | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-text-cell | permission-text-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-page-hint | permission-page-hint | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-menu-item | permission-menu-item | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-status-tab-group | permission-status-tab-group | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-save-status | permission-save-status | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-settings-tabs | permission-settings-tabs | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-detail-head | role-detail-head | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| overview-time-field | overview-time-field | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| edit-role-information | edit-role-information | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-overview | role-overview | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-status-section | role-status-section | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-table-column-header | role-table-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| role-management-table-row | role-management-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-management-table-header | role-management-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| add-role-button | add-role-button | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-permission-summary | role-permission-summary | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-overview-content | permission-overview-content | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-action-dialog | role-action-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| permission-summary-sidebar | permission-summary-sidebar | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-details | role-details | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| role-row-action-dialog | role-row-action-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| personal-account-overview | personal-account-overview | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| personal-permission-overview | personal-permission-overview | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| personal-operation-result | personal-operation-result | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| key-value-text | key-value-text | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| event-report-column-header | event-report-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| event-report-l1-table-header | event-report-l1-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l1-table-row | event-report-l1-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l2-table-header | event-report-l2-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l2-table-row | event-report-l2-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l3-table-header | event-report-l3-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l3-table-row | event-report-l3-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l4-table-header | event-report-l4-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 6 |
+| event-report-l4-table-row | event-report-l4-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| platform-reconciliation-report-table-header | platform-reconciliation-report-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| reconciliation-total-fee-column-header | reconciliation-total-fee-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| reconciliation-provider-revenue-column-header | reconciliation-provider-revenue-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| report-column-header | report-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| reconciliation-report-table-header | reconciliation-report-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| reconciliation-report-table-row | reconciliation-report-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| cross-site-compensation-table-header | cross-site-compensation-table-header | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| cross-site-compensation-table-row | cross-site-compensation-table-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| report-identifier-and-value | report-identifier-and-value | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| report-date-time | report-date-time | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| report-single-date-time | report-single-date-time | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| review-info-content | review-info-content | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| review-info-label | review-info-label | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| settlement-rate-table-label-cell | settlement-rate-table-label-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| settlement-rate-table-cell | settlement-rate-table-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| modification-and-review-info | modification-and-review-info | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| modification-review-info-row | modification-review-info-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| settlement-rate-input-row | settlement-rate-input-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| review-dialog-data-cell | review-dialog-data-cell | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| review-dialog-data-table | review-dialog-data-table | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| reconciliation-action-button | reconciliation-action-button | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| reconciliation-review-confirm-dialog | reconciliation-review-confirm-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| reconciliation-review-result-dialog | reconciliation-review-result-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| settlement-rate-edit-dialog | settlement-rate-edit-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| settlement-rate-edit-result-dialog | settlement-rate-edit-result-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| cross-site-compensation-review-confirm-dialog | cross-site-compensation-review-confirm-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| cross-site-compensation-review-notice-dialog | cross-site-compensation-review-notice-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| review-info-label-text | review-info-label-text | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| review-info-amount-text | review-info-amount-text | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| settlement-rate-dialog-head | settlement-rate-dialog-head | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| label-value-text-cell | label-value-text-cell | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| event-change-list-content | event-change-list-content | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-change-function-items | event-change-function-items | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| version-control-record | version-control-record | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| version-control-record-content | version-control-record-content | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-action-function-filter-panel-desktop-tablet | change-action-function-filter-panel-desktop-tablet | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-action-function-filter-panel-mobile | change-action-function-filter-panel-mobile | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| version-control-record-button | version-control-record-button | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| version-control-version-badge | version-control-version-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-change-event-type-filter | event-change-event-type-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-change-sport-type-filter | event-change-sport-type-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-change-secondary-type-filter | event-change-secondary-type-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-action-type-filter | change-action-type-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-function-type-filter | change-function-type-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-parameter-category-filter | change-parameter-category-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-parameter-filter | change-parameter-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-content-category-filter | event-content-category-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-content-item-filter | event-content-item-filter | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-category-league-cell | event-category-league-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| batch-tracking-code-cell | batch-tracking-code-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| last-change-info-cell | last-change-info-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-function-type-badge | change-function-type-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-total-stock-data | inventory-total-stock-data | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-option-list | inventory-option-list | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-event-overview | inventory-event-overview | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-notification-panel | inventory-notification-panel | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-notification-row | inventory-notification-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-price-and-option-count | inventory-price-and-option-count | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| last-updated-time | last-updated-time | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| inventory-overview-summary | inventory-overview-summary | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-stock-data-item | inventory-stock-data-item | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| inventory-edit-listing-button | inventory-edit-listing-button | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| unlisted-event-more-actions-dialog | unlisted-event-more-actions-dialog | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| sub-theme-type-badge | sub-theme-type-badge | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| force-refund-alert | force-refund-alert | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-card-review | event-card-review | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| create-event-wager-setting-step--legacy-20261118 | create-event-wager-setting-step | deprecated | deprecated | 99_淘汰 / Deprecated |
+| parameter-description-base | parameter-description-base | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| parameter-description | parameter-description | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| settlement-event-content | settlement-event-content | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| settlement-event-preview | settlement-event-preview | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-operate-cell | event-operate-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| ai-event-settlement-button | ai-event-settlement-button | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-change-data-cell | event-change-data-cell | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-action-group | change-action-group | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| change-content-path | change-content-path | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-list-row-action-button | event-list-row-action-button | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-change-detail-row | event-change-detail-row | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| parameter-change-row-base | parameter-change-row-base | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| parameter-change-row-base-extended | parameter-change-row-base-extended | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| summary-card-item | summary-card-item | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| netwin-setting-row-title | netwin-setting-row-title | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| wager-options-row-title | wager-options-row-title | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-title | event-title | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| settlement-event-content-layout | settlement-event-content-layout | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| parameter-setting-content | parameter-setting-content | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| wager-parameter-settings-section | wager-parameter-settings-section | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-image-cell | event-image-cell | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| settlement-event-name | settlement-event-name | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-theme-section-desktop | event-theme-section-desktop | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| wager-options-section-desktop | wager-options-section-desktop | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| event-theme-section-mobile | event-theme-section-mobile | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| ai-wager-option-input | ai-wager-option-input | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| netwin-profit-range-settings | netwin-profit-range-settings | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| rush-hour-wager-parameter-settings | rush-hour-wager-parameter-settings | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
+| ai-review-single-result-content | ai-review-single-result-content | feature | approved | 04_功能元件 / Feature Components · 分頁 7 |
