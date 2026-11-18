@@ -6393,12 +6393,12 @@
 - sourceLayer: `feature`
 - status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
+- aliases: report-order-status-cell-desktop
 - Figma: 04_功能元件 / Feature Components · 分頁 3 / [order-status-cell-desktop] 訂單狀態－PC / Desktop Order Status Cell / `163:487291` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=163-487291
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`59e3ac2ca42e328c9f95f46b24722490c15a0d0b`
 - Component Properties: 訂單狀態 (VARIANT: Finished/Failed/Error/Canceled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 在桌面列表以 PC 專用版式顯示訂單狀態。
+- 功能說明: 在桌面列表以 PC 專用版式顯示訂單狀態。合併：已併入報表查詢的 report-order-status-cell-desktop（2026-11-18）；平台報表以中文標籤（已完成、失敗、錯誤、已取消）覆寫文字。
 - 遷移備註: 有實際使用且可重用
 - Page Type: List
 - Responsive Variants: unknown
@@ -6409,7 +6409,7 @@
 - Theme: explicit=unknown, strategy=manual, support=unknown
 - Review: reviewed / confidence=0.99
 - Original Review Action: —
-- Evidence: score=105；usage=270；screens=15；themes=light,dark
+- Evidence: score=105；usage=270；screens=15；themes=light,dark；merged=2026-11-18; absorbed=308:25582 (report-order-status-cell-desktop)
 - Legacy mapping: —
 - Migration Score/Source: — / 客服服務 - 會員訂單紀錄 /         Key Screens 🔖v0.1.0-20260714 / 8031:11713
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13223,10 +13223,10 @@
 - canonicalFamilyId: `detail-info-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [detail-info-content] 詳細資訊內容 / Detail Info Content / `298:41371` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41371
+- Figma: 03_共用模式 / Shared Patterns / [detail-info-content] 詳細資訊內容 / Detail Info Content / `298:41371` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41371
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2aae70e176b80b51c338abfea14694ea41eef38e`
 - Component Properties: 類型 (VARIANT: 文字/文字(特殊)/數值/盈虧-正/盈虧-負/時間/Yes/No/Up/Down/帳號狀態/雙重驗證狀態/身份組/平台/遊戲商)；狀態 (VARIANT: 無/已啟用/已停用/未啟用)；身份組 (VARIANT: 無/營運人員/客服人員/尚未指派/TH1/Botan/Hitomarket)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13239,9 +13239,9 @@
 - Components: detail-info-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:224891
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:224891；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41371
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13251,10 +13251,10 @@
 - canonicalFamilyId: `detail-info-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [detail-info-row] 詳細資訊列 / Detail Info Row / `298:41442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41442
+- Figma: 03_共用模式 / Shared Patterns / [detail-info-row] 詳細資訊列 / Detail Info Row / `298:41442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41442
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`997d683af77a9ccca098338a84a5a553aa67e33a`
 - Component Properties: 位置 (VARIANT: 上/中/下)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13267,9 +13267,9 @@
 - Components: detail-info-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:224958
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:224958；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41442
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13279,10 +13279,10 @@
 - canonicalFamilyId: `account-table-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-table-column-header] 表格欄位標頭 / Table Column Header / `298:41455` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41455
+- Figma: 03_共用模式 / Shared Patterns / [account-table-column-header] 表格欄位標頭 / Table Column Header / `298:41455` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41455
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`018e4398f9381fbb0032df8923bd3bc063df70c2`
 - Component Properties: 類別 (VARIANT: 帳號/名稱/帳號建立來源/角色/所屬身份/帳號啟用狀態/雙重驗證啟用/帳號創建時間/操作)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13295,9 +13295,9 @@
 - Components: account-table-column-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:224973
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:224973；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41455
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13307,10 +13307,10 @@
 - canonicalFamilyId: `date-time-value`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [date-time-value] 日期時間 / Date Time Value / `298:41490` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41490
+- Figma: 03_共用模式 / Shared Patterns / [date-time-value] 日期時間 / Date Time Value / `298:41490` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41490
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`58da4a43ddf5362ca90b0d67118b0a03016da0d5`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13323,9 +13323,9 @@
 - Components: date-time-value
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225003
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225003；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41490
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13335,10 +13335,10 @@
 - canonicalFamilyId: `identifier-and-value`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [identifier-and-value] 編號與數值 / Identifier and Value / `298:41505` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41505
+- Figma: 03_共用模式 / Shared Patterns / [identifier-and-value] 編號與數值 / Identifier and Value / `298:41505` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41505
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3f406946fb19992a301d34a7311d368e2c1b5ded`
 - Component Properties: 類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/無名稱/Yes/No/Up/Down/無方向)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13351,9 +13351,9 @@
 - Components: identifier-and-value
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225020
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225020；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41505
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13363,10 +13363,10 @@
 - canonicalFamilyId: `account-table-action-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-table-action-item] 表格操作項目 / Table Action Item / `298:41568` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41568
+- Figma: 03_共用模式 / Shared Patterns / [account-table-action-item] 表格操作項目 / Table Action Item / `298:41568` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41568
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2f14d1746ef09c2853f5d7b3b8b1512d286acb92`
 - Component Properties: 類型 (VARIANT: 編號)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13379,9 +13379,9 @@
 - Components: account-table-action-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225104
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225104；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41568
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13391,10 +13391,10 @@
 - canonicalFamilyId: `account-table-actions`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-table-actions] 表格操作 / Table Actions / `298:41571` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41571
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-table-actions] 表格操作 / Table Actions / `298:41571` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41571
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`4f00e0d4ba4d91be3774c1a03dbaa528f208ac04`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13407,9 +13407,9 @@
 - Components: account-table-actions
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225563
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225563；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41571
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13419,10 +13419,10 @@
 - canonicalFamilyId: `account-management-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-management-table-row] 帳號管理列表資料列 / Account Management Table Row / `298:41583` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41583
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-management-table-row] 帳號管理列表資料列 / Account Management Table Row / `298:41583` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41583
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bef088931d8229e6d945602c4868693853753d47`
 - Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13435,9 +13435,9 @@
 - Components: account-management-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225568
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225568；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41583
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13447,10 +13447,10 @@
 - canonicalFamilyId: `account-management-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-management-table-header] 帳號管理列表表頭 / Account Management Table Header / `298:41604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41604
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-management-table-header] 帳號管理列表表頭 / Account Management Table Header / `298:41604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41604
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e77da755e0b4c2b911b7435949a72454f6650691`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13463,9 +13463,9 @@
 - Components: account-management-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225587
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225587；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41604
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13475,10 +13475,10 @@
 - canonicalFamilyId: `account-filter-panel-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-filter-panel-desktop] 桌面版篩選區 / Account Filter Panel Desktop / `298:41615` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41615
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-filter-panel-desktop] 桌面版篩選區 / Account Filter Panel Desktop / `298:41615` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41615
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`078c946fde751721b60b07f1a5f3f745793449ae`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13491,9 +13491,9 @@
 - Components: account-filter-panel-desktop
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225598
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225598；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41615
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13503,10 +13503,10 @@
 - canonicalFamilyId: `account-enabled-status-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-enabled-status-badge] 帳號啟用狀態標籤 / Account Enabled Status Badge / `298:41617` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41617
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-enabled-status-badge] 帳號啟用狀態標籤 / Account Enabled Status Badge / `298:41617` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41617
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`03844b3c6af7c37f64a0d12978f46fd65ab6dc1a`
 - Component Properties: 狀態 (VARIANT: 已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13519,9 +13519,9 @@
 - Components: account-enabled-status-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225602
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225602；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41617
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13531,10 +13531,10 @@
 - canonicalFamilyId: `two-factor-enabled-status-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [two-factor-enabled-status-badge] 2FA 啟用狀態標籤 / 2FA Enabled Status Badge / `298:41624` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41624
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [two-factor-enabled-status-badge] 2FA 啟用狀態標籤 / 2FA Enabled Status Badge / `298:41624` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41624
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`26da53470b577d1b7dc16cd3b785f84c99b774fb`
 - Component Properties: 狀態 (VARIANT: 已啟用/未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13547,9 +13547,9 @@
 - Components: two-factor-enabled-status-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236191
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236191；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41624
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13559,10 +13559,10 @@
 - canonicalFamilyId: `role-group-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-group-badge] 身份組標籤 / Role Group Badge / `298:41631` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41631
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-group-badge] 身份組標籤 / Role Group Badge / `298:41631` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41631
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a1353605117a2eaaab88d8b6feb80becf86764b1`
 - Component Properties: 身份組 (VARIANT: 營運人員/客服人員/尚未指派)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13575,9 +13575,9 @@
 - Components: role-group-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236200
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236200；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41631
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13587,10 +13587,10 @@
 - canonicalFamilyId: `platform-provider-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [platform-provider-cell] 平台／遊戲商欄位 / Platform / Game Provider Cell / `298:41638` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41638
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [platform-provider-cell] 平台／遊戲商欄位 / Platform / Game Provider Cell / `298:41638` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41638
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`94e53e8ae4f544bdac5d48e04ac7b5f751e95f98`
 - Component Properties: 平台/遊戲商 (VARIANT: TH1/Botan/Hitomarket)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13603,9 +13603,9 @@
 - Components: platform-provider-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理
+- Evidence: intake=2026-11-17; section=帳號管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41638
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13615,10 +13615,10 @@
 - canonicalFamilyId: `platform-provider-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [platform-provider-badge] 平台／遊戲商標籤 / Platform / Game Provider Badge / `298:41645` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41645
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [platform-provider-badge] 平台／遊戲商標籤 / Platform / Game Provider Badge / `298:41645` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41645
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a01bc8ac12d32df9916374cd3f85274ceeb1212a`
 - Component Properties: 平台/遊戲商 (VARIANT: TH1/Botan/Hitomarket)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13631,9 +13631,9 @@
 - Components: platform-provider-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理
+- Evidence: intake=2026-11-17; section=帳號管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41645
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13643,10 +13643,10 @@
 - canonicalFamilyId: `account-status-filter-panel-desktop-tablet`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-status-filter-panel-desktop-tablet] 帳號狀態篩選面板－桌面平板 / Account Status Filter Panel Desktop/Tablet / `298:41655` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41655
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-status-filter-panel-desktop-tablet] 帳號狀態篩選面板－桌面平板 / Account Status Filter Panel Desktop/Tablet / `298:41655` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41655
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cda00881a96454acfa315475589b2c9b7984bd58`
 - Component Properties: 開關 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13659,9 +13659,9 @@
 - Components: account-status-filter-panel-desktop-tablet
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225611
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225611；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41655
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13671,10 +13671,10 @@
 - canonicalFamilyId: `account-status-filter-panel-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-status-filter-panel-mobile] 帳號狀態篩選面板－行動版 / Account Status Filter Panel Mobile / `298:41679` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41679
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-status-filter-panel-mobile] 帳號狀態篩選面板－行動版 / Account Status Filter Panel Mobile / `298:41679` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41679
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b4151f28ee239c92f0a6b3b0b8017540d40c28a6`
 - Component Properties: 開關 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13687,9 +13687,9 @@
 - Components: account-status-filter-panel-mobile
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225633
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225633；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41679
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13699,10 +13699,10 @@
 - canonicalFamilyId: `account-filter-toggle-buttons`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-filter-toggle-buttons] 篩選器按鈕組 / Filter Toggle Buttons / `298:41698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41698
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-filter-toggle-buttons] 篩選器按鈕組 / Filter Toggle Buttons / `298:41698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41698
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c31297a8eef13179c4c0ed3f0e24c1d4247132f5`
 - Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；按鈕狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13715,9 +13715,9 @@
 - Components: account-filter-toggle-buttons
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225653
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225653；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41698
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13727,10 +13727,10 @@
 - canonicalFamilyId: `account-search-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-search-filter] 帳號搜尋篩選 / Account Search Filter / `298:41719` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41719
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-search-filter] 帳號搜尋篩選 / Account Search Filter / `298:41719` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41719
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a3c1128598e41d05e6c25b91b0ee9086fe70014c`
 - Component Properties: 狀態 (VARIANT: Default/Filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13743,9 +13743,9 @@
 - Components: account-search-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225676
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225676；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41719
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13755,10 +13755,10 @@
 - canonicalFamilyId: `account-enabled-status-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-enabled-status-filter] 帳號啟用狀態篩選 / Account Enabled Status Filter / `298:41724` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41724
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-enabled-status-filter] 帳號啟用狀態篩選 / Account Enabled Status Filter / `298:41724` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41724
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5564aef201c1da914dbdbbc215792088575d83a7`
 - Component Properties: 類型 (VARIANT: 顯示全部帳號啟用狀態/已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13771,9 +13771,9 @@
 - Components: account-enabled-status-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225683
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225683；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41724
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13783,10 +13783,10 @@
 - canonicalFamilyId: `two-factor-status-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [two-factor-status-filter] 雙重驗證狀態篩選 / 2FA Status Filter / `298:41731` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41731
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [two-factor-status-filter] 雙重驗證狀態篩選 / 2FA Status Filter / `298:41731` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41731
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0c3cb5e4a2c274691fd096ba0b6d6c6a32487d63`
 - Component Properties: 類型 (VARIANT: 顯示全部綁定狀態/已綁定/未綁定)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13799,9 +13799,9 @@
 - Components: two-factor-status-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236218
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236218；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41731
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13811,10 +13811,10 @@
 - canonicalFamilyId: `role-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-filter] 角色篩選 / Role Filter / `298:41738` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41738
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-filter] 角色篩選 / Role Filter / `298:41738` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41738
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f7286f2b046f240feb5b9d65c24f587ff685247a`
 - Component Properties: 類型 (VARIANT: 顯示全部角色/最高管理員/客服人員)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13827,9 +13827,9 @@
 - Components: role-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理
+- Evidence: intake=2026-11-17; section=帳號管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41738
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13839,10 +13839,10 @@
 - canonicalFamilyId: `account-info-field`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-info-field] 帳號資訊欄位 / Account Info Field / `298:41745` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41745
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-info-field] 帳號資訊欄位 / Account Info Field / `298:41745` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41745
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cca853c7994a62fe9da72aec277d052736b067ab`
 - Component Properties: 類型 (VARIANT: 通常/標籤/有啟用/未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13855,9 +13855,9 @@
 - Components: account-info-field
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225692
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225692；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41745
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13867,10 +13867,10 @@
 - canonicalFamilyId: `account-status-summary`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-status-summary] 帳號狀態摘要 / Account Status Summary / `298:41763` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41763
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-status-summary] 帳號狀態摘要 / Account Status Summary / `298:41763` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41763
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`039ec9193b56014f0d7e73e50f41a22ea5881f10`
 - Component Properties: 帳號狀態 (VARIANT: 已啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13883,9 +13883,9 @@
 - Components: account-status-summary
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225708
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225708；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41763
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13895,10 +13895,10 @@
 - canonicalFamilyId: `two-factor-status-summary`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [two-factor-status-summary] 雙重驗證狀態摘要 / 2FA Status Summary / `298:41768` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41768
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [two-factor-status-summary] 雙重驗證狀態摘要 / 2FA Status Summary / `298:41768` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41768
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`17f219a2052feae62aeb55801eca7593e3181b21`
 - Component Properties: 帳號狀態 (VARIANT: 已啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13911,9 +13911,9 @@
 - Components: two-factor-status-summary
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236234
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236234；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41768
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13923,10 +13923,10 @@
 - canonicalFamilyId: `delete-account-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [delete-account-button] 刪除帳號按鈕 / Delete Account Button / `298:41773` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41773
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [delete-account-button] 刪除帳號按鈕 / Delete Account Button / `298:41773` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41773
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`16fa96f4b2bb0a8404f6c1be59520ea30b3586db`
 - Component Properties: 帳號狀態 (VARIANT: Default/Hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13939,9 +13939,9 @@
 - Components: delete-account-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228760
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228760；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41773
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13951,10 +13951,10 @@
 - canonicalFamilyId: `account-status-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-status-item] 帳號狀態項目 / Account Status Item / `298:41778` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41778
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-status-item] 帳號狀態項目 / Account Status Item / `298:41778` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41778
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`ac26b74e96b9691f2575bfb8bde52b83b3829cb6`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13967,9 +13967,9 @@
 - Components: account-status-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225715
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225715；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41778
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -13979,10 +13979,10 @@
 - canonicalFamilyId: `account-form-action-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-form-action-button] 帳號表單操作按鈕 / Account Form Action Button / `298:41781` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41781
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-form-action-button] 帳號表單操作按鈕 / Account Form Action Button / `298:41781` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41781
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`96b5d97bbbea4fa26515bd532695746a083e6c58`
 - Component Properties: 類型 (VARIANT: 確認編輯/確認新增/取消)；狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -13995,9 +13995,9 @@
 - Components: account-form-action-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225720
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225720；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41781
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14007,10 +14007,10 @@
 - canonicalFamilyId: `add-account-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [add-account-button] 新增帳號按鈕 / Add Account Button / `298:41800` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41800
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [add-account-button] 新增帳號按鈕 / Add Account Button / `298:41800` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41800
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3cd20a082952dca58e6c63d94654bb9a8463e89e`
 - Component Properties: 類型 (VARIANT: 新增帳號)；狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14023,9 +14023,9 @@
 - Components: add-account-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225741
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225741；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41800
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14035,10 +14035,10 @@
 - canonicalFamilyId: `disable-account-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [disable-account-button] 停用帳號按鈕 / Disable Account Button / `298:41809` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41809
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [disable-account-button] 停用帳號按鈕 / Disable Account Button / `298:41809` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41809
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9e217fb11873fab9960d4fa32ffa9768f3ce229b`
 - Component Properties: 按鈕狀態 (VARIANT: Default/Hover)；帳號狀態 (VARIANT: 啟用/停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14051,9 +14051,9 @@
 - Components: disable-account-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228767
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228767；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41809
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14063,10 +14063,10 @@
 - canonicalFamilyId: `two-factor-toggle-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [two-factor-toggle-button] 雙重驗證切換按鈕 / 2FA Reset Button / `298:41818` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41818
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [two-factor-toggle-button] 雙重驗證切換按鈕 / 2FA Reset Button / `298:41818` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41818
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`40a905223362b8ff7f76d10908c50f4650dca96a`
 - Component Properties: 類型 (VARIANT: 重置雙重驗證)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14079,9 +14079,9 @@
 - Components: two-factor-toggle-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236227
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236227；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41818
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14091,10 +14091,10 @@
 - canonicalFamilyId: `account-details`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-details] 帳號詳細資訊 / Account Details / `298:41821` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41821
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-details] 帳號詳細資訊 / Account Details / `298:41821` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41821
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f938fc026182c7c4fd6a6ab4c195985055df555e`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；啟用狀態 (VARIANT: 已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14107,9 +14107,9 @@
 - Components: account-details
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225752
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225752；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41821
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14119,10 +14119,10 @@
 - canonicalFamilyId: `account-action-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-action-dialog] 帳號操作彈窗 / Account Action Dialog / `298:41882` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41882
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-action-dialog] 帳號操作彈窗 / Account Action Dialog / `298:41882` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41882
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`93f57f22ad954e5818921de27276d64c2a470bed`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14135,9 +14135,9 @@
 - Components: account-action-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225807
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225807；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41882
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14147,10 +14147,10 @@
 - canonicalFamilyId: `account-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-overview] 帳號資訊總覽 / Account Overview / `298:41899` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41899
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-overview] 帳號資訊總覽 / Account Overview / `298:41899` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41899
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`476f9c84d439afee27043752a42ce1fec58a6cf0`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 無/開啟/關閉)；狀態 (VARIANT: 尚未啟用/已啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14163,9 +14163,9 @@
 - Components: account-overview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225826
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225826；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41899
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14175,10 +14175,10 @@
 - canonicalFamilyId: `two-factor-authentication`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [two-factor-authentication] 雙重驗證設定 / Two-Factor Authentication / `298:41960` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41960
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [two-factor-authentication] 雙重驗證設定 / Two-Factor Authentication / `298:41960` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-41960
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`09458788a78b944fca8f66838c0883a44143cf9a`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；狀態 (VARIANT: 尚未啟用/已啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14191,9 +14191,9 @@
 - Components: two-factor-authentication
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236241
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236241；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:41960
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14203,10 +14203,10 @@
 - canonicalFamilyId: `login-security-policy`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [login-security-policy] 登入安全政策 / Login Security Policy / `298:42067` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42067
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [login-security-policy] 登入安全政策 / Login Security Policy / `298:42067` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42067
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f6232dfae9eeceb0a84bd4fd1e6a31c604e0d6aa`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；狀態 (VARIANT: 尚未選取)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14219,9 +14219,9 @@
 - Components: login-security-policy
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236352
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:236352；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:42067
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14231,10 +14231,10 @@
 - canonicalFamilyId: `qr-code-regenerate-alert`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [qr-code-regenerate-alert] 重新產生 QR Code 提示 / QR Code Regenerate Alert / `298:42110` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42110
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [qr-code-regenerate-alert] 重新產生 QR Code 提示 / QR Code Regenerate Alert / `298:42110` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42110
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c4a548513e90ee3ac141a535388c0b3898ab5c18`
 - Component Properties: 類型 (VARIANT: 重新產生 QR Code 後，先前的金鑰會立即失效。)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14247,9 +14247,9 @@
 - Components: qr-code-regenerate-alert
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理
+- Evidence: intake=2026-11-17; section=帳號管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:42110
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14259,10 +14259,10 @@
 - canonicalFamilyId: `account-operation-result`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-operation-result] 帳號操作結果 / Account Operation Result / `298:42115` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42115
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-operation-result] 帳號操作結果 / Account Operation Result / `298:42115` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42115
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8d40de35bb7fab5223ade439b83a22d9561031ab`
 - Component Properties: 類型 (VARIANT: 新增/編輯/啟用/停用/刪除/重置雙重驗證結果)；狀態 (VARIANT: 成功/失敗/再次確認)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14275,9 +14275,9 @@
 - Components: account-operation-result
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225863
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:225863；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:42115
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14287,10 +14287,10 @@
 - canonicalFamilyId: `create-account-information`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [create-account-information] 建立帳號資訊 / Create Account Information / `298:42440` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42440
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [create-account-information] 建立帳號資訊 / Create Account Information / `298:42440` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42440
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a5ba9aa29d5191349b74da32f6b33e4abd854a0e`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空/兩次輸入的密碼必須相同)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14303,9 +14303,9 @@
 - Components: create-account-information
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228774
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228774；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:42440
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14315,10 +14315,10 @@
 - canonicalFamilyId: `account-role-selection-section`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-role-selection-section] 帳號角色設定區塊 / Account Role Selection Section / `298:42649` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42649
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-role-selection-section] 帳號角色設定區塊 / Account Role Selection Section / `298:42649` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-42649
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d75016975838f88613256c52c60385c36eb8f829`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 無/尚未輸入/已輸入)；選單狀態 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14331,9 +14331,9 @@
 - Components: account-role-selection-section
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理
+- Evidence: intake=2026-11-17; section=帳號管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:42649
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14343,10 +14343,10 @@
 - canonicalFamilyId: `edit-account-information`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [edit-account-information] 修改帳號資訊 / Edit Account Information / `298:43145` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43145
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [edit-account-information] 修改帳號資訊 / Edit Account Information / `298:43145` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43145
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`167e395de7b987e5203e33e3cc0faa97e5712f44`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空/兩次輸入的密碼必須相同)；修改密碼 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14359,9 +14359,9 @@
 - Components: edit-account-information
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228901
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:228901；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:43145
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14371,10 +14371,10 @@
 - canonicalFamilyId: `account-status-section`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [account-status-section] 帳號狀態區塊 / Account Status Section / `298:43316` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43316
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [account-status-section] 帳號狀態區塊 / Account Status Section / `298:43316` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43316
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cb9a9ad8a1cfe1520bdcaf1aa4a09a10bcb18781`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14387,9 +14387,9 @@
 - Components: account-status-section
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:226066
+- Evidence: intake=2026-11-17; section=帳號管理; supersedes=190:226066；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:43316
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14399,10 +14399,10 @@
 - canonicalFamilyId: `update-user-password`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [update-user-password] 更新使用者密碼 / Update User Password / `298:43345` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43345
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [update-user-password] 更新使用者密碼 / Update User Password / `298:43345` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43345
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e6940914a560f50177ead26cb6e0ece469357eba`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/兩次輸入的密碼必須相同)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14415,9 +14415,9 @@
 - Components: update-user-password
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=帳號管理
+- Evidence: intake=2026-11-17; section=帳號管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 帳號管理 Key Screens 貼入 / 298:43345
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14427,10 +14427,10 @@
 - canonicalFamilyId: `role-page-permission-selector`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-page-permission-selector] 頁面權限選擇 / Role Page Permission Selector / `298:43442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43442
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-page-permission-selector] 頁面權限選擇 / Role Page Permission Selector / `298:43442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-43442
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a44e4e26cddb482e2326607d263151cac6f07458`
 - Component Properties: 選單 (VARIANT: 無/帳號管理/報表查詢)；功能頁面 (VARIANT: 權限總覽/帳號管理列表/角色管理/事件報表/會員注單/對帳報表)；裝置 (VARIANT: PC/Tablet/Mobile)；權限狀態 (VARIANT: 已全部啟用/部分啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14443,9 +14443,9 @@
 - Components: role-page-permission-selector
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:43442
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14455,10 +14455,10 @@
 - canonicalFamilyId: `role-permission-settings`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-permission-settings] 角色權限設定 / Role Permission Settings / `298:44143` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44143
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-permission-settings] 角色權限設定 / Role Permission Settings / `298:44143` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44143
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b7a723c99ad984700b0c3981081da97b9bb68ca9`
 - Component Properties: 選單 (VARIANT: 無/帳號管理/報表查詢)；當前功能頁面 (VARIANT: 權限總覽/帳號管理列表/角色管理/事件報表/會員注單/對帳報表)；分頁 (VARIANT: 無/選擇功能頁/設定權限)；裝置 (VARIANT: PC/Tablet/Mobile)；狀態篩選 (VARIANT: 顯示全部權限狀態/部分啟用/已全部啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14471,9 +14471,9 @@
 - Components: role-permission-settings
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:44143
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14483,10 +14483,10 @@
 - canonicalFamilyId: `create-role-information`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [create-role-information] 新增角色資訊 / Create Role Information / `298:44663` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44663
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [create-role-information] 新增角色資訊 / Create Role Information / `298:44663` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44663
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ee8d2adce9cf97e0ee48669624f80c66ebbc8672`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14499,9 +14499,9 @@
 - Components: create-role-information
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:44663
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14511,10 +14511,10 @@
 - canonicalFamilyId: `permission-global-toolbar`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-global-toolbar] 權限全域工具列 / Permission Global Toolbar / `298:44760` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44760
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-global-toolbar] 權限全域工具列 / Permission Global Toolbar / `298:44760` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44760
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dd8a04b7de66b8f689e967f81a39c006cc7b7b4b`
 - Component Properties: 類型 (VARIANT: 顯示全部頁面權限/單頁)；裝置 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14527,9 +14527,9 @@
 - Components: permission-global-toolbar
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:44760
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14539,10 +14539,10 @@
 - canonicalFamilyId: `role-save-result`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-save-result] 角色儲存結果 / Role Save Result / `298:44807` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44807
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-save-result] 角色儲存結果 / Role Save Result / `298:44807` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44807
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`68d6307303881c49011c2fd0f73ee3dc5958355b`
 - Component Properties: 類型 (VARIANT: 新增/編輯)；狀態 (VARIANT: 成功/失敗)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14555,9 +14555,9 @@
 - Components: role-save-result
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:44807
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14567,10 +14567,10 @@
 - canonicalFamilyId: `permission-operation-result`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-operation-result] 權限操作結果 / Permission Operation Result / `298:44888` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44888
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-operation-result] 權限操作結果 / Permission Operation Result / `298:44888` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-44888
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c6a161083a22a8cc941f8a136f7c23333036bfc2`
 - Component Properties: 類型 (VARIANT: 儲存/還原上次操作/權限設定提醒)；狀態 (VARIANT: 成功/失敗/角色被其他人修改/再次確認)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14583,9 +14583,9 @@
 - Components: permission-operation-result
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:44888
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14595,10 +14595,10 @@
 - canonicalFamilyId: `role-delete-result`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-delete-result] 刪除角色結果 / Role Delete Result / `298:45069` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45069
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-delete-result] 刪除角色結果 / Role Delete Result / `298:45069` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45069
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0cf1f97be6777cd6030291d63be8dc55e8fc6e40`
 - Component Properties: 類型 (VARIANT: 刪除)；狀態 (VARIANT: 成功/失敗)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14611,9 +14611,9 @@
 - Components: role-delete-result
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45069
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14623,10 +14623,10 @@
 - canonicalFamilyId: `permission-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-item] 權限項目 / Permission Item / `298:45116` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45116
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-item] 權限項目 / Permission Item / `298:45116` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45116
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`19e3bc76892939085f56006d3dbfbaadcd2ea879`
 - Component Properties: 層級 (VARIANT: 全選權限/主要權限/次要權限/頁面權限)；裝置 (VARIANT: PC/Mobile)；收合狀態 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14639,9 +14639,9 @@
 - Components: permission-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45116
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14651,10 +14651,10 @@
 - canonicalFamilyId: `permission-enabled-count`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-enabled-count] 權限啟用數量 / Permission Enabled Count / `298:45277` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45277
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-enabled-count] 權限啟用數量 / Permission Enabled Count / `298:45277` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45277
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5b0c36baf1197999518f271d9b4b90b6e2f15b29`
 - Component Properties: 狀態 (VARIANT: 部分啟用/全部啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14667,9 +14667,9 @@
 - Components: permission-enabled-count
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45277
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14679,10 +14679,10 @@
 - canonicalFamilyId: `permission-enabled-count-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-enabled-count-overview] 權限啟用數量－權限總覽 / Permission Enabled Count Overview / `298:45290` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45290
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-enabled-count-overview] 權限啟用數量－權限總覽 / Permission Enabled Count Overview / `298:45290` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45290
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3b37fc667a6fccb4ba52e7cea0210c6c881ab13e`
 - Component Properties: 狀態 (VARIANT: 部分啟用/全部啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14695,9 +14695,9 @@
 - Components: permission-enabled-count-overview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45290
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14707,10 +14707,10 @@
 - canonicalFamilyId: `permission-menu-overview-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-menu-overview-item] 權限選單總覽項目 / Permission Menu Overview Item / `298:45306` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45306
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-menu-overview-item] 權限選單總覽項目 / Permission Menu Overview Item / `298:45306` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45306
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5d72421e0851d1014f657ab3e32f03afe184a769`
 - Component Properties: 收合狀態 (VARIANT: 無)；選取狀態 (VARIANT: 尚未選取/hover/已選取)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14723,9 +14723,9 @@
 - Components: permission-menu-overview-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45306
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14735,10 +14735,10 @@
 - canonicalFamilyId: `permission-function-page-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-function-page-item] 權限功能頁面項目 / Permission Function Page Item / `298:45319` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45319
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-function-page-item] 權限功能頁面項目 / Permission Function Page Item / `298:45319` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45319
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e02ce2189ac5df50acc1864fd41cbac6a107aa0c`
 - Component Properties: 啟用狀態 (VARIANT: 尚未啟用/部分啟用/全部啟用)；選取狀態 (VARIANT: 尚未選取/hover/已選取)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14751,9 +14751,9 @@
 - Components: permission-function-page-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45319
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14763,10 +14763,10 @@
 - canonicalFamilyId: `permission-function-category`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-function-category] 權限功能類別 / Permission Function Category / `298:45356` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45356
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-function-category] 權限功能類別 / Permission Function Category / `298:45356` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45356
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e4b2bbacfc043593fbed6cfa1d61002362c09978`
 - Component Properties: 收合狀態 (VARIANT: 關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14779,9 +14779,9 @@
 - Components: permission-function-category
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45356
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14791,10 +14791,10 @@
 - canonicalFamilyId: `permission-section-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-section-title] 權限區塊標題 / Permission Section Title / `298:45366` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45366
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-section-title] 權限區塊標題 / Permission Section Title / `298:45366` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45366
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f151a398483897e6b827862847cd8325c68a7a8d`
 - Component Properties: 類型 (VARIANT: 權限概況/其他權限頁面)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14807,9 +14807,9 @@
 - Components: permission-section-title
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45366
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14819,10 +14819,10 @@
 - canonicalFamilyId: `permission-text-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-text-cell] 權限文字欄位 / Permission Text Cell / `298:45398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45398
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-text-cell] 權限文字欄位 / Permission Text Cell / `298:45398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45398
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2adc57a3093d9621562dc01a3688e00f17f25b7b`
 - Component Properties: 類型 (VARIANT: 預設/重點提示)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14835,9 +14835,9 @@
 - Components: permission-text-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45398
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14847,10 +14847,10 @@
 - canonicalFamilyId: `permission-page-hint`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-page-hint] 權限頁面提示 / Permission Page Hint / `298:45407` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45407
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-page-hint] 權限頁面提示 / Permission Page Hint / `298:45407` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45407
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`b3092c18cefdf3e2c0797f5894c3c83a3c9d7c7a`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14863,9 +14863,9 @@
 - Components: permission-page-hint
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45407
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14875,10 +14875,10 @@
 - canonicalFamilyId: `permission-menu-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-menu-item] 權限選單項目 / Permission Menu Item / `298:45411` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45411
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-menu-item] 權限選單項目 / Permission Menu Item / `298:45411` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45411
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bd5b55c442bcd400d487c750b1be6deae8f3b4eb`
 - Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；選取狀態 (VARIANT: 預設/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14891,9 +14891,9 @@
 - Components: permission-menu-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45411
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14903,10 +14903,10 @@
 - canonicalFamilyId: `permission-status-tab-group`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-status-tab-group] 權限狀態分頁 / Permission Status Tab Group / `298:45428` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45428
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-status-tab-group] 權限狀態分頁 / Permission Status Tab Group / `298:45428` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45428
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`759d142322d3e5694517696ce8e64b85c1e4934f`
 - Component Properties: 選取 (VARIANT: All/已全部啟用/部分啟用/尚未啟用)；按鈕狀態 (VARIANT: 預設/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14919,9 +14919,9 @@
 - Components: permission-status-tab-group
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45428
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14931,10 +14931,10 @@
 - canonicalFamilyId: `permission-save-status`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-save-status] 權限儲存狀態 / Permission Save Status / `298:45445` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45445
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-save-status] 權限儲存狀態 / Permission Save Status / `298:45445` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45445
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5ac9953fb060dcd8b2748ea4dcfc0f0b0a13a7a6`
 - Component Properties: 儲存狀態 (VARIANT: 已儲存/尚未儲存/儲存中/尚無異動)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14947,9 +14947,9 @@
 - Components: permission-save-status
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45445
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14959,10 +14959,10 @@
 - canonicalFamilyId: `permission-settings-tabs`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-settings-tabs] 權限設定分頁 / Permission Settings Tabs / `298:45476` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45476
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-settings-tabs] 權限設定分頁 / Permission Settings Tabs / `298:45476` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45476
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e23b7e120be52b6a6a526637918dba55f27d2a2f`
 - Component Properties: 分頁 (VARIANT: 選擇功能頁/設定權限/權限概況)；狀態 (VARIANT: default/hover)；類型 (VARIANT: 設定權限頁面/權限摘要頁面)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -14975,9 +14975,9 @@
 - Components: permission-settings-tabs
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45476
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -14987,10 +14987,10 @@
 - canonicalFamilyId: `role-detail-head`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-detail-head] 角色詳細標題列 / Role Detail Head / `298:45533` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45533
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-detail-head] 角色詳細標題列 / Role Detail Head / `298:45533` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45533
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`dde48d4ab6fc53673e002d2353df1c206d888041`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15003,9 +15003,9 @@
 - Components: role-detail-head
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45533
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15015,10 +15015,10 @@
 - canonicalFamilyId: `overview-time-field`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [overview-time-field] 總覽時間欄位 / Overview Time Field / `298:45628` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45628
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [overview-time-field] 總覽時間欄位 / Overview Time Field / `298:45628` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45628
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bab48c71cac1fb1b12ab9c41b510366849b130d8`
 - Component Properties: 類型 (VARIANT: 時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15031,9 +15031,9 @@
 - Components: overview-time-field
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45628
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15043,10 +15043,10 @@
 - canonicalFamilyId: `edit-role-information`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [edit-role-information] 修改角色資訊 / Edit Role Information / `298:45644` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45644
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [edit-role-information] 修改角色資訊 / Edit Role Information / `298:45644` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45644
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1e77c34dbd1c1a2be0efecab644460d1270a2df4`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 關閉/開啟)；輸入狀態 (VARIANT: 尚未輸入/已輸入/必填不可為空)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15059,9 +15059,9 @@
 - Components: edit-role-information
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45644
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15071,10 +15071,10 @@
 - canonicalFamilyId: `role-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-overview] 角色資訊總覽 / Role Overview / `298:45741` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45741
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-overview] 角色資訊總覽 / Role Overview / `298:45741` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45741
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b083e14faed6fe7ee108273714918a439766e886`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 無/開啟/關閉)；狀態 (VARIANT: 尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15087,9 +15087,9 @@
 - Components: role-overview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45741
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15099,10 +15099,10 @@
 - canonicalFamilyId: `role-status-section`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-status-section] 角色狀態區塊 / Role Status Section / `298:45764` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45764
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-status-section] 角色狀態區塊 / Role Status Section / `298:45764` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45764
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`523f57238d43f1ed3210e611ea31298cec0349b0`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；收合狀態 (VARIANT: 開啟/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15115,9 +15115,9 @@
 - Components: role-status-section
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45764
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15127,10 +15127,10 @@
 - canonicalFamilyId: `role-table-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-table-column-header] 角色列表欄位標頭 / Role Table Column Header / `298:45787` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45787
+- Figma: 03_共用模式 / Shared Patterns / [role-table-column-header] 角色列表欄位標頭 / Role Table Column Header / `298:45787` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45787
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4e8f4bb2482332bdff264cfa0ba1a268497ca6ce`
 - Component Properties: 類別 (VARIANT: 角色名稱/權限摘要/帳號數量/角色創建時間/最後修改時間/操作)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15143,9 +15143,9 @@
 - Components: role-table-column-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45787
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15155,10 +15155,10 @@
 - canonicalFamilyId: `role-management-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-management-table-row] 角色管理列表資料列 / Role Management Table Row / `298:45895` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45895
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-management-table-row] 角色管理列表資料列 / Role Management Table Row / `298:45895` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45895
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`efd9286d9ac4cfb0b1aee897cb63275635553952`
 - Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15171,9 +15171,9 @@
 - Components: role-management-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45895
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15183,10 +15183,10 @@
 - canonicalFamilyId: `role-management-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-management-table-header] 角色管理列表表頭 / Role Management Table Header / `298:45910` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45910
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-management-table-header] 角色管理列表表頭 / Role Management Table Header / `298:45910` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45910
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5428f91211fadce730ea7ac77f799a268af4232b`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15199,9 +15199,9 @@
 - Components: role-management-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45910
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15211,10 +15211,10 @@
 - canonicalFamilyId: `add-role-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [add-role-button] 新增角色按鈕 / Add Role Button / `298:45918` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45918
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [add-role-button] 新增角色按鈕 / Add Role Button / `298:45918` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45918
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ff3d986a1519ccdda83bcc4ea777521b76f2e0a8`
 - Component Properties: 類型 (VARIANT: 新增角色)；狀態 (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15227,9 +15227,9 @@
 - Components: add-role-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45918
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15239,10 +15239,10 @@
 - canonicalFamilyId: `role-permission-summary`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-permission-summary] 角色權限摘要 / Role Permission Summary / `298:45927` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45927
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-permission-summary] 角色權限摘要 / Role Permission Summary / `298:45927` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-45927
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f2f56f4452b279e34f2998120450d3a1ac848d45`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；頁面 (VARIANT: 無/選擇功能頁/權限概況)；功能 (VARIANT: 權限總覽/帳號管理列表)；狀態 (VARIANT: 已全部啟用/部分啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15255,9 +15255,9 @@
 - Components: role-permission-summary
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:45927
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15267,10 +15267,10 @@
 - canonicalFamilyId: `permission-overview-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-overview-content] 權限概況內容 / Permission Overview Content / `298:46037` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46037
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-overview-content] 權限概況內容 / Permission Overview Content / `298:46037` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46037
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a68ed9e63ac55624bd860e0ab200298e2128a8e5`
 - Component Properties: 選單 (VARIANT: 無/帳號管理/報表查詢)；功能頁面 (VARIANT: 權限總覽/帳號管理列表/角色管理/事件報表/會員注單/對帳報表)；裝置 (VARIANT: PC/Tablet/Mobile)；權限狀態 (VARIANT: 已全部啟用/部分啟用/尚未啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15283,9 +15283,9 @@
 - Components: permission-overview-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:46037
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15295,10 +15295,10 @@
 - canonicalFamilyId: `role-action-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-action-dialog] 角色操作彈窗 / Role Action Dialog / `298:46589` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46589
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-action-dialog] 角色操作彈窗 / Role Action Dialog / `298:46589` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46589
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b4d5ec4951ec045ed07e0eb317e0215737da9e74`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15311,9 +15311,9 @@
 - Components: role-action-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:46589
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15323,10 +15323,10 @@
 - canonicalFamilyId: `permission-summary-sidebar`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [permission-summary-sidebar] 權限摘要側邊欄 / Permission Summary Sidebar / `298:46604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46604
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [permission-summary-sidebar] 權限摘要側邊欄 / Permission Summary Sidebar / `298:46604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46604
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`cd4c06b35a97370aa5842a654eb81e8d82e4b543`
 - Component Properties: 選擇頁面 (VARIANT: 權限總覽/帳號管理/報表查詢)；裝置 (VARIANT: PC&Tablet/Mobile)；狀態 (VARIANT: 預設/已啟用權限)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15339,9 +15339,9 @@
 - Components: permission-summary-sidebar
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:46604
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15351,10 +15351,10 @@
 - canonicalFamilyId: `role-details`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-details] 角色詳細資訊 / Role Details / `298:46673` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46673
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-details] 角色詳細資訊 / Role Details / `298:46673` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46673
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d3066cf525dc32d680b9d153ac0b85f0f0f36e1e`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；啟用狀態 (VARIANT: 已啟用/已停用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15367,9 +15367,9 @@
 - Components: role-details
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:46673
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15379,10 +15379,10 @@
 - canonicalFamilyId: `role-row-action-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [role-row-action-dialog] 角色列操作彈窗 / Role Row Action Dialog / `298:46722` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46722
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [role-row-action-dialog] 角色列操作彈窗 / Role Row Action Dialog / `298:46722` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-46722
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d6d8c8676f07a6165c85ce7682886fae05d7f85f`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15395,9 +15395,9 @@
 - Components: role-row-action-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=角色管理
+- Evidence: intake=2026-11-17; section=角色管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 角色管理 Key Screens 貼入 / 298:46722
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15407,10 +15407,10 @@
 - canonicalFamilyId: `personal-account-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [personal-account-overview] 個人帳號資訊總覽 / Personal Account Overview / `298:47009` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47009
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [personal-account-overview] 個人帳號資訊總覽 / Personal Account Overview / `298:47009` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47009
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0565955ca55bd9ba2e8312c1d9125f2a0608e813`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；收合狀態 (VARIANT: 無/開啟/關閉)；狀態 (VARIANT: 尚未啟用/已啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15423,9 +15423,9 @@
 - Components: personal-account-overview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=個人設定
+- Evidence: intake=2026-11-17; section=個人設定；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 個人設定 Key Screens 貼入 / 298:47009
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15435,10 +15435,10 @@
 - canonicalFamilyId: `personal-permission-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [personal-permission-overview] 個人權限概況 / Personal Permission Overview / `298:47165` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47165
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [personal-permission-overview] 個人權限概況 / Personal Permission Overview / `298:47165` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47165
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`26a74f0e7dc1bdb0ad2f234d15319a245227cd17`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；頁面 (VARIANT: 無/選擇功能頁/權限概況)；功能 (VARIANT: 權限總覽/帳號管理列表)；狀態 (VARIANT: 已全部啟用/部分啟用)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15451,9 +15451,9 @@
 - Components: personal-permission-overview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=個人設定
+- Evidence: intake=2026-11-17; section=個人設定；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 個人設定 Key Screens 貼入 / 298:47165
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15463,10 +15463,10 @@
 - canonicalFamilyId: `personal-operation-result`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [personal-operation-result] 個人設定操作結果 / Personal Operation Result / `298:47293` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47293
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [personal-operation-result] 個人設定操作結果 / Personal Operation Result / `298:47293` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47293
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`92d194d6ad1f521d56cbae16ef196b00d34cc3e9`
 - Component Properties: 類型 (VARIANT: 編輯/重置雙重驗證結果)；狀態 (VARIANT: 成功/失敗/再次確認)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15479,9 +15479,9 @@
 - Components: personal-operation-result
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=個人設定
+- Evidence: intake=2026-11-17; section=個人設定；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 個人設定 Key Screens 貼入 / 298:47293
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15491,10 +15491,10 @@
 - canonicalFamilyId: `key-value-text`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [key-value-text] 鍵值文字 / Key Value Text / `298:47383` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47383
+- Figma: 03_共用模式 / Shared Patterns / [key-value-text] 鍵值文字 / Key Value Text / `298:47383` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=298-47383
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`3d6c7787e7eafcfe1876b983aaff59fc90794ead`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15507,9 +15507,9 @@
 - Components: key-value-text
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; section=相依元件; supersedes=190:225118
+- Evidence: intake=2026-11-17; section=相依元件; supersedes=190:225118；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 相依元件 Key Screens 貼入 / 298:47383
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15519,10 +15519,10 @@
 - canonicalFamilyId: `event-report-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-column-header] 事件報表欄位標頭 / Event Report Column Header / `308:25344` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25344
+- Figma: 03_共用模式 / Shared Patterns / [event-report-column-header] 事件報表欄位標頭 / Event Report Column Header / `308:25344` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25344
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1f8c860c17194867471f24c5e6809e7b116fb844`
 - Component Properties: 類別 (VARIANT: 遊戲分類/總事件數/總交易筆數/總買入金額 (U)/總賣出金額 (U)/總結算金額 (U)/總手續費 (U)/總遊戲商營收 (U)/幣別/買入總額 (U)/結算總額 (U)/手續費 (U)/遊戲商營收 (U)/事件編號/局號/事件狀態/結算結果/開局時間/注單編號/會員帳號/投注選項/買入金額 (U)/結算金額 (U)/結算手續費 (U)/玩家盈虧 (U)/注單狀態/投分時間/結算時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15535,9 +15535,9 @@
 - Components: event-report-column-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25344
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15547,10 +15547,10 @@
 - canonicalFamilyId: `event-report-l1-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l1-table-header] 事件報表 L1 表頭 / Event Report L1 Table Header / `308:25453` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25453
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l1-table-header] 事件報表 L1 表頭 / Event Report L1 Table Header / `308:25453` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25453
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6ae18dd7ff6834d92fa842672c93cc77d6b8dec8`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15563,9 +15563,9 @@
 - Components: event-report-l1-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25453
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15575,10 +15575,10 @@
 - canonicalFamilyId: `event-report-l1-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l1-table-row] 事件報表 L1 資料列 / Event Report L1 Table Row / `308:25463` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25463
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l1-table-row] 事件報表 L1 資料列 / Event Report L1 Table Row / `308:25463` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25463
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f8a5ffe706d1d999b1c756599538032997b40404`
 - Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15591,9 +15591,9 @@
 - Components: event-report-l1-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25463
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15603,10 +15603,10 @@
 - canonicalFamilyId: `event-report-l2-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l2-table-header] 事件報表 L2 表頭 / Event Report L2 Table Header / `308:25482` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25482
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l2-table-header] 事件報表 L2 表頭 / Event Report L2 Table Header / `308:25482` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25482
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1235d545bf05439d9d5286982736f58359e64ef3`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15619,9 +15619,9 @@
 - Components: event-report-l2-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25482
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15631,10 +15631,10 @@
 - canonicalFamilyId: `event-report-l2-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l2-table-row] 事件報表 L2 資料列 / Event Report L2 Table Row / `308:25490` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25490
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l2-table-row] 事件報表 L2 資料列 / Event Report L2 Table Row / `308:25490` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25490
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`11759d9e298388f95926da3a2e6b141fdb9b1f01`
 - Component Properties: 類型 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15647,9 +15647,9 @@
 - Components: event-report-l2-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25490
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15659,10 +15659,10 @@
 - canonicalFamilyId: `event-report-l3-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l3-table-header] 事件報表 L3 表頭 / Event Report L3 Table Header / `308:25505` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25505
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l3-table-header] 事件報表 L3 表頭 / Event Report L3 Table Header / `308:25505` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25505
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`abf98e6ec36f77514c3707a44f781cc3d4d9c141`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15675,9 +15675,9 @@
 - Components: event-report-l3-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25505
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15687,14 +15687,14 @@
 - canonicalFamilyId: `event-report-l3-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l3-table-row] 事件報表 L3 資料列 / Event Report L3 Table Row / `308:25515` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25515
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l3-table-row] 事件報表 L3 資料列 / Event Report L3 Table Row / `308:25515` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25515
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2af4594314237bcb5b60243c99de9a0414e168e8`
-- Component Properties: 類型 (VARIANT: Default/類型2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 事件報表第三層的資料列，含事件狀態欄。（待處理：類型 屬性含未命名值「類型2」，待整理）
+- Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第三層的資料列，含事件狀態欄。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: List
 - Responsive Variants: unknown
@@ -15703,9 +15703,9 @@
 - Components: event-report-l3-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25515
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15715,10 +15715,10 @@
 - canonicalFamilyId: `event-report-l4-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l4-table-header] 事件報表 L4 表頭 / Event Report L4 Table Header / `308:25534` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25534
+- Figma: 04_功能元件 / Feature Components · 分頁 6 / [event-report-l4-table-header] 事件報表 L4 表頭 / Event Report L4 Table Header / `308:25534` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25534
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`bd6eabc3dfd5cfa1c475ecd982cc421eea98340b`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15731,9 +15731,9 @@
 - Components: event-report-l4-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 6）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25534
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15743,10 +15743,10 @@
 - canonicalFamilyId: `event-report-l4-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-report-l4-table-row] 事件報表 L4 資料列 / Event Report L4 Table Row / `308:25546` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25546
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-report-l4-table-row] 事件報表 L4 資料列 / Event Report L4 Table Row / `308:25546` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25546
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3fae9a2f280df123f82f23f390d8a8d6f0a8b621`
 - Component Properties: 類型 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15759,39 +15759,11 @@
 - Components: event-report-l4-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25546
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 報表訂單狀態－PC / Report Order Status Cell Desktop
-- canonicalId: `report-order-status-cell-desktop`
-- canonicalFamilyId: `report-order-status-cell-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `candidate`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [report-order-status-cell-desktop] 報表訂單狀態－PC / Report Order Status Cell Desktop / `308:25582` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25582
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`10ca979aee6c5829681263cc558b9732d88cc2e2`
-- Component Properties: 訂單狀態 (VARIANT: Finished/Failed/Error/Canceled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 平台報表中顯示訂單狀態（Finished、Failed、Error、Canceled）的欄位。（待處理：與 order-status-cell-desktop（客服服務）相近，待確認是否合併）
-- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
-- Page Type: Other
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: report-order-status-cell-desktop
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
-- Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
-- Legacy mapping: —
-- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25582
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 平台對帳報表表頭 / Platform Reconciliation Report Table Header
@@ -15799,10 +15771,10 @@
 - canonicalFamilyId: `platform-reconciliation-report-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [platform-reconciliation-report-table-header] 平台對帳報表表頭 / Platform Reconciliation Report Table Header / `308:25703` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25703
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [platform-reconciliation-report-table-header] 平台對帳報表表頭 / Platform Reconciliation Report Table Header / `308:25703` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25703
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ebc62c00ebd8f579818c5611c99c127509676a5d`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15815,9 +15787,9 @@
 - Components: platform-reconciliation-report-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=對帳報表（來源：Key Screens 🔖v0.1.1-20261109）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=對帳報表（來源：Key Screens 🔖v0.1.1-20261109）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25703
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15827,10 +15799,10 @@
 - canonicalFamilyId: `reconciliation-total-fee-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-total-fee-column-header] 總手續費欄位標頭 / Total Fee Column Header / `308:25816` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25816
+- Figma: 03_共用模式 / Shared Patterns / [reconciliation-total-fee-column-header] 總手續費欄位標頭 / Total Fee Column Header / `308:25816` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25816
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`0c4692c10c2ea23e03c9c2428a44303d7e0d63fb`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15843,9 +15815,9 @@
 - Components: reconciliation-total-fee-column-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25816
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15855,10 +15827,10 @@
 - canonicalFamilyId: `reconciliation-provider-revenue-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-provider-revenue-column-header] 總遊戲商營收欄位標頭 / Total Provider Revenue Column Header / `308:25820` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25820
+- Figma: 03_共用模式 / Shared Patterns / [reconciliation-provider-revenue-column-header] 總遊戲商營收欄位標頭 / Total Provider Revenue Column Header / `308:25820` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25820
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`94137fa9f250a8d38463e961ac4a3e715f71d1c9`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15871,9 +15843,9 @@
 - Components: reconciliation-provider-revenue-column-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25820
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15883,10 +15855,10 @@
 - canonicalFamilyId: `report-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [report-column-header] 報表欄位標頭 / Report Column Header / `308:26602` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26602
+- Figma: 03_共用模式 / Shared Patterns / [report-column-header] 報表欄位標頭 / Report Column Header / `308:26602` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26602
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8cb8d47f1d515b5209d72928ebed583814f61786`
 - Component Properties: 類別 (VARIANT: 幣別/淨輸贏/淨輸贏 (USDT)/匯率/條件%/結算金額 (USDT)/商戶/投分/派彩/應付/應收)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15899,9 +15871,9 @@
 - Components: report-column-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26602
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15911,10 +15883,10 @@
 - canonicalFamilyId: `reconciliation-report-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-report-table-header] 對帳報表表頭 / Reconciliation Report Table Header / `308:26647` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26647
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [reconciliation-report-table-header] 對帳報表表頭 / Reconciliation Report Table Header / `308:26647` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26647
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9178a50aaa6fdcd9d80ac151a4525e9232159266`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15927,9 +15899,9 @@
 - Components: reconciliation-report-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26647
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15939,10 +15911,10 @@
 - canonicalFamilyId: `reconciliation-report-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-report-table-row] 對帳報表資料列 / Reconciliation Report Table Row / `308:26657` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26657
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [reconciliation-report-table-row] 對帳報表資料列 / Reconciliation Report Table Row / `308:26657` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26657
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b42b2b506836d75cc962cdf5df380b94287e42a1`
 - Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15955,9 +15927,9 @@
 - Components: reconciliation-report-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26657
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15967,10 +15939,10 @@
 - canonicalFamilyId: `cross-site-compensation-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [cross-site-compensation-table-header] 跨站賠付報表表頭 / Cross-site Compensation Table Header / `308:26672` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26672
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [cross-site-compensation-table-header] 跨站賠付報表表頭 / Cross-site Compensation Table Header / `308:26672` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26672
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4278a6c6155da05f7e4e06fc8b951972974f164a`
 - Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -15983,9 +15955,9 @@
 - Components: cross-site-compensation-table-header
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26672
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -15995,10 +15967,10 @@
 - canonicalFamilyId: `cross-site-compensation-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [cross-site-compensation-table-row] 跨站賠付報表資料列 / Cross-site Compensation Table Row / `308:26679` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26679
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [cross-site-compensation-table-row] 跨站賠付報表資料列 / Cross-site Compensation Table Row / `308:26679` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26679
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`35da751fc74db45ac3454726068c7a7f41d6e5fb`
 - Component Properties: 背景 (VARIANT: 白底/黑底/合計)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16011,9 +15983,9 @@
 - Components: cross-site-compensation-table-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26679
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16023,14 +15995,14 @@
 - canonicalFamilyId: `report-identifier-and-value`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [report-identifier-and-value] 報表編號與數值 / Report Identifier and Value / `308:26698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26698
+- Figma: 03_共用模式 / Shared Patterns / [report-identifier-and-value] 報表編號與數值 / Report Identifier and Value / `308:26698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26698
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ef5c107de52dc173f49cf75e463e945d9f1a390e`
-- Component Properties: 類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/%數/名稱/類型18/名稱(特殊)/無名稱/Yes/No/Up/Down/無方向/時間/商戶/會員)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 報表表格用的編號、名稱、數值、盈虧、時間、百分比、商戶／會員等儲存格（字級與帳號表格不同）。（待處理：類型 屬性含未命名值「類型18」，待整理）
+- Component Properties: 類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/名稱/名稱(特殊)/無名稱/Yes/No/Up/Down/無方向/時間/%數/商戶/會員)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 報表表格用的編號、名稱、數值、盈虧、時間、百分比、商戶／會員等儲存格（字級與帳號表格不同）。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: Other
 - Responsive Variants: unknown
@@ -16039,9 +16011,9 @@
 - Components: report-identifier-and-value
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26698
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16051,10 +16023,10 @@
 - canonicalFamilyId: `report-date-time`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [report-date-time] 報表日期時間 / Report Date Time / `308:26785` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26785
+- Figma: 03_共用模式 / Shared Patterns / [report-date-time] 報表日期時間 / Report Date Time / `308:26785` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26785
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`156c8ea7ba3129a177f4fed32b47b376026a04ea`
 - Component Properties: 類型 (VARIANT: 單一日期/日期範圍)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16067,9 +16039,9 @@
 - Components: report-date-time
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26785
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16079,14 +16051,14 @@
 - canonicalFamilyId: `report-single-date-time`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [report-single-date-time] 報表單一日期時間 / Report Single Date Time / `308:26856` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26856
+- Figma: 03_共用模式 / Shared Patterns / [report-single-date-time] 報表單一日期時間 / Report Single Date Time / `308:26856` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26856
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`313c6e84e2ed67aaa5e5d3bba9a7c9c2c7d2b16e`
 - Component Properties: 類型 (VARIANT: 單一日期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 只有單一日期時間的精簡版。（待處理：可能與 report-date-time 的單一日期變體重複，待確認）
+- 功能說明: 只有單一日期時間的精簡版。備註：與 report-date-time 的單一日期（PC 與平板）內容相同，但寬度不同（179 與 196），各自保留。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: Other
 - Responsive Variants: unknown
@@ -16095,9 +16067,9 @@
 - Components: report-single-date-time
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26856
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16107,10 +16079,10 @@
 - canonicalFamilyId: `review-info-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [review-info-content] 審核資訊內容 / Review Info Content / `308:26873` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26873
+- Figma: 03_共用模式 / Shared Patterns / [review-info-content] 審核資訊內容 / Review Info Content / `308:26873` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26873
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`fcd7f90901e82243a4d905506e5e8638d05296e9`
 - Component Properties: 類型 (VARIANT: 內容/使用者)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16123,9 +16095,9 @@
 - Components: review-info-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26873
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16135,10 +16107,10 @@
 - canonicalFamilyId: `review-info-label`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [review-info-label] 審核資訊項目名稱 / Review Info Label / `308:26880` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26880
+- Figma: 03_共用模式 / Shared Patterns / [review-info-label] 審核資訊項目名稱 / Review Info Label / `308:26880` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26880
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`279785e62368e8211d6ae6f0a0165501d3c4993d`
 - Component Properties: 序列 (VARIANT: 1/2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16151,9 +16123,9 @@
 - Components: review-info-label
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26880
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16163,14 +16135,14 @@
 - canonicalFamilyId: `settlement-rate-table-label-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-rate-table-label-cell] 結帳匯率表格標題格 / Settlement Rate Table Label Cell / `308:26887` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26887
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-rate-table-label-cell] 結帳匯率表格標題格 / Settlement Rate Table Label Cell / `308:26887` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26887
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e18b27b3475347569341ca04622b9809320eec35`
 - Component Properties: 類型 (VARIANT: 項目名稱)；位置 (VARIANT: 左)；方向 (VARIANT: 頂部)；資料格式 (VARIANT: 純文字)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 結帳匯率表格左上的項目名稱格。（待處理：可能是 settlement-rate-table-cell 的子集，待確認）
+- 功能說明: 結帳匯率表格左上的項目名稱格。備註：與 settlement-rate-table-cell 的同名變體內容相同，但為固定寬 48（後者 107），各自保留。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: List
 - Responsive Variants: unknown
@@ -16179,9 +16151,9 @@
 - Components: settlement-rate-table-label-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26887
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16191,10 +16163,10 @@
 - canonicalFamilyId: `settlement-rate-table-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-rate-table-cell] 結帳匯率表格儲存格 / Settlement Rate Table Cell / `308:26890` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26890
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-rate-table-cell] 結帳匯率表格儲存格 / Settlement Rate Table Cell / `308:26890` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26890
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`11e7d632efa7abc9be36a8a6d1d54525accbe5fa`
 - Component Properties: 類型 (VARIANT: 項目名稱/項目內容)；位置 (VARIANT: 左/中/右)；方向 (VARIANT: 頂部/中間/底部)；資料格式 (VARIANT: 純文字/輸入欄位/日期/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16207,9 +16179,9 @@
 - Components: settlement-rate-table-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26890
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16219,10 +16191,10 @@
 - canonicalFamilyId: `modification-and-review-info`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [modification-and-review-info] 修改與審核資訊 / Modification and Review Info / `308:26925` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26925
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [modification-and-review-info] 修改與審核資訊 / Modification and Review Info / `308:26925` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26925
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5a51dae8d0e79b04c4b827ab4ad1447f40966fd5`
 - Component Properties: 類型 (VARIANT: 修改/審核)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16235,9 +16207,9 @@
 - Components: modification-and-review-info
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26925
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16247,10 +16219,10 @@
 - canonicalFamilyId: `modification-review-info-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [modification-review-info-row] 修改審核資訊列 / Modification Review Info Row / `308:26934` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26934
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [modification-review-info-row] 修改審核資訊列 / Modification Review Info Row / `308:26934` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26934
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`83c041afdb998a55501b5a61401bf4c1f3174c32`
 - Component Properties: 類型 (VARIANT: 最後修改者/最後修改時間/審核者/審核時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16263,9 +16235,9 @@
 - Components: modification-review-info-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26934
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16275,10 +16247,10 @@
 - canonicalFamilyId: `settlement-rate-input-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-rate-input-row] 結帳匯率輸入列 / Settlement Rate Input Row / `308:26987` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26987
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-rate-input-row] 結帳匯率輸入列 / Settlement Rate Input Row / `308:26987` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26987
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`55ed6cbeaf278817a706f6cfe19b7fcd40742afc`
 - Component Properties: 幣別 (VARIANT: THB/VND/USD)；輸入狀態 (VARIANT: 預設/錯誤提示)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16291,9 +16263,9 @@
 - Components: settlement-rate-input-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26987
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16303,10 +16275,10 @@
 - canonicalFamilyId: `review-dialog-data-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [review-dialog-data-cell] 審核視窗資料格 / Review Dialog Data Cell / `308:27008` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27008
+- Figma: 03_共用模式 / Shared Patterns / [review-dialog-data-cell] 審核視窗資料格 / Review Dialog Data Cell / `308:27008` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27008
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`031ff964afa0f48c7346db2b61526914314537d3`
 - Component Properties: 類型 (VARIANT: 項目名稱/時間/金額)；位置 (VARIANT: 單獨/上/中/下)；裝置 (VARIANT: PC&Tablet/Mobile)；功能 (VARIANT: 編輯結帳匯率/確認審核資訊)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16319,9 +16291,9 @@
 - Components: review-dialog-data-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27008
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16331,10 +16303,10 @@
 - canonicalFamilyId: `review-dialog-data-table`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [review-dialog-data-table] 審核視窗資訊框 / Review Dialog Data Table / `308:27061` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27061
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [review-dialog-data-table] 審核視窗資訊框 / Review Dialog Data Table / `308:27061` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27061
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5f5c2b3c10055b82515865975860dd90872e1813`
 - Component Properties: 類型 (VARIANT: 編輯結帳匯率/確認審核資訊/跨站賠付審核資訊)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16347,9 +16319,9 @@
 - Components: review-dialog-data-table
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27061
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16359,10 +16331,10 @@
 - canonicalFamilyId: `reconciliation-action-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-action-button] 對帳報表操作按鈕 / Reconciliation Action Button / `308:27100` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27100
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [reconciliation-action-button] 對帳報表操作按鈕 / Reconciliation Action Button / `308:27100` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27100
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0ecc7824cb93afe5ea73f559e037acbfd80eb892`
 - Component Properties: Property 1 (VARIANT: 審核確認/編輯結帳匯率)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16375,9 +16347,9 @@
 - Components: reconciliation-action-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27100
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16387,10 +16359,10 @@
 - canonicalFamilyId: `reconciliation-review-confirm-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-review-confirm-dialog] 對帳報表審核確認視窗 / Reconciliation Review Confirm Dialog / `308:27113` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27113
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [reconciliation-review-confirm-dialog] 對帳報表審核確認視窗 / Reconciliation Review Confirm Dialog / `308:27113` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27113
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0ac1326f2a52b31588fdcc422c42a155294f9fa7`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16403,9 +16375,9 @@
 - Components: reconciliation-review-confirm-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27113
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16415,10 +16387,10 @@
 - canonicalFamilyId: `reconciliation-review-result-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [reconciliation-review-result-dialog] 對帳報表審核結果 / Reconciliation Review Result Dialog / `308:27144` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27144
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [reconciliation-review-result-dialog] 對帳報表審核結果 / Reconciliation Review Result Dialog / `308:27144` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27144
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`73416c8cab6fe4a3b733aa25c3535b42758db467`
 - Component Properties: device (VARIANT: PC&Tablet/Mobile)；階段 (VARIANT: 審核成功/審核失敗)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16431,9 +16403,9 @@
 - Components: reconciliation-review-result-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27144
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16443,10 +16415,10 @@
 - canonicalFamilyId: `settlement-rate-edit-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-rate-edit-dialog] 編輯結帳匯率視窗 / Settlement Rate Edit Dialog / `308:27189` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27189
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-rate-edit-dialog] 編輯結帳匯率視窗 / Settlement Rate Edit Dialog / `308:27189` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27189
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c75da6dc5159894b93d07ad45d961a00e4482000`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；輸入狀態 (VARIANT: 預設/請輸入大於 0、最多 6 位小數的數字)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16459,9 +16431,9 @@
 - Components: settlement-rate-edit-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27189
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16471,10 +16443,10 @@
 - canonicalFamilyId: `settlement-rate-edit-result-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-rate-edit-result-dialog] 結帳匯率修改結果 / Settlement Rate Edit Result Dialog / `308:27278` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27278
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-rate-edit-result-dialog] 結帳匯率修改結果 / Settlement Rate Edit Result Dialog / `308:27278` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27278
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`9ccd039e794a2f75b812c37abd23cac4cbfa6987`
 - Component Properties: device (VARIANT: PC&Tablet/Mobile)；階段 (VARIANT: 修改成功/修改失敗)；失敗原因 (VARIANT: 已被修改/審核已通過)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16487,9 +16459,9 @@
 - Components: settlement-rate-edit-result-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27278
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16499,10 +16471,10 @@
 - canonicalFamilyId: `cross-site-compensation-review-confirm-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [cross-site-compensation-review-confirm-dialog] 跨站賠付報表審核確認視窗 / Cross-site Compensation Review Confirm Dialog / `308:27347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27347
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [cross-site-compensation-review-confirm-dialog] 跨站賠付報表審核確認視窗 / Cross-site Compensation Review Confirm Dialog / `308:27347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27347
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d1d55465f2e7fb20b93e102efbf9ba370321d39b`
 - Component Properties: 裝置 (VARIANT: PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16515,9 +16487,9 @@
 - Components: cross-site-compensation-review-confirm-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27347
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16527,10 +16499,10 @@
 - canonicalFamilyId: `cross-site-compensation-review-notice-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [cross-site-compensation-review-notice-dialog] 跨站賠付報表審核提示 / Cross-site Compensation Review Notice Dialog / `308:27363` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27363
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [cross-site-compensation-review-notice-dialog] 跨站賠付報表審核提示 / Cross-site Compensation Review Notice Dialog / `308:27363` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27363
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0fe1453d79698c711cff38800dba9f8a01921832`
 - Component Properties: 階段 (VARIANT: 已被其他管理者審核/報表已更新)；裝置 (VARIANT: PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16543,9 +16515,9 @@
 - Components: cross-site-compensation-review-notice-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27363
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16555,10 +16527,10 @@
 - canonicalFamilyId: `review-info-label-text`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [review-info-label-text] 項目名稱文字 / Review Info Label Text / `308:27398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27398
+- Figma: 03_共用模式 / Shared Patterns / [review-info-label-text] 項目名稱文字 / Review Info Label Text / `308:27398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27398
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`edcce519ef9fba6a73e586d0f9528ee169803ac1`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16571,9 +16543,9 @@
 - Components: review-info-label-text
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27398
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16583,10 +16555,10 @@
 - canonicalFamilyId: `review-info-amount-text`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [review-info-amount-text] 金額文字 / Review Info Amount Text / `308:27401` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27401
+- Figma: 03_共用模式 / Shared Patterns / [review-info-amount-text] 金額文字 / Review Info Amount Text / `308:27401` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27401
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`c721965db96ae7932ce04368ab8fb0790db0235a`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16599,9 +16571,9 @@
 - Components: review-info-amount-text
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27401
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16611,10 +16583,10 @@
 - canonicalFamilyId: `settlement-rate-dialog-head`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-rate-dialog-head] 結帳匯率視窗標題列 / Settlement Rate Dialog Head / `308:27403` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27403
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-rate-dialog-head] 結帳匯率視窗標題列 / Settlement Rate Dialog Head / `308:27403` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27403
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`043c5dfd55c5e90ae8a1babf9cd08fc21dafa90c`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16627,9 +16599,9 @@
 - Components: settlement-rate-dialog-head
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27403
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16639,10 +16611,10 @@
 - canonicalFamilyId: `label-value-text-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [label-value-text-cell] 標籤值文字格 / Label Value Text Cell / `308:27413` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27413
+- Figma: 03_共用模式 / Shared Patterns / [label-value-text-cell] 標籤值文字格 / Label Value Text Cell / `308:27413` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27413
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`d50457ccbd8b6dd337f097c58f4561760dc5eccf`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16655,9 +16627,9 @@
 - Components: label-value-text-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27413
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16667,10 +16639,10 @@
 - canonicalFamilyId: `event-change-list-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-list-content] 事件異動列表內容 / Event Change List Content / `308:29907` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29907
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-list-content] 事件異動列表內容 / Event Change List Content / `308:29907` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29907
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4a7f3ab6becbc4df5da24018f181edbfa5c04b10`
 - Component Properties: Property 1 (VARIANT: 更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16683,9 +16655,9 @@
 - Components: event-change-list-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:29907
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16695,10 +16667,10 @@
 - canonicalFamilyId: `event-change-function-items`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-function-items] 異動功能與項目 / Event Change Function Items / `308:29929` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29929
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-function-items] 異動功能與項目 / Event Change Function Items / `308:29929` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29929
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a0dae35df1a964bb2b25f719973f0889cd577c0d`
 - Component Properties: Property 1 (VARIANT: 事件主表/事件參數/全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16711,9 +16683,9 @@
 - Components: event-change-function-items
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:29929
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16723,10 +16695,10 @@
 - canonicalFamilyId: `version-control-record`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [version-control-record] 版本控管記錄 / Version Control Record / `308:29969` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29969
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [version-control-record] 版本控管記錄 / Version Control Record / `308:29969` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29969
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`784c790ff07ae5b0a81ad104eb2b4dd4e48b81ab`
 - Component Properties: 類型 (VARIANT: 參數/事件內容)；輸入形式 (VARIANT: 數值/級距/文字/時間)；層級 (VARIANT: 無/1/2/3)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16739,9 +16711,9 @@
 - Components: version-control-record
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:29969
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16751,10 +16723,10 @@
 - canonicalFamilyId: `version-control-record-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [version-control-record-content] 版本控管記錄內容 / Version Control Record Content / `308:30114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30114
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [version-control-record-content] 版本控管記錄內容 / Version Control Record Content / `308:30114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30114
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`54794fda55db7ac028ddd010291672850004996b`
 - Component Properties: Property 1 (VARIANT: 數值1/數值2/數值3/級距)；啟用狀態 (VARIANT: enable/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16767,9 +16739,9 @@
 - Components: version-control-record-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30114
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16779,10 +16751,10 @@
 - canonicalFamilyId: `change-action-function-filter-panel-desktop-tablet`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-action-function-filter-panel-desktop-tablet] 異動動作與功能篩選面板－桌面平板 / Change Action Function Filter Panel Desktop Tablet / `308:30267` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30267
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-action-function-filter-panel-desktop-tablet] 異動動作與功能篩選面板－桌面平板 / Change Action Function Filter Panel Desktop Tablet / `308:30267` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30267
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6c3aa15455e694ad2c41eab7e9478de563d02657`
 - Component Properties: 開關 (VARIANT: 異動動作與功能篩選/異動動作與功能篩選-enable/異動動作與功能篩選-enable--事件主表/異動動作與功能篩選-enable--事件參數/異動動作與功能篩選-enable--全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16795,9 +16767,9 @@
 - Components: change-action-function-filter-panel-desktop-tablet
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30267
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16807,10 +16779,10 @@
 - canonicalFamilyId: `change-action-function-filter-panel-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-action-function-filter-panel-mobile] 異動動作與功能篩選面板－行動版 / Change Action Function Filter Panel Mobile / `308:30348` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30348
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-action-function-filter-panel-mobile] 異動動作與功能篩選面板－行動版 / Change Action Function Filter Panel Mobile / `308:30348` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30348
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dfad421bc37d59751f53b5738e8a0ee5d62b70e0`
 - Component Properties: 開關 (VARIANT: 異動動作與功能篩選/異動動作與功能篩選-enable/異動動作與功能篩選-enable--事件主表/異動動作與功能篩選-enable--事件參數/異動動作與功能篩選-enable--全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16823,9 +16795,9 @@
 - Components: change-action-function-filter-panel-mobile
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30348
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16835,10 +16807,10 @@
 - canonicalFamilyId: `version-control-record-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [version-control-record-button] 版本控管記錄按鈕 / Version Control Record Button / `308:30425` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30425
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [version-control-record-button] 版本控管記錄按鈕 / Version Control Record Button / `308:30425` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30425
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e6addb6b42e020f281bed22aa5114ef9aa09ab3b`
 - Component Properties: Property 1 (VARIANT: 目前啟用中/恢復此版本)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16851,9 +16823,9 @@
 - Components: version-control-record-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30425
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16863,10 +16835,10 @@
 - canonicalFamilyId: `version-control-version-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [version-control-version-badge] 版本號標籤 / Version Badge / `308:30442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30442
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [version-control-version-badge] 版本號標籤 / Version Badge / `308:30442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30442
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b7a9dde2884f09c3a23602b87966ba99d89e0388`
 - Component Properties: Property 1 (VARIANT: V4/V3/V2/V1)；狀態 (VARIANT: enable/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16879,9 +16851,9 @@
 - Components: version-control-version-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30442
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16891,10 +16863,10 @@
 - canonicalFamilyId: `event-change-event-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-event-type-filter] 事件異動事件類型篩選 / Event Change Event Type Filter / `308:30459` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30459
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-event-type-filter] 事件異動事件類型篩選 / Event Change Event Type Filter / `308:30459` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30459
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`4f25bdf7598efdb126d03d2b404ffe95aefb8a8d`
 - Component Properties: Property 1 (VARIANT: 顯示全部事件類型/一般議題事件/運動事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16907,9 +16879,9 @@
 - Components: event-change-event-type-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30459
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16919,14 +16891,14 @@
 - canonicalFamilyId: `event-change-sport-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-sport-type-filter] 事件異動運動類型篩選 / Event Change Sport Type Filter / `308:30466` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30466
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-sport-type-filter] 事件異動運動類型篩選 / Event Change Sport Type Filter / `308:30466` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30466
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2fe97a76f3c255965030ac7651f74976be74ac1f`
-- Component Properties: Property 1 (VARIANT: 系統建立議題優先/自定義議題優先/Variant3/Variant4/Variant5)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 依運動類型篩選事件異動。（待處理：Property 1 含未命名值 Variant3–5，待整理）
+- Component Properties: 運動類型 (VARIANT: 籃球/棒球/足球/美式足球/冰上曲棍球)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依運動類型篩選事件異動。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: List
 - Responsive Variants: unknown
@@ -16935,9 +16907,9 @@
 - Components: event-change-sport-type-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30466
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16947,10 +16919,10 @@
 - canonicalFamilyId: `event-change-secondary-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-secondary-type-filter] 事件異動次要類型篩選 / Event Change Secondary Type Filter / `308:30477` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30477
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-secondary-type-filter] 事件異動次要類型篩選 / Event Change Secondary Type Filter / `308:30477` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30477
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5dc19d8eece028c94991d8d0d10459bcdb94f54f`
 - Component Properties: Property 1 (VARIANT: 顯示全部次要事件/NBA/MLB/NFL/NHL)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16963,9 +16935,9 @@
 - Components: event-change-secondary-type-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30477
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -16975,10 +16947,10 @@
 - canonicalFamilyId: `change-action-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-action-type-filter] 異動動作類型篩選 / Change Action Type Filter / `308:30488` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30488
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-action-type-filter] 異動動作類型篩選 / Change Action Type Filter / `308:30488` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30488
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8d9b204f88794480787bf897cd5547ce19fbab79`
 - Component Properties: Property 1 (VARIANT: 全部動作/新增/更新/批次更新)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -16991,9 +16963,9 @@
 - Components: change-action-type-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30488
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17003,10 +16975,10 @@
 - canonicalFamilyId: `change-function-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-function-type-filter] 異動功能類型篩選 / Change Function Type Filter / `308:30497` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30497
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-function-type-filter] 異動功能類型篩選 / Change Function Type Filter / `308:30497` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30497
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`82240aec9cee9f47c0997d55eba089e841f3b64d`
 - Component Properties: Property 1 (VARIANT: 全部功能/事件主表/事件參數/全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17019,9 +16991,9 @@
 - Components: change-function-type-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30497
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17031,10 +17003,10 @@
 - canonicalFamilyId: `change-parameter-category-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-parameter-category-filter] 參數分類篩選 / Change Parameter Category Filter / `308:30519` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30519
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-parameter-category-filter] 參數分類篩選 / Change Parameter Category Filter / `308:30519` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30519
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`abb80f1b040fc39f7ac01f00c3745cf1b9ef4b48`
 - Component Properties: Property 1 (VARIANT: 顯示全部參數/手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17047,9 +17019,9 @@
 - Components: change-parameter-category-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30519
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17059,14 +17031,14 @@
 - canonicalFamilyId: `change-parameter-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-parameter-filter] 參數篩選 / Change Parameter Filter / `308:30532` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30532
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-parameter-filter] 參數篩選 / Change Parameter Filter / `308:30532` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30532
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`38e93f9acdf4c30946b71e6ad033fcac2a880234`
-- Component Properties: Property 1 (VARIANT: 顯示全部參數/買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/0-10% 價格範圍/10-20% 價格範圍/20-30% 價格範圍/30-40% 價格範圍/40-50% 價格範圍/50-60% 價格範圍/60-70% 價格範圍/70-80% 價格範圍/80-90% 價格範圍/90-100% 價格範圍/Variant20/Variant21/Variant22)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 依個別參數篩選事件異動。（待處理：Property 1 含未命名值 Variant20–22，待整理）
+- Component Properties: 參數 (VARIANT: 顯示全部參數/買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/20-30% 價格範圍/30-40% 價格範圍/40-50% 價格範圍/0-10% 價格範圍/50-60% 價格範圍/10-20% 價格範圍/60-70% 價格範圍/70-80% 價格範圍/80-90% 價格範圍/90-100% 價格範圍/層級一/層級二/層級三)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依個別參數篩選事件異動。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: List
 - Responsive Variants: unknown
@@ -17075,9 +17047,9 @@
 - Components: change-parameter-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30532
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17087,10 +17059,10 @@
 - canonicalFamilyId: `event-content-category-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-content-category-filter] 事件內容分類篩選 / Event Content Category Filter / `308:30577` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30577
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-content-category-filter] 事件內容分類篩選 / Event Content Category Filter / `308:30577` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30577
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`a15fb25c7c2d6f44f6868238551273bb436da20f`
 - Component Properties: Property 1 (VARIANT: 顯示全部事件內容/英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG)/投分起訖時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17103,9 +17075,9 @@
 - Components: event-content-category-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30577
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17115,10 +17087,10 @@
 - canonicalFamilyId: `event-content-item-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-content-item-filter] 事件內容細項篩選 / Event Content Item Filter / `308:30588` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30588
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-content-item-filter] 事件內容細項篩選 / Event Content Item Filter / `308:30588` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30588
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e1daf1d46d2980dd59d5c7a68e539155a27a980c`
 - Component Properties: Property 1 (VARIANT: 顯示全部事件內容細項/事件標題/事件規則/自訂開始投分時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17131,9 +17103,9 @@
 - Components: event-content-item-filter
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30588
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17143,10 +17115,10 @@
 - canonicalFamilyId: `event-category-league-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-category-league-cell] 事件主類別／次類別／聯盟欄位 / Event Category League Cell / `308:30597` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30597
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-category-league-cell] 事件主類別／次類別／聯盟欄位 / Event Category League Cell / `308:30597` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30597
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`22be8712ab3cb4288d0b76d0fdb14b8c163c1f92`
 - Component Properties: Property 1 (VARIANT: 運動事件/議題事件/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17159,9 +17131,9 @@
 - Components: event-category-league-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30597
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17171,10 +17143,10 @@
 - canonicalFamilyId: `batch-tracking-code-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [batch-tracking-code-cell] 批次追蹤碼欄位 / Batch Tracking Code Cell / `308:30604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30604
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [batch-tracking-code-cell] 批次追蹤碼欄位 / Batch Tracking Code Cell / `308:30604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30604
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`3e8ce1049753d6f599a5e2e6cf28bb0f258a5425`
 - Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17187,9 +17159,9 @@
 - Components: batch-tracking-code-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30604
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17199,10 +17171,10 @@
 - canonicalFamilyId: `last-change-info-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [last-change-info-cell] 最後異動資訊欄位 / Last Change Info Cell / `308:30607` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30607
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [last-change-info-cell] 最後異動資訊欄位 / Last Change Info Cell / `308:30607` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30607
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`195923ebb5ce9a80fe3f07611b288288f5c0f197`
 - Component Properties: 預設值類型 (VARIANT: 系統管理員1 (帳號)/系統管理員2 (帳號)/系統管理員3 (帳號))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17215,9 +17187,9 @@
 - Components: last-change-info-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30607
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17227,10 +17199,10 @@
 - canonicalFamilyId: `change-function-type-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-function-type-badge] 異動功能類型標籤 / Change Function Type Badge / `308:30626` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30626
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-function-type-badge] 異動功能類型標籤 / Change Function Type Badge / `308:30626` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30626
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`35bca378bb6eb59a3249ec1a68dff020050d94c6`
 - Component Properties: Property 1 (VARIANT: 事件主表/事件參數/全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17243,9 +17215,9 @@
 - Components: change-function-type-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30626
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17255,10 +17227,10 @@
 - canonicalFamilyId: `inventory-total-stock-data`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-total-stock-data] 總庫存數據 / Inventory Total Stock Data / `308:30634` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30634
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-total-stock-data] 總庫存數據 / Inventory Total Stock Data / `308:30634` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30634
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2a5a0a0ecf605e6e855c8d699dfbd9335a41e63b`
 - Component Properties: 裝置 (VARIANT: PC/Mobile)；類型 (VARIANT: 事件庫存檢視/庫存管理)；收合狀態 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17271,9 +17243,9 @@
 - Components: inventory-total-stock-data
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30634
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17283,10 +17255,10 @@
 - canonicalFamilyId: `inventory-option-list`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-option-list] 庫存選項列表 / Inventory Option List / `308:30683` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30683
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-option-list] 庫存選項列表 / Inventory Option List / `308:30683` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30683
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c029ed3328e0f3c9e9802a1939b89707b7b6d86d`
 - Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17299,9 +17271,9 @@
 - Components: inventory-option-list
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30683
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17311,10 +17283,10 @@
 - canonicalFamilyId: `inventory-event-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-event-overview] 庫存事件總覽 / Inventory Event Overview / `308:30718` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30718
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-event-overview] 庫存事件總覽 / Inventory Event Overview / `308:30718` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30718
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6c1a6e480b601f67c93bc83700f557c7275fe5ee`
 - Component Properties: device (VARIANT: PC&Tablet/Mobile)；資料狀態 (VARIANT: 有)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17327,9 +17299,9 @@
 - Components: inventory-event-overview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30718
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17339,10 +17311,10 @@
 - canonicalFamilyId: `inventory-notification-panel`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-notification-panel] 庫存通知 / Inventory Notification Panel / `308:30737` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30737
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-notification-panel] 庫存通知 / Inventory Notification Panel / `308:30737` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30737
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1f1471f62ef99581c87a562a4b1a391888f974ed`
 - Component Properties: decive (VARIANT: PC&Tablet/Mobile)；收合狀態 (VARIANT: 展開/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17355,9 +17327,9 @@
 - Components: inventory-notification-panel
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30737
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17367,10 +17339,10 @@
 - canonicalFamilyId: `inventory-notification-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-notification-row] 庫存通知列 / Inventory Notification Row / `308:30772` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30772
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-notification-row] 庫存通知列 / Inventory Notification Row / `308:30772` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30772
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`1356380acce6d38b371581176a6c20d362982fd6`
 - Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17383,9 +17355,9 @@
 - Components: inventory-notification-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30772
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17395,10 +17367,10 @@
 - canonicalFamilyId: `inventory-price-and-option-count`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-price-and-option-count] 價格及選項數量 / Inventory Price and Option Count / `308:30807` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30807
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-price-and-option-count] 價格及選項數量 / Inventory Price and Option Count / `308:30807` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30807
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2446e4ce79b63171d87047da15664e71d9404e9c`
 - Component Properties: 類型 (VARIANT: 選項數量/價格)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17411,9 +17383,9 @@
 - Components: inventory-price-and-option-count
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30807
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17423,10 +17395,10 @@
 - canonicalFamilyId: `last-updated-time`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [last-updated-time] 最後更新時間 / Last Updated Time / `308:30815` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30815
+- Figma: 03_共用模式 / Shared Patterns / [last-updated-time] 最後更新時間 / Last Updated Time / `308:30815` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30815
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`7dae5a34fa1c01a779548f0609083c4c0bfcb51a`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17439,9 +17411,9 @@
 - Components: last-updated-time
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30815
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17451,10 +17423,10 @@
 - canonicalFamilyId: `inventory-overview-summary`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-overview-summary] 庫存管理概況 / Inventory Overview Summary / `308:31891` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31891
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-overview-summary] 庫存管理概況 / Inventory Overview Summary / `308:31891` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31891
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`aa1ce8d1c04ac98cb9f5afd4c15f92c91bdd8235`
 - Component Properties: 事件類型 (VARIANT: Default)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17467,9 +17439,9 @@
 - Components: inventory-overview-summary
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31891
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17479,10 +17451,10 @@
 - canonicalFamilyId: `inventory-stock-data-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-stock-data-item] 庫存數據項目 / Inventory Stock Data Item / `308:31933` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31933
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-stock-data-item] 庫存數據項目 / Inventory Stock Data Item / `308:31933` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31933
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`dbdb21e6714d207936706825251111e0ba2bfbcd`
 - Component Properties: 項目 (VARIANT: 外部已買入(總庫存)/外部成本/系統已售出/系統剩餘庫存)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17495,9 +17467,9 @@
 - Components: inventory-stock-data-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31933
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17507,10 +17479,10 @@
 - canonicalFamilyId: `inventory-edit-listing-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [inventory-edit-listing-button] 編輯掛賣按鈕 / Edit Listing Button / `308:33218` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33218
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [inventory-edit-listing-button] 編輯掛賣按鈕 / Edit Listing Button / `308:33218` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33218
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f31287b95dc130852e4327e4e7c3b42ad4f7ebcc`
 - Component Properties: type (VARIANT: 編輯掛賣)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17523,26 +17495,26 @@
 - Components: inventory-edit-listing-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33218
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 未上架事件其他操作彈窗 / Unlisted Event More Actions Dialog
+## 事件其他操作彈窗 / Event More Actions Dialog
 - canonicalId: `unlisted-event-more-actions-dialog`
 - canonicalFamilyId: `unlisted-event-more-actions-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [unlisted-event-more-actions-dialog] 未上架事件其他操作彈窗 / Unlisted Event More Actions Dialog / `308:30829` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30829
+- aliases: unlisted-event-more-actions-dialog-short, unlisted-event-more-actions-dialog-short-b
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [unlisted-event-more-actions-dialog] 事件其他操作彈窗 / Event More Actions Dialog / `308:30829` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30829
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c8b8d8f4ea5ca592328ecb6aaa09e9c28c5f6240`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 未上架事件列尾「其他操作」展開的操作清單（完整版）。（待處理：同名彈窗有三份，待比對合併）
+- Component Properties: 操作組合 (VARIANT: 完整/結算／庫存／退款/上架／庫存／刪除)；device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件列表列尾「其他操作」展開的操作清單。操作組合：完整（調整上架狀態、結算事件、事件發佈管理、庫存管理、強制退款）、結算／庫存／退款、上架／庫存／刪除；支援桌機平板與手機。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: Modal
 - Responsive Variants: responsive
@@ -17551,67 +17523,11 @@
 - Components: unlisted-event-more-actions-dialog
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30829
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 未上架事件其他操作彈窗－精簡 / Unlisted Event More Actions Dialog Short
-- canonicalId: `unlisted-event-more-actions-dialog-short`
-- canonicalFamilyId: `unlisted-event-more-actions-dialog-short`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `candidate`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [unlisted-event-more-actions-dialog-short] 未上架事件其他操作彈窗－精簡 / Unlisted Event More Actions Dialog Short / `308:30852` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30852
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`060afdd848f1893a952f12d02db0c8f608ad4f59`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 未上架事件「其他操作」的精簡版操作清單。（待處理：同名彈窗有三份，待比對合併）
-- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
-- Page Type: Modal
-- Responsive Variants: responsive
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: unlisted-event-more-actions-dialog-short
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
-- Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30852
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 未上架事件其他操作彈窗－精簡 B / Unlisted Event More Actions Dialog Short B
-- canonicalId: `unlisted-event-more-actions-dialog-short-b`
-- canonicalFamilyId: `unlisted-event-more-actions-dialog-short-b`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `candidate`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [unlisted-event-more-actions-dialog-short-b] 未上架事件其他操作彈窗－精簡 B / Unlisted Event More Actions Dialog Short B / `308:30875` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30875
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`3a4566593106350680c25a4bdf994f9e9bb4caa2`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 未上架事件「其他操作」的另一個精簡版操作清單。（待處理：同名彈窗有三份，待比對合併）
-- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
-- Page Type: Modal
-- Responsive Variants: responsive
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: unlisted-event-more-actions-dialog-short-b
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
-- Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30875
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 子主題類型標籤 / Sub Theme Type Badge
@@ -17619,10 +17535,10 @@
 - canonicalFamilyId: `sub-theme-type-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [sub-theme-type-badge] 子主題類型標籤 / Sub Theme Type Badge / `308:30894` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30894
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [sub-theme-type-badge] 子主題類型標籤 / Sub Theme Type Badge / `308:30894` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30894
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c7fe2a61c2824c5c69af26ac50a97d251e528b0a`
 - Component Properties: Property 1 (VARIANT: USA)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17635,9 +17551,9 @@
 - Components: sub-theme-type-badge
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30894
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17647,10 +17563,10 @@
 - canonicalFamilyId: `force-refund-alert`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [force-refund-alert] 強制退款提示 / Force Refund Alert / `308:30918` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30918
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [force-refund-alert] 強制退款提示 / Force Refund Alert / `308:30918` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30918
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`2c7fabea2a1ff1432b8fb81dec99978d7330a12d`
 - Component Properties: Property 1 (VARIANT: 驗證碼提示/退款確認)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17663,9 +17579,9 @@
 - Components: force-refund-alert
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30918
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17675,10 +17591,10 @@
 - canonicalFamilyId: `event-card-review`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-card-review] 事件卡片預覽 / Event Card Review / `308:30937` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30937
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-card-review] 事件卡片預覽 / Event Card Review / `308:30937` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30937
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f32206923056597138c43affa947729e377a20a2`
 - Component Properties: type (VARIANT: sport/topic)；content (VARIANT: empty/filled in)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17691,39 +17607,11 @@
 - Components: event-card-review
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30937
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 新增事件－投分設定步驟 / Create Event Wager Setting Step
-- canonicalId: `create-event-wager-setting-step`
-- canonicalFamilyId: `create-event-wager-setting-step`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `candidate`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [create-event-wager-setting-step] 新增事件－投分設定步驟 / Create Event Wager Setting Step / `308:31046` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31046
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`fac0d7667ac7f26503f5759b6a7be17ae251d6ce`
-- Component Properties: status (VARIANT: enable/enable--filled in/disable)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 新增事件流程第 4 步的投分設定（v0.1.3 版）。（待處理：較舊版本，與 rush-hour-wager-parameter-settings 並存，待確認是否淘汰）
-- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
-- Page Type: Create
-- Responsive Variants: responsive
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: create-event-wager-setting-step
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
-- Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31046
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 參數說明母元件 / Parameter Description Base
@@ -17731,10 +17619,10 @@
 - canonicalFamilyId: `parameter-description-base`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [parameter-description-base] 參數說明母元件 / Parameter Description Base / `308:31238` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31238
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [parameter-description-base] 參數說明母元件 / Parameter Description Base / `308:31238` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31238
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`8af34b63a870d3b27202c3c1846dd03b859ff465`
 - Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17747,9 +17635,9 @@
 - Components: parameter-description-base
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31238
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17759,10 +17647,10 @@
 - canonicalFamilyId: `parameter-description`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [parameter-description] 參數說明 / Parameter Description / `308:31275` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31275
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [parameter-description] 參數說明 / Parameter Description / `308:31275` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31275
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`f4c57e69c6c2c01871ba73423cc9a2a835f8af1c`
 - Component Properties: 參數分類 (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次/Netwin 盈利)；參數 (VARIANT: 買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/買單檔次 (0-100%)/盈利範圍設定)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17775,9 +17663,9 @@
 - Components: parameter-description
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31275
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17787,10 +17675,10 @@
 - canonicalFamilyId: `settlement-event-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-event-content] 事件結算內容 / Settlement Event Content / `308:31296` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31296
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-event-content] 事件結算內容 / Settlement Event Content / `308:31296` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31296
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5693aebebfa2f0a3654bd9305abe9c81a0081f7d`
 - Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17803,9 +17691,9 @@
 - Components: settlement-event-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31296
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17815,10 +17703,10 @@
 - canonicalFamilyId: `settlement-event-preview`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-event-preview] 欲結算的事件預覽 / Settlement Event Preview / `308:31308` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31308
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-event-preview] 欲結算的事件預覽 / Settlement Event Preview / `308:31308` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31308
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6cddd5be6a6e952e15630d019ad533d4a0f6912c`
 - Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17831,9 +17719,9 @@
 - Components: settlement-event-preview
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31308
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17843,10 +17731,10 @@
 - canonicalFamilyId: `event-operate-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-operate-cell] 事件操作欄 / Event Operate Cell / `308:32884` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32884
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-operate-cell] 事件操作欄 / Event Operate Cell / `308:32884` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32884
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`64f18d64b701b559f25643a5882617a9eb836106`
 - Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17859,9 +17747,9 @@
 - Components: event-operate-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32884
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17871,10 +17759,10 @@
 - canonicalFamilyId: `ai-event-settlement-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [ai-event-settlement-button] AI 事件結算按鈕 / AI Event Settlement Button / `308:33492` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33492
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [ai-event-settlement-button] AI 事件結算按鈕 / AI Event Settlement Button / `308:33492` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33492
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d2a3e192967fb34c32074bcb9cc09efc257250c0`
 - Component Properties: type (VARIANT: 事件結算)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17887,9 +17775,9 @@
 - Components: ai-event-settlement-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33492
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17899,13 +17787,13 @@
 - canonicalFamilyId: `event-change-data-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-data-cell] 事件異動資料格 / Event Change Data Cell / `308:31398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31398
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-data-cell] 事件異動資料格 / Event Change Data Cell / `308:31398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31398
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`e61878d8539f562189b137c53338aa3a4c9e565a`
-- Component Properties: Property 1 (VARIANT: Variant6/Variant5/Variant4/更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- Component Properties: 異動動作 (VARIANT: 更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
 - 功能說明: 事件異動列表中依異動動作顯示的資料格。（待處理：Property 1 含未命名值 Variant4–6（預設為 Variant6），待整理）
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: List
@@ -17915,9 +17803,9 @@
 - Components: event-change-data-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31398
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17927,10 +17815,10 @@
 - canonicalFamilyId: `change-action-group`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-action-group] 異動動作群組 / Change Action Group / `308:31520` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31520
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-action-group] 異動動作群組 / Change Action Group / `308:31520` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31520
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`d03ad9ab18cca948bd4f4b5586c9acf0e2166015`
 - Component Properties: Property 1 (VARIANT: 更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17943,9 +17831,9 @@
 - Components: change-action-group
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31520
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17955,14 +17843,14 @@
 - canonicalFamilyId: `change-content-path`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [change-content-path] 異動內容路徑 / Change Content Path / `308:31527` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31527
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [change-content-path] 異動內容路徑 / Change Content Path / `308:31527` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31527
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`0ba1e05b67bbc068313020bb99ce1830e0269c76`
 - Component Properties: 異動功能類型 (VARIANT: 事件主表/事件參數/全域參數)；事件異動內容-語系 (VARIANT: 英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG)/無)；事件異動內容-時間設定 (VARIANT: 無/投分起訖時間)；編輯內容 (VARIANT: 事件標題/事件規則/自訂開始投分時間/無)；參數分類 (VARIANT: 無/手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利)；參數內容 (VARIANT: 無/買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/0-10% 價格範圍/10-20% 價格範圍/20-30% 價格範圍/30-40% 價格範圍/40-50% 價格範圍/50-60% 價格範圍/60-70% 價格範圍/70-80% 價格範圍/80-90% 價格範圍/90-100% 價格範圍/層級一/層級二/層級三)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 以「功能 > 語系或分類 > 項目」顯示異動內容的路徑。
+- 功能說明: 以「功能 ＞ 語系或分類 ＞ 項目」顯示異動內容的路徑。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: Detail
 - Responsive Variants: unknown
@@ -17971,9 +17859,9 @@
 - Components: change-content-path
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31527
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -17983,10 +17871,10 @@
 - canonicalFamilyId: `event-list-row-action-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-list-row-action-button] 事件列表操作按鈕 / Event List Row Action Button / `308:31483` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31483
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-list-row-action-button] 事件列表操作按鈕 / Event List Row Action Button / `308:31483` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31483
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`7d4962f0f7e563590c270155682d04025996a378`
 - Component Properties: type (VARIANT: 更多操作/編輯事件/版本控管)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -17999,9 +17887,9 @@
 - Components: event-list-row-action-button
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31483
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18011,10 +17899,10 @@
 - canonicalFamilyId: `event-change-detail-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-change-detail-row] 事件異動明細列 / Event Change Detail Row / `308:33114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33114
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-change-detail-row] 事件異動明細列 / Event Change Detail Row / `308:33114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33114
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`72bb2fd95932032ca510c4bee7c2d47201ca2a6e`
 - Component Properties: Property 1 (VARIANT: 使用者1/使用者2/使用者3/異動時間/異動類型--更新/異動類型--批次更新/異動類型--新增/異動功能類型--事件主表/異動功能類型--全域參數/異動功能類型--事件參數/異動功能類型--事件主表--詳細事項/異動功能類型--全域參數--詳細事項/異動功能類型--事件參數--詳細事項/事件類型-運動事件/事件類型-議題事件/事件類型-無/主次類別-足球/主次類別-娛樂/主次類別-無/批次追蹤碼)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18027,9 +17915,9 @@
 - Components: event-change-detail-row
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33114
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18039,10 +17927,10 @@
 - canonicalFamilyId: `parameter-change-row-base`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [parameter-change-row-base] 參數異動列基底 / Parameter Change Row Base / `308:31840` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31840
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [parameter-change-row-base] 參數異動列基底 / Parameter Change Row Base / `308:31840` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31840
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`c7d7b9633b1fec16181a695bf0ce966f52656ef3`
 - Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18055,9 +17943,9 @@
 - Components: parameter-change-row-base
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31840
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18067,10 +17955,10 @@
 - canonicalFamilyId: `parameter-change-row-base-extended`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [parameter-change-row-base-extended] 參數異動列基底－擴充 / Parameter Change Row Base Extended / `308:31852` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31852
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [parameter-change-row-base-extended] 參數異動列基底－擴充 / Parameter Change Row Base Extended / `308:31852` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31852
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`27eadddde90d6dde7b5e98d59ec20962d96481a6`
 - Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18083,9 +17971,9 @@
 - Components: parameter-change-row-base-extended
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31852
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18095,10 +17983,10 @@
 - canonicalFamilyId: `summary-card-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [summary-card-item] 數據卡項目 / Summary Card Item / `308:33231` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33231
+- Figma: 03_共用模式 / Shared Patterns / [summary-card-item] 數據卡項目 / Summary Card Item / `308:33231` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33231
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`9dc1e3377ccf9ae36637fe1cab29d563f902d942`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18111,65 +17999,65 @@
 - Components: summary-card-item
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33231
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 投分設定列標題 / Wager Setting Row Title
-- canonicalId: `wager-setting-row-title`
-- canonicalFamilyId: `wager-setting-row-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
+## Netwin 設定列標題 / Netwin Setting Row Title
+- canonicalId: `netwin-setting-row-title`
+- canonicalFamilyId: `netwin-setting-row-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [wager-setting-row-title] 投分設定列標題 / Wager Setting Row Title / `308:33726` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33726
+- aliases: wager-setting-row-title
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [netwin-setting-row-title] Netwin 設定列標題 / Netwin Setting Row Title / `308:33726` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33726
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`b33b651c42cffaf21f71f30c3fba07c8cb5972c1`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 投分參數設定表格的列標題。
+- 功能說明: Netwin 盈利範圍設定表格的列標題（Min、Max、Rate）。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: Create
 - Responsive Variants: unknown
 - Variant Key: unknown|unknown|default
 - States: default
-- Components: wager-setting-row-title
+- Components: netwin-setting-row-title
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33726
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 投分設定列標題 B / Wager Setting Row Title B
-- canonicalId: `wager-setting-row-title-b`
-- canonicalFamilyId: `wager-setting-row-title-b`（同一 family 的其他 RWD/Theme variants可用此值查找）
+## 選項設定列標題 / Wager Options Row Title
+- canonicalId: `wager-options-row-title`
+- canonicalFamilyId: `wager-options-row-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 07_候選 / Candidate / [wager-setting-row-title-b] 投分設定列標題 B / Wager Setting Row Title B / `308:33731` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33731
+- aliases: wager-setting-row-title-b
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [wager-options-row-title] 選項設定列標題 / Wager Options Row Title / `308:33731` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33731
 - Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`c172e5591dc155d7a73a9613262ff909c5b8d041`; componentSet=`—`
 - Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 投分參數設定表格的另一種列標題。（待處理：與 wager-setting-row-title 相近，待比對合併）
+- 功能說明: 投分選項設定表格的列標題（選項名稱、初始價格）。
 - 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
 - Page Type: Create
 - Responsive Variants: unknown
 - Variant Key: unknown|unknown|default
 - States: default
-- Components: wager-setting-row-title-b
+- Components: wager-options-row-title
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33731
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18179,10 +18067,10 @@
 - canonicalFamilyId: `event-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-title] 事件名稱標題 / Event Title / `308:31389` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31389
+- Figma: 03_共用模式 / Shared Patterns / [event-title] 事件名稱標題 / Event Title / `308:31389` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31389
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6058289b7bc83a3b96b49dce8a4b90fe45d431b6`
 - Component Properties: 事件名稱 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18195,9 +18083,9 @@
 - Components: event-title
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=121:293465
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=121:293465；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31389
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18207,10 +18095,10 @@
 - canonicalFamilyId: `settlement-event-content-layout`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-event-content-layout] 事件內容態樣 / Settlement Event Content Layout / `308:31942` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31942
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-event-content-layout] 事件內容態樣 / Settlement Event Content Layout / `308:31942` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31942
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`6b1852bf2f2dab70192de48d1e7385db6d2139f1`
 - Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18223,9 +18111,9 @@
 - Components: settlement-event-content-layout
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=114:226698
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=114:226698；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31942
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18235,10 +18123,10 @@
 - canonicalFamilyId: `parameter-setting-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [parameter-setting-content] 參數設定內容 / Parameter Setting Content / `308:31976` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31976
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [parameter-setting-content] 參數設定內容 / Parameter Setting Content / `308:31976` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31976
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`34630eb3ff317d9eac82d6a5755b042bd2799245`
 - Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour 計時設定)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18251,9 +18139,9 @@
 - Components: parameter-setting-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=121:552347
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=121:552347；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31976
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18263,10 +18151,10 @@
 - canonicalFamilyId: `wager-parameter-settings-section`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [wager-parameter-settings-section] 投分參數設定區塊 / Wager Parameter Settings Section / `308:32362` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32362
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [wager-parameter-settings-section] 投分參數設定區塊 / Wager Parameter Settings Section / `308:32362` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32362
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`69e6aab2653fc54df8928d5e5444e3d7c4593916`
 - Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18279,9 +18167,9 @@
 - Components: wager-parameter-settings-section
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=110:114115
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=110:114115；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32362
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18291,10 +18179,10 @@
 - canonicalFamilyId: `event-image-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `shared-pattern`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-image-cell] 事件圖片資料格 / Event Image Cell / `308:32748` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32748
+- Figma: 03_共用模式 / Shared Patterns / [event-image-cell] 事件圖片資料格 / Event Image Cell / `308:32748` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32748
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`635f49a47879504f9c5e40d01cc0fd9943d802e2`
 - Component Properties: 類型 (VARIANT: sport/topic)；收合狀態 (VARIANT: 關閉/開啟)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18307,9 +18195,9 @@
 - Components: event-image-cell
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=93:7291
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=93:7291；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 03_共用模式 / Shared Patterns）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32748
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18319,10 +18207,10 @@
 - canonicalFamilyId: `settlement-event-name`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [settlement-event-name] 事件名稱 / Settlement Event Name / `308:32765` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32765
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [settlement-event-name] 事件名稱 / Settlement Event Name / `308:32765` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32765
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`980ee315290b31bbce3f58864337fc45514b94c7`
 - Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；介面 (VARIANT: 選擇列表/事件結算畫面)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18335,9 +18223,9 @@
 - Components: settlement-event-name
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=114:226707
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=114:226707；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32765
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18347,10 +18235,10 @@
 - canonicalFamilyId: `event-theme-section-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-theme-section-desktop] 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop / `308:32889` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32889
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-theme-section-desktop] 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop / `308:32889` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32889
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`ab1fb711c423b3cda9608793870803375163318b`
 - Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18363,9 +18251,9 @@
 - Components: event-theme-section-desktop
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230825
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230825；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32889
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18375,10 +18263,10 @@
 - canonicalFamilyId: `wager-options-section-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [wager-options-section-desktop] 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop / `308:32984` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32984
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [wager-options-section-desktop] 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop / `308:32984` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32984
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`374e91225d5eef7f75ebb3599fec1ceec60f4cfa`
 - Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18391,9 +18279,9 @@
 - Components: wager-options-section-desktop
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230920
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230920；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32984
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18403,10 +18291,10 @@
 - canonicalFamilyId: `event-theme-section-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [event-theme-section-mobile] 事件主題區塊（Mobile） / Event Theme Section - Mobile / `308:33012` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33012
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [event-theme-section-mobile] 事件主題區塊（Mobile） / Event Theme Section - Mobile / `308:33012` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33012
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`edd5200115cd76089d6a2f12eecaf46cd0b525f2`
 - Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18419,9 +18307,9 @@
 - Components: event-theme-section-mobile
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230948
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230948；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33012
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18431,10 +18319,10 @@
 - canonicalFamilyId: `ai-wager-option-input`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [ai-wager-option-input] AI 建議選項輸入列 / AI Suggested Wager Option Input / `308:33527` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33527
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [ai-wager-option-input] AI 建議選項輸入列 / AI Suggested Wager Option Input / `308:33527` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33527
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`19600cc88022d4f38c7d149c3775815601729651`
 - Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: empty/default/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18447,9 +18335,9 @@
 - Components: ai-wager-option-input
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:231095
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:231095；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33527
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18459,10 +18347,10 @@
 - canonicalFamilyId: `netwin-profit-range-settings`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [netwin-profit-range-settings] Netwin 盈利範圍設定 / Netwin Profit Range Settings / `308:33234` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33234
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [netwin-profit-range-settings] Netwin 盈利範圍設定 / Netwin Profit Range Settings / `308:33234` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33234
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`460911b1249fe85ef27662c157312158aa0c455e`
 - Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18475,9 +18363,9 @@
 - Components: netwin-profit-range-settings
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=110:113904
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=110:113904；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33234
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18487,10 +18375,10 @@
 - canonicalFamilyId: `rush-hour-wager-parameter-settings`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [rush-hour-wager-parameter-settings] Rush Hour 投分參數設定 / Rush Hour Wager Parameter Settings / `308:31101` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31101
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [rush-hour-wager-parameter-settings] Rush Hour 投分參數設定 / Rush Hour Wager Parameter Settings / `308:31101` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31101
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`02b8657254361a3c1d14967246ee899581d988b8`
 - Component Properties: status (VARIANT: enable/enable--filled in)；device (VARIANT: PC/tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18503,9 +18391,9 @@
 - Components: rush-hour-wager-parameter-settings
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明; supersedes=121:552870
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明; supersedes=121:552870；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31101
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
@@ -18515,10 +18403,10 @@
 - canonicalFamilyId: `ai-review-single-result-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
 - sourceLayer: `feature`
-- status: `candidate`
+- status: `approved`
 - AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 07_候選 / Candidate / [ai-review-single-result-content] AI 建議單一結果審核內容 / AI Review Single Result Content / `308:31327` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31327
+- Figma: 04_功能元件 / Feature Components · 分頁 7 / [ai-review-single-result-content] AI 建議單一結果審核內容 / AI Review Single Result Content / `308:31327` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31327
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`5c1c38ecf58ac487bfb02c052fb418ece74bdc14`
 - Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
@@ -18531,9 +18419,9 @@
 - Components: ai-review-single-result-content
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: needs-review / confidence=0.85
+- Review: reviewed / confidence=0.85
 - Original Review Action: migrate
-- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明; supersedes=116:230670
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明; supersedes=116:230670；approved=2026-11-18（Daigu 確認升級；由 07_候選 移至 04_功能元件 / Feature Components · 分頁 7）
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31327
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。

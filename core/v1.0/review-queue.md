@@ -44,7 +44,7 @@
 ### RQ-2026-11-17-01：帳號群組收錄後續整理
 
 - 嚴重度：Medium
-- 狀態：大部分完成（2026-11-17）；剩第 5 項
+- 狀態：已完成（2026-11-18）
 - 影響範圍：Hub `07_候選 / Candidate` 分區 297:2（帳號管理／角色管理／個人設定 Key Screens 收錄，共 98 個元件）
 - 已完成：
   - 82 個元件正式命名為 `[canonicalId] 中文 / English`，status: candidate；其中 38 個取代舊版。
@@ -55,23 +55,31 @@
   2. ✅ `role-details`（298:46673）：`device3`→`PC&Tablet`、`device4`→`Mobile`（依寬度 344／320 判定，皆為已停用狀態）。
   3. ✅ `類型17`：為 `類型=Down` 的完全複本且未被使用，已隨複本 298:45826 一起移除。
   4. ✅ 裝置值統一為半形 `PC&Tablet`（298:41960、298:42067、298:43316、298:45764）。
-  5. ⏳ 82 個 candidate 確認後升級為 approved。
+  5. ✅ 82 個元件升級為 approved（2026-11-18，Daigu 確認）：8 個共用模式移到 `03_共用模式`，74 個功能元件移到 `04_功能元件 · 分頁 6`，依 Hub 版型放在各自的 `[canonicalId]` 分區內；`07_候選` 原分區 297:2 已移除。
 - 詳細對照表：Claude 專案文件 `claude/hub-intake-account-2026-11-17.md`。
 
 ### RQ-2026-11-17-02：報表與事件設置收錄批次後續整理
 
 - 嚴重度：Medium
-- 狀態：待處理
-- 影響範圍：Hub `07_候選 / Candidate` 三個收錄批次（報表查詢 平台後台、報表紀錄 系統後台、事件設置），共 108 個 candidate。
+- 狀態：大部分完成（2026-11-18）；剩第 5 項
+- 影響範圍：Hub `07_候選 / Candidate` 三個收錄批次（報表查詢 平台後台、報表紀錄 系統後台、事件設置），原 108 個 candidate。
 - 已完成：
   - 135 個貼入元件中，25 個與 Hub 現有元件或同批元件完全相同（含內部引用一致），268 處引用改指向正本後刪除複本。
   - 報表欄位標頭（平台 6 變體併入系統 11 變體）、報表編號與數值（兩份合成 21 變體）合併為單一版本。
   - 13 個交付稿較新版本取代 Hub 舊版（同樣的變體結構），舊版移到 `99_淘汰`，manifest canonicalId 為 `<id>--legacy-20261117`。
   - Core 選單：系統後台報表紀錄（事件損益查詢、投分歷史紀錄、對帳報表、跨站賠付報表）、資料庫管理加入圖片路徑管理、商戶服務更名為平台服務；平台後台報表查詢（事件報表、會員注單、對帳報表、跨站賠付報表）。平台選單元件更名為 `navigate--list-item--merchant-backend`。
-- 待處理：
-  1. 未命名變體值：`event-report-l3-table-row`（類型2）、`report-identifier-and-value`（類型18）、`event-change-sport-type-filter`（Variant3–5）、`change-parameter-filter`（Variant20–22）、`event-change-data-cell`（Variant4–6，預設為 Variant6）。
-  2. 疑似重複待比對：三份 `unlisted-event-more-actions-dialog*`、`wager-setting-row-title` 與 `-b`、`report-single-date-time` 與 `report-date-time`、`settlement-rate-table-label-cell` 與 `settlement-rate-table-cell`。
-  3. `report-order-status-cell-desktop`（報表查詢）與 `order-status-cell-desktop`（客服服務）是否合併。
-  4. `create-event-wager-setting-step`（v0.1.3 舊版投分設定）是否淘汰。
-  5. 交付稿（報表查詢、報表紀錄、事件設置、系統後台－登入）仍使用本地複本，待改用 Hub 元件；登入兩檔元件已全數在 Hub。
-  6. 108 個 candidate 確認後升級為 approved。
+- 處理進度（2026-11-18）：
+  1. ✅ 未命名變體值已命名：
+     - `event-report-l3-table-row`：屬性 `類型`→`背景`，`Default`／`類型2`→`白底`／`黑底`。
+     - `report-identifier-and-value`：`類型18` 為未使用的空白變體，已刪除（剩 20 變體）。
+     - `event-change-sport-type-filter`：`Property 1`→`運動類型`，值為籃球／棒球／足球／美式足球／冰上曲棍球。
+     - `change-parameter-filter`：`Property 1`→`參數`，`Variant20–22`→`層級一／層級二／層級三`。
+     - `event-change-data-cell`：`Variant4–6` 為重複變體，已刪除；`Property 1`→`異動動作`（更新／批次更新／新增）。
+  2. ✅ 疑似重複比對：
+     - 三份未上架事件其他操作彈窗合成一個 `unlisted-event-more-actions-dialog`（308:30829，名稱改為「事件其他操作彈窗」），變體為 `操作組合`（完整／結算／庫存／退款／上架／庫存／刪除）× `device`（PC&Tablet／Mobile）；308:30852、308:30875 已移除，manifest 以 aliases 保留舊 id。
+     - `wager-setting-row-title` 與 `-b` 內容不同（Min／Max／Rate vs 選項名稱／初始價格），改名為 `netwin-setting-row-title`、`wager-options-row-title`，舊 id 留在 aliases。
+     - `report-single-date-time` 與 `report-date-time`、`settlement-rate-table-label-cell` 與 `settlement-rate-table-cell`：內容相同但寬度不同（179／196、48／107），各自保留，差異寫在說明。
+  3. ✅ `report-order-status-cell-desktop` 併入 `order-status-cell-desktop`（163:487291）：2 個引用改指向正本，保留中文標籤覆寫（已完成、失敗、錯誤、已取消）；308:25582 已刪除，aliases 保留舊 id。
+  4. ✅ `create-event-wager-setting-step` 淘汰：移到 `99_淘汰`，canonicalId 改為 `create-event-wager-setting-step--legacy-20261118`，aiUsage: blocked，由 `rush-hour-wager-parameter-settings`（308:31101）取代。
+  5. ⏳ 交付稿（報表查詢、報表紀錄、事件設置、系統後台－登入）仍使用本地複本，待改用 Hub 元件；登入兩檔元件已全數在 Hub。
+  6. ✅ 104 個元件升級為 approved（Daigu 確認）：17 個共用模式移到 `03_共用模式`，87 個功能元件移到 `04_功能元件 · 分頁 6／分頁 7`；`07_候選` 已清空。`event-card-review`（308:30937）因字型「FONTSPRING DEMO - Sinter Black」無法由外掛載入，需在 Figma 手動拖進 `04_功能元件 · 分頁 7` 已備好的同名分區。
