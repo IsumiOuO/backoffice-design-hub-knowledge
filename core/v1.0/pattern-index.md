@@ -170,34 +170,6 @@
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260529 (避險前先做) / 6100:626697
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 事件名稱標題 / Event Title
-- canonicalId: `event-title`
-- canonicalFamilyId: `event-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `shared-pattern`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 03_共用模式 / Shared Patterns / [event-title] 事件名稱標題 / Event Title / `121:293465` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293465
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`26458a776e2605f978551c9ed5443f8b51ec716e`
-- Component Properties: 事件名稱#6110:0 (TEXT)；事件名稱 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 顯示事件名稱，並依議題事件或運動事件切換呈現方式。
-- 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: event-title
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.97
-- Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence=figma-main-component 128 uses/48 screens；Component Set 2 variants
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260529 (避險前先做) / 5521:327216
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
 ## 事件圖片 / Event Thumbnail
 - canonicalId: `event-thumbnail`
 - canonicalFamilyId: `event-thumbnail`（同一 family 的其他 RWD/Theme variants可用此值查找）
@@ -702,34 +674,6 @@
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.0-20260508 / 5776:68650
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 參數設定內容 / Parameter Setting Content
-- canonicalId: `parameter-setting-content`
-- canonicalFamilyId: `parameter-setting-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `shared-pattern`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 03_共用模式 / Shared Patterns / [parameter-setting-content] 參數設定內容 / Parameter Setting Content / `121:552347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-552347
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`a38877a5ea78b4130d90fcca9c6e552ff58f99b0`
-- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour 計時設定)；status (VARIANT: open/close)；device (VARIANT: PC/Mobile/Tablet)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 呈現手續費、投注限制、流動性、買單檔次、Netwin 盈利與 Rush Hour 等參數區塊。
-- 遷移備註: 正式使用證據充分
-- Page Type: Edit
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: parameter-setting-content
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.99
-- Original Review Action: —
-- Evidence: usage=76/18; v=39
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260529 (避險前先做) / 5408:247304
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
 ## 詳細資訊內容 / Detail Information Content
 - canonicalId: `report-detail-content`
 - canonicalFamilyId: `report-detail-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
@@ -980,34 +924,6 @@
 - Evidence: score=105;usage=18;screens=9;Component Set variants
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.5-20260717 / 4001:22579
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 事件圖片資料格 / Event Image Cell
-- canonicalId: `event-image-cell`
-- canonicalFamilyId: `event-image-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components / [event-image-cell] 事件圖片資料格 / Event Image Cell / `93:7291` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=93-7291
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`196d2e275e8d9a4ef3bd54f7a0600c74609865b2`
-- Component Properties: 類型 (VARIANT: topic/sport)；收合狀態 (VARIANT: 關閉/開啟)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 顯示事件縮圖，依 topic/sport、過期與收合狀態切換。
-- 遷移備註: 高重用正式元件
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: event-image-cell
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.94
-- Original Review Action: —
-- Evidence: score=85;usage=67;screens=18;Component Set variants
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.5-20260717 / 4001:23432
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 事件建立時間資料格 / Event Created Time Cell
@@ -1316,62 +1232,6 @@
 - Evidence: inventory migrationScore=105；usageCountMethod=figma-main-component；usageEvidence：directInstanceCount=24、nestedDependencyCount=17、usedByScreenCount=24
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 5913:409689
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## AI 建議單一結果審核內容 / AI Suggested Single-result Review Content
-- canonicalId: `ai-review-single-result-content`
-- canonicalFamilyId: `ai-review-single-result-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components / [ai-review-single-result-content] AI 建議單一結果審核內容 / AI Suggested Single-result Review Content / `116:230670` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230670
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`510684cdbb4060e503743194d0295db51de6a972`
-- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 單一結果事件的審核彈窗內容。
-- 遷移備註: 有正式畫面使用證據，適合遷移
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: ai-review-single-result-content
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=variables, support=variables
-- Review: reviewed / confidence=0.96
-- Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component:14 uses/14 screens
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4287:90631
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## AI 建議選項輸入列 / AI Suggested Wager Option Input
-- canonicalId: `ai-wager-option-input`
-- canonicalFamilyId: `ai-wager-option-input`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components / [ai-wager-option-input] AI 建議選項輸入列 / AI Suggested Wager Option Input / `116:231095` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-231095
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`168adbfe4126913e4cab77ab46142bae3280c46a`
-- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 選項名稱／初始價格輸入列。
-- 遷移備註: 有正式畫面使用證據，適合遷移
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: ai-wager-option-input
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.96
-- Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component:10 uses/10 screens
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4419:205346
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 批次更新參數分類選擇器 / Batch Parameter Category Selector
@@ -3698,34 +3558,6 @@
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5385:282784
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 事件內容態樣 / Settlement Event Content Layout
-- canonicalId: `settlement-event-content-layout`
-- canonicalFamilyId: `settlement-event-content-layout`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-event-content-layout] 事件內容態樣 / Settlement Event Content Layout / `114:226698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226698
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`30fd809f7d46a04b9231703bac56aa7a80a0e5f0`
-- Component Properties: Property 1 (VARIANT: PC/Mobile/Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 控制事件結算事件卡在 Desktop、Tablet、Mobile 的內容版型。
-- 遷移備註: 跨 RWD 正式流程重用
-- Page Type: Other
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: settlement-event-content-layout
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=variables, support=variables
-- Review: reviewed / confidence=0.99
-- Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=39、usedByScreenCount=36；跨 desktop/tablet/mobile 與 light/dark/variables 使用；Component Set variants：PC、Mobile、Tablet
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5385:281813
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
 ## 事件細節 / Settlement Event Details
 - canonicalId: `settlement-event-details`
 - canonicalFamilyId: `settlement-event-details`（同一 family 的其他 RWD/Theme variants可用此值查找）
@@ -3752,34 +3584,6 @@
 - Evidence: migrationScore=105；usageEvidence：directInstanceCount=117、nestedDependencyCount=99、usedByScreenCount=36；variants：選項數、投分開始時間、投分結束時間
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5381:499794
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 事件名稱 / Settlement Event Name
-- canonicalId: `settlement-event-name`
-- canonicalFamilyId: `settlement-event-name`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 2 / [settlement-event-name] 事件名稱 / Settlement Event Name / `114:226707` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=114-226707
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`db8c7a94f5527a7c591315d40452bd237aca26d9`
-- Component Properties: Show right button#4372:0 (BOOLEAN)；Show left button#4372:4 (BOOLEAN)；事件名稱#6662:4 (TEXT)；裝置 (VARIANT: Mobile/PC/Tablet)；介面 (VARIANT: 選擇列表/事件結算畫面)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 顯示事件名稱，並依事件選擇列表或事件結算畫面切換操作與版型。
-- 遷移備註: 跨流程與 RWD 重用
-- Page Type: Other
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: settlement-event-name
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.99
-- Original Review Action: —
-- Evidence: migrationScore=105；usageEvidence：directInstanceCount=39、nestedDependencyCount=27、usedByScreenCount=36；variants：裝置=Mobile/PC/Tablet；介面=選擇列表/事件結算畫面
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260525 / 5381:499713
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 選項事件名稱與方向提示 / Settlement Option Name and Direction
@@ -5210,34 +5014,6 @@
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4424:206946
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop
-- canonicalId: `wager-options-section-desktop`
-- canonicalFamilyId: `wager-options-section-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-options-section-desktop] 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop / `116:230920` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230920
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`467518251407f240077c1c4251c50f9a0ca98844`
-- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: PC/Tablet 的選項管理區塊。
-- 遷移備註: 有正式畫面使用證據，適合遷移
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: wager-options-section-desktop
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=variables, support=variables
-- Review: reviewed / confidence=0.96
-- Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component:6 uses/6 screens
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4287:89094
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
 ## 選項管理區塊（Mobile） / Wager Options Section - Mobile
 - canonicalId: `wager-options-section-mobile`
 - canonicalFamilyId: `wager-options-section-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
@@ -5264,34 +5040,6 @@
 - Evidence: migrationScore=85; usageEvidence=figma-main-component:4 uses/4 screens
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4287:89253
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 投分參數設定區塊 / Wager Parameter Settings Section
-- canonicalId: `wager-parameter-settings-section`
-- canonicalFamilyId: `wager-parameter-settings-section`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 2 / [wager-parameter-settings-section] 投分參數設定區塊 / Wager Parameter Settings Section / `110:114115` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-114115
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`2c3c3ab0b747225064898328a5c49e1f853133cf`
-- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 手續費、限制、流動性等參數區塊。
-- 遷移備註: 正式流程重用
-- Page Type: Create
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: wager-parameter-settings-section
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.99
-- Original Review Action: —
-- Evidence: migrationScore=105；22 variants；directInstances=90，screens=13
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4170:45467
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 投分參數設定 / Wager Parameter Settings
@@ -5852,34 +5600,6 @@
 - Evidence: migrationScore=70；effectiveUsage=13，screens=13，組合 3 個 row title-netwin
 - Legacy mapping: —
 - Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4168:57033
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## Netwin 盈利範圍設定 / Netwin Profit Range Settings
-- canonicalId: `netwin-profit-range-settings`
-- canonicalFamilyId: `netwin-profit-range-settings`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 3 / [netwin-profit-range-settings] Netwin 盈利範圍設定 / Netwin Profit Range Settings / `110:113904` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=110-113904
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`d1f1ff24d1da7437d77d453f955ad1d8b8a36acf`
-- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: Netwin 盈利級距與 Rate 設定。
-- 遷移備註: 正式流程重用
-- Page Type: Create
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: netwin-profit-range-settings
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.99
-- Original Review Action: —
-- Evidence: migrationScore=105；12 variants；directInstances=30，screens=13
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.3-20260525 / 4169:42200
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 佔用總庫存變化（編輯掛賣） / Occupied Inventory Change Editing
@@ -13302,62 +13022,6 @@
 - Migration Score/Source: — / 資料庫管理 - 事件參數管理 / 參數類別管理 / 事件主類別管理 / 事件次類別管理 /         Key Screens 🔖v0.1.0-20260303 / 6054:28413
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
-## 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop
-- canonicalId: `event-theme-section-desktop`
-- canonicalFamilyId: `event-theme-section-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-theme-section-desktop] 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop / `116:230825` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230825
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`cbae8bd8286a5f981835e655216c4adf1d5892e1`
-- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: PC/Tablet 的事件主題編輯／查看區塊。
-- 遷移備註: 有正式畫面使用證據，適合遷移
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: event-theme-section-desktop
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.96
-- Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component:20 uses/20 screens
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4287:89024
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
-## 事件主題區塊（Mobile） / Event Theme Section - Mobile
-- canonicalId: `event-theme-section-mobile`
-- canonicalFamilyId: `event-theme-section-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
-- kind: `component`
-- sourceLayer: `feature`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
-- aliases: —
-- Figma: 04_功能元件 / Feature Components · 分頁 5 / [event-theme-section-mobile] 事件主題區塊（Mobile） / Event Theme Section - Mobile / `116:230948` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=116-230948
-- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
-- Library Key: component=`—`; componentSet=`47662c01bada0af38f48a14188bfb9a430f05750`
-- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: Mobile 的事件主題編輯／查看區塊。
-- 遷移備註: 有正式畫面使用證據，適合遷移
-- Page Type: List
-- Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
-- Components: event-theme-section-mobile
-- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
-- Theme: explicit=unknown, strategy=manual, support=unknown
-- Review: reviewed / confidence=0.96
-- Original Review Action: —
-- Evidence: migrationScore=105; usageEvidence=figma-main-component:18 uses/18 screens
-- Legacy mapping: —
-- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260625 / 4287:89183
-- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
-
 ## 事件類別標籤 / Event Type Badge
 - canonicalId: `event-type-badge`
 - canonicalFamilyId: `event-type-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
@@ -15848,4 +15512,3028 @@
 - Evidence: intake=2026-11-17; section=相依元件; supersedes=190:225118
 - Legacy mapping: —
 - Migration Score/Source: — / Hub 07_候選 / 相依元件 Key Screens 貼入 / 298:47383
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表欄位標頭 / Event Report Column Header
+- canonicalId: `event-report-column-header`
+- canonicalFamilyId: `event-report-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-column-header] 事件報表欄位標頭 / Event Report Column Header / `308:25344` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25344
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`1f8c860c17194867471f24c5e6809e7b116fb844`
+- Component Properties: 類別 (VARIANT: 遊戲分類/總事件數/總交易筆數/總買入金額 (U)/總賣出金額 (U)/總結算金額 (U)/總手續費 (U)/總遊戲商營收 (U)/幣別/買入總額 (U)/結算總額 (U)/手續費 (U)/遊戲商營收 (U)/事件編號/局號/事件狀態/結算結果/開局時間/注單編號/會員帳號/投注選項/買入金額 (U)/結算金額 (U)/結算手續費 (U)/玩家盈虧 (U)/注單狀態/投分時間/結算時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表與會員注單表格的單一欄位標頭：總事件數、總交易筆數、買入／賣出／結算金額、手續費、遊戲商營收、遊戲分類。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-column-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25344
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L1 表頭 / Event Report L1 Table Header
+- canonicalId: `event-report-l1-table-header`
+- canonicalFamilyId: `event-report-l1-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l1-table-header] 事件報表 L1 表頭 / Event Report L1 Table Header / `308:25453` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25453
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`6ae18dd7ff6834d92fa842672c93cc77d6b8dec8`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 平台後台事件報表第一層（彙總）的表頭列。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l1-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25453
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L1 資料列 / Event Report L1 Table Row
+- canonicalId: `event-report-l1-table-row`
+- canonicalFamilyId: `event-report-l1-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l1-table-row] 事件報表 L1 資料列 / Event Report L1 Table Row / `308:25463` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25463
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`f8a5ffe706d1d999b1c756599538032997b40404`
+- Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 平台後台事件報表第一層的資料列，白底／黑底交錯。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l1-table-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25463
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L2 表頭 / Event Report L2 Table Header
+- canonicalId: `event-report-l2-table-header`
+- canonicalFamilyId: `event-report-l2-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l2-table-header] 事件報表 L2 表頭 / Event Report L2 Table Header / `308:25482` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25482
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`1235d545bf05439d9d5286982736f58359e64ef3`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第二層的表頭列。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l2-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25482
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L2 資料列 / Event Report L2 Table Row
+- canonicalId: `event-report-l2-table-row`
+- canonicalFamilyId: `event-report-l2-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l2-table-row] 事件報表 L2 資料列 / Event Report L2 Table Row / `308:25490` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25490
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`11759d9e298388f95926da3a2e6b141fdb9b1f01`
+- Component Properties: 類型 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第二層的資料列，白底／黑底交錯。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l2-table-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25490
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L3 表頭 / Event Report L3 Table Header
+- canonicalId: `event-report-l3-table-header`
+- canonicalFamilyId: `event-report-l3-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l3-table-header] 事件報表 L3 表頭 / Event Report L3 Table Header / `308:25505` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25505
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`abf98e6ec36f77514c3707a44f781cc3d4d9c141`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第三層（事件層級）的表頭列。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l3-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25505
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L3 資料列 / Event Report L3 Table Row
+- canonicalId: `event-report-l3-table-row`
+- canonicalFamilyId: `event-report-l3-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l3-table-row] 事件報表 L3 資料列 / Event Report L3 Table Row / `308:25515` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25515
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`2af4594314237bcb5b60243c99de9a0414e168e8`
+- Component Properties: 類型 (VARIANT: Default/類型2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第三層的資料列，含事件狀態欄。（待處理：類型 屬性含未命名值「類型2」，待整理）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l3-table-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25515
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L4 表頭 / Event Report L4 Table Header
+- canonicalId: `event-report-l4-table-header`
+- canonicalFamilyId: `event-report-l4-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l4-table-header] 事件報表 L4 表頭 / Event Report L4 Table Header / `308:25534` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25534
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`bd6eabc3dfd5cfa1c475ecd982cc421eea98340b`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第四層（會員注單明細）的表頭列。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l4-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25534
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件報表 L4 資料列 / Event Report L4 Table Row
+- canonicalId: `event-report-l4-table-row`
+- canonicalFamilyId: `event-report-l4-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-report-l4-table-row] 事件報表 L4 資料列 / Event Report L4 Table Row / `308:25546` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25546
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`3fae9a2f280df123f82f23f390d8a8d6f0a8b621`
+- Component Properties: 類型 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件報表第四層的會員注單明細資料列，含訂單狀態欄。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-report-l4-table-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25546
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 報表訂單狀態－PC / Report Order Status Cell Desktop
+- canonicalId: `report-order-status-cell-desktop`
+- canonicalFamilyId: `report-order-status-cell-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [report-order-status-cell-desktop] 報表訂單狀態－PC / Report Order Status Cell Desktop / `308:25582` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25582
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`10ca979aee6c5829681263cc558b9732d88cc2e2`
+- Component Properties: 訂單狀態 (VARIANT: Finished/Failed/Error/Canceled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 平台報表中顯示訂單狀態（Finished、Failed、Error、Canceled）的欄位。（待處理：與 order-status-cell-desktop（客服服務）相近，待確認是否合併）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: report-order-status-cell-desktop
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=事件報表／會員注單（來源：Key Screens 🔖v0.1.0-20260901）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25582
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 平台對帳報表表頭 / Platform Reconciliation Report Table Header
+- canonicalId: `platform-reconciliation-report-table-header`
+- canonicalFamilyId: `platform-reconciliation-report-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [platform-reconciliation-report-table-header] 平台對帳報表表頭 / Platform Reconciliation Report Table Header / `308:25703` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25703
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`ebc62c00ebd8f579818c5611c99c127509676a5d`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 平台後台對帳報表的表頭列，比系統後台版多了總手續費與總遊戲商營收欄。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: platform-reconciliation-report-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=對帳報表（來源：Key Screens 🔖v0.1.1-20261109）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25703
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 總手續費欄位標頭 / Total Fee Column Header
+- canonicalId: `reconciliation-total-fee-column-header`
+- canonicalFamilyId: `reconciliation-total-fee-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-total-fee-column-header] 總手續費欄位標頭 / Total Fee Column Header / `308:25816` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25816
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`0c4692c10c2ea23e03c9c2428a44303d7e0d63fb`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 對帳報表「總手續費 (U)」欄位標頭。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-total-fee-column-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25816
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 總遊戲商營收欄位標頭 / Total Provider Revenue Column Header
+- canonicalId: `reconciliation-provider-revenue-column-header`
+- canonicalFamilyId: `reconciliation-provider-revenue-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-provider-revenue-column-header] 總遊戲商營收欄位標頭 / Total Provider Revenue Column Header / `308:25820` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-25820
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`94137fa9f250a8d38463e961ac4a3e715f71d1c9`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 對帳報表「總遊戲商營收 (U)」欄位標頭。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表查詢），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-provider-revenue-column-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表查詢; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表查詢 - 事件報表 / 會員注單 / 對帳報表 / Hub 收錄批次 2026-11-17 / 308:25820
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 報表欄位標頭 / Report Column Header
+- canonicalId: `report-column-header`
+- canonicalFamilyId: `report-column-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [report-column-header] 報表欄位標頭 / Report Column Header / `308:26602` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26602
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`8cb8d47f1d515b5209d72928ebed583814f61786`
+- Component Properties: 類別 (VARIANT: 幣別/淨輸贏/淨輸贏 (USDT)/匯率/條件%/結算金額 (USDT)/商戶/投分/派彩/應付/應收)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 對帳報表與跨站賠付報表的單一欄位標頭：幣別、淨輸贏、匯率、條件%、結算金額、商戶、投分、派彩、應付、應收。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: report-column-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26602
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 對帳報表表頭 / Reconciliation Report Table Header
+- canonicalId: `reconciliation-report-table-header`
+- canonicalFamilyId: `reconciliation-report-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-report-table-header] 對帳報表表頭 / Reconciliation Report Table Header / `308:26647` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26647
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`9178a50aaa6fdcd9d80ac151a4525e9232159266`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 系統後台對帳報表的表頭列。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-report-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26647
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 對帳報表資料列 / Reconciliation Report Table Row
+- canonicalId: `reconciliation-report-table-row`
+- canonicalFamilyId: `reconciliation-report-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-report-table-row] 對帳報表資料列 / Reconciliation Report Table Row / `308:26657` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26657
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`b42b2b506836d75cc962cdf5df380b94287e42a1`
+- Component Properties: 背景 (VARIANT: 白底/黑底)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 系統後台對帳報表的資料列，白底／黑底交錯。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-report-table-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26657
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 跨站賠付報表表頭 / Cross-site Compensation Table Header
+- canonicalId: `cross-site-compensation-table-header`
+- canonicalFamilyId: `cross-site-compensation-table-header`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [cross-site-compensation-table-header] 跨站賠付報表表頭 / Cross-site Compensation Table Header / `308:26672` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26672
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`4278a6c6155da05f7e4e06fc8b951972974f164a`
+- Component Properties: 類型 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 跨站賠付報表的表頭列：商戶（或站點）、投分、派彩、應付、應收。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: cross-site-compensation-table-header
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26672
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 跨站賠付報表資料列 / Cross-site Compensation Table Row
+- canonicalId: `cross-site-compensation-table-row`
+- canonicalFamilyId: `cross-site-compensation-table-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [cross-site-compensation-table-row] 跨站賠付報表資料列 / Cross-site Compensation Table Row / `308:26679` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26679
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`35da751fc74db45ac3454726068c7a7f41d6e5fb`
+- Component Properties: 背景 (VARIANT: 白底/黑底/合計)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 跨站賠付報表的資料列：白底／黑底交錯，合計為最後一列（粗體）。應付或應收為空時切到無數值。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: cross-site-compensation-table-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26679
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 報表編號與數值 / Report Identifier and Value
+- canonicalId: `report-identifier-and-value`
+- canonicalFamilyId: `report-identifier-and-value`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [report-identifier-and-value] 報表編號與數值 / Report Identifier and Value / `308:26698` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26698
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`ef5c107de52dc173f49cf75e463e945d9f1a390e`
+- Component Properties: 類型 (VARIANT: 編號/無編號/系統編號/無系統編號/數值/無數值/盈虧-正/盈虧-負/無盈虧/%數/名稱/類型18/名稱(特殊)/無名稱/Yes/No/Up/Down/無方向/時間/商戶/會員)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 報表表格用的編號、名稱、數值、盈虧、時間、百分比、商戶／會員等儲存格（字級與帳號表格不同）。（待處理：類型 屬性含未命名值「類型18」，待整理）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: report-identifier-and-value
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26698
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 報表日期時間 / Report Date Time
+- canonicalId: `report-date-time`
+- canonicalFamilyId: `report-date-time`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [report-date-time] 報表日期時間 / Report Date Time / `308:26785` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26785
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`156c8ea7ba3129a177f4fed32b47b376026a04ea`
+- Component Properties: 類型 (VARIANT: 單一日期/日期範圍)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示日期範圍或單一日期時間，含時區，支援桌機平板與手機。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: report-date-time
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26785
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 報表單一日期時間 / Report Single Date Time
+- canonicalId: `report-single-date-time`
+- canonicalFamilyId: `report-single-date-time`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [report-single-date-time] 報表單一日期時間 / Report Single Date Time / `308:26856` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26856
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`313c6e84e2ed67aaa5e5d3bba9a7c9c2c7d2b16e`
+- Component Properties: 類型 (VARIANT: 單一日期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 只有單一日期時間的精簡版。（待處理：可能與 report-date-time 的單一日期變體重複，待確認）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: report-single-date-time
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26856
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 審核資訊內容 / Review Info Content
+- canonicalId: `review-info-content`
+- canonicalFamilyId: `review-info-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [review-info-content] 審核資訊內容 / Review Info Content / `308:26873` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26873
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`fcd7f90901e82243a4d905506e5e8638d05296e9`
+- Component Properties: 類型 (VARIANT: 內容/使用者)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 審核與修改資訊的內容文字（內容或使用者）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: review-info-content
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26873
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 審核資訊項目名稱 / Review Info Label
+- canonicalId: `review-info-label`
+- canonicalFamilyId: `review-info-label`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [review-info-label] 審核資訊項目名稱 / Review Info Label / `308:26880` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26880
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`279785e62368e8211d6ae6f0a0165501d3c4993d`
+- Component Properties: 序列 (VARIANT: 1/2)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 審核與修改資訊的項目名稱，支援一行或兩行。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: review-info-label
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26880
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 結帳匯率表格標題格 / Settlement Rate Table Label Cell
+- canonicalId: `settlement-rate-table-label-cell`
+- canonicalFamilyId: `settlement-rate-table-label-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-rate-table-label-cell] 結帳匯率表格標題格 / Settlement Rate Table Label Cell / `308:26887` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26887
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`e18b27b3475347569341ca04622b9809320eec35`
+- Component Properties: 類型 (VARIANT: 項目名稱)；位置 (VARIANT: 左)；方向 (VARIANT: 頂部)；資料格式 (VARIANT: 純文字)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 結帳匯率表格左上的項目名稱格。（待處理：可能是 settlement-rate-table-cell 的子集，待確認）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-rate-table-label-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26887
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 結帳匯率表格儲存格 / Settlement Rate Table Cell
+- canonicalId: `settlement-rate-table-cell`
+- canonicalFamilyId: `settlement-rate-table-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-rate-table-cell] 結帳匯率表格儲存格 / Settlement Rate Table Cell / `308:26890` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26890
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`11e7d632efa7abc9be36a8a6d1d54525accbe5fa`
+- Component Properties: 類型 (VARIANT: 項目名稱/項目內容)；位置 (VARIANT: 左/中/右)；方向 (VARIANT: 頂部/中間/底部)；資料格式 (VARIANT: 純文字/輸入欄位/日期/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 結帳匯率表格的儲存格，依位置、方向與資料格式（純文字、輸入欄位、日期）切換。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-rate-table-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26890
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 修改與審核資訊 / Modification and Review Info
+- canonicalId: `modification-and-review-info`
+- canonicalFamilyId: `modification-and-review-info`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [modification-and-review-info] 修改與審核資訊 / Modification and Review Info / `308:26925` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26925
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`5a51dae8d0e79b04c4b827ab4ad1447f40966fd5`
+- Component Properties: 類型 (VARIANT: 修改/審核)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示最後修改者／時間或審核者／時間的資訊區塊。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: modification-and-review-info
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26925
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 修改審核資訊列 / Modification Review Info Row
+- canonicalId: `modification-review-info-row`
+- canonicalFamilyId: `modification-review-info-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [modification-review-info-row] 修改審核資訊列 / Modification Review Info Row / `308:26934` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26934
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`83c041afdb998a55501b5a61401bf4c1f3174c32`
+- Component Properties: 類型 (VARIANT: 最後修改者/最後修改時間/審核者/審核時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 修改與審核資訊中的單一列：最後修改時間、最後修改者、審核者、審核時間。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: modification-review-info-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26934
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 結帳匯率輸入列 / Settlement Rate Input Row
+- canonicalId: `settlement-rate-input-row`
+- canonicalFamilyId: `settlement-rate-input-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-rate-input-row] 結帳匯率輸入列 / Settlement Rate Input Row / `308:26987` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-26987
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`55ed6cbeaf278817a706f6cfe19b7fcd40742afc`
+- Component Properties: 幣別 (VARIANT: THB/VND/USD)；輸入狀態 (VARIANT: 預設/錯誤提示)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依幣別（THB、USD、VND）輸入結帳匯率的列，含錯誤提示狀態。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-rate-input-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:26987
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 審核視窗資料格 / Review Dialog Data Cell
+- canonicalId: `review-dialog-data-cell`
+- canonicalFamilyId: `review-dialog-data-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [review-dialog-data-cell] 審核視窗資料格 / Review Dialog Data Cell / `308:27008` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27008
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`031ff964afa0f48c7346db2b61526914314537d3`
+- Component Properties: 類型 (VARIANT: 項目名稱/時間/金額)；位置 (VARIANT: 單獨/上/中/下)；裝置 (VARIANT: PC&Tablet/Mobile)；功能 (VARIANT: 編輯結帳匯率/確認審核資訊)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 審核與編輯匯率視窗中資訊框的單一儲存格：項目名稱、時間或金額，位置分上／中／下／單獨。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: review-dialog-data-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27008
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 審核視窗資訊框 / Review Dialog Data Table
+- canonicalId: `review-dialog-data-table`
+- canonicalFamilyId: `review-dialog-data-table`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [review-dialog-data-table] 審核視窗資訊框 / Review Dialog Data Table / `308:27061` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27061
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`5f5c2b3c10055b82515865975860dd90872e1813`
+- Component Properties: 類型 (VARIANT: 編輯結帳匯率/確認審核資訊/跨站賠付審核資訊)；裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 審核視窗中的資訊框：編輯結帳匯率、對帳報表審核資訊、跨站賠付審核資訊（帳期、應付合計、應收合計）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: review-dialog-data-table
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27061
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 對帳報表操作按鈕 / Reconciliation Action Button
+- canonicalId: `reconciliation-action-button`
+- canonicalFamilyId: `reconciliation-action-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-action-button] 對帳報表操作按鈕 / Reconciliation Action Button / `308:27100` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27100
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`0ecc7824cb93afe5ea73f559e037acbfd80eb892`
+- Component Properties: Property 1 (VARIANT: 審核確認/編輯結帳匯率)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 對帳報表頁首的審核確認與編輯結帳匯率按鈕。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-action-button
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27100
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 對帳報表審核確認視窗 / Reconciliation Review Confirm Dialog
+- canonicalId: `reconciliation-review-confirm-dialog`
+- canonicalFamilyId: `reconciliation-review-confirm-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-review-confirm-dialog] 對帳報表審核確認視窗 / Reconciliation Review Confirm Dialog / `308:27113` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27113
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`0ac1326f2a52b31588fdcc422c42a155294f9fa7`
+- Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 對帳報表審核通過前的確認視窗，帶出帳期與總結算金額。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-review-confirm-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27113
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 對帳報表審核結果 / Reconciliation Review Result Dialog
+- canonicalId: `reconciliation-review-result-dialog`
+- canonicalFamilyId: `reconciliation-review-result-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [reconciliation-review-result-dialog] 對帳報表審核結果 / Reconciliation Review Result Dialog / `308:27144` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27144
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`73416c8cab6fe4a3b733aa25c3535b42758db467`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；階段 (VARIANT: 審核成功/審核失敗)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 對帳報表審核成功或失敗的結果提示。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: reconciliation-review-result-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27144
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 編輯結帳匯率視窗 / Settlement Rate Edit Dialog
+- canonicalId: `settlement-rate-edit-dialog`
+- canonicalFamilyId: `settlement-rate-edit-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-rate-edit-dialog] 編輯結帳匯率視窗 / Settlement Rate Edit Dialog / `308:27189` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27189
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`c75da6dc5159894b93d07ad45d961a00e4482000`
+- Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)；輸入狀態 (VARIANT: 預設/請輸入大於 0、最多 6 位小數的數字)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 編輯各幣別結帳匯率的視窗，含格式錯誤提示。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-rate-edit-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27189
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 結帳匯率修改結果 / Settlement Rate Edit Result Dialog
+- canonicalId: `settlement-rate-edit-result-dialog`
+- canonicalFamilyId: `settlement-rate-edit-result-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-rate-edit-result-dialog] 結帳匯率修改結果 / Settlement Rate Edit Result Dialog / `308:27278` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27278
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`9ccd039e794a2f75b812c37abd23cac4cbfa6987`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；階段 (VARIANT: 修改成功/修改失敗)；失敗原因 (VARIANT: 已被修改/審核已通過)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 結帳匯率修改成功或失敗（已被修改、審核已通過）的結果提示。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-rate-edit-result-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27278
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 跨站賠付報表審核確認視窗 / Cross-site Compensation Review Confirm Dialog
+- canonicalId: `cross-site-compensation-review-confirm-dialog`
+- canonicalFamilyId: `cross-site-compensation-review-confirm-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [cross-site-compensation-review-confirm-dialog] 跨站賠付報表審核確認視窗 / Cross-site Compensation Review Confirm Dialog / `308:27347` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27347
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`d1d55465f2e7fb20b93e102efbf9ba370321d39b`
+- Component Properties: 裝置 (VARIANT: PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 跨站賠付報表「審核通過」確認視窗，帶出帳期、應付合計、應收合計；確認後立即生效。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: cross-site-compensation-review-confirm-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27347
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 跨站賠付報表審核提示 / Cross-site Compensation Review Notice Dialog
+- canonicalId: `cross-site-compensation-review-notice-dialog`
+- canonicalFamilyId: `cross-site-compensation-review-notice-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [cross-site-compensation-review-notice-dialog] 跨站賠付報表審核提示 / Cross-site Compensation Review Notice Dialog / `308:27363` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27363
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`0fe1453d79698c711cff38800dba9f8a01921832`
+- Component Properties: 階段 (VARIANT: 已被其他管理者審核/報表已更新)；裝置 (VARIANT: PC&Tablet)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 送出審核時的例外提示：已被其他管理者審核、報表已重新產生。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: cross-site-compensation-review-notice-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=對帳報表／跨站賠付報表（來源：Key Screens 🔖v0.1.1-20261116）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27363
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 項目名稱文字 / Review Info Label Text
+- canonicalId: `review-info-label-text`
+- canonicalFamilyId: `review-info-label-text`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [review-info-label-text] 項目名稱文字 / Review Info Label Text / `308:27398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27398
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`edcce519ef9fba6a73e586d0f9528ee169803ac1`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 資訊框中項目名稱的文字元件。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: review-info-label-text
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27398
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 金額文字 / Review Info Amount Text
+- canonicalId: `review-info-amount-text`
+- canonicalFamilyId: `review-info-amount-text`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [review-info-amount-text] 金額文字 / Review Info Amount Text / `308:27401` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27401
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`c721965db96ae7932ce04368ab8fb0790db0235a`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 資訊框中金額的文字元件。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: review-info-amount-text
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27401
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 結帳匯率視窗標題列 / Settlement Rate Dialog Head
+- canonicalId: `settlement-rate-dialog-head`
+- canonicalFamilyId: `settlement-rate-dialog-head`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-rate-dialog-head] 結帳匯率視窗標題列 / Settlement Rate Dialog Head / `308:27403` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27403
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`043c5dfd55c5e90ae8a1babf9cd08fc21dafa90c`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 編輯結帳匯率視窗的標題列，含帳期年月。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-rate-dialog-head
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27403
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 標籤值文字格 / Label Value Text Cell
+- canonicalId: `label-value-text-cell`
+- canonicalFamilyId: `label-value-text-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [label-value-text-cell] 標籤值文字格 / Label Value Text Cell / `308:27413` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-27413
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`d50457ccbd8b6dd337f097c58f4561760dc5eccf`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 「標籤：內容」格式的文字格。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜報表紀錄），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: label-value-text-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜報表紀錄; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 報表紀錄 - 事件損益查詢 - 投分歷史紀錄 - 對帳報表 / Hub 收錄批次 2026-11-17 / 308:27413
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件異動列表內容 / Event Change List Content
+- canonicalId: `event-change-list-content`
+- canonicalFamilyId: `event-change-list-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-list-content] 事件異動列表內容 / Event Change List Content / `308:29907` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29907
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`4a7f3ab6becbc4df5da24018f181edbfa5c04b10`
+- Component Properties: Property 1 (VARIANT: 更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動歷史的列表內容（新增、更新、批次更新）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-list-content
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:29907
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動功能與項目 / Event Change Function Items
+- canonicalId: `event-change-function-items`
+- canonicalFamilyId: `event-change-function-items`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-function-items] 異動功能與項目 / Event Change Function Items / `308:29929` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29929
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`a0dae35df1a964bb2b25f719973f0889cd577c0d`
+- Component Properties: Property 1 (VARIANT: 事件主表/事件參數/全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示異動功能（事件主表、事件參數、全域參數）與異動項目。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-function-items
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:29929
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 版本控管記錄 / Version Control Record
+- canonicalId: `version-control-record`
+- canonicalFamilyId: `version-control-record`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [version-control-record] 版本控管記錄 / Version Control Record / `308:29969` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-29969
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`784c790ff07ae5b0a81ad104eb2b4dd4e48b81ab`
+- Component Properties: 類型 (VARIANT: 參數/事件內容)；輸入形式 (VARIANT: 數值/級距/文字/時間)；層級 (VARIANT: 無/1/2/3)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 參數或事件內容的版本控管記錄，依輸入形式（數值、級距、文字、時間）與層級切換。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: version-control-record
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:29969
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 版本控管記錄內容 / Version Control Record Content
+- canonicalId: `version-control-record-content`
+- canonicalFamilyId: `version-control-record-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [version-control-record-content] 版本控管記錄內容 / Version Control Record Content / `308:30114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30114
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`54794fda55db7ac028ddd010291672850004996b`
+- Component Properties: Property 1 (VARIANT: 數值1/數值2/數值3/級距)；啟用狀態 (VARIANT: enable/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 版本控管記錄中單一版本的內容，含啟用狀態。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: version-control-record-content
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30114
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動動作與功能篩選面板－桌面平板 / Change Action Function Filter Panel Desktop Tablet
+- canonicalId: `change-action-function-filter-panel-desktop-tablet`
+- canonicalFamilyId: `change-action-function-filter-panel-desktop-tablet`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-action-function-filter-panel-desktop-tablet] 異動動作與功能篩選面板－桌面平板 / Change Action Function Filter Panel Desktop Tablet / `308:30267` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30267
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`6c3aa15455e694ad2c41eab7e9478de563d02657`
+- Component Properties: 開關 (VARIANT: 異動動作與功能篩選/異動動作與功能篩選-enable/異動動作與功能篩選-enable--事件主表/異動動作與功能篩選-enable--事件參數/異動動作與功能篩選-enable--全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動歷史的篩選面板（桌面與平板），依異動功能展開不同篩選。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-action-function-filter-panel-desktop-tablet
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30267
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動動作與功能篩選面板－行動版 / Change Action Function Filter Panel Mobile
+- canonicalId: `change-action-function-filter-panel-mobile`
+- canonicalFamilyId: `change-action-function-filter-panel-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-action-function-filter-panel-mobile] 異動動作與功能篩選面板－行動版 / Change Action Function Filter Panel Mobile / `308:30348` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30348
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`dfad421bc37d59751f53b5738e8a0ee5d62b70e0`
+- Component Properties: 開關 (VARIANT: 異動動作與功能篩選/異動動作與功能篩選-enable/異動動作與功能篩選-enable--事件主表/異動動作與功能篩選-enable--事件參數/異動動作與功能篩選-enable--全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動歷史的篩選面板（行動版）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-action-function-filter-panel-mobile
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30348
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 版本控管記錄按鈕 / Version Control Record Button
+- canonicalId: `version-control-record-button`
+- canonicalFamilyId: `version-control-record-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [version-control-record-button] 版本控管記錄按鈕 / Version Control Record Button / `308:30425` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30425
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`e6addb6b42e020f281bed22aa5114ef9aa09ab3b`
+- Component Properties: Property 1 (VARIANT: 目前啟用中/恢復此版本)；status (VARIANT: default/hover)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 版本控管記錄中的「目前啟用中」與「恢復此版本」按鈕。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: version-control-record-button
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30425
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 版本號標籤 / Version Badge
+- canonicalId: `version-control-version-badge`
+- canonicalFamilyId: `version-control-version-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [version-control-version-badge] 版本號標籤 / Version Badge / `308:30442` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30442
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`b7a9dde2884f09c3a23602b87966ba99d89e0388`
+- Component Properties: Property 1 (VARIANT: V4/V3/V2/V1)；狀態 (VARIANT: enable/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 版本控管記錄中的版本號（V1–V4），含啟用與停用狀態。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: version-control-version-badge
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30442
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件異動事件類型篩選 / Event Change Event Type Filter
+- canonicalId: `event-change-event-type-filter`
+- canonicalFamilyId: `event-change-event-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-event-type-filter] 事件異動事件類型篩選 / Event Change Event Type Filter / `308:30459` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30459
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`4f25bdf7598efdb126d03d2b404ffe95aefb8a8d`
+- Component Properties: Property 1 (VARIANT: 顯示全部事件類型/一般議題事件/運動事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依事件類型（一般議題事件、運動事件）篩選事件異動。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-event-type-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30459
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件異動運動類型篩選 / Event Change Sport Type Filter
+- canonicalId: `event-change-sport-type-filter`
+- canonicalFamilyId: `event-change-sport-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-sport-type-filter] 事件異動運動類型篩選 / Event Change Sport Type Filter / `308:30466` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30466
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`2fe97a76f3c255965030ac7651f74976be74ac1f`
+- Component Properties: Property 1 (VARIANT: 系統建立議題優先/自定義議題優先/Variant3/Variant4/Variant5)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依運動類型篩選事件異動。（待處理：Property 1 含未命名值 Variant3–5，待整理）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-sport-type-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30466
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件異動次要類型篩選 / Event Change Secondary Type Filter
+- canonicalId: `event-change-secondary-type-filter`
+- canonicalFamilyId: `event-change-secondary-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-secondary-type-filter] 事件異動次要類型篩選 / Event Change Secondary Type Filter / `308:30477` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30477
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`5dc19d8eece028c94991d8d0d10459bcdb94f54f`
+- Component Properties: Property 1 (VARIANT: 顯示全部次要事件/NBA/MLB/NFL/NHL)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依次要事件（NBA、MLB、NFL、NHL）篩選事件異動。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-secondary-type-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30477
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動動作類型篩選 / Change Action Type Filter
+- canonicalId: `change-action-type-filter`
+- canonicalFamilyId: `change-action-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-action-type-filter] 異動動作類型篩選 / Change Action Type Filter / `308:30488` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30488
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`8d9b204f88794480787bf897cd5547ce19fbab79`
+- Component Properties: Property 1 (VARIANT: 全部動作/新增/更新/批次更新)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依異動動作（新增、更新、批次更新）篩選。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-action-type-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30488
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動功能類型篩選 / Change Function Type Filter
+- canonicalId: `change-function-type-filter`
+- canonicalFamilyId: `change-function-type-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-function-type-filter] 異動功能類型篩選 / Change Function Type Filter / `308:30497` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30497
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`82240aec9cee9f47c0997d55eba089e841f3b64d`
+- Component Properties: Property 1 (VARIANT: 全部功能/事件主表/事件參數/全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依異動功能（事件主表、全域參數、事件參數）篩選。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-function-type-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30497
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數分類篩選 / Change Parameter Category Filter
+- canonicalId: `change-parameter-category-filter`
+- canonicalFamilyId: `change-parameter-category-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-parameter-category-filter] 參數分類篩選 / Change Parameter Category Filter / `308:30519` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30519
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`abb80f1b040fc39f7ac01f00c3745cf1b9ef4b48`
+- Component Properties: Property 1 (VARIANT: 顯示全部參數/手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依參數分類（手續費設定、投注限制、流動性參數、買單檔次、Netwin 盈利）篩選。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-parameter-category-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30519
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數篩選 / Change Parameter Filter
+- canonicalId: `change-parameter-filter`
+- canonicalFamilyId: `change-parameter-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-parameter-filter] 參數篩選 / Change Parameter Filter / `308:30532` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30532
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`38e93f9acdf4c30946b71e6ad033fcac2a880234`
+- Component Properties: Property 1 (VARIANT: 顯示全部參數/買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/0-10% 價格範圍/10-20% 價格範圍/20-30% 價格範圍/30-40% 價格範圍/40-50% 價格範圍/50-60% 價格範圍/60-70% 價格範圍/70-80% 價格範圍/80-90% 價格範圍/90-100% 價格範圍/Variant20/Variant21/Variant22)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依個別參數篩選事件異動。（待處理：Property 1 含未命名值 Variant20–22，待整理）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-parameter-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30532
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件內容分類篩選 / Event Content Category Filter
+- canonicalId: `event-content-category-filter`
+- canonicalFamilyId: `event-content-category-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-content-category-filter] 事件內容分類篩選 / Event Content Category Filter / `308:30577` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30577
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`a15fb25c7c2d6f44f6868238551273bb436da20f`
+- Component Properties: Property 1 (VARIANT: 顯示全部事件內容/英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG)/投分起訖時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依事件內容分類（各語系、投分起訖時間）篩選。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-content-category-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30577
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件內容細項篩選 / Event Content Item Filter
+- canonicalId: `event-content-item-filter`
+- canonicalFamilyId: `event-content-item-filter`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-content-item-filter] 事件內容細項篩選 / Event Content Item Filter / `308:30588` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30588
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`e1daf1d46d2980dd59d5c7a68e539155a27a980c`
+- Component Properties: Property 1 (VARIANT: 顯示全部事件內容細項/事件標題/事件規則/自訂開始投分時間)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依事件內容細項（事件標題、事件規則、自訂開始投分時間）篩選。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-content-item-filter
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30588
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件主類別／次類別／聯盟欄位 / Event Category League Cell
+- canonicalId: `event-category-league-cell`
+- canonicalFamilyId: `event-category-league-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-category-league-cell] 事件主類別／次類別／聯盟欄位 / Event Category League Cell / `308:30597` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30597
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`22be8712ab3cb4288d0b76d0fdb14b8c163c1f92`
+- Component Properties: Property 1 (VARIANT: 運動事件/議題事件/無)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動列表中顯示主類別、次類別與聯盟的欄位。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-category-league-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30597
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 批次追蹤碼欄位 / Batch Tracking Code Cell
+- canonicalId: `batch-tracking-code-cell`
+- canonicalFamilyId: `batch-tracking-code-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [batch-tracking-code-cell] 批次追蹤碼欄位 / Batch Tracking Code Cell / `308:30604` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30604
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`3e8ce1049753d6f599a5e2e6cf28bb0f258a5425`
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動列表中顯示批次追蹤碼的欄位。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: batch-tracking-code-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30604
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 最後異動資訊欄位 / Last Change Info Cell
+- canonicalId: `last-change-info-cell`
+- canonicalFamilyId: `last-change-info-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [last-change-info-cell] 最後異動資訊欄位 / Last Change Info Cell / `308:30607` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30607
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`195923ebb5ce9a80fe3f07611b288288f5c0f197`
+- Component Properties: 預設值類型 (VARIANT: 系統管理員1 (帳號)/系統管理員2 (帳號)/系統管理員3 (帳號))（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示最後異動者與時間的欄位。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: last-change-info-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30607
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動功能類型標籤 / Change Function Type Badge
+- canonicalId: `change-function-type-badge`
+- canonicalFamilyId: `change-function-type-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-function-type-badge] 異動功能類型標籤 / Change Function Type Badge / `308:30626` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30626
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`35bca378bb6eb59a3249ec1a68dff020050d94c6`
+- Component Properties: Property 1 (VARIANT: 事件主表/事件參數/全域參數)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件主表、事件參數、全域參數的類型標籤。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-function-type-badge
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件異動歷史
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30626
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 總庫存數據 / Inventory Total Stock Data
+- canonicalId: `inventory-total-stock-data`
+- canonicalFamilyId: `inventory-total-stock-data`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-total-stock-data] 總庫存數據 / Inventory Total Stock Data / `308:30634` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30634
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`2a5a0a0ecf605e6e855c8d699dfbd9335a41e63b`
+- Component Properties: 裝置 (VARIANT: PC/Mobile)；類型 (VARIANT: 事件庫存檢視/庫存管理)；收合狀態 (VARIANT: 無/關閉/開啟)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存管理的總庫存數據區塊，支援庫存管理與事件庫存檢視。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-total-stock-data
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30634
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 庫存選項列表 / Inventory Option List
+- canonicalId: `inventory-option-list`
+- canonicalFamilyId: `inventory-option-list`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-option-list] 庫存選項列表 / Inventory Option List / `308:30683` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30683
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`c029ed3328e0f3c9e9802a1939b89707b7b6d86d`
+- Component Properties: 收合狀態 (VARIANT: 關閉/開啟)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存管理中各選項的列表，可收合。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-option-list
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30683
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 庫存事件總覽 / Inventory Event Overview
+- canonicalId: `inventory-event-overview`
+- canonicalFamilyId: `inventory-event-overview`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-event-overview] 庫存事件總覽 / Inventory Event Overview / `308:30718` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30718
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`6c1a6e480b601f67c93bc83700f557c7275fe5ee`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；資料狀態 (VARIANT: 有)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存管理中的事件總覽卡片。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-event-overview
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30718
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 庫存通知 / Inventory Notification Panel
+- canonicalId: `inventory-notification-panel`
+- canonicalFamilyId: `inventory-notification-panel`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-notification-panel] 庫存通知 / Inventory Notification Panel / `308:30737` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30737
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`1f1471f62ef99581c87a562a4b1a391888f974ed`
+- Component Properties: decive (VARIANT: PC&Tablet/Mobile)；收合狀態 (VARIANT: 展開/關閉)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存相關通知面板，可展開。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-notification-panel
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30737
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 庫存通知列 / Inventory Notification Row
+- canonicalId: `inventory-notification-row`
+- canonicalFamilyId: `inventory-notification-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-notification-row] 庫存通知列 / Inventory Notification Row / `308:30772` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30772
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`1356380acce6d38b371581176a6c20d362982fd6`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存通知中的單一通知列。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-notification-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30772
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 價格及選項數量 / Inventory Price and Option Count
+- canonicalId: `inventory-price-and-option-count`
+- canonicalFamilyId: `inventory-price-and-option-count`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-price-and-option-count] 價格及選項數量 / Inventory Price and Option Count / `308:30807` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30807
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`2446e4ce79b63171d87047da15664e71d9404e9c`
+- Component Properties: 類型 (VARIANT: 選項數量/價格)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示價格或選項數量的資料格。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-price-and-option-count
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30807
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 最後更新時間 / Last Updated Time
+- canonicalId: `last-updated-time`
+- canonicalFamilyId: `last-updated-time`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [last-updated-time] 最後更新時間 / Last Updated Time / `308:30815` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30815
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`7dae5a34fa1c01a779548f0609083c4c0bfcb51a`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 「最後更新：YYYY/MM/DD 時:分」文字。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: last-updated-time
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=庫存管理
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30815
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 庫存管理概況 / Inventory Overview Summary
+- canonicalId: `inventory-overview-summary`
+- canonicalFamilyId: `inventory-overview-summary`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-overview-summary] 庫存管理概況 / Inventory Overview Summary / `308:31891` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31891
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`aa1ce8d1c04ac98cb9f5afd4c15f92c91bdd8235`
+- Component Properties: 事件類型 (VARIANT: Default)；裝置 (VARIANT: PC/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存管理概況，顯示各選項正負方向的庫存數量。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-overview-summary
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31891
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 庫存數據項目 / Inventory Stock Data Item
+- canonicalId: `inventory-stock-data-item`
+- canonicalFamilyId: `inventory-stock-data-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-stock-data-item] 庫存數據項目 / Inventory Stock Data Item / `308:31933` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31933
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`dbdb21e6714d207936706825251111e0ba2bfbcd`
+- Component Properties: 項目 (VARIANT: 外部已買入(總庫存)/外部成本/系統已售出/系統剩餘庫存)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 外部已買入、系統已售出、系統剩餘庫存、外部成本等單一數據。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-stock-data-item
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31933
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 編輯掛賣按鈕 / Edit Listing Button
+- canonicalId: `inventory-edit-listing-button`
+- canonicalFamilyId: `inventory-edit-listing-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [inventory-edit-listing-button] 編輯掛賣按鈕 / Edit Listing Button / `308:33218` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33218
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`f31287b95dc130852e4327e4e7c3b42ad4f7ebcc`
+- Component Properties: type (VARIANT: 編輯掛賣)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 庫存管理中的「編輯掛賣」按鈕。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: inventory-edit-listing-button
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33218
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 未上架事件其他操作彈窗 / Unlisted Event More Actions Dialog
+- canonicalId: `unlisted-event-more-actions-dialog`
+- canonicalFamilyId: `unlisted-event-more-actions-dialog`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [unlisted-event-more-actions-dialog] 未上架事件其他操作彈窗 / Unlisted Event More Actions Dialog / `308:30829` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30829
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`c8b8d8f4ea5ca592328ecb6aaa09e9c28c5f6240`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 未上架事件列尾「其他操作」展開的操作清單（完整版）。（待處理：同名彈窗有三份，待比對合併）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: unlisted-event-more-actions-dialog
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30829
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 未上架事件其他操作彈窗－精簡 / Unlisted Event More Actions Dialog Short
+- canonicalId: `unlisted-event-more-actions-dialog-short`
+- canonicalFamilyId: `unlisted-event-more-actions-dialog-short`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [unlisted-event-more-actions-dialog-short] 未上架事件其他操作彈窗－精簡 / Unlisted Event More Actions Dialog Short / `308:30852` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30852
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`060afdd848f1893a952f12d02db0c8f608ad4f59`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 未上架事件「其他操作」的精簡版操作清單。（待處理：同名彈窗有三份，待比對合併）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: unlisted-event-more-actions-dialog-short
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30852
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 未上架事件其他操作彈窗－精簡 B / Unlisted Event More Actions Dialog Short B
+- canonicalId: `unlisted-event-more-actions-dialog-short-b`
+- canonicalFamilyId: `unlisted-event-more-actions-dialog-short-b`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [unlisted-event-more-actions-dialog-short-b] 未上架事件其他操作彈窗－精簡 B / Unlisted Event More Actions Dialog Short B / `308:30875` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30875
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`3a4566593106350680c25a4bdf994f9e9bb4caa2`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 未上架事件「其他操作」的另一個精簡版操作清單。（待處理：同名彈窗有三份，待比對合併）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: unlisted-event-more-actions-dialog-short-b
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30875
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 子主題類型標籤 / Sub Theme Type Badge
+- canonicalId: `sub-theme-type-badge`
+- canonicalFamilyId: `sub-theme-type-badge`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [sub-theme-type-badge] 子主題類型標籤 / Sub Theme Type Badge / `308:30894` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30894
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`c7fe2a61c2824c5c69af26ac50a97d251e528b0a`
+- Component Properties: Property 1 (VARIANT: USA)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件子主題類型（例如 USA）標籤。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: sub-theme-type-badge
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30894
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 強制退款提示 / Force Refund Alert
+- canonicalId: `force-refund-alert`
+- canonicalFamilyId: `force-refund-alert`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [force-refund-alert] 強制退款提示 / Force Refund Alert / `308:30918` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30918
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`2c7fabea2a1ff1432b8fb81dec99978d7330a12d`
+- Component Properties: Property 1 (VARIANT: 驗證碼提示/退款確認)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 強制退款流程中的驗證碼提示與退款確認提示。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: force-refund-alert
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=事件列表／強制退款
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30918
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件卡片預覽 / Event Card Review
+- canonicalId: `event-card-review`
+- canonicalFamilyId: `event-card-review`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-card-review] 事件卡片預覽 / Event Card Review / `308:30937` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-30937
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`f32206923056597138c43affa947729e377a20a2`
+- Component Properties: type (VARIANT: sport/topic)；content (VARIANT: empty/filled in)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 新增事件最後一步的事件卡片預覽，依運動或議題、內容是否填寫與裝置切換。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-card-review
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:30937
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 新增事件－投分設定步驟 / Create Event Wager Setting Step
+- canonicalId: `create-event-wager-setting-step`
+- canonicalFamilyId: `create-event-wager-setting-step`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [create-event-wager-setting-step] 新增事件－投分設定步驟 / Create Event Wager Setting Step / `308:31046` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31046
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`fac0d7667ac7f26503f5759b6a7be17ae251d6ce`
+- Component Properties: status (VARIANT: enable/enable--filled in/disable)；device (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 新增事件流程第 4 步的投分設定（v0.1.3 版）。（待處理：較舊版本，與 rush-hour-wager-parameter-settings 並存，待確認是否淘汰）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Create
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: create-event-wager-setting-step
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31046
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數說明母元件 / Parameter Description Base
+- canonicalId: `parameter-description-base`
+- canonicalFamilyId: `parameter-description-base`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [parameter-description-base] 參數說明母元件 / Parameter Description Base / `308:31238` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31238
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`8af34b63a870d3b27202c3c1846dd03b859ff465`
+- Component Properties: 裝置 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 參數說明彈窗的母元件（參數名稱、類別、內容）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: parameter-description-base
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31238
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數說明 / Parameter Description
+- canonicalId: `parameter-description`
+- canonicalFamilyId: `parameter-description`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [parameter-description] 參數說明 / Parameter Description / `308:31275` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31275
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`f4c57e69c6c2c01871ba73423cc9a2a835f8af1c`
+- Component Properties: 參數分類 (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次/Netwin 盈利)；參數 (VARIANT: 買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/買單檔次 (0-100%)/盈利範圍設定)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 依參數分類與參數顯示說明內容。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: parameter-description
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31275
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件結算內容 / Settlement Event Content
+- canonicalId: `settlement-event-content`
+- canonicalFamilyId: `settlement-event-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-event-content] 事件結算內容 / Settlement Event Content / `308:31296` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31296
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`5693aebebfa2f0a3654bd9305abe9c81a0081f7d`
+- Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件結算畫面中的事件內容區塊。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-event-content
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31296
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 欲結算的事件預覽 / Settlement Event Preview
+- canonicalId: `settlement-event-preview`
+- canonicalFamilyId: `settlement-event-preview`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-event-preview] 欲結算的事件預覽 / Settlement Event Preview / `308:31308` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31308
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`6cddd5be6a6e952e15630d019ad533d4a0f6912c`
+- Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件結算前的事件預覽。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-event-preview
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31308
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件操作欄 / Event Operate Cell
+- canonicalId: `event-operate-cell`
+- canonicalFamilyId: `event-operate-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-operate-cell] 事件操作欄 / Event Operate Cell / `308:32884` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32884
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`64f18d64b701b559f25643a5882617a9eb836106`
+- Component Properties: Property 1 (VARIANT: PC&Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件列表的操作欄。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-operate-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32884
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## AI 事件結算按鈕 / AI Event Settlement Button
+- canonicalId: `ai-event-settlement-button`
+- canonicalFamilyId: `ai-event-settlement-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [ai-event-settlement-button] AI 事件結算按鈕 / AI Event Settlement Button / `308:33492` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33492
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`d2a3e192967fb34c32074bcb9cc09efc257250c0`
+- Component Properties: type (VARIANT: 事件結算)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: AI 建議事件的「事件結算」按鈕。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: ai-event-settlement-button
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33492
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件異動資料格 / Event Change Data Cell
+- canonicalId: `event-change-data-cell`
+- canonicalFamilyId: `event-change-data-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-data-cell] 事件異動資料格 / Event Change Data Cell / `308:31398` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31398
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`e61878d8539f562189b137c53338aa3a4c9e565a`
+- Component Properties: Property 1 (VARIANT: Variant6/Variant5/Variant4/更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動列表中依異動動作顯示的資料格。（待處理：Property 1 含未命名值 Variant4–6（預設為 Variant6），待整理）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-data-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31398
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動動作群組 / Change Action Group
+- canonicalId: `change-action-group`
+- canonicalFamilyId: `change-action-group`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-action-group] 異動動作群組 / Change Action Group / `308:31520` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31520
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`d03ad9ab18cca948bd4f4b5586c9acf0e2166015`
+- Component Properties: Property 1 (VARIANT: 更新/批次更新/新增)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示新增、更新或批次更新的異動動作。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-action-group
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31520
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 異動內容路徑 / Change Content Path
+- canonicalId: `change-content-path`
+- canonicalFamilyId: `change-content-path`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [change-content-path] 異動內容路徑 / Change Content Path / `308:31527` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31527
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`0ba1e05b67bbc068313020bb99ce1830e0269c76`
+- Component Properties: 異動功能類型 (VARIANT: 事件主表/事件參數/全域參數)；事件異動內容-語系 (VARIANT: 英文(en-US)/繁體中文(zh-TW)/阿拉伯語(ar-EG)/無)；事件異動內容-時間設定 (VARIANT: 無/投分起訖時間)；編輯內容 (VARIANT: 事件標題/事件規則/自訂開始投分時間/無)；參數分類 (VARIANT: 無/手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利)；參數內容 (VARIANT: 無/買單手續費/賣單手續費/結算手續費/投分上限/投分下限/選項最高價格/流動性參數 (b)/Regulate %/0-10% 價格範圍/10-20% 價格範圍/20-30% 價格範圍/30-40% 價格範圍/40-50% 價格範圍/50-60% 價格範圍/60-70% 價格範圍/70-80% 價格範圍/80-90% 價格範圍/90-100% 價格範圍/層級一/層級二/層級三)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 以「功能 > 語系或分類 > 項目」顯示異動內容的路徑。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: change-content-path
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31527
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件列表操作按鈕 / Event List Row Action Button
+- canonicalId: `event-list-row-action-button`
+- canonicalFamilyId: `event-list-row-action-button`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-list-row-action-button] 事件列表操作按鈕 / Event List Row Action Button / `308:31483` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31483
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`7d4962f0f7e563590c270155682d04025996a378`
+- Component Properties: type (VARIANT: 更多操作/編輯事件/版本控管)；status (VARIANT: default/hover/disable)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件列表列尾的更多操作、編輯事件、版本控管按鈕。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-list-row-action-button
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31483
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件異動明細列 / Event Change Detail Row
+- canonicalId: `event-change-detail-row`
+- canonicalFamilyId: `event-change-detail-row`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-change-detail-row] 事件異動明細列 / Event Change Detail Row / `308:33114` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33114
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`72bb2fd95932032ca510c4bee7c2d47201ca2a6e`
+- Component Properties: Property 1 (VARIANT: 使用者1/使用者2/使用者3/異動時間/異動類型--更新/異動類型--批次更新/異動類型--新增/異動功能類型--事件主表/異動功能類型--全域參數/異動功能類型--事件參數/異動功能類型--事件主表--詳細事項/異動功能類型--全域參數--詳細事項/異動功能類型--事件參數--詳細事項/事件類型-運動事件/事件類型-議題事件/事件類型-無/主次類別-足球/主次類別-娛樂/主次類別-無/批次追蹤碼)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件異動明細中的單一列（使用者、異動時間、異動類型、功能類型、事件）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-change-detail-row
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33114
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數異動列基底 / Parameter Change Row Base
+- canonicalId: `parameter-change-row-base`
+- canonicalFamilyId: `parameter-change-row-base`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [parameter-change-row-base] 參數異動列基底 / Parameter Change Row Base / `308:31840` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31840
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`c7d7b9633b1fec16181a695bf0ce966f52656ef3`
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 參數異動前後值的列基底（三欄）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: parameter-change-row-base
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31840
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數異動列基底－擴充 / Parameter Change Row Base Extended
+- canonicalId: `parameter-change-row-base-extended`
+- canonicalFamilyId: `parameter-change-row-base-extended`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [parameter-change-row-base-extended] 參數異動列基底－擴充 / Parameter Change Row Base Extended / `308:31852` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31852
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`27eadddde90d6dde7b5e98d59ec20962d96481a6`
+- Component Properties: Property 1 (VARIANT: Default)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 參數異動前後值的列基底（四欄）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: parameter-change-row-base-extended
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31852
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 數據卡項目 / Summary Card Item
+- canonicalId: `summary-card-item`
+- canonicalFamilyId: `summary-card-item`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [summary-card-item] 數據卡項目 / Summary Card Item / `308:33231` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33231
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`9dc1e3377ccf9ae36637fe1cab29d563f902d942`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 「項目／數值」的小型數據卡。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: summary-card-item
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33231
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 投分設定列標題 / Wager Setting Row Title
+- canonicalId: `wager-setting-row-title`
+- canonicalFamilyId: `wager-setting-row-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [wager-setting-row-title] 投分設定列標題 / Wager Setting Row Title / `308:33726` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33726
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`b33b651c42cffaf21f71f30c3fba07c8cb5972c1`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 投分參數設定表格的列標題。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Create
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: wager-setting-row-title
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33726
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 投分設定列標題 B / Wager Setting Row Title B
+- canonicalId: `wager-setting-row-title-b`
+- canonicalFamilyId: `wager-setting-row-title-b`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [wager-setting-row-title-b] 投分設定列標題 B / Wager Setting Row Title B / `308:33731` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33731
+- Figma 原生類型: `COMPONENT`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`c172e5591dc155d7a73a9613262ff909c5b8d041`; componentSet=`—`
+- Component Properties: —（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 投分參數設定表格的另一種列標題。（待處理：與 wager-setting-row-title 相近，待比對合併）
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。
+- Page Type: Create
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: wager-setting-row-title-b
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33731
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件名稱標題 / Event Title
+- canonicalId: `event-title`
+- canonicalFamilyId: `event-title`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-title] 事件名稱標題 / Event Title / `308:31389` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31389
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`6058289b7bc83a3b96b49dce8a4b90fe45d431b6`
+- Component Properties: 事件名稱 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 顯示事件名稱的標題（議題或運動）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 121:293465。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-title
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=121:293465
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31389
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件內容態樣 / Settlement Event Content Layout
+- canonicalId: `settlement-event-content-layout`
+- canonicalFamilyId: `settlement-event-content-layout`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-event-content-layout] 事件內容態樣 / Settlement Event Content Layout / `308:31942` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31942
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`6b1852bf2f2dab70192de48d1e7385db6d2139f1`
+- Component Properties: Property 1 (VARIANT: PC/Tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件結算畫面中事件內容的版面態樣（PC、Tablet、Mobile）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 114:226698。
+- Page Type: Detail
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-event-content-layout
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=114:226698
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31942
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 參數設定內容 / Parameter Setting Content
+- canonicalId: `parameter-setting-content`
+- canonicalFamilyId: `parameter-setting-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [parameter-setting-content] 參數設定內容 / Parameter Setting Content / `308:31976` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31976
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`34630eb3ff317d9eac82d6a5755b042bd2799245`
+- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成/Rush Hour 計時設定)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 手續費、投注限制、流動性參數、買單檔次、Netwin 盈利抽成、Rush Hour 計時設定的參數內容。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 121:552347。
+- Page Type: Create
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: parameter-setting-content
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=121:552347
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31976
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 投分參數設定區塊 / Wager Parameter Settings Section
+- canonicalId: `wager-parameter-settings-section`
+- canonicalFamilyId: `wager-parameter-settings-section`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [wager-parameter-settings-section] 投分參數設定區塊 / Wager Parameter Settings Section / `308:32362` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32362
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`69e6aab2653fc54df8928d5e5444e3d7c4593916`
+- Component Properties: type (VARIANT: 手續費設定/投注限制/流動性參數/買單檔次 (0-100%)/Netwin 盈利抽成)；status (VARIANT: open/close)；device (VARIANT: PC/Tablet/Mobile)；新增/編輯事件 (VARIANT: 新增事件/編輯事件)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 新增或編輯事件時的投分參數設定區塊。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 110:114115。
+- Page Type: Create
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: wager-parameter-settings-section
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=110:114115
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32362
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件圖片資料格 / Event Image Cell
+- canonicalId: `event-image-cell`
+- canonicalFamilyId: `event-image-cell`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `shared-pattern`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-image-cell] 事件圖片資料格 / Event Image Cell / `308:32748` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32748
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`635f49a47879504f9c5e40d01cc0fd9943d802e2`
+- Component Properties: 類型 (VARIANT: sport/topic)；收合狀態 (VARIANT: 關閉/開啟)；時間狀態 (VARIANT: 尚未過期/已過期)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 事件列表中的事件圖片，依議題或運動、收合與是否過期切換。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 93:7291。
+- Page Type: List
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-image-cell
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=93:7291
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32748
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件名稱 / Settlement Event Name
+- canonicalId: `settlement-event-name`
+- canonicalFamilyId: `settlement-event-name`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [settlement-event-name] 事件名稱 / Settlement Event Name / `308:32765` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32765
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`980ee315290b31bbce3f58864337fc45514b94c7`
+- Component Properties: 裝置 (VARIANT: PC/Tablet/Mobile)；介面 (VARIANT: 選擇列表/事件結算畫面)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 選擇列表與事件結算畫面中的事件名稱區塊。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 114:226707。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: settlement-event-name
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=114:226707
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32765
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop
+- canonicalId: `event-theme-section-desktop`
+- canonicalFamilyId: `event-theme-section-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-theme-section-desktop] 事件主題區塊（PC/Tablet） / Event Theme Section - Desktop / `308:32889` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32889
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`ab1fb711c423b3cda9608793870803375163318b`
+- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: PC 與平板的事件主題編輯或查看區塊。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 116:230825。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-theme-section-desktop
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230825
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32889
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop
+- canonicalId: `wager-options-section-desktop`
+- canonicalFamilyId: `wager-options-section-desktop`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [wager-options-section-desktop] 選項管理區塊（PC/Tablet） / Wager Options Section - Desktop / `308:32984` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-32984
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`374e91225d5eef7f75ebb3599fec1ceec60f4cfa`
+- Component Properties: type (VARIANT: 選項數：1/選項數：2/選項數：3)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: PC 與平板的投分選項管理區塊（1–3 個選項）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 116:230920。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: wager-options-section-desktop
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230920
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:32984
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## 事件主題區塊（Mobile） / Event Theme Section - Mobile
+- canonicalId: `event-theme-section-mobile`
+- canonicalFamilyId: `event-theme-section-mobile`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [event-theme-section-mobile] 事件主題區塊（Mobile） / Event Theme Section - Mobile / `308:33012` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33012
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`edd5200115cd76089d6a2f12eecaf46cd0b525f2`
+- Component Properties: input (VARIANT: default/filled)；status (VARIANT: open/close)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 行動版的事件主題編輯或查看區塊。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 116:230948。
+- Page Type: Other
+- Responsive Variants: unknown
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: event-theme-section-mobile
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:230948
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33012
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## AI 建議選項輸入列 / AI Suggested Wager Option Input
+- canonicalId: `ai-wager-option-input`
+- canonicalFamilyId: `ai-wager-option-input`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [ai-wager-option-input] AI 建議選項輸入列 / AI Suggested Wager Option Input / `308:33527` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33527
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`19600cc88022d4f38c7d149c3775815601729651`
+- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: empty/default/error)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: AI 建議議題內容中的選項輸入列，含錯誤狀態。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 116:231095。
+- Page Type: Other
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: ai-wager-option-input
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=116:231095
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33527
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## Netwin 盈利範圍設定 / Netwin Profit Range Settings
+- canonicalId: `netwin-profit-range-settings`
+- canonicalFamilyId: `netwin-profit-range-settings`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [netwin-profit-range-settings] Netwin 盈利範圍設定 / Netwin Profit Range Settings / `308:33234` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-33234
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`460911b1249fe85ef27662c157312158aa0c455e`
+- Component Properties: number (VARIANT: row 1/row 2/row 3)；device (VARIANT: PC/Mobile)；input (VARIANT: default/empty)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: Netwin 盈利抽成的級距設定（最多三層）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 110:113904。
+- Page Type: Create
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: netwin-profit-range-settings
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=相依元件（被上方元件內部使用）; supersedes=110:113904
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:33234
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## Rush Hour 投分參數設定 / Rush Hour Wager Parameter Settings
+- canonicalId: `rush-hour-wager-parameter-settings`
+- canonicalFamilyId: `rush-hour-wager-parameter-settings`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [rush-hour-wager-parameter-settings] Rush Hour 投分參數設定 / Rush Hour Wager Parameter Settings / `308:31101` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31101
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`02b8657254361a3c1d14967246ee899581d988b8`
+- Component Properties: status (VARIANT: enable/enable--filled in)；device (VARIANT: PC/tablet/Mobile)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: 新版投分參數設定（含 Rush Hour 計時設定）。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 121:552870。
+- Page Type: Create
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: rush-hour-wager-parameter-settings
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明; supersedes=121:552870
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31101
+- AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
+
+## AI 建議單一結果審核內容 / AI Review Single Result Content
+- canonicalId: `ai-review-single-result-content`
+- canonicalFamilyId: `ai-review-single-result-content`（同一 family 的其他 RWD/Theme variants可用此值查找）
+- kind: `component`
+- sourceLayer: `feature`
+- status: `candidate`
+- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- aliases: —
+- Figma: 07_候選 / Candidate / [ai-review-single-result-content] AI 建議單一結果審核內容 / AI Review Single Result Content / `308:31327` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=308-31327
+- Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
+- Library Key: component=`—`; componentSet=`5c1c38ecf58ac487bfb02c052fb418ece74bdc14`
+- Component Properties: device (VARIANT: PC&Tablet/Mobile)；input (VARIANT: default/filled)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
+- 功能說明: AI 建議單一事件結果的審核與編輯內容。
+- 遷移備註: 2026-11-17 交付稿收錄批次（收錄批次 2026-11-17｜事件設置），由 Claude 透過 Figma MCP 比對去重、命名與撰寫說明。取代舊版 116:230670。
+- Page Type: Modal
+- Responsive Variants: responsive
+- Variant Key: unknown|unknown|default
+- States: default
+- Components: ai-review-single-result-content
+- Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
+- Theme: explicit=unknown, strategy=manual, support=unknown
+- Review: needs-review / confidence=0.85
+- Original Review Action: migrate
+- Evidence: intake=2026-11-17; batch=收錄批次 2026-11-17｜事件設置; section=新增事件／事件結算／參數說明; supersedes=116:230670
+- Legacy mapping: —
+- Migration Score/Source: — / 事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 / Hub 收錄批次 2026-11-17 / 308:31327
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
