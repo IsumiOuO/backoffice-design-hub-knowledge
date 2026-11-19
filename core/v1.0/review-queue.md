@@ -61,7 +61,7 @@
 ### RQ-2026-11-19-02：Hub 事件列內層仍用舊版 event pic
 
 - 嚴重度：Medium
-- 狀態：Hub 已修正（2026-11-19，待發布）；待重跑事件設置 v0.1.5 頁
+- 狀態：已完成（2026-11-19，Hub 已發布並重跑）
 - 影響範圍：事件設置 Key Screens 🔖v0.1.5-20260717 的「event list--已上架事件」8 個實例（保留本地）；Hub `event-table-thumbnail`（121:293686）及使用它的事件列元件。
 - 說明：
   - 交付稿的事件圖片已是新版（`類型／收合狀態／時間狀態`，即 Hub `event-image-cell` 308:32748）；Hub 事件列內層仍是舊版 event pic（只有 `Property 1=topic/sport`，來源為外部 Library）。換成 Hub 後內層狀態對不上，插件保留本地。
@@ -72,7 +72,7 @@
   - 原因：Hub 事件列內層的 event pic 引用外部 Library（事件設置），不是 Hub 元件；換成 Hub 時插件把交付稿的本地 event pic 配對到舊版 `event-table-thumbnail`（只有 `Property 1=topic/sport`），內層狀態對不上。
   - Hub 5 個事件列元件內層共 26 個 event pic 改用 Hub `event-image-cell`（308:32748，同名 variant、圖層名維持 `event pic`、尺寸不變）：`desktop-published-event-row` 8、`desktop-unpublished-event-row` 10、`event-list-desktop` 4、`event-review-table-row` 3、`force-refund-event-display` 1。
   - 舊版 `event-table-thumbnail`（121:293686，Hub 內沒有元件使用）移到 `99_淘汰`，canonicalId 改為 `event-table-thumbnail--legacy-20261119`、aiUsage=blocked。
-  - 待辦：Daigu 發布 Hub；以 Hub Manager v1.1.39 重跑事件設置 Key Screens 🔖v0.1.5 頁。
+  - 結果：Hub 發布後以 Hub Manager v1.1.39 重跑，「event list--已上架事件」8 個、「2.選擇事件結果」1 個都已換成 Hub，保留本地 0 個。
 
 ### RQ-2026-11-19-01：跨站賠付報表元件同步回 Hub，交付稿改用 Hub
 
@@ -114,7 +114,7 @@
 ### RQ-2026-11-17-02：報表與事件設置收錄批次後續整理
 
 - 嚴重度：Medium
-- 狀態：大部分完成（2026-11-18）；剩第 5 項
+- 狀態：大部分完成（2026-11-19）；剩第 5 項的「客服服務 - 會員訂單紀錄」
 - 影響範圍：Hub `07_候選 / Candidate` 三個收錄批次（報表查詢 平台後台、報表紀錄 系統後台、事件設置），原 108 個 candidate。
 - 已完成：
   - 135 個貼入元件中，25 個與 Hub 現有元件或同批元件完全相同（含內部引用一致），268 處引用改指向正本後刪除複本。
@@ -134,5 +134,14 @@
      - `report-single-date-time` 與 `report-date-time`、`settlement-rate-table-label-cell` 與 `settlement-rate-table-cell`：內容相同但寬度不同（179／196、48／107），各自保留，差異寫在說明。
   3. ✅ `report-order-status-cell-desktop` 併入 `order-status-cell-desktop`（163:487291）：2 個引用改指向正本，保留中文標籤覆寫（已完成、失敗、錯誤、已取消）；308:25582 已刪除，aliases 保留舊 id。
   4. ✅ `create-event-wager-setting-step` 淘汰：移到 `99_淘汰`，canonicalId 改為 `create-event-wager-setting-step--legacy-20261118`，aiUsage: blocked，由 `rush-hour-wager-parameter-settings`（308:31101）取代。
-  5. 🔄 交付稿改用 Hub 元件（Hub Manager v1.1.31–v1.1.33「換成 Hub」）：報表紀錄已完成（2026-11-18，1,827 個實例；另跨站賠付報表 283 個實例於 2026-11-19 換成 Hub，見 RQ-2026-11-19-01）。報表查詢 2026-11-18 已換 890 個（表頭 8021:8470 的 15 個除外）。事件設置 2026-11-19 已換 1,277 個（8 個 Key Screens 頁；保留本地 9 個見 RQ-2026-11-19-02；庫存管理頁待用 v1.1.38 以上單頁執行）。系統後台－登入、帳號管理待執行。
+  5. 🔄 交付稿改用 Hub 元件（Hub Manager v1.1.31–v1.1.39「換成 Hub」）：
+     - 報表紀錄：已完成（2026-11-18，1,827 個實例；另跨站賠付報表 283 個實例於 2026-11-19 換成 Hub，見 RQ-2026-11-19-01）。
+     - 報表查詢：已完成（2026-11-18 換 890 個；2026-11-19 再換 276 個，含表頭 8021:8470 的 15 個）。
+     - 事件設置：已完成（2026-11-19 共 1,286 個；原保留本地 9 個已處理，見 RQ-2026-11-19-02；庫存管理頁沒有可換的實例）。
+     - 資料庫管理（事件參數管理／參數類別／主類別／次類別）：已完成（2026-11-19，1,336 個）。
+     - 系統帳號 - 帳號管理列表：已完成（24 個）。平台帳號 - 帳號管理列表：已完成（48 個）。
+     - 平台服務 - 平台顯示/隱藏事件管理列表：已完成（42 個）。
+     - 系統後台－登入、平台後台－登入、帳號管理 - 帳號管理列表：沒有待換的實例（0 個）。
+     - 客服服務 - 會員訂單紀錄：進行中（已換 120 個，剩 227 個）。
+     - 各檔保留本地 0 個。換完後沒有實例的本地母元件（emptiedOnActivePages）尚未加 `_封存/` 前綴。
   6. ✅ 104 個元件升級為 approved（Daigu 確認）：17 個共用模式移到 `03_共用模式`，87 個功能元件移到 `04_功能元件 · 分頁 6／分頁 7`；`07_候選` 已清空。`event-card-review`（308:30937）因字型「FONTSPRING DEMO - Sinter Black」無法由外掛載入，需在 Figma 手動拖進 `04_功能元件 · 分頁 7` 已備好的同名分區。
