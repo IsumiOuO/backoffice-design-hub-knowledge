@@ -61,13 +61,18 @@
 ### RQ-2026-11-19-02：Hub 事件列內層仍用舊版 event pic
 
 - 嚴重度：Medium
-- 狀態：待處理（需要 Hub 維護）
+- 狀態：Hub 已修正（2026-11-19，待發布）；待重跑事件設置 v0.1.5 頁
 - 影響範圍：事件設置 Key Screens 🔖v0.1.5-20260717 的「event list--已上架事件」8 個實例（保留本地）；Hub `event-table-thumbnail`（121:293686）及使用它的事件列元件。
 - 說明：
   - 交付稿的事件圖片已是新版（`類型／收合狀態／時間狀態`，即 Hub `event-image-cell` 308:32748）；Hub 事件列內層仍是舊版 event pic（只有 `Property 1=topic/sport`，來源為外部 Library）。換成 Hub 後內層狀態對不上，插件保留本地。
   - 新版 `event-image-cell` 是 76×70 的整格，不是 60×60 的內層圖片，不能直接替換 `event-table-thumbnail` 的內層（2026-11-19 試過已還原）。要調整 Hub 事件列結構，改用新版事件圖片，再重跑事件設置 v0.1.5 頁。
 - 同批另 1 個保留本地（「2.選擇事件結果」內層「結果比分輸入 狀態=尚未輸入」）由 Hub Manager v1.1.39 修正（還原內層時改用同組同名 variant），重跑事件結算頁即可。
 - 事件設置 9 個有效頁上未被使用的本地母元件 53 個已加上 `_封存/` 前綴（不刪除、不搬移）。
+- 處理（2026-11-19，Daigu 確認要換）：
+  - 原因：Hub 事件列內層的 event pic 引用外部 Library（事件設置），不是 Hub 元件；換成 Hub 時插件把交付稿的本地 event pic 配對到舊版 `event-table-thumbnail`（只有 `Property 1=topic/sport`），內層狀態對不上。
+  - Hub 5 個事件列元件內層共 26 個 event pic 改用 Hub `event-image-cell`（308:32748，同名 variant、圖層名維持 `event pic`、尺寸不變）：`desktop-published-event-row` 8、`desktop-unpublished-event-row` 10、`event-list-desktop` 4、`event-review-table-row` 3、`force-refund-event-display` 1。
+  - 舊版 `event-table-thumbnail`（121:293686，Hub 內沒有元件使用）移到 `99_淘汰`，canonicalId 改為 `event-table-thumbnail--legacy-20261119`、aiUsage=blocked。
+  - 待辦：Daigu 發布 Hub；以 Hub Manager v1.1.39 重跑事件設置 Key Screens 🔖v0.1.5 頁。
 
 ### RQ-2026-11-19-01：跨站賠付報表元件同步回 Hub，交付稿改用 Hub
 

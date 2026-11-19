@@ -18,7 +18,7 @@
 | filter-toggle-button | filter-toggle-button | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-list-fixed-header | event-list-fixed-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-list-column-header | event-list-column-header | shared-pattern | approved | 03_共用模式 / Shared Patterns |
-| event-table-thumbnail | event-table-thumbnail | shared-pattern | approved | 03_共用模式 / Shared Patterns |
+| event-table-thumbnail--legacy-20261119 | event-table-thumbnail | deprecated | deprecated | 99_淘汰 / Deprecated |
 | event-selection-cell | event-selection-cell | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | wagering-status-cell | wagering-status-cell | shared-pattern | approved | 03_共用模式 / Shared Patterns |
 | event-name-id-cell | event-name-id-cell | shared-pattern | approved | 03_共用模式 / Shared Patterns |

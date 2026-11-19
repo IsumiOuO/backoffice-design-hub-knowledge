@@ -1132,28 +1132,29 @@
           "functionId": "event-table-thumbnail",
           "displayNameZh": "事件表格圖片",
           "displayNameEn": "Event Table Thumbnail",
-          "functionSummary": "在桌面事件表格列中顯示運動或議題事件圖片。",
+          "functionSummary": "（已淘汰，由 308:32748 取代）在桌面事件表格列中顯示運動或議題事件圖片。",
           "variants": [
             {
-              "canonicalId": "event-table-thumbnail",
+              "canonicalId": "event-table-thumbnail--legacy-20261119",
               "nodeId": "121:293686",
-              "page": "03_共用模式 / Shared Patterns",
+              "page": "99_淘汰 / Deprecated",
               "kind": "component",
               "role": "component",
               "viewport": "unknown",
               "viewportScope": "unconfirmed",
               "theme": "unknown",
-              "state": "default",
+              "state": "legacy",
               "pageType": "List",
-              "variantKey": "unknown|unknown|default",
-              "sourceLayer": "shared-pattern",
-              "status": "approved",
-              "aiUsage": "allowed",
-              "reviewAction": "",
+              "variantKey": "unknown|unknown|legacy",
+              "sourceLayer": "deprecated",
+              "status": "deprecated",
+              "aiUsage": "blocked",
+              "reviewAction": "legacy",
               "reviewStatus": "reviewed",
               "confidence": 0.93,
               "evidence": [
-                "migrationScore=85；usageEvidence=figma-main-component 160 uses/32 screens；Component Set 2 variants"
+                "migrationScore=85；usageEvidence=figma-main-component 160 uses/32 screens；Component Set 2 variants",
+                "deprecated=2026-11-19; replacedBy=308:32748"
               ],
               "sourceRef": {
                 "fileName": "事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理",
@@ -1191,7 +1192,7 @@
               ]
             }
           ],
-          "aiUsage": "allowed"
+          "aiUsage": "blocked"
         },
         {
           "canonicalFamilyId": "event-selection-cell",
@@ -62597,17 +62598,17 @@
       ]
     },
     {
-      "page": "03_共用模式 / Shared Patterns",
-      "section": "Theme Unknown / 主題待確認 · Device Unknown / 裝置待確認",
+      "page": "99_淘汰 / Deprecated",
+      "section": "",
       "nodeId": "121:293686",
-      "nodeName": "[event-table-thumbnail] 事件表格圖片 / Event Table Thumbnail",
+      "nodeName": "_淘汰/[event-table-thumbnail] 事件表格圖片 / Event Table Thumbnail",
       "schemaVersion": 2,
       "kind": "component",
       "role": "component",
-      "canonicalId": "event-table-thumbnail",
+      "canonicalId": "event-table-thumbnail--legacy-20261119",
       "canonicalFamilyId": "event-table-thumbnail",
       "functionId": "event-table-thumbnail",
-      "variantKey": "unknown|unknown|default",
+      "variantKey": "unknown|unknown|legacy",
       "displayNameZh": "事件表格圖片",
       "displayNameEn": "Event Table Thumbnail",
       "moduleZh": "事件設置",
@@ -62615,11 +62616,11 @@
       "pageType": "List",
       "viewport": "unknown",
       "theme": "unknown",
-      "state": "default",
+      "state": "legacy",
       "sourceLayerCandidate": "shared-pattern",
-      "sourceLayer": "shared-pattern",
-      "status": "approved",
-      "aiUsage": "allowed",
+      "sourceLayer": "deprecated",
+      "status": "deprecated",
+      "aiUsage": "blocked",
       "legacySource": "事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理 /         Key Screens 🔖v0.1.1-20260529 (避險前先做) / 5315:233369",
       "sourceRef": {
         "fileName": "事件設置 - 事件管理列表 / 新增事件&匯入議題 / 第三方事件審核列表 / 事件參數管理 / 單一事件結果 / 多時間軸事件 / 庫存管理",
@@ -62627,13 +62628,14 @@
         "nodeId": "5315:233369"
       },
       "aliases": [],
-      "functionSummary": "在桌面事件表格列中顯示運動或議題事件圖片。",
+      "functionSummary": "（已淘汰，由 308:32748 取代）在桌面事件表格列中顯示運動或議題事件圖片。",
       "aiReviewReason": "具有正式產品畫面重用與可辨識 variants，值得納入 Hub",
       "themeStrategy": "manual",
       "themeSupport": "unknown",
       "confidence": 0.93,
       "evidence": [
-        "migrationScore=85；usageEvidence=figma-main-component 160 uses/32 screens；Component Set 2 variants"
+        "migrationScore=85；usageEvidence=figma-main-component 160 uses/32 screens；Component Set 2 variants",
+        "deprecated=2026-11-19; replacedBy=308:32748"
       ],
       "needsHumanReview": false,
       "reviewStatus": "reviewed",
