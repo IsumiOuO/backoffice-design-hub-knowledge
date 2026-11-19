@@ -58,6 +58,21 @@
   5. ✅ 82 個元件升級為 approved（2026-11-18，Daigu 確認）：8 個共用模式移到 `03_共用模式`，74 個功能元件移到 `04_功能元件 · 分頁 6`，依 Hub 版型放在各自的 `[canonicalId]` 分區內；`07_候選` 原分區 297:2 已移除。
 - 詳細對照表：Claude 專案文件 `claude/hub-intake-account-2026-11-17.md`。
 
+### RQ-2026-11-19-01：跨站賠付報表元件同步回 Hub，交付稿改用 Hub
+
+- 嚴重度：Medium
+- 狀態：已完成（2026-11-19，Hub 已發布）
+- 影響範圍：`cross-site-compensation-table-row`（308:26679）、`cross-site-compensation-review-confirm-dialog`（308:27347）、`cross-site-compensation-review-notice-dialog`（308:27363）；報表紀錄、報表查詢 Key Screens 🔖v0.1.1-20261116。
+- Hub 修改：
+  - 表格資料列：`背景=合計` 底色加深（base-alpha-5 覆蓋層不透明度 0.05→0.12），與資料列明顯區分；報表畫面不再使用 `背景=黑底` 交錯底色（變體保留以免影響其他檔案）。
+  - 審核確認彈窗：新增 `裝置=Mobile`（320 寬，文字換行、帳期值換行）；`裝置=PC&Tablet` 高度改為內容自適應（352→312，移除按鈕下方空白）。
+  - 審核提示彈窗：icon 改為對帳報表審核失敗用的紅色 ✕（Core `Navigation/close`，Error/error-600）；文字改套 Core 文字樣式（標題 Bold 700/11、說明 Medium 500/10）；新增兩個 `裝置=Mobile` 變體。
+- 交付稿：
+  - 報表紀錄：表頭 42、資料列 208、審核確認 11、審核提示 22，共 283 個實例由本地複本換成 Hub（逐一比對文字與尺寸）；4 組本地複本加上 `_封存/` 移入封存區。
+  - 數據總覽（Tablet/Mobile）改用 Hub 元件內建第 3 列（`Show 總系統營收`）與 `device=Mobile` 變體，不再在實例外加框補列。
+- 新候選元件（尚未收錄，🔖 定版後處理）：`跨站賠付報表審核資訊--Mobile`（待審核／已審核）、`提示--未計入局數--Mobile`、Mobile 審核按鈕 `botton`（報表紀錄本地）。
+- 平台後台（報表查詢）：跨站賠付報表平台版已建立（單一站點、無合計列），userstory 註記與系統後台差異。
+
 ### RQ-2026-11-17-02：報表與事件設置收錄批次後續整理
 
 - 嚴重度：Medium
@@ -81,5 +96,5 @@
      - `report-single-date-time` 與 `report-date-time`、`settlement-rate-table-label-cell` 與 `settlement-rate-table-cell`：內容相同但寬度不同（179／196、48／107），各自保留，差異寫在說明。
   3. ✅ `report-order-status-cell-desktop` 併入 `order-status-cell-desktop`（163:487291）：2 個引用改指向正本，保留中文標籤覆寫（已完成、失敗、錯誤、已取消）；308:25582 已刪除，aliases 保留舊 id。
   4. ✅ `create-event-wager-setting-step` 淘汰：移到 `99_淘汰`，canonicalId 改為 `create-event-wager-setting-step--legacy-20261118`，aiUsage: blocked，由 `rush-hour-wager-parameter-settings`（308:31101）取代。
-  5. ⏳ 交付稿（報表查詢、報表紀錄、事件設置、系統後台－登入）仍使用本地複本，待改用 Hub 元件；登入兩檔元件已全數在 Hub。
+  5. 🔄 交付稿改用 Hub 元件（Hub Manager v1.1.31–v1.1.33「換成 Hub」）：報表紀錄已完成（2026-11-18，1,827 個實例；另跨站賠付報表 283 個實例於 2026-11-19 換成 Hub，見 RQ-2026-11-19-01）。報表查詢 2026-11-18 已換 890 個（表頭 8021:8470 的 15 個除外）。事件設置、系統後台－登入、帳號管理待執行。
   6. ✅ 104 個元件升級為 approved（Daigu 確認）：17 個共用模式移到 `03_共用模式`，87 個功能元件移到 `04_功能元件 · 分頁 6／分頁 7`；`07_候選` 已清空。`event-card-review`（308:30937）因字型「FONTSPRING DEMO - Sinter Black」無法由外掛載入，需在 Figma 手動拖進 `04_功能元件 · 分頁 7` 已備好的同名分區。
