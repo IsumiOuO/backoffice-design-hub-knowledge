@@ -1,0 +1,57 @@
+{
+  "format": "bdhm-qa-rules",
+  "version": 1,
+  "skipSectionPattern": "封存|WF 原始|生成稿",
+  "requiredSections": [
+    {
+      "id": "screens",
+      "label": "畫面區（HM_系統後台-<功能>--<YYYY/MM/DD> 修正，或含 PC-／Tablet-／Mobile- 畫面的 Section）",
+      "pattern": "^HM_(系統|平台)後台-.+--\\d{4}/\\d{2}/\\d{2} 修正$",
+      "orScreenFrames": true
+    },
+    {
+      "id": "userflows",
+      "label": "User Flows/Story-<功能>",
+      "pattern": "^User Flows/Story-"
+    },
+    {
+      "id": "components",
+      "label": "元件",
+      "pattern": "^元件$"
+    },
+    {
+      "id": "content",
+      "label": "畫面內容組件",
+      "pattern": "^畫面內容組件$"
+    },
+    {
+      "id": "userstory",
+      "label": "📌 userstory",
+      "pattern": "^📌 userstory"
+    }
+  ],
+  "nav": {
+    "framePattern": "^快捷導覽$",
+    "requiredItems": [
+      "畫面內容組件",
+      "元件",
+      "User Flows/Story"
+    ]
+  },
+  "textStyleExemptPattern": "快捷導覽|userstory|us\\.root",
+  "placeholderPattern": "^(YYYY|MM|DD|審核人)$",
+  "scenarioLabelMaxChars": {
+    "PC": 40,
+    "Tablet": 12,
+    "Mobile": 6
+  },
+  "dialogPattern": "彈窗|視窗|提示|Dialog|dialog",
+  "buttonPattern": "button|Button|按鈕|botton",
+  "dividerPattern": "^(Divider|divider|line|Line|分隔線?)$",
+  "checkLocalComponents": true,
+  "checkTextStyle": true,
+  "checkPlaceholder": true,
+  "maxIssuesPerRule": 150,
+  "description": "設計 QA 規則。Backoffice Design Hub Manager「設計 QA」分頁與 backoffice-screen-builder 技能共用；改這份後，把內容貼進插件的規則欄儲存。",
+  "updatedAt": "2026-11-19"
+}
