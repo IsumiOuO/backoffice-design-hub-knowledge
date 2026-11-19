@@ -395,23 +395,23 @@
 - AI usage rules: 優先使用 internal-core，再 vendor-core，再 shared-pattern/feature；不得自行重建 Vendor Master。
 
 ## 事件表格圖片 / Event Table Thumbnail
-- canonicalId: `event-table-thumbnail`
+- canonicalId: `event-table-thumbnail--legacy-20261119`
 - canonicalFamilyId: `event-table-thumbnail`（同一 family 的其他 RWD/Theme variants可用此值查找）
 - kind: `component`
-- sourceLayer: `shared-pattern`
-- status: `approved`
-- AI 使用資格: `allowed`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
+- sourceLayer: `deprecated`
+- status: `deprecated`
+- AI 使用資格: `blocked`（allowed=可正式使用；reference-only=只供理解/參考；blocked=不得使用）
 - aliases: —
-- Figma: 03_共用模式 / Shared Patterns / [event-table-thumbnail] 事件表格圖片 / Event Table Thumbnail / `121:293686` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293686
+- Figma: 99_淘汰 / Deprecated / _淘汰/[event-table-thumbnail] 事件表格圖片 / Event Table Thumbnail / `121:293686` / https://www.figma.com/design/UX9EY190SGnpNiowHlwiUB?node-id=121-293686
 - Figma 原生類型: `COMPONENT_SET`; Library Key=available; publishStatus=`NOT_CHECKED（安全匯出，以 Figma Library 面板為準）`
 - Library Key: component=`—`; componentSet=`b0356fae9c49b506b80e47c812f58681085f6f5c`
 - Component Properties: Property 1 (VARIANT: topic/sport)（嚴格唯讀匯出僅由 Variant 名稱推導；TEXT／BOOLEAN／INSTANCE_SWAP 請由 MCP 即時讀取）
-- 功能說明: 在桌面事件表格列中顯示運動或議題事件圖片。
+- 功能說明: （已淘汰 2026-11-19，由 308:32748 event-image-cell 取代）在桌面事件表格列中顯示運動或議題事件圖片。
 - 遷移備註: 具有正式產品畫面重用與可辨識 variants，值得納入 Hub
 - Page Type: List
 - Responsive Variants: unknown
-- Variant Key: unknown|unknown|default
-- States: default
+- Variant Key: unknown|unknown|legacy
+- States: legacy
 - Components: event-table-thumbnail
 - Variants: State / Size / Type / Layout / Theme / Density / Orientation / Emphasis
 - Theme: explicit=unknown, strategy=manual, support=unknown
